@@ -1,0 +1,50 @@
+slow: transition 35.0 s, extra supply energy 93.54 uJ
+slow: cells 3 -> 3 | dead cell 220.0 uW | recycled into cells 222.2 uW (eta 1.010) | loss change (uW) {'load': -22.39, 'ballast': 8.5, 'rail': -1.29} | balance 0.000/0.000 uW
+   before (uW): {'supply': 4148.85, 'load': 3442.6, 'ballast': 42.73, 'rail': 4.93, 'channel': 658.59, 'balance_error': 0.0}
+   after  (uW): {'supply': 4135.34, 'load': 3420.21, 'ballast': 51.23, 'rail': 3.64, 'channel': 660.26, 'balance_error': 0.0}
+abrupt: transition 6.0 s, extra supply energy 0.35 uJ
+abrupt: cells 3 -> 5 | dead cell 220.0 uW | recycled into cells 225.0 uW (eta 1.023) | loss change (uW) {'load': -22.51, 'ballast': 6.11, 'rail': -1.66} | balance 0.000/0.000 uW
+   before (uW): {'supply': 4148.85, 'load': 3442.6, 'ballast': 42.73, 'rail': 4.93, 'channel': 658.59, 'balance_error': 0.0}
+   after  (uW): {'supply': 4135.27, 'load': 3420.09, 'ballast': 48.84, 'rail': 3.28, 'channel': 663.06, 'balance_error': 0.0}
+atoms: {
+ "oxide_field_V_per_nm": 0.1205400192864031,
+ "oersted_field_T_at_1um": 2.4039262387143064e-05,
+ "electron_zeeman_eV": 1.3914827781614298e-09,
+ "kT_4K_eV": 0.00034469333048580715,
+ "acceptors_switching_charge_per_um": 4369.056352122534,
+ "dopants_in_min_channel": 749.7,
+ "volume_per_dopant_nm3": 5882.35294117647,
+ "hci_slowdown_vs_nominal_1p8V": 414384424574.4815,
+ "max_tail_energy_eV": 1.633577127000575,
+ "max_carrier_energy_eV": 0.8167885635002875,
+ "thresholds_eV": {
+  "Si_impact_ionisation": 1.1,
+  "SiO2_barrier": 3.1,
+  "Si_H_bond_single": 3.6,
+  "B_diffusion_activation": 3.5,
+  "Si_lattice_displacement": 13.0
+ },
+ "max_lateral_field_V_per_nm": [
+  0.07167885635002876,
+  0.023892952116676254
+ ],
+ "field_scale_for_moving_atoms_V_per_nm": {
+  "field_evaporation": 10.0,
+  "STM_manipulation": 1.0
+ },
+ "current_density_A_cm2": {
+  "channel": 100163.59327976276,
+  "contact": 103976.048387297,
+  "li1_rail": 140855.0530496664
+ },
+ "electromigration_onset_A_cm2": {
+  "Al_or_Cu_at_300K": 100000.0,
+  "note": "thermally activated: negligible at 4 K"
+ },
+ "joule_heating_dT_K": {
+  "k=1.0 W/mK": 5.396694945325868,
+  "k=10.0 W/mK": 0.5396694945325868,
+  "k=200.0 W/mK": 0.026983474726629337
+ },
+ "power_per_um_W": 2.4543743241001343e-06
+}

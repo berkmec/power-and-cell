@@ -1,0 +1,7 @@
+{
+ "basis": "the explicit dip runs (exp20 D) ended in a non-equilibrium state after sudden current excesses (rail not self-consistent); they are repeated with implicit_load=True. D1-D3 below were registered before both batches. D4 comes from one diagnostic run (5.0 V, -60 mV gate dip for 0.5 s: 3 -> 7 cells at the release) and is tested on the whole batch",
+ "D1": "V_DD dip: a cell divides when the dip depth exceeds its margin (3.3 V: 7.8/10.2/8.2 mV; 5.0 V: 3.2/2.7/2.8 mV), if the dip lasts long enough",
+ "D2": "during a global gate dip there is no division (the margin V_M - V_down grows)",
+ "D3": "0.5 V dips kill cells instead of dividing them",
+ "D4": "releasing a global gate dip divides cells: the dip widens them (lower current density), the release forces a sudden shrink; divisions at the release grow with the dip depth and are more frequent at 5.0 V than at 3.3 V; at 5.0 V with -60 mV, 3 -> at least 6 cells for both durations"
+}

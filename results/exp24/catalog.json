@@ -1,0 +1,131 @@
+{
+ "T2_field_ionisation": {
+  "a_star_nm": 1.367487699755524,
+  "F_saddle_kV_cm": 41.133825196421306,
+  "F_atomic_kV_cm": 658.141203142741,
+  "F_for_1_per_s_kV_cm": 11.570561937884593,
+  "rate_at": {
+   "front 0.5 um: 18 kV/cm": 518554.83235172473,
+   "front 2.2 um: 4 kV/cm": 2.3184943500258258e-30
+  },
+  "depletion_field_kV_cm": 108.43373493975903
+ },
+ "T3_nuclear_spin_31P": {
+  "levels": {
+   "B=0.5 T": {
+    "nu_ionized_MHz": 8.6175,
+    "nu_neutral_MHz": [
+     50.1475,
+     67.3825
+    ],
+    "min_separation_MHz": 41.53,
+    "electron_ESR_GHz": 13.985
+   },
+   "B=1.0 T": {
+    "nu_ionized_MHz": 17.235,
+    "nu_neutral_MHz": [
+     41.53,
+     76.0
+    ],
+    "min_separation_MHz": 24.295,
+    "electron_ESR_GHz": 27.97
+   },
+   "B=1.5 T": {
+    "nu_ionized_MHz": 25.8525,
+    "nu_neutral_MHz": [
+     32.9125,
+     84.6175
+    ],
+    "min_separation_MHz": 7.06,
+    "electron_ESR_GHz": 41.955
+   }
+  },
+  "T2n_ionized_28Si_s": 35.6,
+  "note": "T2n from Muhonen 2014 (lit); Rabi ~ kHz << MHz separation"
+ },
+ "T4_single_atom_contact": {
+  "I_s_uA": [
+   10,
+   50
+  ],
+  "V_s_mV": [
+   50,
+   200
+  ],
+  "dG_G0": [
+   0.2,
+   1.5
+  ],
+  "j_on_uA_um": 2.568682657518585,
+  "branch_width_um": [
+   3.893046099225143,
+   19.465230496125717
+  ],
+  "bipolar": "two cells (forward / reverse branch)"
+ },
+ "T5_reram_chain": {
+  "W=1.0 um, V_T=0.6 V": {
+   "fidelity": 0.9916666666666667,
+   "bits_1": 382,
+   "cell_segments": 392,
+   "n_channels_under_cells": {
+    "mean": 5.567221784790794,
+    "p10": 5.331938053784815,
+    "p90": 6.22806887175432
+   },
+   "kick_V_at_2p4V": 0.2625628196823837,
+   "low_state_margin_V": 0.42
+  },
+  "W=0.42 um, V_T=0.7 V": {
+   "fidelity": 0.9825,
+   "bits_1": 371,
+   "cell_segments": 392,
+   "n_channels_under_cells": {
+    "mean": 1.2232850691755779,
+    "p10": 1.0639759008491791,
+    "p90": 1.4575666188652963
+   },
+   "kick_V_at_2p4V": 0.20066737604160653,
+   "low_state_margin_V": 0.42
+  }
+ },
+ "T6_SiH_MVE": {
+  "tau_v=1e-09 s": {
+   "N_quanta": 14,
+   "p_in_needed_for_1_per_day": 0.013888888888888892
+  },
+  "tau_v=1e-08 s": {
+   "N_quanta": 14,
+   "p_in_needed_for_1_per_day": 0.001637178659435538
+  }
+ },
+ "T7_tunnel_shell": {
+  "a_star_nm": 1.3674876997555243,
+  "shell_depth_nm": {
+   "rate 1000/s": 14.169405565394046,
+   "rate 1/s": 18.892540753858725,
+   "rate 0.001/s": 23.615675942323406
+  },
+  "acceptor_spacing_nm": 18.05,
+  "shell_thickness_nm_rate_1e3_to_1em3": 9.44627037692936
+ },
+ "T8_acceptor_EDSR": {
+  "levels": {
+   "B=0.3 T": {
+    "larmor_GHz": 8.397746961643623,
+    "shift_MHz_dg_1e-3": 4.1988734808218116,
+    "shift_MHz_dg_1e-2": 41.98873480821811
+   },
+   "B=1.0 T": {
+    "larmor_GHz": 27.99248987214541,
+    "shift_MHz_dg_1e-3": 13.996244936072705,
+    "shift_MHz_dg_1e-2": 139.96244936072705
+   }
+  },
+  "rabi_lit_MHz": [
+   3,
+   40
+  ],
+  "note": "Rabi from Crippa 2018 hole qubit (lit); dg range assumed"
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "experiment": "Exp32-C4 — SKY130'un kendi 4 K ölçümü (NIST mds2-2997, ETest Tile, Lakeshore kriyojenik prob istasyonu, 4 K, Agilent 4156B) ve oda sıcaklığı karşılığı (google/skywater-pdk-sky130-raw-data, aynı aygıt kimliği)",
+  "written": "2026-10-16T15:5x (analizden önce; tek yazımlık; predictions_exp32.json'daki C4 ölçütlerinin işlemsel tanımı)",
+  "disclosure": "Analizden önce 4 K nfet_01v8 W7/L0,15 dosyasına bir kez bakıldı: V_G = 0,9 V'ta I_D 1,2 → 1,8 V'ta ×1,9; I_B ≥ 1 nA yaklaşık 1,35 V'tan itibaren; V_T(4 K) ≈ 0,80 V. Aşağıdaki tanımlar bu bakıştan sonra ama hesaplamadan önce sabitlendi. Taramalar yalnız ileri yönde olduğundan histerezis sınanamaz; bu açıkça 'ölçüm yok' yazılacak.",
+  "definitions": {
+    "kink_ratio": "g_d(1,6–1,8 V) / g_d(0,5–1,0 V), doğrusal eğimlerle, V_B = 0, eşiğin üstündeki ilk kapı gerilimi (4 K'de 0,9 V; 300 K'de aynı V_G ve bir de V_G − V_T aynı olan değer)",
+    "kink_onset": "V_D ≥ 0,5 V'ta, g_d'nin ardışık 3 noktada taban eğiminin (0,5–1,0 V) 1,5 katını aştığı en küçük V_D",
+    "M_meas": "|I_B|/I_D, |I_B| > 1 nA olan noktalar; log M'ye V_D'ye göre doğrusal uydurma, aşağı doğru uzatma",
+    "recalibration": "Exp17 law.constants(): rm.M_of → M_meas, fii = 1, ss = 0,006 ve 0,010 V/dek; öteki parametreler (vs, von, g_sub, vov0, gövde etkisi) değişmez"
+  },
+  "criteria": {
+    "C4a": "4 K'de kink oranı ≥ 2 ve aynı aygıtta 300 K'de < 1,5 → ✓ (kinkin kriyojenik olduğu SKY130'da ölçülmüş olur)",
+    "C4b": "4 K kink başlangıcı 0,6–1,2 V aralığında → ✓ (V_M = 0,80 V civarı); dışındaysa ✗ ve ölçülen değer düzeltme olarak kullanılır",
+    "C4c": "Ölçülmüş M ile yeniden hesaplanan V_M kaydedilir (öngörü: 0,80 V'tan yukarı, 1,2–1,6 V); j_on da yeniden hesaplanır. Ölçülmüş girdilerle bistabilite çıkmazsa bu da yazılır.",
+    "C4d": "Histerezis: ölçüm yok (yalnız ileri tarama)"
+  }
+}

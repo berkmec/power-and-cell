@@ -1,0 +1,21 @@
+0 {'components': 1, 'largest': 2117, 'max_hops_from_hub': 3.0, 'mean_degree': 131.2073689182806} {'offsets_Hz': [56.89, 46.26, 54.39, 97.94], 'selective': 255, 'global': 255}
+1 {'components': 1, 'largest': 2170, 'max_hops_from_hub': 3.0, 'mean_degree': 135.55023041474655} {'offsets_Hz': [-290.21, -252.46, -242.59, -271.4], 'selective': 255, 'global': 255}
+2 {'components': 1, 'largest': 2112, 'max_hops_from_hub': 4.0, 'mean_degree': 130.3967803030303} {'offsets_Hz': [-122.69, -89.01, -62.56, -90.67], 'selective': 255, 'global': 255}
+3 {'components': 1, 'largest': 2094, 'max_hops_from_hub': 3.0, 'mean_degree': 128.26743075453678} {'offsets_Hz': [238.55, 248.53, 263.78, 174.29], 'selective': 255, 'global': 255}
+4 {'components': 1, 'largest': 2155, 'max_hops_from_hub': 3.0, 'mean_degree': 133.8412993039443} {'offsets_Hz': [407.81, 406.06, 392.3, 421.07], 'selective': 255, 'global': 255}
+5 {'components': 1, 'largest': 2089, 'max_hops_from_hub': 3.0, 'mean_degree': 129.08185734801341} {'offsets_Hz': [-287.64, -258.11, -293.51, -279.92], 'selective': 255, 'global': 255}
+6 {'components': 1, 'largest': 2149, 'max_hops_from_hub': 3.0, 'mean_degree': 131.86505351326198} {'offsets_Hz': [66.45, 19.21, 12.69, 76.12], 'selective': 255, 'global': 255}
+7 {'components': 1, 'largest': 2111, 'max_hops_from_hub': 3.0, 'mean_degree': 131.88536238749407} {'offsets_Hz': [-146.69, -140.58, -125.26, -129.84], 'selective': 255, 'global': 255}
+8 {'components': 1, 'largest': 2054, 'max_hops_from_hub': 3.0, 'mean_degree': 126.48490749756573} {'offsets_Hz': [181.15, 192.21, 195.53, 133.32], 'selective': 255, 'global': 255}
+9 {'components': 1, 'largest': 1986, 'max_hops_from_hub': 3.0, 'mean_degree': 123.66666666666667} {'offsets_Hz': [-174.16, -158.9, -197.98, -232.38], 'selective': 255, 'global': 255}
+10 {'components': 1, 'largest': 2067, 'max_hops_from_hub': 3.0, 'mean_degree': 127.49201741654572} 
+11 {'components': 1, 'largest': 2188, 'max_hops_from_hub': 4.0, 'mean_degree': 135.8491773308958} 
+12 {'components': 1, 'largest': 2094, 'max_hops_from_hub': 3.0, 'mean_degree': 132.26074498567334} 
+13 {'components': 1, 'largest': 2178, 'max_hops_from_hub': 3.0, 'mean_degree': 135.02846648301193} 
+14 {'components': 1, 'largest': 2200, 'max_hops_from_hub': 3.0, 'mean_degree': 138.38454545454545} 
+15 {'components': 1, 'largest': 2164, 'max_hops_from_hub': 3.0, 'mean_degree': 134.43807763401108} 
+16 {'components': 1, 'largest': 2106, 'max_hops_from_hub': 3.0, 'mean_degree': 127.53276353276354} 
+17 {'components': 1, 'largest': 2144, 'max_hops_from_hub': 3.0, 'mean_degree': 135.3740671641791} 
+18 {'components': 1, 'largest': 2190, 'max_hops_from_hub': 3.0, 'mean_degree': 133.54794520547946} 
+19 {'components': 1, 'largest': 2122, 'max_hops_from_hub': 3.0, 'mean_degree': 129.3760603204524} 
+{"connected_T2_25": 20, "lie_selective_full": 10, "lie_global_full": 10}

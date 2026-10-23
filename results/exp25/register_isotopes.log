@@ -1,0 +1,12 @@
+29Si=4.685%, Dmin=100kHz {'mean_addressable': 0.66, 'frac_ge4': 0.0, 'frac_strong_within_3nm_addressable': 0.012, 'ghz_n': 0, 'ghz_no_deph_ge_0p95': None} {}
+29Si=4.685%, Dmin=30kHz {'mean_addressable': 2.34, 'frac_ge4': 0.18, 'frac_strong_within_3nm_addressable': 0.018, 'ghz_n': 9, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.999, 'T2e=0.3ms': 0.553, 'T2e=10ms': 0.966, 'T_us': 666.667}
+29Si=4.685%, Dmin=10kHz {'mean_addressable': 5.12, 'frac_ge4': 0.84, 'frac_strong_within_3nm_addressable': 0.027, 'ghz_n': 42, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.999, 'T2e=0.3ms': 0.5, 'T2e=10ms': 0.908, 'T_us': 2000.0}
+29Si=1%, Dmin=100kHz {'mean_addressable': 0.54, 'frac_ge4': 0.0, 'frac_strong_within_3nm_addressable': 0.052, 'ghz_n': 0, 'ghz_no_deph_ge_0p95': None} {}
+29Si=1%, Dmin=30kHz {'mean_addressable': 2.02, 'frac_ge4': 0.18, 'frac_strong_within_3nm_addressable': 0.072, 'ghz_n': 9, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.997, 'T2e=0.3ms': 0.552, 'T2e=10ms': 0.965, 'T_us': 666.667}
+29Si=1%, Dmin=10kHz {'mean_addressable': 4.48, 'frac_ge4': 0.64, 'frac_strong_within_3nm_addressable': 0.112, 'ghz_n': 32, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.998, 'T2e=0.3ms': 0.5, 'T2e=10ms': 0.908, 'T_us': 2000.0}
+29Si=0.1%, Dmin=100kHz {'mean_addressable': 0.3, 'frac_ge4': 0.0, 'frac_strong_within_3nm_addressable': 0.396, 'ghz_n': 0, 'ghz_no_deph_ge_0p95': None} {}
+29Si=0.1%, Dmin=30kHz {'mean_addressable': 1.06, 'frac_ge4': 0.02, 'frac_strong_within_3nm_addressable': 0.4, 'ghz_n': 1, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.989, 'T2e=0.3ms': 0.548, 'T2e=10ms': 0.957, 'T_us': 666.667}
+29Si=0.1%, Dmin=10kHz {'mean_addressable': 2.36, 'frac_ge4': 0.14, 'frac_strong_within_3nm_addressable': 0.483, 'ghz_n': 7, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.996, 'T2e=0.3ms': 0.498, 'T2e=10ms': 0.905, 'T_us': 2000.0}
+29Si=0.05%, Dmin=100kHz {'mean_addressable': 0.24, 'frac_ge4': 0.0, 'frac_strong_within_3nm_addressable': 0.608, 'ghz_n': 0, 'ghz_no_deph_ge_0p95': None} {}
+29Si=0.05%, Dmin=30kHz {'mean_addressable': 0.96, 'frac_ge4': 0.02, 'frac_strong_within_3nm_addressable': 0.568, 'ghz_n': 1, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.997, 'T2e=0.3ms': 0.552, 'T2e=10ms': 0.965, 'T_us': 666.667}
+29Si=0.05%, Dmin=10kHz {'mean_addressable': 1.58, 'frac_ge4': 0.02, 'frac_strong_within_3nm_addressable': 0.642, 'ghz_n': 1, 'ghz_no_deph_ge_0p95': 1.0} {'no_dephasing': 0.999, 'T2e=0.3ms': 0.5, 'T2e=10ms': 0.908, 'T_us': 2000.0}

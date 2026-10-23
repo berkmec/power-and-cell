@@ -1,0 +1,253 @@
+{
+ "ell": 0.0,
+ "per_run": {
+  "place_d00_s100": {
+   "y_pred": 488.75,
+   "region": null
+  },
+  "place_d00_s101": {
+   "y_pred": 301.75,
+   "region": null
+  },
+  "place_d00_s102": {
+   "y_pred": 180.25,
+   "region": null
+  },
+  "place_d00_s103": {
+   "y_pred": 106.25,
+   "region": null
+  },
+  "place_d00_s104": {
+   "y_pred": 527.25,
+   "region": null
+  },
+  "place_d00_s105": {
+   "y_pred": 425.75,
+   "region": null
+  },
+  "place_d00_s106": {
+   "y_pred": 519.75,
+   "region": null
+  },
+  "place_d00_s107": {
+   "y_pred": 23.25,
+   "region": null
+  },
+  "place_d00_s108": {
+   "y_pred": 0.25,
+   "region": null
+  },
+  "place_d00_s109": {
+   "y_pred": 491.25,
+   "region": null
+  },
+  "place_d05_s100": {
+   "y_pred": 488.75,
+   "region": null
+  },
+  "place_d05_s101": {
+   "y_pred": 301.75,
+   "region": null
+  },
+  "place_d05_s102": {
+   "y_pred": 180.25,
+   "region": null
+  },
+  "place_d05_s103": {
+   "y_pred": 106.25,
+   "region": null
+  },
+  "place_d05_s104": {
+   "y_pred": 527.25,
+   "region": null
+  },
+  "place_d05_s105": {
+   "y_pred": 425.75,
+   "region": null
+  },
+  "place_d05_s106": {
+   "y_pred": 519.75,
+   "region": null
+  },
+  "place_d05_s107": {
+   "y_pred": 23.25,
+   "region": null
+  },
+  "place_d05_s108": {
+   "y_pred": 0.25,
+   "region": null
+  },
+  "place_d05_s109": {
+   "y_pred": 491.25,
+   "region": null
+  },
+  "place_d10_s100": {
+   "y_pred": 488.75,
+   "region": null
+  },
+  "place_d10_s101": {
+   "y_pred": 301.75,
+   "region": null
+  },
+  "place_d10_s102": {
+   "y_pred": 180.25,
+   "region": null
+  },
+  "place_d10_s103": {
+   "y_pred": 106.25,
+   "region": null
+  },
+  "place_d10_s104": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d10_s105": {
+   "y_pred": 425.75,
+   "region": null
+  },
+  "place_d10_s106": {
+   "y_pred": 519.75,
+   "region": null
+  },
+  "place_d10_s107": {
+   "y_pred": 23.25,
+   "region": null
+  },
+  "place_d10_s108": {
+   "y_pred": 0.25,
+   "region": null
+  },
+  "place_d10_s109": {
+   "y_pred": 491.25,
+   "region": null
+  },
+  "place_d15_s100": {
+   "y_pred": 488.75,
+   "region": null
+  },
+  "place_d15_s101": {
+   "y_pred": 150.75,
+   "region": 0
+  },
+  "place_d15_s102": {
+   "y_pred": 180.25,
+   "region": null
+  },
+  "place_d15_s103": {
+   "y_pred": 106.25,
+   "region": null
+  },
+  "place_d15_s104": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d15_s105": {
+   "y_pred": 425.75,
+   "region": null
+  },
+  "place_d15_s106": {
+   "y_pred": 519.75,
+   "region": null
+  },
+  "place_d15_s107": {
+   "y_pred": 152.25,
+   "region": 0
+  },
+  "place_d15_s108": {
+   "y_pred": 0.25,
+   "region": null
+  },
+  "place_d15_s109": {
+   "y_pred": 491.25,
+   "region": null
+  },
+  "place_d20_s100": {
+   "y_pred": 488.75,
+   "region": null
+  },
+  "place_d20_s101": {
+   "y_pred": 150.75,
+   "region": 0
+  },
+  "place_d20_s102": {
+   "y_pred": 180.25,
+   "region": null
+  },
+  "place_d20_s103": {
+   "y_pred": 106.25,
+   "region": null
+  },
+  "place_d20_s104": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d20_s105": {
+   "y_pred": 425.75,
+   "region": null
+  },
+  "place_d20_s106": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d20_s107": {
+   "y_pred": 152.25,
+   "region": 0
+  },
+  "place_d20_s108": {
+   "y_pred": 147.25,
+   "region": 0
+  },
+  "place_d20_s109": {
+   "y_pred": 491.25,
+   "region": null
+  },
+  "place_d30_s100": {
+   "y_pred": 153.75,
+   "region": 0
+  },
+  "place_d30_s101": {
+   "y_pred": 150.75,
+   "region": 0
+  },
+  "place_d30_s102": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d30_s103": {
+   "y_pred": 152.75,
+   "region": 0
+  },
+  "place_d30_s104": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d30_s105": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d30_s106": {
+   "y_pred": 154.25,
+   "region": 0
+  },
+  "place_d30_s107": {
+   "y_pred": 152.25,
+   "region": 0
+  },
+  "place_d30_s108": {
+   "y_pred": 147.25,
+   "region": 0
+  },
+  "place_d30_s109": {
+   "y_pred": 491.25,
+   "region": null
+  }
+ },
+ "P_birth_in_seed_MC": {
+  "0.000": 0.0265,
+  "0.005": 0.06175,
+  "0.010": 0.181,
+  "0.015": 0.37175,
+  "0.020": 0.63775,
+  "0.030": 0.95325
+ }
+}

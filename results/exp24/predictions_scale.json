@@ -1,0 +1,70 @@
+{
+ "registered": "2026-10-15 20:33",
+ "rows": {
+  "lc36_a30": {
+   "lambda_c": 36.0,
+   "a_mV": 30.0,
+   "dy_um": 3.6,
+   "sigma_unit_mV": 4.566937542655747,
+   "P_prog": 1.0,
+   "births_in_seed_90pct_interval": [
+    10,
+    10
+   ],
+   "r_D": 9.773123868084967
+  },
+  "lc3.6_a30": {
+   "lambda_c": 3.6,
+   "a_mV": 30.0,
+   "dy_um": 0.36,
+   "sigma_unit_mV": 14.441924566524547,
+   "P_prog": 0.862605,
+   "births_in_seed_90pct_interval": [
+    7,
+    10
+   ],
+   "r_D": 977.3123868084965
+  },
+  "lc0.36_a30": {
+   "lambda_c": 0.36,
+   "a_mV": 30.0,
+   "dy_um": 0.036,
+   "sigma_unit_mV": 45.66937542655747,
+   "P_prog": 0.165755,
+   "births_in_seed_90pct_interval": [
+    0,
+    4
+   ],
+   "r_D": 97731.23868084967
+  },
+  "lc0.036_a30": {
+   "lambda_c": 0.036,
+   "a_mV": 30.0,
+   "dy_um": 0.0036,
+   "sigma_unit_mV": 144.41924566524548,
+   "P_prog": 0.058485,
+   "births_in_seed_90pct_interval": [
+    0,
+    2
+   ],
+   "r_D": 9773123.868084969
+  },
+  "lc0.36_a150": {
+   "lambda_c": 0.36,
+   "a_mV": 150.0,
+   "dy_um": 0.036,
+   "sigma_unit_mV": 45.66937542655747,
+   "P_prog": 0.99724,
+   "births_in_seed_90pct_interval": [
+    10,
+    10
+   ],
+   "r_D": 97731.23868084967
+  }
+ },
+ "predictions": [
+  "S1: for every (lambda_c, a) case the number of fields (of 10) whose first cell is born on the seed lies in the registered 90 % binomial interval of P_prog (extreme-value formula with Pelgrom units of width lambda_c/10)",
+  "S2: the first cell width scales with lambda_c (first cell / lambda_c the same within a factor 2 for 36, 3.6 and 0.36 um)",
+  "validity: units below the depletion width (~80 nm) and below ~100 stored holes are outside the physics of the model; lambda_c = 0.036 um is run only as a test of the formula"
+ ]
+}

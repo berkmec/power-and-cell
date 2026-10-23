@@ -1,0 +1,161 @@
+{
+ "registered": "2026-10-15 19:58",
+ "constants": {
+  "RT1": {
+   "bistable": true,
+   "V_down": 1.4471978330612196,
+   "V_up": 1.490197367668153,
+   "area_lo": -7.070841314605012e-14,
+   "area_hi": 1.5311915737949534e-13,
+   "regime": "Maxwell",
+   "V_M": 1.4651565046839834,
+   "dV_c": 0.017958671622763767,
+   "j_on": 7.893094997196127e-08,
+   "j_low": 1.0522731156529701e-08,
+   "vb_low": 0.08008304063688013,
+   "vb_mid": 0.2598352453027193,
+   "vb_high": 0.3632816194465387,
+   "margin_up": 0.025040862984169632
+  },
+  "RT2": {
+   "bistable": true,
+   "V_down": 1.4559508371353158,
+   "V_up": 1.523664355278016,
+   "area_lo": -1.0780797455689231e-13,
+   "area_hi": 2.819536795060193e-13,
+   "regime": "Maxwell",
+   "V_M": 1.4814045881295992,
+   "dV_c": 0.025453750994283375,
+   "j_on": 8.43842090119996e-08,
+   "j_low": 6.773997753892746e-09,
+   "vb_low": 0.058414634961111496,
+   "vb_mid": 0.26406860409648647,
+   "vb_high": 0.3736664474882134,
+   "margin_up": 0.04225976714841684
+  }
+ },
+ "R_L": 160000.0,
+ "W": 600.0,
+ "v_high": 0.22,
+ "predictions": [
+  "Q1 inside (D in the window): domains divide; the first split happens before the 2nd nucleation and at w_split within 25 %",
+  "Q2 above (D > V_up - V_M): new domains nucleate before any split; no split before the 3rd nucleation",
+  "Q3 below (D < dV_c): no split over the whole sweep",
+  "Q4 w_split(lambda 50)/w_split(lambda 30) inside, mm 0.1: = law ratio within 25 % (both sets)",
+  "Q5 inside with mismatch x0.3 (sigma 3.7 mV per 0.5 um): reported, no prediction (tolerance probe)"
+ ],
+ "rows": {
+  "W_RT1_inside_lam30_mm0.1": {
+   "job": {
+    "name": "W_RT1_inside_lam30_mm0.1",
+    "set": "RT1",
+    "lam": 30.0,
+    "r_D": 698.4140429569673,
+    "D": 0.0214997673034667,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "lambda_c": 27.418360334621763,
+   "w_split": 147.16635932252572
+  },
+  "W_RT1_inside_lam50_mm0.1": {
+   "job": {
+    "name": "W_RT1_inside_lam50_mm0.1",
+    "set": "RT1",
+    "lam": 50.0,
+    "r_D": 251.42905546450822,
+    "D": 0.0214997673034667,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "lambda_c": 45.697267224369604,
+   "w_split": 245.27726553754286
+  },
+  "W_RT1_above_lam30_mm0.1": {
+   "job": {
+    "name": "W_RT1_above_lam30_mm0.1",
+    "set": "RT1",
+    "lam": 30.0,
+    "r_D": 1220.1683471070924,
+    "D": 0.03756129447625445,
+    "kind": "above",
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "lambda_c": 20.74378888857968,
+   "w_split": 70.55415503814284
+  },
+  "W_RT1_inside_lam30_mm0.3": {
+   "job": {
+    "name": "W_RT1_inside_lam30_mm0.3",
+    "set": "RT1",
+    "lam": 30.0,
+    "r_D": 698.4140429569673,
+    "D": 0.0214997673034667,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 0.3
+   },
+   "lambda_c": 27.418360334621763,
+   "w_split": 147.16635932252572
+  },
+  "W_RT1_below_lam30_mm0.1": {
+   "job": {
+    "name": "W_RT1_below_lam30_mm0.1",
+    "set": "RT1",
+    "lam": 30.0,
+    "r_D": 408.36776482311103,
+    "D": 0.012571070135934635,
+    "kind": "below",
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "lambda_c": 35.856858280031815,
+   "w_split": Infinity
+  },
+  "W_RT2_inside_lam30_mm0.1": {
+   "job": {
+    "name": "W_RT2_inside_lam30_mm0.1",
+    "set": "RT2",
+    "lam": 30.0,
+    "r_D": 969.4245275349516,
+    "D": 0.03385675907135011,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "lambda_c": 26.012042733657132,
+   "w_split": 121.0750947108565
+  },
+  "W_RT2_inside_lam50_mm0.1": {
+   "job": {
+    "name": "W_RT2_inside_lam50_mm0.1",
+    "set": "RT2",
+    "lam": 50.0,
+    "r_D": 348.9928299125826,
+    "D": 0.03385675907135011,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "lambda_c": 43.35340455609522,
+   "w_split": 201.79182451809416
+  },
+  "W_RT2_above_lam30_mm0.1": {
+   "job": {
+    "name": "W_RT2_above_lam30_mm0.1",
+    "set": "RT2",
+    "lam": 30.0,
+    "r_D": 1815.043255406788,
+    "D": 0.06338965072262526,
+    "kind": "above",
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "lambda_c": 19.010256246676228,
+   "w_split": 60.25409579205126
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "N=10": {
+  "equal_pairs": 0,
+  "equal_pairs_are_inversion_partners": [],
+  "exact_full_rank": true,
+  "min_gap_Hz": 1636.2908650658792
+ },
+ "N=20": {
+  "equal_pairs": 0,
+  "equal_pairs_are_inversion_partners": [],
+  "exact_full_rank": true,
+  "min_gap_Hz": 843.9279844164848
+ },
+ "N=40": {
+  "equal_pairs": 1,
+  "equal_pairs_are_inversion_partners": [
+   true
+  ],
+  "exact_full_rank": false,
+  "min_gap_Hz": 0.0
+ },
+ "N=100": {
+  "equal_pairs": 3,
+  "equal_pairs_are_inversion_partners": [
+   true,
+   true,
+   false
+  ],
+  "exact_full_rank": false,
+  "min_gap_Hz": 0.0
+ }
+}

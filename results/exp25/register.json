@@ -1,0 +1,611 @@
+{
+ "summary": {
+  "mean_addressable": 0.82,
+  "frac_ge4": 0.0,
+  "ghz_configs": 0,
+  "ghz_no_deph_ge_0p95": null,
+  "ghz_mean": null,
+  "near_all_coupled": 0.04,
+  "calibration_C_Hz": 754811.7510839669,
+  "A_first_100_shell_MHz": 2.981,
+  "stark_note": "E3 in energy.json: the cell field shifts the donor hyperfine by MHz (A-gate addressing)"
+ },
+ "configs": [
+  {
+   "n_29Si": 2182,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    2981.0
+   ],
+   "r_addr_nm": [
+    0.54
+   ],
+   "near_2nm": 71,
+   "near_coupled_1kHz": 69,
+   "coupled_10kHz_within_6nm": 905
+  },
+  {
+   "n_29Si": 2104,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    947.5
+   ],
+   "r_addr_nm": [
+    1.09
+   ],
+   "near_2nm": 65,
+   "near_coupled_1kHz": 65,
+   "coupled_10kHz_within_6nm": 865
+  },
+  {
+   "n_29Si": 2105,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 70,
+   "near_coupled_1kHz": 68,
+   "coupled_10kHz_within_6nm": 826
+  },
+  {
+   "n_29Si": 2119,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 73,
+   "near_coupled_1kHz": 70,
+   "coupled_10kHz_within_6nm": 871
+  },
+  {
+   "n_29Si": 2084,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 73,
+   "near_coupled_1kHz": 70,
+   "coupled_10kHz_within_6nm": 849
+  },
+  {
+   "n_29Si": 2072,
+   "n_addressable": 2,
+   "A_addr_kHz": [
+    2981.0,
+    1454.6
+   ],
+   "r_addr_nm": [
+    0.71,
+    0.54
+   ],
+   "near_2nm": 66,
+   "near_coupled_1kHz": 63,
+   "coupled_10kHz_within_6nm": 847
+  },
+  {
+   "n_29Si": 2111,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    2981.0
+   ],
+   "r_addr_nm": [
+    0.54
+   ],
+   "near_2nm": 82,
+   "near_coupled_1kHz": 79,
+   "coupled_10kHz_within_6nm": 881
+  },
+  {
+   "n_29Si": 2249,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 87,
+   "near_coupled_1kHz": 82,
+   "coupled_10kHz_within_6nm": 924
+  },
+  {
+   "n_29Si": 2212,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 81,
+   "near_coupled_1kHz": 74,
+   "coupled_10kHz_within_6nm": 935
+  },
+  {
+   "n_29Si": 2153,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 89,
+   "near_coupled_1kHz": 82,
+   "coupled_10kHz_within_6nm": 925
+  },
+  {
+   "n_29Si": 2064,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1745.3
+   ],
+   "r_addr_nm": [
+    1.18
+   ],
+   "near_2nm": 74,
+   "near_coupled_1kHz": 73,
+   "coupled_10kHz_within_6nm": 869
+  },
+  {
+   "n_29Si": 2044,
+   "n_addressable": 2,
+   "A_addr_kHz": [
+    2981.0,
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77,
+    0.54
+   ],
+   "near_2nm": 85,
+   "near_coupled_1kHz": 84,
+   "coupled_10kHz_within_6nm": 856
+  },
+  {
+   "n_29Si": 2147,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 85,
+   "near_coupled_1kHz": 81,
+   "coupled_10kHz_within_6nm": 866
+  },
+  {
+   "n_29Si": 2096,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1067.6
+   ],
+   "r_addr_nm": [
+    1.67
+   ],
+   "near_2nm": 78,
+   "near_coupled_1kHz": 76,
+   "coupled_10kHz_within_6nm": 874
+  },
+  {
+   "n_29Si": 2214,
+   "n_addressable": 2,
+   "A_addr_kHz": [
+    2981.0,
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.54,
+    0.77
+   ],
+   "near_2nm": 73,
+   "near_coupled_1kHz": 71,
+   "coupled_10kHz_within_6nm": 942
+  },
+  {
+   "n_29Si": 2120,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 89,
+   "near_coupled_1kHz": 87,
+   "coupled_10kHz_within_6nm": 906
+  },
+  {
+   "n_29Si": 2151,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 78,
+   "near_coupled_1kHz": 73,
+   "coupled_10kHz_within_6nm": 900
+  },
+  {
+   "n_29Si": 2079,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1745.3
+   ],
+   "r_addr_nm": [
+    1.18
+   ],
+   "near_2nm": 86,
+   "near_coupled_1kHz": 84,
+   "coupled_10kHz_within_6nm": 865
+  },
+  {
+   "n_29Si": 2124,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 84,
+   "near_coupled_1kHz": 79,
+   "coupled_10kHz_within_6nm": 881
+  },
+  {
+   "n_29Si": 2155,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1745.3
+   ],
+   "r_addr_nm": [
+    1.18
+   ],
+   "near_2nm": 81,
+   "near_coupled_1kHz": 77,
+   "coupled_10kHz_within_6nm": 920
+  },
+  {
+   "n_29Si": 2109,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 76,
+   "near_coupled_1kHz": 70,
+   "coupled_10kHz_within_6nm": 881
+  },
+  {
+   "n_29Si": 2095,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    947.5
+   ],
+   "r_addr_nm": [
+    1.09
+   ],
+   "near_2nm": 71,
+   "near_coupled_1kHz": 69,
+   "coupled_10kHz_within_6nm": 879
+  },
+  {
+   "n_29Si": 2089,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 78,
+   "near_coupled_1kHz": 74,
+   "coupled_10kHz_within_6nm": 854
+  },
+  {
+   "n_29Si": 2136,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 70,
+   "near_coupled_1kHz": 67,
+   "coupled_10kHz_within_6nm": 886
+  },
+  {
+   "n_29Si": 2026,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1745.3
+   ],
+   "r_addr_nm": [
+    1.18
+   ],
+   "near_2nm": 74,
+   "near_coupled_1kHz": 70,
+   "coupled_10kHz_within_6nm": 841
+  },
+  {
+   "n_29Si": 2129,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 96,
+   "near_coupled_1kHz": 90,
+   "coupled_10kHz_within_6nm": 910
+  },
+  {
+   "n_29Si": 2093,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 81,
+   "near_coupled_1kHz": 80,
+   "coupled_10kHz_within_6nm": 857
+  },
+  {
+   "n_29Si": 2060,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 85,
+   "near_coupled_1kHz": 81,
+   "coupled_10kHz_within_6nm": 850
+  },
+  {
+   "n_29Si": 2119,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    2981.0
+   ],
+   "r_addr_nm": [
+    0.54
+   ],
+   "near_2nm": 85,
+   "near_coupled_1kHz": 82,
+   "coupled_10kHz_within_6nm": 903
+  },
+  {
+   "n_29Si": 2042,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 97,
+   "near_coupled_1kHz": 97,
+   "coupled_10kHz_within_6nm": 833
+  },
+  {
+   "n_29Si": 2147,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 76,
+   "near_coupled_1kHz": 70,
+   "coupled_10kHz_within_6nm": 904
+  },
+  {
+   "n_29Si": 2096,
+   "n_addressable": 2,
+   "A_addr_kHz": [
+    2981.0,
+    1745.3
+   ],
+   "r_addr_nm": [
+    0.54,
+    1.18
+   ],
+   "near_2nm": 76,
+   "near_coupled_1kHz": 73,
+   "coupled_10kHz_within_6nm": 851
+  },
+  {
+   "n_29Si": 2119,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 70,
+   "near_coupled_1kHz": 66,
+   "coupled_10kHz_within_6nm": 900
+  },
+  {
+   "n_29Si": 2209,
+   "n_addressable": 2,
+   "A_addr_kHz": [
+    2981.0,
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77,
+    0.54
+   ],
+   "near_2nm": 78,
+   "near_coupled_1kHz": 72,
+   "coupled_10kHz_within_6nm": 880
+  },
+  {
+   "n_29Si": 2217,
+   "n_addressable": 3,
+   "A_addr_kHz": [
+    2981.0,
+    1585.9,
+    1160.3
+   ],
+   "r_addr_nm": [
+    0.97,
+    0.77,
+    0.54
+   ],
+   "near_2nm": 94,
+   "near_coupled_1kHz": 91,
+   "coupled_10kHz_within_6nm": 910
+  },
+  {
+   "n_29Si": 2072,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 79,
+   "near_coupled_1kHz": 77,
+   "coupled_10kHz_within_6nm": 887
+  },
+  {
+   "n_29Si": 2067,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 76,
+   "near_coupled_1kHz": 73,
+   "coupled_10kHz_within_6nm": 912
+  },
+  {
+   "n_29Si": 2083,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 92,
+   "near_coupled_1kHz": 86,
+   "coupled_10kHz_within_6nm": 897
+  },
+  {
+   "n_29Si": 2048,
+   "n_addressable": 2,
+   "A_addr_kHz": [
+    2981.0,
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77,
+    0.54
+   ],
+   "near_2nm": 84,
+   "near_coupled_1kHz": 83,
+   "coupled_10kHz_within_6nm": 877
+  },
+  {
+   "n_29Si": 2034,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 87,
+   "near_coupled_1kHz": 81,
+   "coupled_10kHz_within_6nm": 882
+  },
+  {
+   "n_29Si": 2126,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1745.3
+   ],
+   "r_addr_nm": [
+    1.18
+   ],
+   "near_2nm": 93,
+   "near_coupled_1kHz": 90,
+   "coupled_10kHz_within_6nm": 892
+  },
+  {
+   "n_29Si": 2143,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 85,
+   "near_coupled_1kHz": 83,
+   "coupled_10kHz_within_6nm": 936
+  },
+  {
+   "n_29Si": 2121,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 97,
+   "near_coupled_1kHz": 91,
+   "coupled_10kHz_within_6nm": 878
+  },
+  {
+   "n_29Si": 2087,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    2981.0
+   ],
+   "r_addr_nm": [
+    0.54
+   ],
+   "near_2nm": 81,
+   "near_coupled_1kHz": 78,
+   "coupled_10kHz_within_6nm": 839
+  },
+  {
+   "n_29Si": 2090,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 84,
+   "near_coupled_1kHz": 75,
+   "coupled_10kHz_within_6nm": 878
+  },
+  {
+   "n_29Si": 2153,
+   "n_addressable": 0,
+   "A_addr_kHz": [],
+   "r_addr_nm": [],
+   "near_2nm": 90,
+   "near_coupled_1kHz": 88,
+   "coupled_10kHz_within_6nm": 887
+  },
+  {
+   "n_29Si": 2130,
+   "n_addressable": 2,
+   "A_addr_kHz": [
+    2981.0,
+    1454.6
+   ],
+   "r_addr_nm": [
+    0.54,
+    0.71
+   ],
+   "near_2nm": 75,
+   "near_coupled_1kHz": 71,
+   "coupled_10kHz_within_6nm": 893
+  },
+  {
+   "n_29Si": 2098,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1585.9
+   ],
+   "r_addr_nm": [
+    0.77
+   ],
+   "near_2nm": 84,
+   "near_coupled_1kHz": 82,
+   "coupled_10kHz_within_6nm": 841
+  },
+  {
+   "n_29Si": 2098,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    1189.5
+   ],
+   "r_addr_nm": [
+    1.15
+   ],
+   "near_2nm": 72,
+   "near_coupled_1kHz": 71,
+   "coupled_10kHz_within_6nm": 875
+  },
+  {
+   "n_29Si": 2104,
+   "n_addressable": 1,
+   "A_addr_kHz": [
+    2981.0
+   ],
+   "r_addr_nm": [
+    0.54
+   ],
+   "near_2nm": 68,
+   "near_coupled_1kHz": 64,
+   "coupled_10kHz_within_6nm": 854
+  }
+ ]
+}

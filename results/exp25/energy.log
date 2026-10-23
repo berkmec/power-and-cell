@@ -1,0 +1,43 @@
+none             dead 135.9 uW -> gains [35.5, 97.8] uW, share [0.266, 0.734], eta 0.980, cells 3->2, births 0
+cell0_+30mV      dead 135.9 uW -> gains [34.2, 98.8] uW, share [0.257, 0.743], eta 0.978, cells 3->2, births 0
+cell1_+30mV      dead 135.9 uW -> gains [29.4, 102.8] uW, share [0.222, 0.778], eta 0.973, cells 3->2, births 0
+cell0_+15mV      dead 135.9 uW -> gains [30.8, 102.4] uW, share [0.231, 0.769], eta 0.979, cells 3->2, births 0
+cell1_+15mV      dead 135.9 uW -> gains [33.6, 99.3] uW, share [0.253, 0.747], eta 0.976, cells 3->2, births 0
+{
+ "E2": {
+  "landauer_4K_eV": 0.000238923202915847,
+  "charge_state_flip_eV": {
+   "min_irreversible": 0.00275754656,
+   "note": "body voltage stepped across the address by 8 kT/e"
+  },
+  "cell_running_power_uW": 136.0,
+  "cell_energy_per_1ms_op_eV": 848938826466.9164,
+  "ionic_write_1us_eV": {
+   "n1": 274531835.2059925,
+   "per_atom_moved": 137265917.60299626
+  },
+  "oxygen_barrier_eV": 1.0,
+  "nuclear_flip_photon_eV": 7.128533707865169e-08,
+  "rf_pi_pulse_1mW_50us_eV": 312109862671.66046
+ },
+ "E3": {
+  "front 0.5 um (1.80 V/um)": {
+   "dA_P_theory_MHz": 7.615944000000001,
+   "dA_Sb_like_MHz": 1.4089496400000001,
+   "dESR_at_1T_kHz": 906.2280000000001,
+   "below_ionisation": true
+  },
+  "front 1.0 um (0.90 V/um)": {
+   "dA_P_theory_MHz": 1.9039860000000002,
+   "dA_Sb_like_MHz": 0.35223741000000003,
+   "dESR_at_1T_kHz": 226.55700000000002,
+   "below_ionisation": true
+  },
+  "front 2.2 um (0.41 V/um)": {
+   "dA_P_theory_MHz": 0.3933855371900826,
+   "dA_Sb_like_MHz": 0.07277632438016528,
+   "dESR_at_1T_kHz": 46.809297520661154,
+   "below_ionisation": true
+  }
+ }
+}

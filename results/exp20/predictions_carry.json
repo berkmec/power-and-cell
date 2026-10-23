@@ -1,0 +1,3 @@
+{
+ "C3": "after 0.1 s at 1.4 V (four seeds become cells), the number that survive grows with the holding voltage V_hold and is at most 4; at V_hold = 1.4 V all four survive (step result); at low V_hold cells die because the current budget (V_hold - V_c) / R_L cannot feed four cells"
+}

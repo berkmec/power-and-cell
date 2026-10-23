@@ -1,0 +1,69 @@
+{
+ "registered": "2026-10-15 20:02",
+ "predictions": [
+  "R1 (registered): R_sq = 3e3 (real p-well): the body acts as one node, no spatial domains; the whole device switches at once (frac_high jumps from <0.05 to >0.9 within one 20 mV step) and n_fil <= 1 throughout",
+  "R2 (exploration, no prediction): R_sq = 1e8: do domains form and divide when the body averages the mismatch?"
+ ],
+ "rows": {
+  "B_RT2_Rsq3e+03_lam30": {
+   "job": {
+    "name": "B_RT2_Rsq3e+03_lam30",
+    "set": "RT2",
+    "lam": 30.0,
+    "r_D": 969.4245275349516,
+    "D": 0.03385675907135011,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 1.0,
+    "R_sq": 3000.0
+   },
+   "lambda_c": 26.012042733657132,
+   "w_split": 121.0750947108565
+  },
+  "B_RT2_Rsq3e+03_lam50": {
+   "job": {
+    "name": "B_RT2_Rsq3e+03_lam50",
+    "set": "RT2",
+    "lam": 50.0,
+    "r_D": 348.9928299125826,
+    "D": 0.03385675907135011,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 1.0,
+    "R_sq": 3000.0
+   },
+   "lambda_c": 43.35340455609522,
+   "w_split": 201.79182451809416
+  },
+  "B_RT2_Rsq1e+08_lam30": {
+   "job": {
+    "name": "B_RT2_Rsq1e+08_lam30",
+    "set": "RT2",
+    "lam": 30.0,
+    "r_D": 969.4245275349516,
+    "D": 0.03385675907135011,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 1.0,
+    "R_sq": 100000000.0
+   },
+   "lambda_c": 26.012042733657132,
+   "w_split": 121.0750947108565
+  },
+  "B_RT2_Rsq1e+08_lam50": {
+   "job": {
+    "name": "B_RT2_Rsq1e+08_lam50",
+    "set": "RT2",
+    "lam": 50.0,
+    "r_D": 348.9928299125826,
+    "D": 0.03385675907135011,
+    "kind": "inside",
+    "seed": 0,
+    "sigma_scale": 1.0,
+    "R_sq": 100000000.0
+   },
+   "lambda_c": 43.35340455609522,
+   "w_split": 201.79182451809416
+  }
+ }
+}

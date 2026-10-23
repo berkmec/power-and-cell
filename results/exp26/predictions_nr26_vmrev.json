@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 09:55",
+ "basis": "Exp26 part F: exact many-spin check (7 29Si from natural configuration 0, real secular dipolar couplings, MREV-16 = MREV-8 + x-inverted MREV-8 with Ladd's finite pulses pi/2 = 15 us at t_c = 1.568 ms, offsets gG = 20 Hz/nm), selective write = one small global pulse per cycle (DANTE), Gaussian area pi over tau = 17.5 s (the measured-point design). Worry: 17.5 % of the 29Si have a nearest-neighbour 29Si (|J| 52-573 Hz, 2 pi J t_c up to 5.6 rad)",
+ "predictions": [
+  "NV1: target without a nearest-neighbour 29Si: coherent target flip >= 0.99, largest non-target flip <= 1e-2, and without the write the bits leak <= 1e-2 over 17.5 s",
+  "NV2: target with a nearest-neighbour 29Si of |J| >= 250 Hz: without the write the antiparallel pair leaks > 0.1 over 17.5 s (MREV-16 at t_c = 1.568 ms does not decouple nearest-neighbour pairs)",
+  "NV3: with the dipolar couplings switched off the DANTE-in-MREV write reproduces the scaled-offset single-spin model (target >= 0.999 without decay; crosstalk within a factor 2 of the Bloch value at the same scaled detuning)"
+ ]
+}

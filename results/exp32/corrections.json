@@ -1,0 +1,82 @@
+{
+ "C1": {
+  "SET_A": {
+   "d_TEM_nm": 2.0,
+   "C_pred_aF": 0.43393352162466947,
+   "C_meas_aF": 0.42,
+   "dev": 0.03317505148730837,
+   "passed": true
+  },
+  "SET_B": {
+   "d_nm": 5.0,
+   "e2_over_C_eV": 0.1476886715735966,
+   "at300K_kT": 5.712852885411534,
+   "at200K_kT": 8.5692793281173,
+   "passed": true
+  },
+  "lever_arm": {
+   "alpha_G_meas": 0.22380952380952382,
+   "alpha_G_exp1": 0.7633650876506155
+  },
+  "d_max_nm_e2_over_2C_10kT": {
+   "300 K": 1.4282132213528835,
+   "77 K": 5.564467096180066,
+   "4 K": 107.11599160146626
+  },
+  "exp1_threshold_300K_nm": 0.4,
+  "passed": true
+ },
+ "C2": {
+  "A_VT_rule_mV_um": [
+   4.15,
+   5.0
+  ],
+  "A_VT_pdk_mV_um": 3.356,
+  "ratio": [
+   1.2365911799761622,
+   1.4898688915375446
+  ],
+  "sigma_mV_rule": [
+   18.04006836227333,
+   21.735022123220876
+  ],
+  "sigma_mV_pdk": 14.588546849105851,
+  "passed": true,
+  "seed_30mV_in_sigma_10um_x_0p15um": [
+   10.948255703738877,
+   7.348469228349534
+  ],
+  "caveat": "PDK vth0_slope biriminin V·µm olduğu varsayıldı (Exp5'te kesinleştirilemedi)"
+ },
+ "C3": {
+  "onset_brackets": {
+   "1.0e+16": [
+    15657720016371.783,
+    null
+   ],
+   "1.7e+17": [
+    19019593869590.59,
+    null
+   ],
+   "3.0e+15": [
+    14008123595515.55,
+    null
+   ]
+  },
+  "measured_cm2": 6000000000000.0,
+  "window": [
+   3750000000000.0,
+   9600000000000.0
+  ]
+ },
+ "C5": {
+  "V_down": 0.7855187844568279,
+  "V_M": 0.8017862113125734,
+  "j_on": 2.5686826575185846e-06,
+  "j_high_at_V_down": 2.3755058344119076e-06,
+  "j_high_at_V_M": 2.5686645498761502e-06,
+  "j_high_at_1p2V": 2.582129453443393e-06,
+  "dj_dVD_sign": 1,
+  "prediction": "SKY130 modelinde j_high V_D ile artıyor: aynı toplam akımda daha çok (daha dar) hücre, ortalama daha yüksek V_D ve daha yüksek j demek → j N ile artmalı. Ölçülen ESD (ısıl, 300 K) aygıtında düşüyor: aygıt sınıfı farkı; SKY130 4 K ölçümü ayırt eder."
+ }
+}

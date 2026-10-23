@@ -1,0 +1,66 @@
+MREV-16 effective field per cycle: scaling 0.3435 (Ladd: 1/3), axis [0.0, 0.0203, -0.9998]
+no_NN [dipolar]: target flip 0.7909, max other 4.73e-02, storage leak max 5.10e-01 (24 s)
+no_NN [no_dipolar]: target flip 1.0000, max other 2.08e-03, storage leak max 5.75e-07 (27 s)
+NN_J_ge_250Hz [dipolar]: target flip 0.7108, max other 7.64e-03, storage leak max 9.91e-01 (31 s)
+NN_J_ge_250Hz [no_dipolar]: target flip 1.0000, max other 2.34e-03, storage leak max 1.58e-05 (34 s)
+NN_strongest [dipolar]: target flip 0.3459, max other 6.78e-01, storage leak max 7.12e-01 (40 s)
+NN_strongest [no_dipolar]: target flip 1.0000, max other 1.00e-05, storage leak max 1.27e-06 (44 s)
+{
+ "no_NN": {
+  "max_abs_J_Hz": 573.6715109958453,
+  "dipolar": {
+   "target_flip": 0.7909003325577658,
+   "max_other_flip": 0.04732483108815766,
+   "mean_other_flip": 0.00943351984628484,
+   "storage_max_leak": 0.5100842051827483,
+   "storage_mean_leak": 0.0507873536323694,
+   "storage_target_leak": 0.5100842051827483
+  },
+  "no_dipolar": {
+   "target_flip": 1.0000000000079339,
+   "max_other_flip": 0.0020774947664993215,
+   "mean_other_flip": 0.0005812634662279985,
+   "storage_max_leak": 5.752730952712781e-07,
+   "storage_mean_leak": 9.392751004207746e-08,
+   "storage_target_leak": 1.4139800441625994e-12
+  }
+ },
+ "NN_J_ge_250Hz": {
+  "max_abs_J_Hz": 260.75977772538494,
+  "dipolar": {
+   "target_flip": 0.7108137180703489,
+   "max_other_flip": 0.007638289726654655,
+   "mean_other_flip": 0.0016245646615533561,
+   "storage_max_leak": 0.9906933225454793,
+   "storage_mean_leak": 0.1030612066203354,
+   "storage_target_leak": 0.9906933225454793
+  },
+  "no_dipolar": {
+   "target_flip": 1.0000000000023002,
+   "max_other_flip": 0.002335527859617881,
+   "mean_other_flip": 0.0008269645223724229,
+   "storage_max_leak": 1.580628949915397e-05,
+   "storage_mean_leak": 2.7085490420344368e-06,
+   "storage_target_leak": 5.468414610021455e-11
+  }
+ },
+ "NN_strongest": {
+  "max_abs_J_Hz": 573.6715109958487,
+  "dipolar": {
+   "target_flip": 0.3459304832837196,
+   "max_other_flip": 0.677888566881308,
+   "mean_other_flip": 0.1294501110625608,
+   "storage_max_leak": 0.7116735898108573,
+   "storage_mean_leak": 0.15645323268386338,
+   "storage_target_leak": 0.5250161266808769
+  },
+  "no_dipolar": {
+   "target_flip": 0.999999999997961,
+   "max_other_flip": 9.998235196206906e-06,
+   "mean_other_flip": 3.7240285138879538e-06,
+   "storage_max_leak": 1.2738341844675816e-06,
+   "storage_mean_leak": 2.6903578872813557e-07,
+   "storage_target_leak": 2.5586199825511358e-11
+  }
+ }
+}

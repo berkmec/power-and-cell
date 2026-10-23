@@ -1,0 +1,103 @@
+cfg 0: N = 2117, b_k 1st pct grid 0.0177 refined 0.0196 nm, min 0.0174, 29 s
+cfg 1: N = 2170, b_k 1st pct grid 0.0177 refined 0.0190 nm, min 0.0173, 53 s
+cfg 2: N = 2112, b_k 1st pct grid 0.0177 refined 0.0192 nm, min 0.0170, 75 s
+cfg 3: N = 2094, b_k 1st pct grid 0.0179 refined 0.0198 nm, min 0.0170, 96 s
+cfg 4: N = 2155, b_k 1st pct grid 0.0173 refined 0.0192 nm, min 0.0154, 118 s
+cfg 5: N = 2089, b_k 1st pct grid 0.0180 refined 0.0193 nm, min 0.0176, 140 s
+cfg 6: N = 2149, b_k 1st pct grid 0.0172 refined 0.0189 nm, min 0.0161, 163 s
+cfg 7: N = 2111, b_k 1st pct grid 0.0174 refined 0.0190 nm, min 0.0164, 185 s
+cfg 8: N = 2054, b_k 1st pct grid 0.0183 refined 0.0197 nm, min 0.0164, 206 s
+cfg 9: N = 1986, b_k 1st pct grid 0.0185 refined 0.0205 nm, min 0.0178, 225 s
+cfg 10: N = 2067, b_k 1st pct grid 0.0186 refined 0.0200 nm, min 0.0180, 246 s
+cfg 11: N = 2188, b_k 1st pct grid 0.0172 refined 0.0185 nm, min 0.0163, 270 s
+cfg 12: N = 2094, b_k 1st pct grid 0.0177 refined 0.0195 nm, min 0.0167, 291 s
+cfg 13: N = 2178, b_k 1st pct grid 0.0170 refined 0.0185 nm, min 0.0158, 313 s
+cfg 14: N = 2200, b_k 1st pct grid 0.0169 refined 0.0182 nm, min 0.0163, 336 s
+cfg 15: N = 2164, b_k 1st pct grid 0.0172 refined 0.0190 nm, min 0.0158, 359 s
+cfg 16: N = 2106, b_k 1st pct grid 0.0181 refined 0.0195 nm, min 0.0170, 379 s
+cfg 17: N = 2144, b_k 1st pct grid 0.0171 refined 0.0188 nm, min 0.0169, 401 s
+cfg 18: N = 2190, b_k 1st pct grid 0.0169 refined 0.0181 nm, min 0.0155, 425 s
+cfg 19: N = 2122, b_k 1st pct grid 0.0179 refined 0.0199 nm, min 0.0173, 447 s
+{
+ "NR3": {
+  "frac_cfg_99_at_0p010": 1.0,
+  "fixed_mean_at_0p010": 0.002355914784274987
+ },
+ "d99_median": 0.0191881036218175,
+ "feasible": {
+  "inf": {
+   "tc_ms": 0.3987645279295233,
+   "best_gG_Hz_per_nm": 19.952623149688797,
+   "T2_s": 386.54413480290253,
+   "dstar_nm": 0.015559017100580016,
+   "mean_cov": 0.9999539670936232,
+   "frac_cfg_ge_0p99": 1.0,
+   "frac_cfg_all": 0.9
+  },
+  "1000": {
+   "tc_ms": 0.3987645279295233,
+   "best_gG_Hz_per_nm": 19.952623149688797,
+   "T2_s": 386.54413480290253,
+   "dstar_nm": 0.015559017100580016,
+   "mean_cov": 0.9999539670936232,
+   "frac_cfg_ge_0p99": 1.0,
+   "frac_cfg_all": 0.9
+  },
+  "100": {
+   "tc_ms": 0.22418397361230133,
+   "best_gG_Hz_per_nm": 70.79457843841381,
+   "T2_s": 97.60745548354515,
+   "dstar_nm": 0.017365938340981123,
+   "mean_cov": 0.9983567157640337,
+   "frac_cfg_ge_0p99": 1.0,
+   "frac_cfg_all": 0.2
+  },
+  "25": {
+   "tc_ms": 0.11232339339099424,
+   "best_gG_Hz_per_nm": 281.8382931264455,
+   "T2_s": 24.533058016616867,
+   "dstar_nm": 0.017355197496859192,
+   "mean_cov": 0.9984033580623016,
+   "frac_cfg_ge_0p99": 1.0,
+   "frac_cfg_all": 0.2
+  },
+  "8": {
+   "tc_ms": 0.06314780502357335,
+   "best_gG_Hz_per_nm": 891.2509381337459,
+   "T2_s": 7.762035022819436,
+   "dstar_nm": 0.01734625186827989,
+   "mean_cov": 0.9984262099818629,
+   "frac_cfg_ge_0p99": 1.0,
+   "frac_cfg_all": 0.2
+  }
+ },
+ "ladd": {
+  "tc_ms": 1.568,
+  "best_gG_Hz_per_nm": 19.952623149688797,
+  "T2_s": 25.0,
+  "dstar_nm": 0.24056987214109068,
+  "mean_cov": 0.006816738364870611,
+  "frac_cfg_ge_0p99": 0.0,
+  "frac_cfg_all": 0.0
+ },
+ "energy": {
+  "t_c_ms": 0.3987645279295233,
+  "gG_Hz_per_nm": 19.952623149688797,
+  "G_mT_per_nm": 0.002357073024180602,
+  "T2_s": 386.54413480290253,
+  "tau_s": 38.65441348029025,
+  "n_directions": 357,
+  "grid_directions": 357,
+  "refined_only": 0,
+  "total_time_s": 13799.62561246362,
+  "drive": {
+   "pi2_us": 3.814711682999267,
+   "b1_mT": 15.483934391572886,
+   "current_mA": 7.741967195786443,
+   "p_avg_W": 0.00022935480635446456
+  },
+  "energy_J": 3.165010460110703,
+  "energy_per_atom_J": 0.001495045092163771,
+  "kT_ln2_100mK_J": 9.56992961692908e-25
+ }
+}

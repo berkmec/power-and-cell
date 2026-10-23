@@ -1,0 +1,7 @@
+N=6: rank 6/6, reconstruction error of I_x(1) 7.24e-14, sv ratio 5.12e-08
+N=8: rank 8/8, reconstruction error of I_x(1) 1.61e-12, sv ratio 2.67e-11
+N=10: rank 8/10, reconstruction error of I_x(1) 6.09e-09, sv ratio 4.75e-17
+N=6, A1=A2: rank 5/6, reconstruction error of I_x(1) 7.07e-01, sv ratio 2.16e-19
+natural 4.685 % {'n_29Si_within_6nm': 2119.35, 'median_T_s': inf, 'frac_below_0p2s': 0.0, 'frac_above_1s': 1.0, 'frac_exact_degenerate': 1.0}
+0.1 % {'n_29Si_within_6nm': 45.16, 'median_T_s': 0.34671068497468965, 'frac_below_0p2s': 0.36, 'frac_above_1s': 0.25, 'frac_exact_degenerate': 0.03}
+50 ppm {'n_29Si_within_6nm': 2.27, 'median_T_s': 0.0006715872724777303, 'frac_below_0p2s': 0.98, 'frac_above_1s': 0.02, 'frac_exact_degenerate': 0.0}

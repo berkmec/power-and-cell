@@ -1,0 +1,7 @@
+{
+ "registered": "2026-10-15 21:23",
+ "predictions": [
+  "SP1: at B = 1 T and a nuclear Rabi frequency of 10 kHz, the target (ionised) 31P nucleus flips with P >= 0.999 after a pi pulse while every neutral donor nucleus flips with P <= 1e-6",
+  "SP2: the analytic Rabi formula and the numerical integration agree to 1e-6"
+ ]
+}

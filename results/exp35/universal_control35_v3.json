@@ -1,0 +1,6003 @@
+{
+ "experiment": "Exp35 v3: global-trim + anneal-assisted closed-loop control",
+ "registered": "predictions_exp35_v3.json (after v2 diagnosis, before v3 outcomes)",
+ "run_config": {
+  "GUARD_eV": 0.005,
+  "VB_GAIN_V": 0.015,
+  "FINAL_SWEEPS": 1200,
+  "FEEDBACK_SWEEPS": 600,
+  "ell_nm": 20.0,
+  "sampler": "Exp24-faithful flip/hop sampler from v2 module"
+ },
+ "islands": [
+  {
+   "island_seed": 0,
+   "tasks": [
+    {
+     "island_seed": 0,
+     "pattern": "MONO",
+     "bits": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "target_sites": [
+      45,
+      46,
+      73,
+      48
+     ],
+     "addresses_V": [
+      0.9010454545454546,
+      0.9094285714285714,
+      0.9197638888888889,
+      0.9297
+     ],
+     "global_Vb_V": 0.9145962301587302,
+     "median_Vb_V": 0.9145962301587302,
+     "min_target_distance_nm": 13.657294244154114,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.05125,
+        0.97875,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.94875,
+        0.97875,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.981875,
+       "marginal_product": 0.9285890625,
+       "exact_snapshot_fraction": 0.93125,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9145962301587302
+      },
+      "L20M": {
+       "mean_n": [
+        0.0,
+        0.955,
+        1.0,
+        0.06
+       ],
+       "marginals": [
+        1.0,
+        0.04500000000000004,
+        1.0,
+        0.06
+       ],
+       "mean_bit_accuracy": 0.52625,
+       "marginal_product": 0.0027000000000000023,
+       "exact_snapshot_fraction": 0.04375,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        0,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9145962301587302,
+       "amplitudes_eV": [
+        -0.008550775613275555,
+        -0.00016765873015878608,
+        0.00016765873015878608,
+        0.01010376984126982
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.04597701149425287,
+       "Vb_V": 0.9146618551587301,
+       "amplitudes_eV": [
+        0.016449224386724446,
+        0.024519841269841216,
+        -0.024832341269841216,
+        -0.014146230158730181
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          0.0,
+          0.9875,
+          1.0,
+          0.03
+         ],
+         "marginals": [
+          1.0,
+          0.012499999999999956,
+          1.0,
+          0.03
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.008550775613275555,
+          -0.00016765873015878608,
+          0.00016765873015878608,
+          0.01010376984126982
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9146618551587301,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.008550775613275555,
+          0.024519841269841216,
+          0.00016765873015878608,
+          -0.014146230158730181
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9184118551587301,
+         "mean_n": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.016449224386724446,
+          0.024519841269841216,
+          0.00016765873015878608,
+          -0.014146230158730181
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9146618551587301,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.016449224386724446,
+          0.024519841269841216,
+          -0.024832341269841216,
+          -0.014146230158730181
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.04597701149425287,
+       "Vb_V": 0.9145493551587301,
+       "amplitudes_eV": [
+        0.016449224386724446,
+        0.023332341269841215,
+        -0.024832341269841216,
+        -0.01370873015873018
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          0.0,
+          0.94,
+          1.0,
+          0.0475
+         ],
+         "marginals": [
+          1.0,
+          0.06000000000000005,
+          1.0,
+          0.0475
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.008550775613275555,
+          -0.00016765873015878608,
+          0.00016765873015878608,
+          0.01010376984126982
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9145493551587301,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.008550775613275555,
+          0.023332341269841215,
+          0.00016765873015878608,
+          -0.01370873015873018
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9182993551587302,
+         "mean_n": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.016449224386724446,
+          0.023332341269841215,
+          0.00016765873015878608,
+          -0.01370873015873018
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9145493551587301,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.016449224386724446,
+          0.023332341269841215,
+          -0.024832341269841216,
+          -0.01370873015873018
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 0,
+     "pattern": "ALT",
+     "bits": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "target_sites": [
+      45,
+      46,
+      73,
+      48
+     ],
+     "addresses_V": [
+      0.9010454545454546,
+      0.9094285714285714,
+      0.9197638888888889,
+      0.9297
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9145962301587302,
+     "min_target_distance_nm": 13.657294244154114,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.5,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        0.9675,
+        0.8625,
+        0.59875,
+        0.0
+       ],
+       "marginals": [
+        0.9675,
+        0.13749999999999996,
+        0.59875,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6759375,
+       "marginal_product": 0.07965246093749997,
+       "exact_snapshot_fraction": 0.1375,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.04597701149425287,
+       "Vb_V": 0.9145962301587302,
+       "amplitudes_eV": [
+        -0.018550775613275557,
+        -0.00016765873015878608,
+        0.00016765873015878608,
+        0.02010376984126982
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.06896551724137931,
+       "Vb_V": 0.9178399801587301,
+       "amplitudes_eV": [
+        -0.043550775613275555,
+        0.024832341269841216,
+        0.00016765873015878608,
+        0.041728769841269824
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.018550775613275557,
+          -0.00016765873015878608,
+          0.00016765873015878608,
+          0.02010376984126982
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          0.865
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.135
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.00016765873015878608,
+          0.02010376984126982
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9178399801587301,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.00016765873015878608,
+          0.041728769841269824
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.06896551724137931,
+       "Vb_V": 0.9181587301587302,
+       "amplitudes_eV": [
+        -0.043550775613275555,
+        0.024832341269841216,
+        0.00016765873015878608,
+        0.04385376984126982
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.018550775613275557,
+          -0.00016765873015878608,
+          0.00016765873015878608,
+          0.02010376984126982
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          0.95
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.050000000000000044
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.00016765873015878608,
+          0.02010376984126982
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9181587301587302,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.00016765873015878608,
+          0.04385376984126982
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 0,
+     "pattern": "RAND",
+     "bits": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "target_sites": [
+      45,
+      46,
+      73,
+      48
+     ],
+     "addresses_V": [
+      0.9010454545454546,
+      0.9094285714285714,
+      0.9197638888888889,
+      0.9297
+     ],
+     "global_Vb_V": 0.9247319444444444,
+     "median_Vb_V": 0.9145962301587302,
+     "min_target_distance_nm": 13.657294244154114,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.0,
+        0.01,
+        0.9625
+       ],
+       "marginals": [
+        0.0,
+        1.0,
+        0.99,
+        0.9625
+       ],
+       "mean_bit_accuracy": 0.738125,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        1,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9247319444444444
+      },
+      "L20M": {
+       "mean_n": [
+        0.97875,
+        0.9975,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        0.97875,
+        0.0024999999999999467,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.4953125,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.034482758620689655,
+       "Vb_V": 0.9145962301587302,
+       "amplitudes_eV": [
+        -0.018550775613275557,
+        -0.00016765873015878608,
+        0.010167658730158787,
+        0.01010376984126982
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.04597701149425287,
+       "Vb_V": 0.9179806051587301,
+       "amplitudes_eV": [
+        -0.043550775613275555,
+        0.024832341269841216,
+        0.0577301587301588,
+        -0.014896230158730182
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          0.0,
+          1.0,
+          0.9825,
+          0.0
+         ],
+         "marginals": [
+          0.0,
+          0.0,
+          0.01749999999999996,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.018550775613275557,
+          -0.00016765873015878608,
+          0.010167658730158787,
+          0.01010376984126982
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9145306051587302,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.92,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.07999999999999996,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.03473015873015879,
+          -0.014896230158730182
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9179806051587301,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.0577301587301588,
+          -0.014896230158730182
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.04597701149425287,
+       "Vb_V": 0.9181587301587302,
+       "amplitudes_eV": [
+        -0.043550775613275555,
+        0.024832341269841216,
+        0.058917658730158785,
+        -0.014896230158730182
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.018550775613275557,
+          -0.00016765873015878608,
+          0.010167658730158787,
+          0.01010376984126982
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9145962301587302,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.95,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.050000000000000044,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.035167658730158785,
+          -0.014896230158730182
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9181587301587302,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.043550775613275555,
+          0.024832341269841216,
+          0.058917658730158785,
+          -0.014896230158730182
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "island_seed": 1,
+   "tasks": [
+    {
+     "island_seed": 1,
+     "pattern": "MONO",
+     "bits": [
+      1,
+      0,
+      0
+     ],
+     "target_sites": [
+      38,
+      42,
+      84
+     ],
+     "addresses_V": [
+      0.9300652173913044,
+      0.9384666666666667,
+      0.9800652173913044
+     ],
+     "global_Vb_V": 0.9342659420289856,
+     "median_Vb_V": 0.9384666666666667,
+     "min_target_distance_nm": 29.948218628762092,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9342659420289856
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.3333333333333333,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.054945054945054944,
+       "Vb_V": 0.9384666666666667,
+       "amplitudes_eV": [
+        -0.003401449275362238,
+        -0.005,
+        0.0365985507246377
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.054945054945054944,
+       "Vb_V": 0.9384666666666667,
+       "amplitudes_eV": [
+        0.021598550724637764,
+        -0.005,
+        0.011598550724637696
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.003401449275362238,
+          -0.005,
+          0.0365985507246377
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.021598550724637764,
+          -0.005,
+          0.011598550724637696
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.054945054945054944,
+       "Vb_V": 0.9384666666666667,
+       "amplitudes_eV": [
+        0.021598550724637764,
+        -0.005,
+        0.011598550724637696
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.003401449275362238,
+          -0.005,
+          0.0365985507246377
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.021598550724637764,
+          -0.005,
+          0.011598550724637696
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 1,
+     "pattern": "ALT",
+     "bits": [
+      0,
+      1,
+      0
+     ],
+     "target_sites": [
+      38,
+      42,
+      84
+     ],
+     "addresses_V": [
+      0.9300652173913044,
+      0.9384666666666667,
+      0.9800652173913044
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9384666666666667,
+     "min_target_distance_nm": 29.948218628762092,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.01625,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.98375,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.66125,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07692307692307693,
+       "Vb_V": 0.9384666666666667,
+       "amplitudes_eV": [
+        -0.01340144927536224,
+        0.005,
+        0.0365985507246377
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.10625,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.89375,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9645833333333332,
+       "marginal_product": 0.89375,
+       "exact_snapshot_fraction": 0.9,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.06593406593406594,
+       "Vb_V": 0.9335416666666667,
+       "amplitudes_eV": [
+        -0.01340144927536224,
+        0.0053750000000000004,
+        0.011598550724637696
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          1.0,
+          0.015,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.985,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.005,
+          0.0365985507246377
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9335416666666667,
+         "mean_n": [
+          1.0,
+          0.0475,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.9525,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.0053750000000000004,
+          0.011598550724637696
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0475,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.9525,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9841666666666667,
+       "marginal_product": 0.9525,
+       "exact_snapshot_fraction": 0.9375,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.06593406593406594,
+       "Vb_V": 0.9335791666666666,
+       "amplitudes_eV": [
+        -0.01340144927536224,
+        0.0055625,
+        0.011598550724637696
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          1.0,
+          0.0225,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.9775,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.005,
+          0.0365985507246377
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9335791666666666,
+         "mean_n": [
+          1.0,
+          0.06,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.94,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.0055625,
+          0.011598550724637696
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 1,
+     "pattern": "RAND",
+     "bits": [
+      0,
+      1,
+      1
+     ],
+     "target_sites": [
+      38,
+      42,
+      84
+     ],
+     "addresses_V": [
+      0.9300652173913044,
+      0.9384666666666667,
+      0.9800652173913044
+     ],
+     "global_Vb_V": 1.006,
+     "median_Vb_V": 0.9384666666666667,
+     "min_target_distance_nm": 29.948218628762092,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 1.006
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.86375,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.13624999999999998,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.7120833333333333,
+       "marginal_product": 0.13624999999999998,
+       "exact_snapshot_fraction": 0.1375,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.15384615384615385,
+       "Vb_V": 0.9384666666666667,
+       "amplitudes_eV": [
+        -0.01340144927536224,
+        0.005,
+        0.04659855072463769
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.15384615384615385,
+       "Vb_V": 0.9431291666666667,
+       "amplitudes_eV": [
+        -0.01340144927536224,
+        0.0283125,
+        0.04659855072463769
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          1.0,
+          0.9325,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0675,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.005,
+          0.04659855072463769
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9431291666666667,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.0283125,
+          0.04659855072463769
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.17582417582417584,
+       "Vb_V": 0.9429166666666666,
+       "amplitudes_eV": [
+        -0.01340144927536224,
+        0.027250000000000003,
+        0.04659855072463769
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9384666666666667,
+         "mean_n": [
+          1.0,
+          0.89,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.10999999999999999,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.005,
+          0.04659855072463769
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9429166666666666,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.01340144927536224,
+          0.027250000000000003,
+          0.04659855072463769
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "island_seed": 2,
+   "tasks": [
+    {
+     "island_seed": 2,
+     "pattern": "MONO",
+     "bits": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "target_sites": [
+      82,
+      37,
+      83,
+      74
+     ],
+     "addresses_V": [
+      0.8902391304347826,
+      0.8986153846153846,
+      0.9175909090909091,
+      0.9335555555555556
+     ],
+     "global_Vb_V": 0.9081031468531469,
+     "median_Vb_V": 0.9081031468531469,
+     "min_target_distance_nm": 13.19783672221507,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9081031468531469
+      },
+      "L20M": {
+       "mean_n": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.75,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9081031468531469,
+       "amplitudes_eV": [
+        -0.012864016418364214,
+        -0.004487762237762265,
+        0.004487762237762265,
+        0.020452408702408723
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9083750218531469,
+       "amplitudes_eV": [
+        0.014448483581635788,
+        0.018824737762237736,
+        -0.019324737762237736,
+        -0.004547591297591278
+       ],
+       "feedback_updates": 4,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.012864016418364214,
+          -0.004487762237762265,
+          0.004487762237762265,
+          0.020452408702408723
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9043531468531468,
+         "mean_n": [
+          0.0925,
+          0.9325,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.9075,
+          0.0675,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.012864016418364214,
+          -0.004487762237762265,
+          0.004487762237762265,
+          -0.004547591297591278
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9081968968531469,
+         "mean_n": [
+          0.0,
+          0.0,
+          0.0475,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0475,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010551516418364213,
+          0.018824737762237736,
+          0.004487762237762265,
+          -0.004547591297591278
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9046250218531469,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010551516418364213,
+          0.018824737762237736,
+          -0.019324737762237736,
+          -0.004547591297591278
+         ]
+        },
+        {
+         "round": 4,
+         "Vb_V": 0.9083750218531469,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.014448483581635788,
+          0.018824737762237736,
+          -0.019324737762237736,
+          -0.004547591297591278
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9084406468531468,
+       "amplitudes_eV": [
+        0.014760983581635788,
+        0.018949737762237736,
+        -0.019199737762237736,
+        -0.004672591297591278
+       ],
+       "feedback_updates": 4,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.012864016418364214,
+          -0.004487762237762265,
+          0.004487762237762265,
+          0.020452408702408723
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9043531468531468,
+         "mean_n": [
+          0.105,
+          0.9375,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.895,
+          0.0625,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.012864016418364214,
+          -0.004487762237762265,
+          0.004487762237762265,
+          -0.004547591297591278
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9082625218531468,
+         "mean_n": [
+          0.0,
+          0.0,
+          0.0525,
+          0.995
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0525,
+          0.995
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010239016418364213,
+          0.018949737762237736,
+          0.004487762237762265,
+          -0.004547591297591278
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9046906468531468,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010239016418364213,
+          0.018949737762237736,
+          -0.019199737762237736,
+          -0.004672591297591278
+         ]
+        },
+        {
+         "round": 4,
+         "Vb_V": 0.9084406468531468,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.014760983581635788,
+          0.018949737762237736,
+          -0.019199737762237736,
+          -0.004672591297591278
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 2,
+     "pattern": "ALT",
+     "bits": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "target_sites": [
+      82,
+      37,
+      83,
+      74
+     ],
+     "addresses_V": [
+      0.8902391304347826,
+      0.8986153846153846,
+      0.9175909090909091,
+      0.9335555555555556
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9081031468531469,
+     "min_target_distance_nm": 13.19783672221507,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.5,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.75,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9081031468531469,
+       "amplitudes_eV": [
+        -0.022864016418364216,
+        -0.004487762237762265,
+        0.004487762237762265,
+        0.030452408702408725
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.024096385542168676,
+       "Vb_V": 0.9081031468531469,
+       "amplitudes_eV": [
+        -0.022864016418364216,
+        -0.004487762237762265,
+        -0.020512237762237737,
+        0.05545240870240872
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.004487762237762265,
+          0.004487762237762265,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9043531468531468,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.004487762237762265,
+          -0.020512237762237737,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.004487762237762265,
+          -0.020512237762237737,
+          0.05545240870240872
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.024096385542168676,
+       "Vb_V": 0.9081031468531469,
+       "amplitudes_eV": [
+        -0.022864016418364216,
+        -0.004487762237762265,
+        -0.020512237762237737,
+        0.05545240870240872
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.004487762237762265,
+          0.004487762237762265,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9043531468531468,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.004487762237762265,
+          -0.020512237762237737,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.004487762237762265,
+          -0.020512237762237737,
+          0.05545240870240872
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 2,
+     "pattern": "RAND",
+     "bits": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "target_sites": [
+      82,
+      37,
+      83,
+      74
+     ],
+     "addresses_V": [
+      0.8902391304347826,
+      0.8986153846153846,
+      0.9175909090909091,
+      0.9335555555555556
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9081031468531469,
+     "min_target_distance_nm": 13.19783672221507,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.5,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.75,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9081031468531469,
+       "amplitudes_eV": [
+        -0.022864016418364216,
+        -0.014487762237762266,
+        0.014487762237762266,
+        0.030452408702408725
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.87375,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.87375,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9684375000000001,
+       "marginal_product": 0.87375,
+       "exact_snapshot_fraction": 0.8625,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9035750218531468,
+       "amplitudes_eV": [
+        -0.040364016418364214,
+        -0.06,
+        0.03723776223776227,
+        0.04701490870240872
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.014487762237762266,
+          0.014487762237762266,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9043531468531468,
+         "mean_n": [
+          1.0,
+          0.92,
+          0.91,
+          0.6625
+         ],
+         "marginals": [
+          1.0,
+          0.92,
+          0.08999999999999997,
+          0.3375
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.039487762237762264,
+          0.014487762237762266,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9099500218531468,
+         "mean_n": [
+          0.3,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          0.3,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.041487762237762266,
+          0.03723776223776227,
+          0.04701490870240872
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9035750218531468,
+         "mean_n": [
+          1.0,
+          0.95,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.95,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.040364016418364214,
+          -0.06,
+          0.03723776223776227,
+          0.04701490870240872
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.89,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.89,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9725,
+       "marginal_product": 0.89,
+       "exact_snapshot_fraction": 0.89375,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9039593968531469,
+       "amplitudes_eV": [
+        -0.03767651641836422,
+        -0.06,
+        0.03673776223776227,
+        0.04801490870240872
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9081031468531469,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.014487762237762266,
+          0.014487762237762266,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9043531468531468,
+         "mean_n": [
+          1.0,
+          0.895,
+          0.89,
+          0.7025
+         ],
+         "marginals": [
+          1.0,
+          0.895,
+          0.10999999999999999,
+          0.2975
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.039487762237762264,
+          0.014487762237762266,
+          0.030452408702408725
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9099312718531468,
+         "mean_n": [
+          0.4075,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          0.4075,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.022864016418364216,
+          -0.042112762237762266,
+          0.03673776223776227,
+          0.04801490870240872
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9039593968531469,
+         "mean_n": [
+          1.0,
+          0.9075,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.9075,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.03767651641836422,
+          -0.06,
+          0.03673776223776227,
+          0.04801490870240872
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "island_seed": 5,
+   "tasks": [
+    {
+     "island_seed": 5,
+     "pattern": "MONO",
+     "bits": [
+      1,
+      0,
+      0
+     ],
+     "target_sites": [
+      81,
+      22,
+      40
+     ],
+     "addresses_V": [
+      0.9592631578947368,
+      0.9827702702702703,
+      0.9951
+     ],
+     "global_Vb_V": 0.9710167140825036,
+     "median_Vb_V": 0.9827702702702703,
+     "min_target_distance_nm": 38.833263639036474,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.9,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.9,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9666666666666667,
+       "marginal_product": 0.9,
+       "exact_snapshot_fraction": 0.9,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9710167140825036
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.9425,
+        0.01
+       ],
+       "marginals": [
+        0.0,
+        0.9425,
+        0.01
+       ],
+       "mean_bit_accuracy": 0.3175,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012345679012345678,
+       "Vb_V": 0.9827702702702703,
+       "amplitudes_eV": [
+        -0.01850711237553349,
+        -0.005,
+        0.007329729729729677
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.09876543209876543,
+       "Vb_V": 0.9795702702702703,
+       "amplitudes_eV": [
+        0.0064928876244665125,
+        -0.021062500000000005,
+        -0.017607770270270325
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9827702702702703,
+         "mean_n": [
+          1.0,
+          1.0,
+          0.0025
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          0.0025
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.01850711237553349,
+          -0.005,
+          0.007329729729729677
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9827827702702703,
+         "mean_n": [
+          0.0,
+          0.3575,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.3575,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.0064928876244665125,
+          -0.005,
+          -0.017607770270270325
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9795702702702703,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.0064928876244665125,
+          -0.021062500000000005,
+          -0.017607770270270325
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.09876543209876543,
+       "Vb_V": 0.9795452702702704,
+       "amplitudes_eV": [
+        0.0064928876244665125,
+        -0.021312500000000005,
+        -0.017482770270270325
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9827702702702703,
+         "mean_n": [
+          1.0,
+          1.0,
+          0.0075
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          0.0075
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.01850711237553349,
+          -0.005,
+          0.007329729729729677
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9828077702702703,
+         "mean_n": [
+          0.0,
+          0.3475,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.3475,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.0064928876244665125,
+          -0.005,
+          -0.017482770270270325
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9795452702702704,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.0064928876244665125,
+          -0.021312500000000005,
+          -0.017482770270270325
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 5,
+     "pattern": "ALT",
+     "bits": [
+      0,
+      1,
+      0
+     ],
+     "target_sites": [
+      81,
+      22,
+      40
+     ],
+     "addresses_V": [
+      0.9592631578947368,
+      0.9827702702702703,
+      0.9951
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9827702702702703,
+     "min_target_distance_nm": 38.833263639036474,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.12345679012345678,
+       "Vb_V": 0.9827702702702703,
+       "amplitudes_eV": [
+        -0.02850711237553349,
+        0.005,
+        0.007329729729729677
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.01,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.99,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9966666666666667,
+       "marginal_product": 0.99,
+       "exact_snapshot_fraction": 0.99375,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.08641975308641975,
+       "Vb_V": 0.9777702702702703,
+       "amplitudes_eV": [
+        -0.02850711237553349,
+        0.005,
+        -0.017670270270270325
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9827702702702703,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.02850711237553349,
+          0.005,
+          0.007329729729729677
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9777702702702703,
+         "mean_n": [
+          1.0,
+          0.0225,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.9775,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02850711237553349,
+          0.005,
+          -0.017670270270270325
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.1125,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.8875,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9625,
+       "marginal_product": 0.8875,
+       "exact_snapshot_fraction": 0.8875,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.08641975308641975,
+       "Vb_V": 0.9777702702702703,
+       "amplitudes_eV": [
+        -0.02850711237553349,
+        0.005,
+        -0.017670270270270325
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9827702702702703,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.02850711237553349,
+          0.005,
+          0.007329729729729677
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9777702702702703,
+         "mean_n": [
+          1.0,
+          0.045,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.955,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02850711237553349,
+          0.005,
+          -0.017670270270270325
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 5,
+     "pattern": "RAND",
+     "bits": [
+      0,
+      1,
+      1
+     ],
+     "target_sites": [
+      81,
+      22,
+      40
+     ],
+     "addresses_V": [
+      0.9592631578947368,
+      0.9827702702702703,
+      0.9951
+     ],
+     "global_Vb_V": 1.006,
+     "median_Vb_V": 0.9827702702702703,
+     "min_target_distance_nm": 38.833263639036474,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 1.006
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.015,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.985,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.995,
+       "marginal_product": 0.985,
+       "exact_snapshot_fraction": 0.9875,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07407407407407407,
+       "Vb_V": 0.9827702702702703,
+       "amplitudes_eV": [
+        -0.02850711237553349,
+        0.005,
+        0.017329729729729678
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07407407407407407,
+       "Vb_V": 0.9827702702702703,
+       "amplitudes_eV": [
+        -0.02850711237553349,
+        0.005,
+        0.017329729729729678
+       ],
+       "feedback_updates": 0,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9827702702702703,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02850711237553349,
+          0.005,
+          0.017329729729729678
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07407407407407407,
+       "Vb_V": 0.9827702702702703,
+       "amplitudes_eV": [
+        -0.02850711237553349,
+        0.005,
+        0.017329729729729678
+       ],
+       "feedback_updates": 0,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9827702702702703,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02850711237553349,
+          0.005,
+          0.017329729729729678
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "island_seed": 6,
+   "tasks": [
+    {
+     "island_seed": 6,
+     "pattern": "MONO",
+     "bits": [
+      1,
+      0,
+      0
+     ],
+     "target_sites": [
+      43,
+      41,
+      34
+     ],
+     "addresses_V": [
+      0.9493611111111111,
+      0.9715416666666667,
+      0.9779047619047619
+     ],
+     "global_Vb_V": 0.9604513888888889,
+     "median_Vb_V": 0.9715416666666667,
+     "min_target_distance_nm": 17.36800617143008,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9604513888888889
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9715416666666667,
+       "amplitudes_eV": [
+        -0.017180555555555647,
+        -0.005,
+        0.0013630952380951954
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9692416666666667,
+       "amplitudes_eV": [
+        0.020506944444444355,
+        -0.0291875,
+        -0.023636904761904807
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9715416666666667,
+         "mean_n": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.017180555555555647,
+          -0.005,
+          0.0013630952380951954
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9765416666666668,
+         "mean_n": [
+          0.0,
+          0.0325,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0325,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.007819444444444355,
+          -0.005,
+          0.0013630952380951954
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9667041666666667,
+         "mean_n": [
+          0.5075,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.49250000000000005,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.007819444444444355,
+          -0.0291875,
+          -0.023636904761904807
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9692416666666667,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.020506944444444355,
+          -0.0291875,
+          -0.023636904761904807
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.012048192771084338,
+       "Vb_V": 0.9701416666666668,
+       "amplitudes_eV": [
+        0.025381944444444356,
+        -0.029562500000000002,
+        -0.023636904761904807
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9715416666666667,
+         "mean_n": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.017180555555555647,
+          -0.005,
+          0.0013630952380951954
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9765416666666668,
+         "mean_n": [
+          0.0,
+          0.0175,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0175,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.007819444444444355,
+          -0.005,
+          0.0013630952380951954
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9666291666666668,
+         "mean_n": [
+          0.7025,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.2975,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.007819444444444355,
+          -0.029562500000000002,
+          -0.023636904761904807
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9701416666666668,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.025381944444444356,
+          -0.029562500000000002,
+          -0.023636904761904807
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 6,
+     "pattern": "ALT",
+     "bits": [
+      0,
+      1,
+      0
+     ],
+     "target_sites": [
+      43,
+      41,
+      34
+     ],
+     "addresses_V": [
+      0.9493611111111111,
+      0.9715416666666667,
+      0.9779047619047619
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9715416666666667,
+     "min_target_distance_nm": 17.36800617143008,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.08433734939759036,
+       "Vb_V": 0.9715416666666667,
+       "amplitudes_eV": [
+        -0.02718055555555565,
+        0.005,
+        0.0013630952380951954
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.9075,
+        0.0,
+        0.99875
+       ],
+       "marginals": [
+        0.9075,
+        1.0,
+        0.99875
+       ],
+       "mean_bit_accuracy": 0.96875,
+       "marginal_product": 0.906365625,
+       "exact_snapshot_fraction": 0.9125,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.12048192771084337,
+       "Vb_V": 0.9765416666666668,
+       "amplitudes_eV": [
+        -0.02718055555555565,
+        0.030000000000000002,
+        0.0013630952380951954
+       ],
+       "feedback_updates": 1,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9715416666666667,
+         "mean_n": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.02718055555555565,
+          0.005,
+          0.0013630952380951954
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9765416666666668,
+         "mean_n": [
+          0.96,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          0.96,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02718055555555565,
+          0.030000000000000002,
+          0.0013630952380951954
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.10843373493975904,
+       "Vb_V": 0.9760041666666668,
+       "amplitudes_eV": [
+        -0.02986805555555565,
+        0.030000000000000002,
+        0.0013630952380951954
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9715416666666667,
+         "mean_n": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.02718055555555565,
+          0.005,
+          0.0013630952380951954
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9765416666666668,
+         "mean_n": [
+          0.8925,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          0.8925,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02718055555555565,
+          0.030000000000000002,
+          0.0013630952380951954
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9760041666666668,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02986805555555565,
+          0.030000000000000002,
+          0.0013630952380951954
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 6,
+     "pattern": "RAND",
+     "bits": [
+      1,
+      0,
+      1
+     ],
+     "target_sites": [
+      43,
+      41,
+      34
+     ],
+     "addresses_V": [
+      0.9493611111111111,
+      0.9715416666666667,
+      0.9779047619047619
+     ],
+     "global_Vb_V": 1.006,
+     "median_Vb_V": 0.9715416666666667,
+     "min_target_distance_nm": 17.36800617143008,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 1.006
+      },
+      "L20M": {
+       "mean_n": [
+        0.8975,
+        1.0,
+        0.14
+       ],
+       "marginals": [
+        0.10250000000000004,
+        1.0,
+        0.86
+       ],
+       "mean_bit_accuracy": 0.6541666666666667,
+       "marginal_product": 0.08815000000000003,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.08433734939759036,
+       "Vb_V": 0.9715416666666667,
+       "amplitudes_eV": [
+        -0.017180555555555647,
+        -0.005,
+        0.011363095238095196
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0963855421686747,
+       "Vb_V": 0.9717166666666667,
+       "amplitudes_eV": [
+        0.0038819444444443546,
+        -0.029687500000000002,
+        0.015863095238095197
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9715416666666667,
+         "mean_n": [
+          0.8425,
+          1.0,
+          0.18
+         ],
+         "marginals": [
+          0.15749999999999997,
+          1.0,
+          0.8200000000000001
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.017180555555555647,
+          -0.005,
+          0.011363095238095196
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9766541666666667,
+         "mean_n": [
+          0.0,
+          0.0125,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0125,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.0038819444444443546,
+          -0.005,
+          0.015863095238095197
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9717166666666667,
+         "mean_n": [
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.0038819444444443546,
+          -0.029687500000000002,
+          0.015863095238095197
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0963855421686747,
+       "Vb_V": 0.9717291666666668,
+       "amplitudes_eV": [
+        0.006194444444444357,
+        -0.030000000000000002,
+        0.013925595238095197
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9715416666666667,
+         "mean_n": [
+          0.935,
+          1.0,
+          0.1025
+         ],
+         "marginals": [
+          0.06499999999999995,
+          1.0,
+          0.8975
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.017180555555555647,
+          -0.005,
+          0.011363095238095196
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9767291666666668,
+         "mean_n": [
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.006194444444444357,
+          -0.005,
+          0.013925595238095197
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9717291666666668,
+         "mean_n": [
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.006194444444444357,
+          -0.030000000000000002,
+          0.013925595238095197
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "island_seed": 7,
+   "tasks": [
+    {
+     "island_seed": 7,
+     "pattern": "MONO",
+     "bits": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "target_sites": [
+      46,
+      0,
+      29,
+      14
+     ],
+     "addresses_V": [
+      0.94665,
+      0.9524117647058824,
+      0.973108695652174,
+      0.9806666666666667
+     ],
+     "global_Vb_V": 0.9627602301790281,
+     "median_Vb_V": 0.9627602301790281,
+     "min_target_distance_nm": 11.851984299075593,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9627602301790281
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.74375,
+        1.0
+       ],
+       "marginals": [
+        0.0,
+        1.0,
+        0.74375,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6859375,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9627602301790281,
+       "amplitudes_eV": [
+        -0.011110230179028128,
+        -0.005348465473145718,
+        0.005348465473145829,
+        0.012906436487638565
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        0.01625,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.98375,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9959375,
+       "marginal_product": 0.98375,
+       "exact_snapshot_fraction": 0.98125,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.014492753623188406,
+       "Vb_V": 0.9628071051790281,
+       "amplitudes_eV": [
+        0.013889769820971874,
+        -0.005348465473145718,
+        -0.0025265345268541692,
+        -0.003906063512361436
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.685,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          1.0,
+          0.685,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.011110230179028128,
+          -0.005348465473145718,
+          0.005348465473145829,
+          0.012906436487638565
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9653289801790281,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          0.3275
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.3275
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.013889769820971874,
+          -0.005348465473145718,
+          -0.0025265345268541692,
+          0.012906436487638565
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9628071051790281,
+         "mean_n": [
+          0.0,
+          0.03,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.97,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.013889769820971874,
+          -0.005348465473145718,
+          -0.0025265345268541692,
+          -0.003906063512361436
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        0.0425,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.9575,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.989375,
+       "marginal_product": 0.9575,
+       "exact_snapshot_fraction": 0.9625,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.014492753623188406,
+       "Vb_V": 0.9628258551790281,
+       "amplitudes_eV": [
+        0.013827269820971873,
+        -0.005348465473145718,
+        -0.002339034526854171,
+        -0.003906063512361436
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          0.9975,
+          0.0,
+          0.6925,
+          1.0
+         ],
+         "marginals": [
+          0.0024999999999999467,
+          1.0,
+          0.6925,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.011110230179028128,
+          -0.005348465473145718,
+          0.005348465473145829,
+          0.012906436487638565
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9653477301790281,
+         "mean_n": [
+          0.0,
+          0.0,
+          1.0,
+          0.3275
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          0.3275
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.013827269820971873,
+          -0.005348465473145718,
+          -0.002339034526854171,
+          0.012906436487638565
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9628258551790281,
+         "mean_n": [
+          0.0,
+          0.02,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.98,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.013827269820971873,
+          -0.005348465473145718,
+          -0.002339034526854171,
+          -0.003906063512361436
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 7,
+     "pattern": "ALT",
+     "bits": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "target_sites": [
+      46,
+      0,
+      29,
+      14
+     ],
+     "addresses_V": [
+      0.94665,
+      0.9524117647058824,
+      0.973108695652174,
+      0.9806666666666667
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9627602301790281,
+     "min_target_distance_nm": 11.851984299075593,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.5,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.99625,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.99625,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9990625,
+       "marginal_product": 0.99625,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.043478260869565216,
+       "Vb_V": 0.9627602301790281,
+       "amplitudes_eV": [
+        -0.02111023017902813,
+        -0.005348465473145718,
+        0.005348465473145829,
+        0.022906436487638567
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.99125,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.99125,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9978125,
+       "marginal_product": 0.99125,
+       "exact_snapshot_fraction": 0.9875,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.043478260869565216,
+       "Vb_V": 0.9627602301790281,
+       "amplitudes_eV": [
+        -0.02111023017902813,
+        -0.005348465473145718,
+        0.005348465473145829,
+        0.022906436487638567
+       ],
+       "feedback_updates": 0,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.9975,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.9975,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02111023017902813,
+          -0.005348465473145718,
+          0.005348465473145829,
+          0.022906436487638567
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.043478260869565216,
+       "Vb_V": 0.9627602301790281,
+       "amplitudes_eV": [
+        -0.02111023017902813,
+        -0.005348465473145718,
+        0.005348465473145829,
+        0.022906436487638567
+       ],
+       "feedback_updates": 0,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.9875,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.9875,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.02111023017902813,
+          -0.005348465473145718,
+          0.005348465473145829,
+          0.022906436487638567
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 7,
+     "pattern": "RAND",
+     "bits": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "target_sites": [
+      46,
+      0,
+      29,
+      14
+     ],
+     "addresses_V": [
+      0.94665,
+      0.9524117647058824,
+      0.973108695652174,
+      0.9806666666666667
+     ],
+     "global_Vb_V": 1.006,
+     "median_Vb_V": 0.9627602301790281,
+     "min_target_distance_nm": 11.851984299075593,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.75,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        1,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 1.006
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.00375,
+        0.0,
+        0.99125
+       ],
+       "marginals": [
+        0.0,
+        0.00375,
+        1.0,
+        0.008750000000000036
+       ],
+       "mean_bit_accuracy": 0.253125,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.10144927536231885,
+       "Vb_V": 0.9627602301790281,
+       "amplitudes_eV": [
+        -0.011110230179028128,
+        -0.01534846547314572,
+        0.01534846547314583,
+        0.022906436487638567
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        0.9725,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        0.9725,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.993125,
+       "marginal_product": 0.9725,
+       "exact_snapshot_fraction": 0.96875,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.08695652173913043,
+       "Vb_V": 0.9666414801790281,
+       "amplitudes_eV": [
+        0.01570226982097187,
+        -0.06,
+        0.01691096547314583,
+        0.06
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.011110230179028128,
+          -0.01534846547314572,
+          0.01534846547314583,
+          0.022906436487638567
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9665102301790282,
+         "mean_n": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.013889769820971874,
+          -0.04034846547314572,
+          0.01534846547314583,
+          0.047906436487638565
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          0.0725,
+          1.0,
+          0.0625,
+          0.9
+         ],
+         "marginals": [
+          0.9275,
+          1.0,
+          0.9375,
+          0.09999999999999998
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.013889769820971874,
+          -0.06,
+          0.01534846547314583,
+          0.047906436487638565
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9666414801790281,
+         "mean_n": [
+          0.0,
+          0.92,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.92,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.01570226982097187,
+          -0.06,
+          0.01691096547314583,
+          0.06
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.08695652173913043,
+       "Vb_V": 0.9666508551790282,
+       "amplitudes_eV": [
+        0.013889769820971874,
+        -0.06,
+        0.01741096547314583,
+        0.06
+       ],
+       "feedback_updates": 3,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.011110230179028128,
+          -0.01534846547314572,
+          0.01534846547314583,
+          0.022906436487638567
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9665102301790282,
+         "mean_n": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.013889769820971874,
+          -0.04034846547314572,
+          0.01534846547314583,
+          0.047906436487638565
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9627602301790281,
+         "mean_n": [
+          0.0,
+          1.0,
+          0.0825,
+          0.955
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.9175,
+          0.04500000000000004
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          0.013889769820971874,
+          -0.06,
+          0.01534846547314583,
+          0.047906436487638565
+         ]
+        },
+        {
+         "round": 3,
+         "Vb_V": 0.9666508551790282,
+         "mean_n": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.013889769820971874,
+          -0.06,
+          0.01741096547314583,
+          0.06
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "island_seed": 8,
+   "tasks": [
+    {
+     "island_seed": 8,
+     "pattern": "MONO",
+     "bits": [
+      1,
+      0,
+      0
+     ],
+     "target_sites": [
+      72,
+      19,
+      20
+     ],
+     "addresses_V": [
+      0.9645263157894737,
+      0.9701111111111111,
+      0.9851388888888889
+     ],
+     "global_Vb_V": 0.9673187134502924,
+     "median_Vb_V": 0.9701111111111111,
+     "min_target_distance_nm": 30.540038038661002,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9673187134502924
+      },
+      "L20M": {
+       "mean_n": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        1,
+        0,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.9701111111111111,
+       "amplitudes_eV": [
+        -0.0005847953216374701,
+        -0.005,
+        0.01002777777777775
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.03896103896103896,
+       "Vb_V": 0.9697986111111111,
+       "amplitudes_eV": [
+        0.02285270467836253,
+        -0.005,
+        -0.014972222222222251
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9701111111111111,
+         "mean_n": [
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.0005847953216374701,
+          -0.005,
+          0.01002777777777775
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9651111111111111,
+         "mean_n": [
+          0.9375,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.0625,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.0005847953216374701,
+          -0.005,
+          -0.014972222222222251
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9697986111111111,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.02285270467836253,
+          -0.005,
+          -0.014972222222222251
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        1,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.03896103896103896,
+       "Vb_V": 0.9699236111111111,
+       "amplitudes_eV": [
+        0.02347770467836253,
+        -0.005,
+        -0.014972222222222251
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9701111111111111,
+         "mean_n": [
+          0.0,
+          1.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.0005847953216374701,
+          -0.005,
+          0.01002777777777775
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9651111111111111,
+         "mean_n": [
+          0.9625,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          0.03749999999999998,
+          1.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.0005847953216374701,
+          -0.005,
+          -0.014972222222222251
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9699236111111111,
+         "mean_n": [
+          0.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          0.02347770467836253,
+          -0.005,
+          -0.014972222222222251
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 8,
+     "pattern": "ALT",
+     "bits": [
+      0,
+      1,
+      0
+     ],
+     "target_sites": [
+      72,
+      19,
+      20
+     ],
+     "addresses_V": [
+      0.9645263157894737,
+      0.9701111111111111,
+      0.9851388888888889
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9701111111111111,
+     "min_target_distance_nm": 30.540038038661002,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.06493506493506493,
+       "Vb_V": 0.9701111111111111,
+       "amplitudes_eV": [
+        -0.010584795321637471,
+        0.005,
+        0.01002777777777775
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07792207792207792,
+       "Vb_V": 0.9695986111111111,
+       "amplitudes_eV": [
+        -0.010584795321637471,
+        0.0274375,
+        -0.014972222222222251
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9701111111111111,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          0.01002777777777775
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9651111111111111,
+         "mean_n": [
+          1.0,
+          0.8975,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.10250000000000004,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          -0.014972222222222251
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9695986111111111,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.0274375,
+          -0.014972222222222251
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 1.0,
+       "marginal_product": 1.0,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07792207792207792,
+       "Vb_V": 0.9700986111111112,
+       "amplitudes_eV": [
+        -0.010584795321637471,
+        0.029937500000000002,
+        -0.014972222222222251
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9701111111111111,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          0.01002777777777775
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9651111111111111,
+         "mean_n": [
+          1.0,
+          0.9975,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.0024999999999999467,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          -0.014972222222222251
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9700986111111112,
+         "mean_n": [
+          0.995,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          0.995,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.029937500000000002,
+          -0.014972222222222251
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "island_seed": 8,
+     "pattern": "RAND",
+     "bits": [
+      0,
+      1,
+      0
+     ],
+     "target_sites": [
+      72,
+      19,
+      20
+     ],
+     "addresses_V": [
+      0.9645263157894737,
+      0.9701111111111111,
+      0.9851388888888889
+     ],
+     "global_Vb_V": 0.805,
+     "median_Vb_V": 0.9701111111111111,
+     "min_target_distance_nm": 30.540038038661002,
+     "protocols": {
+      "G": {
+       "mean_n": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "marginals": [
+        1.0,
+        0.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        0,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.0,
+       "Vb_V": 0.805
+      },
+      "L20M": {
+       "mean_n": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "marginals": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "mean_bit_accuracy": 0.6666666666666666,
+       "marginal_product": 0.0,
+       "exact_snapshot_fraction": 0.0,
+       "modal_exact": false,
+       "modal_bits": [
+        0,
+        1,
+        1
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.06493506493506493,
+       "Vb_V": 0.9701111111111111,
+       "amplitudes_eV": [
+        -0.010584795321637471,
+        0.005,
+        0.01002777777777775
+       ]
+      },
+      "CL20M": {
+       "mean_n": [
+        0.99875,
+        0.0,
+        1.0
+       ],
+       "marginals": [
+        0.99875,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9995833333333334,
+       "marginal_product": 0.99875,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07792207792207792,
+       "Vb_V": 0.9700361111111111,
+       "amplitudes_eV": [
+        -0.010584795321637471,
+        0.029625000000000002,
+        -0.014972222222222251
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9701111111111111,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          0.01002777777777775
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9651111111111111,
+         "mean_n": [
+          1.0,
+          0.985,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.015000000000000013,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          -0.014972222222222251
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9700361111111111,
+         "mean_n": [
+          1.0,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.029625000000000002,
+          -0.014972222222222251
+         ]
+        }
+       ]
+      },
+      "CL20A": {
+       "mean_n": [
+        0.99625,
+        0.0,
+        1.0
+       ],
+       "marginals": [
+        0.99625,
+        1.0,
+        1.0
+       ],
+       "mean_bit_accuracy": 0.9987499999999999,
+       "marginal_product": 0.99625,
+       "exact_snapshot_fraction": 1.0,
+       "modal_exact": true,
+       "modal_bits": [
+        0,
+        1,
+        0
+       ],
+       "nontarget_modal_flip_fraction_vs_G": 0.07792207792207792,
+       "Vb_V": 0.9701111111111111,
+       "amplitudes_eV": [
+        -0.010584795321637471,
+        0.030000000000000002,
+        -0.014972222222222251
+       ],
+       "feedback_updates": 2,
+       "feedback_rounds": [
+        {
+         "round": 0,
+         "Vb_V": 0.9701111111111111,
+         "mean_n": [
+          1.0,
+          0.0,
+          0.0
+         ],
+         "marginals": [
+          1.0,
+          1.0,
+          0.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          0.01002777777777775
+         ]
+        },
+        {
+         "round": 1,
+         "Vb_V": 0.9651111111111111,
+         "mean_n": [
+          1.0,
+          1.0,
+          1.0
+         ],
+         "marginals": [
+          1.0,
+          0.0,
+          1.0
+         ],
+         "modal_exact": false,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.005,
+          -0.014972222222222251
+         ]
+        },
+        {
+         "round": 2,
+         "Vb_V": 0.9701111111111111,
+         "mean_n": [
+          0.9975,
+          0.0,
+          1.0
+         ],
+         "marginals": [
+          0.9975,
+          1.0,
+          1.0
+         ],
+         "modal_exact": true,
+         "amplitudes_eV": [
+          -0.010584795321637471,
+          0.030000000000000002,
+          -0.014972222222222251
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "aggregates": {
+  "G": {
+   "mean_bit_accuracy": 0.7509523809523808,
+   "mean_exact_snapshot_fraction": 0.32529761904761906,
+   "mean_marginal_product": 0.3251709077380952,
+   "modal_exact_fraction": 0.3333333333333333,
+   "modal_exact_count": "7/21",
+   "mean_nontarget_modal_flip_fraction": 0.0,
+   "by_pattern": {
+    "MONO": {
+     "mean_bit_accuracy": 0.9926488095238096,
+     "mean_exact_snapshot_fraction": 0.9758928571428571,
+     "modal_exact_fraction": 1.0,
+     "modal_exact_count": "7/7"
+    },
+    "ALT": {
+     "mean_bit_accuracy": 0.5952380952380951,
+     "mean_exact_snapshot_fraction": 0.0,
+     "modal_exact_fraction": 0.0,
+     "modal_exact_count": "0/7"
+    },
+    "RAND": {
+     "mean_bit_accuracy": 0.664970238095238,
+     "mean_exact_snapshot_fraction": 0.0,
+     "modal_exact_fraction": 0.0,
+     "modal_exact_count": "0/7"
+    }
+   }
+  },
+  "L20M": {
+   "mean_bit_accuracy": 0.6456646825396825,
+   "mean_exact_snapshot_fraction": 0.10982142857142858,
+   "mean_marginal_product": 0.10895249813988095,
+   "modal_exact_fraction": 0.09523809523809523,
+   "modal_exact_count": "2/21",
+   "mean_nontarget_modal_flip_fraction": 0.05026988296426439,
+   "by_pattern": {
+    "MONO": {
+     "mean_bit_accuracy": 0.563764880952381,
+     "mean_exact_snapshot_fraction": 0.0062499999999999995,
+     "modal_exact_fraction": 0.0,
+     "modal_exact_count": "0/7"
+    },
+    "ALT": {
+     "mean_bit_accuracy": 0.7266071428571428,
+     "mean_exact_snapshot_fraction": 0.1625,
+     "modal_exact_fraction": 0.14285714285714285,
+     "modal_exact_count": "1/7"
+    },
+    "RAND": {
+     "mean_bit_accuracy": 0.6466220238095238,
+     "mean_exact_snapshot_fraction": 0.16071428571428573,
+     "modal_exact_fraction": 0.14285714285714285,
+     "modal_exact_count": "1/7"
+    }
+   }
+  },
+  "CL20M": {
+   "mean_bit_accuracy": 0.9945188492063491,
+   "mean_exact_snapshot_fraction": 0.98125,
+   "mean_marginal_product": 0.9814340773809525,
+   "modal_exact_fraction": 1.0,
+   "modal_exact_count": "21/21",
+   "mean_nontarget_modal_flip_fraction": 0.062464058999354165,
+   "by_pattern": {
+    "MONO": {
+     "mean_bit_accuracy": 0.9994196428571429,
+     "mean_exact_snapshot_fraction": 0.9973214285714286,
+     "modal_exact_fraction": 1.0,
+     "modal_exact_count": "7/7"
+    },
+    "ALT": {
+     "mean_bit_accuracy": 0.9896874999999999,
+     "mean_exact_snapshot_fraction": 0.9705357142857142,
+     "modal_exact_fraction": 1.0,
+     "modal_exact_count": "7/7"
+    },
+    "RAND": {
+     "mean_bit_accuracy": 0.9944494047619049,
+     "mean_exact_snapshot_fraction": 0.9758928571428571,
+     "modal_exact_fraction": 1.0,
+     "modal_exact_count": "7/7"
+    }
+   }
+  },
+  "CL20A": {
+   "mean_bit_accuracy": 0.9955853174603175,
+   "mean_exact_snapshot_fraction": 0.9848214285714285,
+   "mean_marginal_product": 0.9849404761904762,
+   "modal_exact_fraction": 1.0,
+   "modal_exact_count": "21/21",
+   "mean_nontarget_modal_flip_fraction": 0.06293690800920834,
+   "by_pattern": {
+    "MONO": {
+     "mean_bit_accuracy": 0.9984821428571429,
+     "mean_exact_snapshot_fraction": 0.9946428571428572,
+     "modal_exact_fraction": 1.0,
+     "modal_exact_count": "7/7"
+    },
+    "ALT": {
+     "mean_bit_accuracy": 0.9923809523809525,
+     "mean_exact_snapshot_fraction": 0.975,
+     "modal_exact_fraction": 1.0,
+     "modal_exact_count": "7/7"
+    },
+    "RAND": {
+     "mean_bit_accuracy": 0.9958928571428572,
+     "mean_exact_snapshot_fraction": 0.9848214285714285,
+     "modal_exact_fraction": 1.0,
+     "modal_exact_count": "7/7"
+    }
+   }
+  }
+ },
+ "verdicts": {
+  "UC3_1": "fail",
+  "UC3_2": "pass",
+  "UC3_3": "fail",
+  "UC3_4": "pass",
+  "UC3_5": "fail",
+  "UC3_6": "pass",
+  "diagnostics": {
+   "L20M_nonmono_modal_count": "2/14",
+   "L20M_nonmono_bit": 0.6866145833333334,
+   "CL20M_nonmono_marginal": 0.9920684523809525,
+   "CL20M_nonmono_exact": 0.9732142857142857,
+   "CL20M_nonmono_modal_count": "14/14",
+   "CL20M_median_updates_nonmono": 2.0,
+   "CL20A_nonmono_marginal": 0.9941369047619047,
+   "CL20A_nonmono_exact": 0.9799107142857143,
+   "CL20A_nonmono_modal_count": "14/14",
+   "CL20A_ALT_modal_count": "7/7",
+   "CL20A_minus_CL20M_modal": 0.0,
+   "CL20A_nontarget_flip": 0.06293690800920834,
+   "CL20M_nontarget_flip": 0.062464058999354165,
+   "CL20A_amp_within_45mV_fraction": 0.9027777777777778,
+   "CL20A_Vb_range": [
+    0.9039593968531469,
+    0.9827702702702703
+   ],
+   "G_consistency_note": "G recomputed with the corrected sampler and same final seed offset as v2; compare with v2 aggregates in the summary"
+  }
+ },
+ "v2_reference": {
+  "verdicts": {
+   "UC1": "pass",
+   "UC2": "fail",
+   "UC3": "fail",
+   "UC4": "fail",
+   "UC5": "pass",
+   "UC6": "fail",
+   "diagnostics": {
+    "G_modal_MONO": 1.0,
+    "G_modal_ALT": 0.0,
+    "G_modal_RAND": 0.0,
+    "G_modal_nonmono": 0.0,
+    "L10_modal_nonmono": 0.2857142857142857,
+    "L20_modal_nonmono": 0.21428571428571427,
+    "L40_modal_nonmono": 0.0,
+    "CL20_marginal_nonmono": 0.7559523809523808,
+    "CL20_exact_nonmono": 0.35714285714285715,
+    "CL20_modal_nonmono": 0.35714285714285715,
+    "CL20_median_updates": 1.0,
+    "G_product_minus_exact": 0.0,
+    "CL20_abs_product_gap": 0.0,
+    "UC6_n_close": 12,
+    "UC6_n_far": 6,
+    "UC6_L20_gap": 0.027447916666666794,
+    "UC6_CL20_gap": 0.006944444444444531
+   }
+  },
+  "aggregates": {
+   "G": {
+    "mean_bit_accuracy": 0.7509523809523808,
+    "mean_exact_snapshot_fraction": 0.32529761904761906,
+    "mean_marginal_product": 0.3251709077380952,
+    "modal_exact_fraction": 0.3333333333333333,
+    "modal_exact_count": "7/21",
+    "mean_nontarget_modal_flip_fraction": 0.0,
+    "by_pattern": {
+     "MONO": {
+      "mean_bit_accuracy": 0.9926488095238096,
+      "mean_exact_snapshot_fraction": 0.9758928571428571,
+      "modal_exact_fraction": 1.0,
+      "modal_exact_count": "7/7"
+     },
+     "ALT": {
+      "mean_bit_accuracy": 0.5952380952380951,
+      "mean_exact_snapshot_fraction": 0.0,
+      "modal_exact_fraction": 0.0,
+      "modal_exact_count": "0/7"
+     },
+     "RAND": {
+      "mean_bit_accuracy": 0.664970238095238,
+      "mean_exact_snapshot_fraction": 0.0,
+      "modal_exact_fraction": 0.0,
+      "modal_exact_count": "0/7"
+     }
+    }
+   },
+   "L10": {
+    "mean_bit_accuracy": 0.8134325396825397,
+    "mean_exact_snapshot_fraction": 0.5235119047619048,
+    "mean_marginal_product": 0.5236309523809524,
+    "modal_exact_fraction": 0.5238095238095238,
+    "modal_exact_count": "11/21",
+    "mean_nontarget_modal_flip_fraction": 0.013463064274147543,
+    "by_pattern": {
+     "MONO": {
+      "mean_bit_accuracy": 1.0,
+      "mean_exact_snapshot_fraction": 1.0,
+      "modal_exact_fraction": 1.0,
+      "modal_exact_count": "7/7"
+     },
+     "ALT": {
+      "mean_bit_accuracy": 0.5952380952380951,
+      "mean_exact_snapshot_fraction": 0.0,
+      "modal_exact_fraction": 0.0,
+      "modal_exact_count": "0/7"
+     },
+     "RAND": {
+      "mean_bit_accuracy": 0.8450595238095238,
+      "mean_exact_snapshot_fraction": 0.5705357142857143,
+      "modal_exact_fraction": 0.5714285714285714,
+      "modal_exact_count": "4/7"
+     }
+    }
+   },
+   "L20": {
+    "mean_bit_accuracy": 0.7892956349206349,
+    "mean_exact_snapshot_fraction": 0.44910714285714287,
+    "mean_marginal_product": 0.44976190476190475,
+    "modal_exact_fraction": 0.47619047619047616,
+    "modal_exact_count": "10/21",
+    "mean_nontarget_modal_flip_fraction": 0.02357641828698039,
+    "by_pattern": {
+     "MONO": {
+      "mean_bit_accuracy": 1.0,
+      "mean_exact_snapshot_fraction": 1.0,
+      "modal_exact_fraction": 1.0,
+      "modal_exact_count": "7/7"
+     },
+     "ALT": {
+      "mean_bit_accuracy": 0.5952380952380951,
+      "mean_exact_snapshot_fraction": 0.0,
+      "modal_exact_fraction": 0.0,
+      "modal_exact_count": "0/7"
+     },
+     "RAND": {
+      "mean_bit_accuracy": 0.7726488095238094,
+      "mean_exact_snapshot_fraction": 0.34732142857142856,
+      "modal_exact_fraction": 0.42857142857142855,
+      "modal_exact_count": "3/7"
+     }
+    }
+   },
+   "L40": {
+    "mean_bit_accuracy": 0.7447123015873016,
+    "mean_exact_snapshot_fraction": 0.30773809523809526,
+    "mean_marginal_product": 0.3069047619047619,
+    "modal_exact_fraction": 0.2857142857142857,
+    "modal_exact_count": "6/21",
+    "mean_nontarget_modal_flip_fraction": 0.021627122109869838,
+    "by_pattern": {
+     "MONO": {
+      "mean_bit_accuracy": 0.971547619047619,
+      "mean_exact_snapshot_fraction": 0.9160714285714285,
+      "modal_exact_fraction": 0.8571428571428571,
+      "modal_exact_count": "6/7"
+     },
+     "ALT": {
+      "mean_bit_accuracy": 0.5952380952380951,
+      "mean_exact_snapshot_fraction": 0.0,
+      "modal_exact_fraction": 0.0,
+      "modal_exact_count": "0/7"
+     },
+     "RAND": {
+      "mean_bit_accuracy": 0.6673511904761904,
+      "mean_exact_snapshot_fraction": 0.0071428571428571435,
+      "modal_exact_fraction": 0.0,
+      "modal_exact_count": "0/7"
+     }
+    }
+   },
+   "CL20": {
+    "mean_bit_accuracy": 0.8373015873015874,
+    "mean_exact_snapshot_fraction": 0.5714285714285714,
+    "mean_marginal_product": 0.5714285714285714,
+    "modal_exact_fraction": 0.5714285714285714,
+    "modal_exact_count": "12/21",
+    "mean_nontarget_modal_flip_fraction": 0.026197062729571,
+    "by_pattern": {
+     "MONO": {
+      "mean_bit_accuracy": 1.0,
+      "mean_exact_snapshot_fraction": 1.0,
+      "modal_exact_fraction": 1.0,
+      "modal_exact_count": "7/7"
+     },
+     "ALT": {
+      "mean_bit_accuracy": 0.6309523809523808,
+      "mean_exact_snapshot_fraction": 0.0,
+      "modal_exact_fraction": 0.0,
+      "modal_exact_count": "0/7"
+     },
+     "RAND": {
+      "mean_bit_accuracy": 0.880952380952381,
+      "mean_exact_snapshot_fraction": 0.7142857142857143,
+      "modal_exact_fraction": 0.7142857142857143,
+      "modal_exact_count": "5/7"
+     }
+    }
+   }
+  }
+ },
+ "wall_s": 9.271581411361694
+}

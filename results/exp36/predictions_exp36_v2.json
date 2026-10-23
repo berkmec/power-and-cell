@@ -1,0 +1,26 @@
+{
+ "registered": "2026-10-17 (this session, AFTER Exp36 v1 outcomes and deterministic actuator diagnostics, BEFORE any Exp36 v2 Monte Carlo outcome)",
+ "supersedes": "predictions_exp36.json remains the v1 registration. universal_control36.json is archived byte-identically as universal_control36_v1.json and is not overwritten by v2.",
+ "v1_diagnosis_disclosed": {
+  "SEG_SS1_v1": "ALT+RAND marginal 0.769, exact snapshot 0.413, modal 6/14, overall non-target flips 3.34%; RS1-RS5 fail, RS6 pass.",
+  "unpenalised_v1": "SEG-SS1-U marginal 0.894, exact 0.775, modal 11/14, but overall non-target flips 13.65%.",
+  "linear_actuator_diagnostic": "For the same initial desired corrections, raw mu=0.020 gives target-residual RMS 21.2 meV and background-delta RMS 26.1 meV; mu=0.005 gives 11.5 meV and 41.6 meV, with frozen-local-field predicted background flips 4.54%. Risk-weighted variants did not dominate raw mu=0.005 on this deterministic diagnostic.",
+  "stopping_diagnosis": "Two consecutive exact single-shot reads can occur while the exact-snapshot probability is only about 0.41, so v1 can stop before robust margins are established."
+ },
+ "v2_controller_changes": {
+  "background_penalty": "mu_BG 0.020 -> 0.005 in the same unnormalised least-squares objective; SEG-SS1-U ablation remains mu_BG=0.",
+  "single_shot_stop": "Stop after 5 consecutive estimated-exact rounds (not 2), maximum 20 rounds. SEG-SS1 uses one p=0.01 read per round; SEG-SS5 uses 3-read p=0.05 majority per round.",
+  "binary_feedback": "Wrong estimated target changes its desired correction by 30 meV (not 20), desired clip +/-220 meV (not +/-180), initial guard 10 meV (not 5).",
+  "analog_ablation": "SEG-ANA maximum 12 rounds and stops only at modal-exact with minimum marginal >=0.95.",
+  "unchanged": "Surface kernel, 600-sweep feedback segments, 1200-sweep fresh verification, islands/patterns, basis and actuator clips."
+ },
+ "full_control_declaration_rule": "Unchanged: report full control only if BOTH SEG-SS1 and SEG-SS5 meet ALT+RAND marginal >=0.95, exact snapshot >=0.65, modal >=80%, and overall non-target modal flips <=5%.",
+ "predictions": [
+  "RV1 ANALOG PHYSICAL KERNEL: SEG-ANA reaches ALT+RAND marginal >=0.95, exact snapshot >=0.65, modal >=80%, overall non-target flips <=5%, and at least 1.5 points below Exp35 CL20M's 6.25%.",
+  "RV2 SINGLE-SHOT 1%: SEG-SS1 reaches the same ALT+RAND marginal/exact/modal/background budgets, with median true feedback updates <=10 and at most 1 false stop among 21 tasks.",
+  "RV3 NOISY MAJORITY: SEG-SS5 reaches ALT+RAND marginal >=0.90, exact snapshot >=0.55, modal >=70%, overall non-target flips <=5%, and modal success no more than 15 points below SEG-SS1.",
+  "RV4 PENALTY ABLATION: SEG-SS1-U overall non-target flips are at least 2 points above SEG-SS1, with no more than 10 points higher ALT+RAND modal success.",
+  "RV5 DEPTH: Same fixed z=75 nm bins as v1; if each has at least 8 target-task bits, first-round SEG-ANA shallow-deep marginal gap >=10 points and final SEG-SS1 gap <=5 points.",
+  "RV6 ACTUATOR: At least 90% of final SEG-SS1 segment coefficients within +/-0.50 V, fewer than 10% at the +/-0.80 V clip, and every effective global Vb in 0.805-1.006 V."
+ ]
+}

@@ -1,0 +1,13 @@
+regen_control_v3.3: N 3 -> min 3 -> son 3 | bölünme 0 | doğum 0 (2 s)
+regen_recycle_v3.3: N 3 -> min 3 -> son 3 | bölünme 0 | doğum 0 (3 s)
+regen_recycle_heal_v3.3: N 3 -> min 3 -> son 4 | bölünme 1 | doğum 0 (5 s)
+regen_eject_v3.3: N 3 -> min 3 -> son 3 | bölünme 0 | doğum 1 (6 s)
+regen_recycle_replace_heal_v3.3: N 3 -> min 3 -> son 3 | bölünme 0 | doğum 0 (7 s)
+regen_eject_replace_v3.3: N 3 -> min 3 -> son 3 | bölünme 0 | doğum 1 (7 s)
+regen_recycle_v5: N 3 -> min 3 -> son 5 | bölünme 1 | doğum 2 (4 s)
+regen_recycle_heal_v5: N 3 -> min 3 -> son 5 | bölünme 1 | doğum 2 (8 s)
+regen_recycle_replace_heal_v5: N 3 -> min 3 -> son 5 | bölünme 1 | doğum 2 (10 s)
+regen_eject_v5: N 3 -> min 3 -> son 4 | bölünme 2 | doğum 1 (12 s)
+regen_control_v5: N 3 -> min 3 -> son 3 | bölünme 0 | doğum 0 (30 s)
+regen_eject_replace_v5: N 3 -> min 3 -> son 4 | bölünme 2 | doğum 1 (17 s)
+TAMAM

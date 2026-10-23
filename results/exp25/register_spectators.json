@@ -1,0 +1,26 @@
+{
+ "29Si=0.1%, Dmin=30kHz": {
+  "n": 1,
+  "registered_mean": 0.9985246822034843,
+  "spectator_mean": 0.9803813657695185,
+  "spect_overlap_mean": 0.9636597422943821
+ },
+ "29Si=0.1%, Dmin=10kHz": {
+  "n": 11,
+  "registered_mean": 0.9979311860329587,
+  "spectator_mean": 0.9869591781708305,
+  "spect_overlap_mean": 0.9780018360381392
+ },
+ "29Si=0.05%, Dmin=30kHz": {
+  "n": 0,
+  "registered_mean": null,
+  "spectator_mean": null,
+  "spect_overlap_mean": null
+ },
+ "29Si=0.05%, Dmin=10kHz": {
+  "n": 4,
+  "registered_mean": 0.9983498888031452,
+  "spectator_mean": 0.9945503844169319,
+  "spect_overlap_mean": 0.9923803406267588
+ }
+}

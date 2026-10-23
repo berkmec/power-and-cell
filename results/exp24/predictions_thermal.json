@@ -1,0 +1,7 @@
+{
+ "registered": "2026-10-15 20:47",
+ "predictions": [
+  "TH1: for atoms classified addressable at 4 K (single-atom event isolated by >= 5 kT/e), setting V_b to the middle of the gap below / above the threshold gives the target state (B- = 0 / B0 = 1) with mean probability >= 0.9 in equilibrium at 4 K (Metropolis, 100 nm islands, 5 boxes, up to 8 atoms each)",
+  "TH2: the same at 1 K with the 1 K criterion gives mean probability >= 0.9"
+ ]
+}

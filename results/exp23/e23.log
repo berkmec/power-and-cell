@@ -1,0 +1,39 @@
+slow: cells 3 -> 2 | dead cell 135.9 uW | recycled into cells 133.9 uW (eta 0.985) | loss change (uW) {'load': -5.84, 'ballast': 3.72, 'rail': 0.89} | balance 0.000/0.000 uW
+   before (uW): {'supply': 1625.22, 'load': 1212.74, 'ballast': 15.72, 'rail': 3.9, 'channel': 392.87, 'balance_error': 0.0}
+   after  (uW): {'supply': 1621.3, 'load': 1206.89, 'ballast': 19.44, 'rail': 4.8, 'channel': 390.18, 'balance_error': 0.0}
+abrupt: cells 3 -> 4 | dead cell 135.9 uW | recycled into cells 137.2 uW (eta 1.009) | loss change (uW) {'load': 0.83, 'ballast': -0.3, 'rail': -0.58} | balance 0.000/0.000 uW
+   before (uW): {'supply': 1625.22, 'load': 1212.74, 'ballast': 15.72, 'rail': 3.9, 'channel': 392.87, 'balance_error': 0.0}
+   after  (uW): {'supply': 1625.77, 'load': 1213.56, 'ballast': 15.41, 'rail': 3.32, 'channel': 393.48, 'balance_error': 0.0}
+atoms: {
+ "max_carrier_energy_eV": 0.8218010741280094,
+ "thresholds_eV": {
+  "Si_impact_ionisation": 1.1,
+  "SiO2_barrier": 3.1,
+  "Si_H_bond_single": 3.6,
+  "B_diffusion_activation": 3.5,
+  "Si_lattice_displacement": 13.0
+ },
+ "max_lateral_field_V_per_nm": [
+  0.07218010741280094,
+  0.024060035804266983
+ ],
+ "field_scale_for_moving_atoms_V_per_nm": {
+  "field_evaporation": 10.0,
+  "STM_manipulation": 1.0
+ },
+ "current_density_A_cm2": {
+  "channel": 100170.20280719508,
+  "contact": 103982.9094884378,
+  "li1_rail": 140864.3476976181
+ },
+ "electromigration_onset_A_cm2": {
+  "Al_or_Cu_at_300K": 100000.0,
+  "note": "thermally activated: negligible at 4 K"
+ },
+ "joule_heating_dT_K": {
+  "k=1.0 W/mK": 5.430171963014274,
+  "k=10.0 W/mK": 0.5430171963014274,
+  "k=200.0 W/mK": 0.02715085981507137
+ },
+ "power_per_um_W": 2.469599407877203e-06
+}

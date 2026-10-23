@@ -1,0 +1,23 @@
+{
+ "registered": "2026-10-17 (this session, AFTER Exp36 v1-v4 outcomes and deterministic basis-resolution diagnostics, BEFORE any Exp36 v5 Monte Carlo outcome)",
+ "supersedes": "All Exp36 v1-v4 prediction/result files remain preserved. V5 writes universal_control36_v5.json only and does not rerun or overwrite the v2 SEG4 reference.",
+ "diagnosis_disclosed": {
+  "v2_SEG4_reference": "4x4 surface segments, 15 nm pitch/sigma, mu=0.005, strict feedback: SEG-SS1 ALT+RAND marginal 0.960, exact 0.913, modal 13/14, background 6.00%; SEG-SS5 marginal 0.943, exact 0.843, modal 12/14, background 6.14%.",
+  "scalar_and_active_limits": "mu=0.010 and hard active safety both bring background below 5% but collapse target quality. Seed7 ALT is the clearest 4x4 solvability failure: v2 achieved only +144/+151 meV on the two bit-1 targets versus +220 meV desired, while the unpenalised solve achieves +204/+211 meV and succeeds at 23.2% background flips.",
+  "deterministic_basis_scan": "Initial-solve metrics at mu=0.005, same depth decay Lz=50 nm: SEG4 sigma15 target residual 12.38 meV, background RMS 44.01 meV, frozen flips 5.01%; SEG6 sigma10 (10 nm pitch) 6.80 meV, 34.01 meV, 3.84%; SEG8 sigma7.5 (7.5 nm pitch) 4.81 meV, 27.96 meV, 2.95%."
+ },
+ "v5_design": {
+  "kernels": "SEG6: uniform mode + 6x6 surface segments, centres on a 10 nm pitch, lateral sigma=10 nm, depth factor exp(-z/50 nm), 37 actuator columns. SEG8: uniform mode + 8x8 surface segments, 7.5 nm pitch/sigma, same depth factor, 65 columns.",
+  "controller_unchanged_from_v2": "mu_BG=0.005, guard 10 meV, binary step 30 meV, desired clip +/-220 meV, segment clip +/-0.80 V, SEG-ANA analog ablation, SEG-SS1 one p=0.01 read/round, SEG-SS5 3-read p=0.05 majority, 5 consecutive estimated-exact confirmations, 20-round cap, 600-sweep feedback and separate 1200-sweep fresh verification.",
+  "ablation": "For each kernel, the U protocol disables mu_BG while keeping the same readout/stop rule."
+ },
+ "full_control_declaration_rule": "Pitch-specific: a kernel is declared full-control only if BOTH its SS1 and SS5 protocols meet ALT+RAND marginal >=0.95, exact snapshot >=0.65, modal >=80%, and overall non-target modal flips <=5%. Exp36 reports the coarsest tested pitch satisfying this rule; analog-only success does not count.",
+ "predictions": [
+  "RY1 SEG6 ANALOG: SEG6-ANA meets ALT+RAND marginal >=0.95, exact >=0.65, modal >=80%, overall non-target flips <=5%, and at least 1.5 points below Exp35 CL20M 6.25%.",
+  "RY2 SEG6 SINGLE-SHOT: SEG6-SS1 meets the same budgets with median true updates <=10 and at most 1 false stop in 21 tasks.",
+  "RY3 SEG6 NOISY MAJORITY: SEG6-SS5 meets marginal >=0.90, exact >=0.55, modal >=70%, overall non-target flips <=5%, and modal within 15 points of SEG6-SS1; for the pitch declaration it must additionally reach marginal >=0.95.",
+  "RY4 SEG8 RESOLUTION: Both SEG8-SS1 and SEG8-SS5 meet the full-control budgets (marginal >=0.95, exact >=0.65, modal >=80%, background <=5%), and SEG8-SS1 modal is no lower than SEG6-SS1 while its background is no higher.",
+  "RY5 DEPTH (SEG6): In fixed z=75 nm bins, first-round SEG6-ANA shallow-deep marginal gap >=10 points and final SEG6-SS1 gap <=5 points.",
+  "RY6 ACTUATOR: For both SEG6-SS1 and SEG8-SS1, at least 90% of segment coefficients lie within +/-0.50 V, fewer than 10% are at the +/-0.80 V clip, and every effective global Vb remains in 0.805-1.006 V."
+ ]
+}

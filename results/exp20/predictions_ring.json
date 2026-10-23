@@ -1,0 +1,6 @@
+{
+ "A1": "ring, slow sweep: the first cell is born at the seed with the largest single-cell overdrive in >= 16 of 20 fields",
+ "A2": "ring, abrupt steps: whenever 0 < k < 4 seeds become cells, they are the k seeds with the largest single-cell overdrive in >= 70 % of the cases (exp19 without a ring: 20-30 %)",
+ "A3": "k rises with V_s and all four seeds become cells at V_s = 1.4 V",
+ "secondary": "the summed subthreshold weight per seed is evaluated as a second predictor, without a prediction"
+}

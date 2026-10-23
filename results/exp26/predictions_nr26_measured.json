@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 09:07",
+ "basis": "Exp26 part E: only measured parameters (Ladd 2005: T2 = 25 s, offsets <= 120 Hz, s = 1/3; gradient gG = 120 Hz / R). Known before registering: run.json coverage of the 6 nm register vs d* (d*_99 median 0.0192 nm) and pulse.json (tau = T2/10: inversion 0.988; neighbour at 4/tau: 1e-5, 2/tau: 4.4e-3). Not known: Bloch inversion for longer pulses and the isolation of smaller registers",
+ "predictions": [
+  "NR8: with the strict criterion (tau = T2/10, kappa = 4) every 29Si of a register of radius R is writable (>= 99 % in >= 90 % of 10 configurations) only for R between 2.0 and 3.0 nm (estimate b_99 ~ 0.69/R^2 nm vs d* = 0.04 R nm -> R ~ 2.6 nm)",
+  "NR9: for the 6 nm register >= 99 % mean coverage at kappa = 2 needs tau >= 0.55 T2, where the Bloch inversion (Gaussian pi pulse, transverse decay T2) is between 0.90 and 0.95; with inversion >= 0.98 the mean coverage is < 50 %",
+  "NR10: at kappa = 2 and inversion >= 0.95 the radius within which all 29Si are writable is between 3 and 5 nm"
+ ]
+}

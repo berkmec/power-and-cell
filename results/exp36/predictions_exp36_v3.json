@@ -1,0 +1,19 @@
+{
+ "registered": "2026-10-17 (this session, AFTER Exp36 v1/v2 outcomes, BEFORE any Exp36 v3 Monte Carlo outcome)",
+ "supersedes": "predictions_exp36.json and predictions_exp36_v2.json remain preserved; universal_control36.json/_v1 and universal_control36_v2.json are not overwritten.",
+ "diagnosis_disclosed": {
+  "v1_mu_0p020_old_stop": "SEG-SS1 ALT+RAND marginal 0.769, exact 0.413, modal 6/14, overall non-target flips 3.34%.",
+  "v2_mu_0p005_strict_stop": "SEG-SS1 marginal 0.960, exact 0.913, modal 13/14, overall non-target flips 6.00%; SEG-SS5 marginal 0.943, exact 0.843, modal 12/14, flips 6.14%; SEG-ANA flips 5.36%. RV4/RV5/RV6 pass; full control fails only through background (and SS5 marginal is 0.007 below the 0.95 full-control rule).",
+  "deterministic_pareto": "Initial-solve target residual/background RMS: mu=0.005 -> 11.5/41.6 meV, mu=0.010 -> 15.7/33.6 meV, mu=0.020 -> 21.2/26.1 meV. V2 shows the strict 5-confirmation/30 meV feedback can tolerate the mu=0.010 residual better than v1 tolerated mu=0.020."
+ },
+ "v3_only_change": "mu_BG 0.005 -> 0.010. Kernel, guard 10 meV, binary step 30 meV, desired clip +/-220 meV, 5-confirmation stop, 20-round cap, read errors, sweeps and verification are unchanged from v2.",
+ "full_control_declaration_rule": "Unchanged: BOTH SEG-SS1 (p=0.01) and SEG-SS5 (p=0.05, 3-read majority) must meet ALT+RAND marginal >=0.95, exact >=0.65, modal >=80%, overall non-target flips <=5%.",
+ "predictions": [
+  "RW1: SEG-ANA meets marginal >=0.95, exact >=0.65, modal >=80%, overall non-target flips <=5%, and is at least 1.5 points below Exp35 CL20M 6.25%.",
+  "RW2: SEG-SS1 meets the same budgets with median true updates <=10 and at most 1 false stop in 21 tasks.",
+  "RW3: SEG-SS5 meets marginal >=0.90, exact >=0.55, modal >=70%, overall non-target flips <=5%, and modal within 15 points of SEG-SS1.",
+  "RW4: SEG-SS1-U background flips exceed SEG-SS1 by at least 2 points while its ALT+RAND modal advantage is at most 10 points.",
+  "RW5: In fixed z=75 nm bins (each n>=8 in v1/v2), first-round SEG-ANA shallow-deep gap >=10 points and final SEG-SS1 gap <=5 points.",
+  "RW6: At least 90% of final SEG-SS1 segment coefficients within +/-0.50 V, fewer than 10% at clip, all effective global Vb in window."
+ ]
+}

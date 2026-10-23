@@ -1,0 +1,9 @@
+V_b 0.81 V: I_C   16.8 uA, n [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] -> median 1.0, predicted 1, single-atom 1.00, set at 1.4665668320243523 V, sites changed median 2.0
+V_b 0.85 V: I_C   31.2 uA, n [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] -> median 1.0, predicted 1, single-atom 1.00, set at 1.466551062523205 V, sites changed median 2.0
+V_b 0.90 V: I_C   55.5 uA, n [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] -> median 1.0, predicted 1, single-atom 1.00, set at 1.466415520105961 V, sites changed median 2.0
+V_b 0.95 V: I_C   86.7 uA, n [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] -> median 2.0, predicted 2, single-atom 0.00, set at 1.466421563529139 V, sites changed median 4.0
+V_b 1.00 V: I_C  124.9 uA, n [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] -> median 2.0, predicted 3, single-atom 0.00, set at 1.466235072653585 V, sites changed median 4.0
+sensitivity Ea=0.8, Rth=1e+06 {'median_n': 2.0, 'V_set': 1.4666268777284388}
+sensitivity Ea=1.2, Rth=1e+06 {'median_n': 2.0, 'V_set': 1.4646266439816253}
+sensitivity Ea=1.0, Rth=100000 {'median_n': 1.0, 'V_set': 1.4645125986273684}
+sensitivity Ea=1.0, Rth=1e+07 {'median_n': 3.0, 'V_set': 1.4706922279793049}

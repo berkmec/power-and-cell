@@ -1,0 +1,11 @@
+{
+ "registered": "2026-10-15 21:29",
+ "alpha_eV_per_V_per_nm": 0.5071927218884871,
+ "V_C_estimate_V": 0.5154389321531866,
+ "predictions": [
+  "IC1: median n over 20 trials = max(1, round(I_C / (G0 V_C))) within +-1 for every body voltage, V_C = 0.52 V",
+  "IC2: for I_C < G0 V_C (single-channel regime) the final constriction is exactly one site (one atom) wide in >= 80 % of the trials",
+  "IC3: atoms moved per write (O sites converted) <= GAP0 + n + 2",
+  "IC4: across the cell's own body-voltage window 0.805-1.006 V the median n spans from 1 to >= 3"
+ ]
+}

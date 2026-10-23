@@ -1,0 +1,89 @@
+{
+ "vandermonde": {
+  "N=6": {
+   "rank": 6,
+   "N": 6,
+   "rel_error": 7.239392105342246e-14,
+   "smallest_sv_ratio": 5.116965464844095e-08,
+   "couplings_scaled": [
+    1.0,
+    0.90845,
+    0.75194,
+    0.73065,
+    0.6123,
+    0.45362
+   ]
+  },
+  "N=8": {
+   "rank": 8,
+   "N": 8,
+   "rel_error": 1.6081049549393859e-12,
+   "smallest_sv_ratio": 2.6706815288350658e-11,
+   "couplings_scaled": [
+    1.0,
+    0.90845,
+    0.75194,
+    0.73065,
+    0.6123,
+    0.45362,
+    0.42504,
+    0.41746
+   ]
+  },
+  "N=10": {
+   "rank": 8,
+   "N": 10,
+   "rel_error": 6.086456387862073e-09,
+   "smallest_sv_ratio": 4.746838293212154e-17,
+   "couplings_scaled": [
+    1.0,
+    0.90845,
+    0.75194,
+    0.73065,
+    0.6123,
+    0.45362,
+    0.42504,
+    0.41746,
+    0.41642,
+    0.38063
+   ]
+  },
+  "N=6, A1=A2": {
+   "rank": 5,
+   "N": 6,
+   "rel_error": 0.7071067811865475,
+   "smallest_sv_ratio": 2.1622511400021104e-19,
+   "couplings_scaled": [
+    1.0,
+    1.0,
+    0.75194,
+    0.73065,
+    0.6123,
+    0.45362
+   ]
+  }
+ },
+ "times": {
+  "natural 4.685 %": {
+   "n_29Si_within_6nm": 2119.35,
+   "median_T_s": Infinity,
+   "frac_below_0p2s": 0.0,
+   "frac_above_1s": 1.0,
+   "frac_exact_degenerate": 1.0
+  },
+  "0.1 %": {
+   "n_29Si_within_6nm": 45.16,
+   "median_T_s": 0.34671068497468965,
+   "frac_below_0p2s": 0.36,
+   "frac_above_1s": 0.25,
+   "frac_exact_degenerate": 0.03
+  },
+  "50 ppm": {
+   "n_29Si_within_6nm": 2.27,
+   "median_T_s": 0.0006715872724777303,
+   "frac_below_0p2s": 0.98,
+   "frac_above_1s": 0.02,
+   "frac_exact_degenerate": 0.0
+  }
+ }
+}

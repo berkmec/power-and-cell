@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Power and Cell: programmable, self-dividing current cells, their energy exchange and atom-level control"
+type: software
+authors:
+  - name: "counfield"
+    website: "https://counfield.com/"
+repository-code: "https://github.com/berkmec/power-and-cell"
+url: "https://counfield.com/"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-23"
+abstract: >-
+  Pre-registered model and simulation study of self-dividing current filaments ("cells") in a wide, ballasted n-channel
+  transistor of a standard open 130 nm CMOS process (reduced cryogenic model built from a compact-model card and ngspice).
+  A cell splits when the drain voltage at its centre reaches the lowest voltage at which the latched state exists, which
+  gives a parameter-free split law validated against pre-registered simulations. The cells can be programmed (birth site,
+  number, regeneration, simultaneous splitting), exchange power with their neighbours, and are extended to atom-level
+  control. The model is closed against published measurements; failed predictions and negative results are reported.
+keywords:
+  - current filaments
+  - programmable cells
+  - pattern formation
+  - self-replication
+  - energy recycling
+  - active droplets
+  - reaction-diffusion
+  - open-source PDK

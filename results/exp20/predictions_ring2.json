@@ -1,0 +1,4 @@
+{
+ "basis": "exp20 A on fields 500-519: at abrupt steps the winners matched the k seeds with the largest summed subthreshold weight (sum exp(overdrive / n phi) over the seed) in 14-15 of 19-20 fields, the single strongest cell in 5-12; this predictor was chosen after the fact and is tested here on new fields",
+ "A4": "ring, new fields 520-539: at V_s = 1.05, 1.1 and 1.2 V the winners are the k seeds with the largest summed subthreshold weight in >= 70 % of the fields at each V_s; k = 2, 2, 3 as on fields 500-519"
+}

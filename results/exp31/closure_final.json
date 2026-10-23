@@ -1,0 +1,269 @@
+{
+ "rows": [
+  {
+   "exp": "Exp0",
+   "project": "Coulomb + hapsolma, özyinelemeli boyutlar",
+   "anchor": "~2 nm Si adada 300 K'de Coulomb + kuantum etkileri",
+   "source": "Shin 2010, arXiv 1001.3724",
+   "reading": "tam metin",
+   "verdict": "hapsolma ✓ (nitel) / Coulomb ✗",
+   "role": "turnike adası boyutu"
+  },
+  {
+   "exp": "Exp1",
+   "project": "c_Σ = 22,989 ε a (FEM)",
+   "anchor": "C_Σ = 0,42 aF, e²/C_Σ = 0,377 eV (1,58–2 nm)",
+   "source": "Shin 2010",
+   "reading": "tam metin",
+   "verdict": "✗ (model 1,7–3,8× fazla)",
+   "role": "turnike E_C yasası"
+  },
+  {
+   "exp": "Exp2",
+   "project": "4 K'de yük kuantumu; 77/300 K'de yok",
+   "anchor": "Si pompası T_e 7–9 K'de ppm; 5 nm adada < 200 K blokaj",
+   "source": "Zhao 2017; Shin 2010",
+   "reading": "tam metin",
+   "verdict": "4 K ✓ / 77 K ✗",
+   "role": "turnike sıcaklığı"
+  },
+  {
+   "exp": "Exp3",
+   "project": "300 K çift nokta ölü",
+   "anchor": "Si yük kübiti T2* 0,13–2,1 ns, seyreltme soğutucusunda",
+   "source": "Shi 2013, arXiv 1208.0519",
+   "reading": "özet",
+   "verdict": "✓",
+   "role": "kısıt: kriyojenik"
+  },
+  {
+   "exp": "Exp4",
+   "project": "WKB κ 4,4–5,7 nm⁻¹",
+   "anchor": "Si/SiO₂ bariyeri 3,1 eV, FN tünel kütlesi ≈ 0,4 → 5,70 nm⁻¹",
+   "source": "Lenzlinger–Snow 1969; arXiv 1512.00255",
+   "reading": "özet",
+   "verdict": "✓ (orta −%11)",
+   "role": "tünelleme, GHz turnike"
+  },
+  {
+   "exp": "Exp5",
+   "project": "V_g(n_s 1e12) 0,513 V",
+   "anchor": "PDK vth0 0,519 V (ölçüme uydurulmuş kart)",
+   "source": "SkyWater PDK",
+   "reading": "birincil dosya",
+   "verdict": "✓ (%1,2)",
+   "role": "SKY130 alan ölçeği"
+  },
+  {
+   "exp": "Exp6",
+   "project": "MC σ_VT 3,9–5,1 mV",
+   "anchor": "Pelgrom A_VT ≈ 4–5 mV·µm → 18–22 mV",
+   "source": "Pelgrom (Berkeley EE240B)",
+   "reading": "özet",
+   "verdict": "✗ (3,5–5,6× küçük)",
+   "role": "değişkenlik"
+  },
+  {
+   "exp": "Exp7",
+   "project": "≥ 100 aygıt test planı",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "yöntem",
+   "role": "ölçüm planı"
+  },
+  {
+   "exp": "Exp8",
+   "project": "fisyon eşiği üssü −1,08",
+   "anchor": "yüklü damlalar Rayleigh sınırında bölünüyor",
+   "source": "elektrodinamik terazi ölçümleri",
+   "reading": "özet",
+   "verdict": "✓ (%8)",
+   "role": "bölünme ilkesi"
+  },
+  {
+   "exp": "Exp9",
+   "project": "araç çapraz denetimi",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "yöntem",
+   "role": "doğrulama"
+  },
+  {
+   "exp": "Exp10",
+   "project": "2B'de K < 0 var, bölünme yok",
+   "anchor": "düşük yoğunlukta negatif sıkıştırılabilirlik ölçülmüş",
+   "source": "Eisenstein 1992, PRL 68, 674",
+   "reading": "özet",
+   "verdict": "kısmen (eşik sayısı yok)",
+   "role": "kısıt: filaman hücre"
+  },
+  {
+   "exp": "Exp11",
+   "project": "otokataliz gerekli",
+   "anchor": "kendini çoğaltan noktalar deneyde",
+   "source": "Lee 1994, Nature 369, 215",
+   "reading": "özet",
+   "verdict": "✓",
+   "role": "ilke: otokataliz"
+  },
+  {
+   "exp": "Exp12",
+   "project": "4 K yüzer gövde kilitlenmesi, kink + histerezis",
+   "anchor": "180 nm NMOS'ta kink + histerezis, 30 K'de var, 40 K'de yok",
+   "source": "Huang 2020, arXiv 2003.00207",
+   "reading": "tam metin",
+   "verdict": "✓ (V_M = 0,80 V ölçülmedi)",
+   "role": "hücre gerilim kenedi"
+  },
+  {
+   "exp": "Exp13",
+   "project": "balast λ genişliği seçer",
+   "anchor": "TIM'de filaman bölünmesi; balast R_A paralel paylaşım (ΔV = I R_A (1 − 1/N))",
+   "source": "Mamanee 2012 (tam metin)",
+   "reading": "—",
+   "verdict": "✓ (nitel)",
+   "role": "hücre genişliği",
+   "updated_by": "Exp31"
+  },
+  {
+   "exp": "Exp14",
+   "project": "bölünme boyut penceresi",
+   "anchor": "aktif damlalar kritik hacmin üstünde içi boş sıvı kabuğa dönüşüyor; aktif damla bölünmesi henüz ölçülmemiş",
+   "source": "Bergmann 2023, Nat. Commun., PMC10582082 (özet)",
+   "reading": "—",
+   "verdict": "kısmen (kabuk ✓, bölünme penceresi ölçülmedi)",
+   "role": "kısıt: 1B şerit",
+   "updated_by": "Exp31"
+  },
+  {
+   "exp": "Exp15",
+   "project": "1B delikler birleşir; B korur",
+   "anchor": "manyetize Q-makinesinde elektron delikleri ve birleşme",
+   "source": "Saeki 1979, PRL 42, 501",
+   "reading": "özet (atıflar)",
+   "verdict": "✓",
+   "role": "iyon bulutu"
+  },
+  {
+   "exp": "Exp16",
+   "project": "PySINDy",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "yöntem",
+   "role": "yöntem"
+  },
+  {
+   "exp": "Exp17",
+   "project": "j_on, w_s yasası, N ≈ I/(0,75 j_on w_s)",
+   "anchor": "sabit N'de j sabit (%0,1 / %5,2); N = I/(0,75 j w_s) aralıkta (0,84–0,90×); tek filaman sınırı 0,889 A ≈ 0,9 A; j N ile %22 düşüyor",
+   "source": "Mamanee 2012 (tam metin)",
+   "reading": "tam metin",
+   "verdict": "karışık (3 nicel ✓, 1 ✗)",
+   "role": "I_c, N(t)",
+   "updated_by": "Exp31"
+  },
+  {
+   "exp": "Exp18",
+   "project": "+30 mV tohum 10/10",
+   "anchor": "tohumsuz aygıtta rastgele doğum; yerel katkı tohumlu aygıtta doğum yeri ortaya sabit",
+   "source": "Mamanee 2012 (tam metin)",
+   "reading": "özet",
+   "verdict": "✓",
+   "role": "doğum yeri",
+   "updated_by": "Exp31"
+  },
+  {
+   "exp": "Exp19",
+   "project": "V_DD adımı k = 1, 2, 4",
+   "anchor": "kısa darbede yüksek akımda daha çok filaman; sabit akımda N darbeden darbeye değişiyor",
+   "source": "Mamanee 2012 (tam metin)",
+   "reading": "—",
+   "verdict": "✓ (nitel)",
+   "role": "itki basamakları",
+   "updated_by": "Exp31"
+  },
+  {
+   "exp": "Exp20",
+   "project": "zorla düşüş 3 → 7",
+   "anchor": "V₂O₃'te akım düşürülünce filaman çok sayıda paralel filamana bölünüyor (kaynak: heterojenlik)",
+   "source": "Lange 2020, arXiv 2009.12536 (tam metin)",
+   "reading": "—",
+   "verdict": "kısmen (olgu ✓, mekanizma farklı)",
+   "role": "hızlı artış",
+   "updated_by": "Exp31"
+  },
+  {
+   "exp": "Exp21",
+   "project": "300 K'de bölünme yok",
+   "anchor": "kink 40 K'de kayboluyor; n-GaAs filamanları 4,2 K'de",
+   "source": "Huang 2020; Brandl 1989",
+   "reading": "tam metin",
+   "verdict": "✓",
+   "role": "kısıt: ≲ 30 K"
+  },
+  {
+   "exp": "Exp22",
+   "project": "4 K'de 9,5e12'ye kadar tek alt bant; kaçak fA–pA",
+   "anchor": "Si(100)'de ikinci alt bant ~6e12 üstünde; kaçak sayısı bulunamadı",
+   "source": "Ray–Martin (IBM)",
+   "reading": "özet",
+   "verdict": "✗ alt bant (ek) / kaçak ölçüm yok",
+   "role": "kayıp"
+  },
+  {
+   "exp": "Exp23",
+   "project": "aktarım 0,985–1,023",
+   "anchor": "iki filaman gücü eşit paylaşıyor; yüksek akımda filamanlar arası akım yeniden dağılımı",
+   "source": "Mamanee 2012 (tam metin)",
+   "reading": "—",
+   "verdict": "✓ (nitel)",
+   "role": "η_aktarım",
+   "updated_by": "Exp31"
+  },
+  {
+   "exp": "Exp24",
+   "project": "tek atomluk boğaz ~1,2 G₀; tek ³¹P RF hedef 1,000000",
+   "anchor": "HfO₂'de G₀ basamakları; ³¹P kapı > %98, okuma > %99,8",
+   "source": "Long 2013, APL 102, 183505; Pla 2013, Nature 496, 334",
+   "reading": "özet",
+   "verdict": "kısmen (var ✓, sayı iyimser)",
+   "role": "programlanabilir atom"
+  },
+  {
+   "exp": "Exp25",
+   "project": "GHZ 0,987",
+   "anchor": "Si GHZ %92,5 / %96,2",
+   "source": "Mądzik 2022; Thorvaldson 2025",
+   "reading": "tam metin",
+   "verdict": "✗ (iyimser)",
+   "role": "kuantum denetim"
+  },
+  {
+   "exp": "Exp26",
+   "project": "17,5 s'de 0,86",
+   "anchor": "MREV-16 T2 = 25 s → 0,50",
+   "source": "Ladd 2005",
+   "reading": "tam metin",
+   "verdict": "✗ (iyimser; çöküş sonucu daha da güçlü)",
+   "role": "kısıt: yükle denetim"
+  },
+  {
+   "exp": "Exp27",
+   "project": "F/P ≤ 1/c (yansımada 2/c); Casimir; DCE",
+   "anchor": "IKAROS 1,12 mN ≤ 1,78 mN; Casimir %5; DCE fotonları",
+   "source": "JAXA; Lamoreaux 1997; Wilson 2011",
+   "reading": "özet / tam metin",
+   "verdict": "✓",
+   "role": "karşılaştırma tabanı"
+  }
+ ],
+ "tally": {
+  "karışık/kısmen": 7,
+  "✗": 5,
+  "✓": 13,
+  "yöntem": 3
+ }
+}
