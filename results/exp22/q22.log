@@ -1,4 +1,4 @@
-E:\quantum_cell\experiments\exp22_quantum\q22.py:48: RuntimeWarning: overflow encountered in exp
+experiments\exp22_quantum\q22.py:48: RuntimeWarning: overflow encountered in exp
   dos_ef = sum(l_["dos"] / (1 + np.exp((l_["E"] - ef) / kT)) for l_ in levels_)
 ns=5.81e+10 cm^-2  E1-E0=42.8 meV  ground 300K 0.47 / 4K 1.00  subbands@4K 1  C 0.690 uF/cm2
 ns=1.36e+11 cm^-2  E1-E0=43.8 meV  ground 300K 0.48 / 4K 1.00  subbands@4K 1  C 0.700 uF/cm2
@@ -8,7 +8,7 @@ ns=9.71e+11 cm^-2  E1-E0=50.7 meV  ground 300K 0.54 / 4K 1.00  subbands@4K 1  C 
 ns=1.51e+12 cm^-2  E1-E0=54.3 meV  ground 300K 0.57 / 4K 1.00  subbands@4K 1  C 0.714 uF/cm2
 ns=2.18e+12 cm^-2  E1-E0=58.4 meV  ground 300K 0.59 / 4K 1.00  subbands@4K 1  C 0.718 uF/cm2
 ns=2.96e+12 cm^-2  E1-E0=62.8 meV  ground 300K 0.62 / 4K 1.00  subbands@4K 1  C 0.721 uF/cm2
-E:\quantum_cell\experiments\exp22_quantum\q22.py:41: RuntimeWarning: overflow encountered in exp
+experiments\exp22_quantum\q22.py:41: RuntimeWarning: overflow encountered in exp
   return sum(l_["dos"] * kT * np.log1p(np.exp((ef - l_["E"]) / kT)) for l_ in levels_)
 ns=3.85e+12 cm^-2  E1-E0=67.3 meV  ground 300K 0.64 / 4K 1.00  subbands@4K 1  C 0.725 uF/cm2
 ns=4.83e+12 cm^-2  E1-E0=72.0 meV  ground 300K 0.66 / 4K 1.00  subbands@4K 1  C 0.728 uF/cm2

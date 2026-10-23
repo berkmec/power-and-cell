@@ -1,0 +1,34 @@
+{
+  "experiment": "Exp29 — Exp28 atom + pozitif enerji denkleminin bağımsız ölçülmüş veriyle kapanış testi",
+  "written": "2026-10-16T14:44 (hesaplamadan önce; tek yazımlık)",
+  "why": "Stop kancası: Exp28 denklemi model düzeyinde, ölçümle doğrulanmamış. Bu deney denklemin her halkasını, girdisi ve çıktısı ayrı ayrı ölçülmüş yayımlanmış verilerle, serbest parametre olmadan sınar.",
+  "disclosure": "Kör öngörü değil: kaynak tabloları okunurken üç NEXT noktası (TL01, TL12, TL40) ve Schnitzler uçuş süresi oranı kafadan kabaca hesaplandı (TL40 ≈ +%0,5, TL12 ≈ +%2,4, TL01 ≈ +%3,4; oran ≈ +%1). Bu yüzden ölçütler sonuçtan bağımsız olarak, yalnız yayımlanmış ölçüm belirsizliklerinden ve aşağıdaki sabit varsayımlardan kuruldu. Uydurma (fit) yok; hiçbir değer sonuca göre ayarlanmayacak.",
+  "equation_under_test": {
+    "thrust": "F = γ · J_b · √(2 m V_b / q) + F_nötr   (Exp28: F = η_b · N · I_c · √(2mV/q); η_b ≡ γ, N·I_c ≡ J_b)",
+    "velocity": "v = √(2 q V / m)  →  aynı V'de uçuş süresi t ∝ √m",
+    "single_charge": "I = e · f  (yapay atom turnikesi)",
+    "programmable_emission": "yayım, gerilimle yeniden düzenlenen atom yapısıyla açılır/kapanır (Exp24 sınıfı oksit iyon hareketi)"
+  },
+  "fixed_inputs": {
+    "m_Xe_u": 131.293,
+    "gamma_TL01_TL22": "0,945 (Pollard 2010 ölçülmüş aralık 0,94–0,95 ortası; TL01 için de aynı, kaynak TL01–03'te sapmanın daha büyük olabileceğini söylüyor)",
+    "gamma_TL23_TL40": "0,955 (Pollard 2010 ölçülmüş aralık 0,95–0,96 ortası)",
+    "V_b": "V_bps (Diamant Tablo 2 besleme gerilimi); gerçek ışın gerilimi V_bps'ten deşarj ve kuplaj gerilimleri kadar farklı → σ_V = 20 V varsayımı",
+    "F_nötr": "0,41 mN (Diamant 2010, nötrleştirici 6 sccm, ölçülmüş); yalnız deşarj nötr itkisi sayı olarak verilmedi → σ_n = 0,3 mN",
+    "sigma_gamma": "0,01 (Pollard Şekil 21 sistematik hata çubukları; sayı metinde yok, varsayım)"
+  },
+  "predictions": [
+    {"id": "MC1", "data": "NEXT 40 işletme noktası (Diamant 2010 Tablo 2 ölçülen itki; Pollard 2010 ölçülen γ)",
+     "criterion": "(a) noktaların ≥ %90'ında |ΔF/F| ≤ 2σ_i, σ_i = √(σ_ölçüm,i² + 0,01² + (20 V/(2 V_bps))² + (0,3 mN/F_i)²); (b) |ortalama ΔF/F| ≤ %1,5; (c) kök ortalama kare ΔF/F ≤ %2"},
+    {"id": "MC2", "data": "Schnitzler 2009: aynı çıkarma alanında Ca⁺ ~12,8 µs, CaO⁺ ~15,3 µs",
+     "criterion": "ölçülen oran 15,3/12,8, öngörülen √(m_CaO⁺/m_Ca⁺) ile okuma belirsizliği (her süre ±0,05 µs) içinde 2σ'da"},
+    {"id": "MC3", "data": "Schnitzler 2009: istenen sayıda iyon (1, 2, 4) ve 123/139 başarılı çıkarım",
+     "criterion": "başarı oranı, ölçülen algılama verimi 87(+7/−11)% ile 1σ içinde (yani kayıp kaynağı çıkarım değil algılama)"},
+    {"id": "MC4", "data": "Zhao 2017 silisyum MOS kuantum noktası pompası",
+     "criterion": "ölçülmüş bir yapay atomda |I/(e f) − 1| ≤ 1 ppm"},
+    {"id": "MC5", "data": "Wu 2018 SiOx elektron yayan nano-diyot (arXiv 1805.01602)",
+     "criterion": "yayım yalnız gerilimle atom yapısı değiştirilince (elektroform + direnç anahtarlaması) var, denetim örneklerinde yok; açma/kapama ≤ 1 µs"},
+    {"id": "MC6", "data": "Exp12–23 SKY130 hücreleri",
+     "criterion": "SKY130 hücresi için ölçüm yok → bu halka model düzeyinde kalır (önceden kabul; ölçülmüş benzer: 4,2 K n-GaAs filaman görüntüleme, Brandl 1989)"}
+  ]
+}

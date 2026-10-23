@@ -11,7 +11,8 @@ Research by **counfield** — <https://counfield.com/> · Türkçe: [README.tr.m
 > - Every experiment keeps a `predictions_*.json` that was written **before** the run. Failed predictions are kept and reported. Some
 >   reports start with a correction box; where a box conflicts with the original text, the box applies.
 > - The per-experiment reports are in Turkish (`results/expN/summary_*.md`). This README is the English overview.
-> - Experiments 27–30, 34 and 39–41 (the outlook line, Section 9) are **not yet part of this repository**; a few reports refer to them.
+> - Experiments 27–30, 34 and 39–41 form the outlook line (Section 12): theory-level and partly closed against published data; Experiments 39–41
+>   are speculative consistency studies.
 
 ---
 
@@ -27,7 +28,7 @@ drive, and grew into four:
 1. What sets the size at which a cell divides, and can the answer be written as a law without fitted constants?
 2. Can birth, number, survival and division be **programmed** with the electrical drive?
 3. What is a cell worth as a unit that carries and recycles power, and how far down can programmability be pushed, to single atoms?
-4. Which obstacles of controllable energy conversion could programmability remove? (Section 9, to be released.)
+4. Which obstacles of controllable energy conversion could programmability remove? (Section 12.)
 
 ## Highlights
 
@@ -41,7 +42,8 @@ drive, and grew into four:
 | Single-filament current limit | **0.889 A** predicted against 0.9 A measured | 31 | **measured (third party)** |
 | Writing multi-atom patterns | global drive alone: 0 of 7 alternating and 0 of 7 random patterns; closed-loop write–read–correct: **21 of 21** | 35, 36 | model |
 | Closure against independent measurements | 28 results compared: **16 agree, 6 mixed, 3 disagree**, 3 method-only | 29–32 | mixed |
-| Parameter-free thrust law against a published ion-thruster test set | **40 of 40** operating points within 2σ, RMS **1.45 %** | 29 (outlook) | **published data** |
+| Parameter-free thrust law against a published ion-thruster test set | **40 of 40** operating points within 2σ, RMS **1.45 %** | 29, 30 | **published data** |
+| Momentum per unit of spent energy, atom against photon | $10^4$ at 60 km/s ($6 \times 10^4$ at 10 km/s) | 28 | theory |
 | Division at room temperature | **0 divisions in 21 runs** | 21 | model, **negative** |
 
 ---
@@ -155,7 +157,7 @@ cell? If so, what sets the division size?
 - **Clamping and a frank caveat.** The cell voltage is clamped at $V_M$, so a cell does not concentrate energy. Recycling is nearly
   lossless, **but the architecture is not**: 74.6 % (3.3 V) and 83 % (5.0 V) of the source power is dissipated in the load resistor, and
   only 24 % and 16 % reaches the cells. A cell also stores almost no energy (body energy of order $10^{-14}$ J): it is a *flow* structure,
-  not an energy store. Reducing that load loss is an open design problem (Section 9).
+  not an energy store. Reducing that load loss is an open design problem (Section 12).
 
 ## 6. From cells to atoms (Exp 24–26, 35–36)
 
@@ -222,61 +224,10 @@ Exp 26 report) agree with the material condition.
 - The programmable cell cannot shrink to atom size in silicon (Exp 24); the registered thermal accuracy of atom programming was missed.
 - Three model results disagree with measurements (Exp 22, 25, 26); open-loop addressing failed and the global-correction loop exceeds the
   registered background limit (Exp 35).
-- Several analysis steps in the equation-discovery study failed or could not be tested (Exp 16).
+- Several analysis steps in the equation-discovery study failed or could not be tested (Exp 16), and four registered sub-predictions of the
+  outlook study failed (Exp 34, Section 12.3).
 
-## 9. Outlook: controllable "fuel cells" (to be released)
-
-> **Status.** Experiments 27–30, 34 and 39–41 form a separate line that treats programmable cells as **controllable energy cells**
-> ("fuel cells" in the sense of units that convert and release a controlled amount of power, not electrochemical cells). It is
-> theory-level; only parts of it are closed against published data. The reports will be released with their predictions and data in a later
-> update. The numbers below are quoted from those reports.
-
-**9.1 The idea.** Cells supply positive energy; atoms (ions) carry the momentum. A cell is a self-regulating current channel with a
-characteristic current of order 0.2 mA; the number of cells sets the delivered power in steps; a dead cell hands its power to its
-neighbours.
-
-**9.2 What is already established.**
-- **Routes without reaction mass are closed.** A closed vehicle cannot exceed a thrust per power of 1/c = 3.34 nN/W; vacuum-fluctuation
-  routes give at most 2 × 10⁻²¹ N from the best measured source; negative-energy metric routes would need 39–71 orders of magnitude more
-  energy than any accessible vacuum energy (Exp 27, negative result).
-- **The atom route carries far more momentum per unit of energy.** An exhausted atom carries 2/v_e of momentum per unit of spent energy
-  and a photon 1/c, a ratio 2c/v_e: $10^4$ at 60 km/s and $6 \times 10^4$ at 10 km/s (Exp 28).
-- **A parameter-free thrust law, $F/P = 2\eta/v_e$ (with $F = \gamma J_b\sqrt{2mV/q}$ for the beam), was tested against published data**
-  (Exp 29–30). It predicts **40 of 40** bench operating points of a published ion thruster inside 2σ with no free parameter (mean
-  deviation +1.0 %, RMS **1.45 %**; 1.18 % for the 33 points above 1000 V), reproduces a flight-measured point (92 mN, 2.3 kW) with
-  η = 0.61, and matches the directly measured thrust of a liquid-metal field-emission thruster to 1.6–4.3 %.
-- **Atom-level links are measured in published experiments:** on-demand single ions (88.5 %, detection-limited), the $\sqrt{m}$ scaling
-  of flight time (1.97σ) and $I = e f$ for an artificial atom (0.27 ppm).
-- **Model envelope.** In the model each cell yields 7–26 µN (1–5 kV), the cell number sets thrust in steps, and thrust changes by at most
-  0.8 % when one cell dies (Exp 28). An energy-optimal operating envelope was derived from all earlier data (Exp 34), including
-  sub-predictions that failed (a registered range that was off by $10^3$ because of an arithmetic slip is corrected in the report).
-- **Exploratory studies** of mission-scale scaling and of extreme scale descent (Exp 39–41) are speculative and will be released with
-  that label.
-
-**9.3 Obstacles that programmability could remove.**
-
-| Obstacle for controllable energy conversion | Programmable lever | Evidence here | Status |
-|---|---|---|---|
-| Power cannot be throttled in fine, reversible steps | cell number set by the step height; hold voltage sets survivors; forced shrink splits all cells (3 → 7) | Exp 19–20 | model; no division at 300 K (Exp 21) |
-| One local failure takes down the whole unit | a killed cell hands 98.5–102.3 % of its power to neighbours; slow death spawns no new cell (0 of 16); deliberate damage is repaired by division (3 → 2 → 3) | Exp 18, 23 | model |
-| Current crowding and uncontrolled filamentation | a global constraint selects one filament; distributed ballast makes it divide at a predictable width, $w = I/j_\text{on}$ | Exp 12–17 | model; ESD filaments measured (Exp 31) |
-| The place where activity starts is random | a +30 mV seed fixes the birth site (10 of 10; rule 77 of 80) | Exp 18 | model |
-| Energy is lost when a unit is switched off | recycling between cells is nearly lossless (η 0.985–1.023) and the cell voltage is clamped at $V_M$; **but 75–83 % of the source power is lost in the load resistor** | Exp 23 | model; **open** |
-| Programmability needs feedback | write–read–correct loop reaches the target pattern in 21 of 21 tasks; a global drive alone cannot (0 of 7) | Exp 35–36 | model |
-| A unit cannot be made small enough | the electronic cell has floors (≈ 36 nm stability, ≈ 2.2 µm body coupling); programmable acceptor atoms inside the body are the smaller unit | Exp 24 | model; floors are limits, not overcome |
-| Material purity limits control | universal control of all neighbours needs purified material | Exp 26 | model + cited measurements |
-| Room-temperature operation | the electronic filament does not divide at 300 K; an ionic filament in an oxide is the candidate class | Exp 21, 24 | negative; simulation only |
-| Validation gap | 28 results compared with independent measurements; the thrust link is closed (40 of 40) | Exp 29–32 | partly closed |
-
-**9.4 What is still open (and next).**
-1. The only unmeasured link of the chain is the **cell itself at cryogenic temperature**: current steps of a seeded, ballasted device.
-2. A seeded birth-site test on a real device (Exp 18 is a model; seeded devices are reported to fix the birth site in measurements of
-   silicon filaments).
-3. A way to cut the load loss of Section 5, a device class that divides at room temperature (ionic filaments are the candidate), and a
-   closed-loop readout fast enough for Section 6.6.
-4. Release of Experiments 27–30, 34 and 39–41 with their data, so that every number in this section can be reproduced.
-
-## 10. Method: pre-registration and honesty
+## 9. Method: pre-registration and honesty
 
 - **Predictions before runs.** Each experiment writes a `predictions_*.json` before the simulation; the file is write-once, and later
   scripts must not overwrite it. Failed predictions are kept and reported next to the passing ones.
@@ -288,7 +239,7 @@ neighbours.
   none does. Nothing is fitted to the comparison.
 - **Negative results** are part of the result set (Section 8), not a footnote.
 
-## 11. Repository layout and reproduction
+## 10. Repository layout and reproduction
 
 | Path | Contents |
 |---|---|
@@ -308,7 +259,7 @@ Equation-discovery experiments need `requirements-optional.txt` in a separate en
 tables; the tables are included) or FEniCSx/dolfinx (optional cross-checks); each experiment's report lists what it used. Large raw
 arrays are not stored; they are regenerated by re-running the scripts.
 
-## 12. Limitations
+## 11. Limitations
 
 - **Model, not measurement.** The 4 K device behaviour is an extrapolation from 300 K compact-model tables plus swept assumptions. Not
   included: self-heating, trap kinetics, the parasitic bipolar transistor and source-side resistance.
@@ -321,7 +272,72 @@ arrays are not stored; they are regenerated by re-running the scripts.
   evidence than the 1D results. Active-droplet results in $d \ge 4$ come from the O(d−1)-symmetric reduction, validated in 3D and against a
   6D hypercube during growth only.
 - **Atom-level results are models.** They assume idealised control fields, and the closure table shows where they overestimate (Section 7).
+- **The outlook line is theory-level.** Its thrust law and atom-level links are closed against published data, but the cell link is not
+  measured, and Experiments 39–41 are consistency studies of an equation set, not physics tests (Section 12).
 - **Not quantum.** The cell results are classical, dissipative pattern formation.
+
+## 12. Looking ahead: an example study, controllable "fuel cells"
+
+> **What the research brings along.** Once a cell can be born where we want, counted, kept alive, repaired and made to hand its power to
+> its neighbours (Sections 4–5), a natural next question is whether such a unit can serve as a **controllable energy cell**: a unit that
+> converts a controlled amount of power and releases it through a controlled channel. ("Fuel cell" is used in this functional sense, not
+> for electrochemical cells.) Experiments 27–30, 34 and 39–41 work this out as one example study. It is **theory-level**: the thrust law
+> and its atom-level links are closed against published data, the cell link itself is not yet measured, and the last three experiments
+> are consistency studies of an equation set. Every experiment keeps its pre-registered predictions, including the ones that failed.
+
+### 12.1 The idea
+
+Cells supply positive energy; atoms (ions) carry the momentum. A cell is a self-regulating current channel with a characteristic current
+of order 0.2 mA; the number of cells sets the delivered power in steps; a dead cell hands its power to its neighbours (Section 5). The
+thrust-per-power law of an ion beam, $F/P = 2\eta/v_e$ with $F = \gamma J_b\sqrt{2mV/q}$, links the electrical cell to a mechanical output.
+
+### 12.2 The example study in numbers
+
+| Exp | Question | Result | Status |
+|---|---|---|---|
+| 27 | Can vacuum or metric routes give thrust without reaction mass? | No. A closed vehicle is bound to thrust/power ≤ 1/c = 3.34 nN/W; dynamic vacuum-fluctuation thrust is ≤ 2 × 10⁻²¹ N from the best measured source; negative-energy metric routes need 39–71 orders of magnitude more energy than any accessible vacuum energy. The right gate is energy recycling with atoms carrying the momentum. | theory; **negative result** |
+| 28 | What does the atom plus positive-energy route give? | $F/P = 2\eta/v_e$. Per unit of spent energy an atom carries 2/v_e of momentum and a photon 1/c, a ratio of $10^4$ at 60 km/s and $6 \times 10^4$ at 10 km/s. The equation reproduces a flight-measured point (92 mN, 2.3 kW, Isp 3100 s) with η = 0.61. Cells yield about 7–150 µN each depending on the supply assumption (1–5 kV); thrust changes in steps; a dead cell changes it by at most 0.8 %. | model; one flight point |
+| 29 | Is the thrust link true? | **40 of 40** bench operating points of a published ion thruster are predicted within 2σ with no free parameter (mean +1.0 %, RMS **1.45 %**; 1.18 % above 1000 V). The atom-level links are measured in published experiments (single ion on demand 88.5 %, flight-time $\sqrt{m}$ scaling 1.97σ, $I = e f$ 0.27 ppm). Only the cell link is unmeasured. | **published data** |
+| 30 | Does the whole chain close? | All 28 results of Exp 0–27 compared with independent measurements (Section 7). The directly measured thrust of a liquid-metal field-emission thruster matches the equation to 1.6–4.3 %. | **published data** |
+| 34 | What is the best operating envelope? | Thrust per power peaks at $V^* = V_M + E_\text{in}/e$. For ionic-liquid ions: 523.8 µN/W at 1.70 V (unconstrained, Isp 175 s) and 392.7 µN/W at 8.36 V (feasible, Isp 388 s), $1.2$–$1.6 \times 10^5$ times the photon limit and about 10 times the F/P of a flight thruster, at the price of a low Isp. For metal ions at 1.2–5 kV: F/P 39.9 → 19.6 µN/W, Isp 4570 → 9348 s, Δv 10 → 20.5 km/s, thrust in steps of the cell current. The 40-of-40 closure is preserved. | model; 4 sub-predictions failed (12.3) |
+| 39–41 | What would a hypothetical energy supply imply? | A relativistic-kinematics ladder, a scale-descent audit and a virtual throttle lab. All 19 registered predictions passed, but they are consistency checks of an equation set, not physics tests. They show, for example, that a sustained 1 g burn of an 8 kg mass needs 23.5 GW of external power, far beyond a 100 W ship, and they find no evidence of extra dimensions. | **speculative** |
+
+### 12.3 Predictions that failed (kept on purpose)
+
+- **Exp 34, UT3.** The registered thrust-density range was off by a factor of $10^3$ (an arithmetic slip in the registration). The
+  space-charge-limited thrust density at the emission limit comes out at $3.06 \times 10^7$ N/m², not the registered
+  $2.5$–$3.5 \times 10^4$ N/m².
+- **Exp 34, UT2 (sub-item).** The registered "a tip enhancement of at least 50 is needed" is false; about 5.3 suffices.
+- **Exp 34, UT4 (sub-item).** The knee specific impulse is 4570 s, outside the registered 2000–4500 s.
+- **Exp 34, UT5.** With a cell-supply factor of 0.50, 6 of 9 grid points divide, not all 9.
+- **Exp 29.** The predictions were not blind (some points were estimated while reading the sources); the report says so and sets the
+  criteria from the published measurement uncertainties only, with no fitting.
+
+### 12.4 Obstacles that programmability could remove
+
+| Obstacle for controllable energy conversion | Programmable lever | Evidence here | Status |
+|---|---|---|---|
+| Power cannot be throttled in fine, reversible steps | cell number set by the step height; hold voltage sets survivors; forced shrink splits all cells (3 → 7); thrust in steps of the cell current | Exp 19–20, 34 | model; no division at 300 K (Exp 21) |
+| One local failure takes down the whole unit | a killed cell hands 98.5–102.3 % of its power to neighbours; slow death spawns no new cell (0 of 16); deliberate damage is repaired by division (3 → 2 → 3); a dead cell changes thrust by ≤ 0.8 % | Exp 18, 23, 28 | model |
+| Current crowding and uncontrolled filamentation | a global constraint selects one filament; distributed ballast makes it divide at a predictable width, $w = I/j_\text{on}$ | Exp 12–17 | model; ESD filaments measured (Exp 31) |
+| The place where activity starts is random | a +30 mV seed fixes the birth site (10 of 10; rule 77 of 80) | Exp 18 | model |
+| Energy is lost when a unit is switched off | recycling between cells is nearly lossless (η 0.985–1.023) and the cell voltage is clamped at $V_M$; **but 75–83 % of the source power is lost in the load resistor** | Exp 23 | model; **open** |
+| Programmability needs feedback | write–read–correct loop reaches the target pattern in 21 of 21 tasks; a global drive alone cannot (0 of 7) | Exp 35–36 | model |
+| A unit cannot be made small enough | the electronic cell has floors (≈ 36 nm stability, ≈ 2.2 µm body coupling); programmable acceptor atoms inside the body are the smaller unit | Exp 24 | model; floors are limits, not overcome |
+| Material purity limits control | universal control of all neighbours needs purified material | Exp 26 | model + cited measurements |
+| Room-temperature operation | the electronic filament does not divide at 300 K; an ionic filament in an oxide is the candidate class | Exp 21, 24 | negative; simulation only |
+| Validation gap | 28 results compared with independent measurements; the thrust link is closed (40 of 40) | Exp 29–32 | partly closed |
+
+### 12.5 What is still open (and next)
+
+1. The only unmeasured link of the chain is the **cell itself at cryogenic temperature**: current steps of a seeded, ballasted device.
+   Because the thrust equation is already verified, measuring those steps is enough (Exp 29).
+2. A seeded birth-site test on a real device (Exp 18 is a model; seeded devices are reported to fix the birth site in measurements of
+   silicon filaments).
+3. A way to cut the load loss of Section 5, a device class that divides at room temperature (ionic filaments are the candidate), and a
+   closed-loop readout fast enough for Section 6.6.
+4. A reproducible, pre-registered version of the speculative part (Exp 39–41) that separates mathematical consistency from physical
+   claims, so that each number can be challenged.
 
 ## 13. Selected references
 

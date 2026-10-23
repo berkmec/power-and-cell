@@ -1,0 +1,170 @@
+[
+ {
+  "exp": "exp0",
+  "file": "results/exp0/summary.md",
+  "data": "E_C/k_B, dE/k_B vs size: 100 nm 9/5 K, 12.5 nm 75/322 K",
+  "role": "kullanıldı: tek yük adası boyutu"
+ },
+ {
+  "exp": "exp1",
+  "file": "results/exp1/summary_exp1.md",
+  "data": "c_Sigma = 22.989 eps0 a (FEM, dolfinx 8e-16) -> E_C/k_B = 1171 K nm / a",
+  "role": "kullanıldı: turnike E_C yasası"
+ },
+ {
+  "exp": "exp2",
+  "file": "results/exp2/chain.json",
+  "data": "12/6/3 nm adalar E_C/k_B 120/232/404 K; 4 K'de yük kuantumu 0,93/0,98/1,00; 77/300 K'de yok",
+  "role": "kullanıldı + kısıt: turnike 4 K'de"
+ },
+ {
+  "exp": "exp3",
+  "file": "results/exp3/dqd.json",
+  "data": "300 K çift nokta: P <= 0,74, kapı <= 0,78",
+  "role": "olumsuz -> kısıt: kuantum denetim kriyojenik"
+ },
+ {
+  "exp": "exp4",
+  "file": "results/exp4/stage1.json",
+  "data": "WKB kappa 4,4-5,7 /nm, LZ hatası <= 1,2e-3, yükleme ~59 ps (t = 24,8 meV)",
+  "role": "kullanıldı: tünelleme yöntemi, turnike frekansı (GHz)"
+ },
+ {
+  "exp": "exp5",
+  "file": "results/exp5/mos1d.json",
+  "data": "yüzey alanı 0,38-0,51 MV/cm, alt bant 44-50 meV, W_dep 81/55 nm",
+  "role": "kullanıldı: kanal alan ölçeği"
+ },
+ {
+  "exp": "exp6",
+  "file": "results/exp6",
+  "data": "RDF sigma 20,6 meV; kazara nokta oranı geri çekildi",
+  "role": "olumsuz -> kısıt: tasarlanmış ada gerekir"
+ },
+ {
+  "exp": "exp7",
+  "file": "experiments/exp7_testplan",
+  "data": ">= 100 aygıt (4 +- 2 % oranı için)",
+  "role": "kullanıldı: dizi istatistiği / ölçüm planı"
+ },
+ {
+  "exp": "exp8",
+  "file": "results/exp8/summary_exp8.md",
+  "data": "g_c ~ N^-1,08; hazır tek domain bölünmedi",
+  "role": "olumsuz -> ilke: sayı çatallanmayla artar"
+ },
+ {
+  "exp": "exp9",
+  "file": "results/exp9/COMPARISON.md",
+  "data": "62 satır, 17 kaynak: araçlar uyumlu",
+  "role": "kullanıldı: araç çapraz denetimi"
+ },
+ {
+  "exp": "exp10",
+  "file": "results/exp10/summary_exp10.md",
+  "data": "2B gaz: K < 0 ama kapı ekranlı Hartree 11-21x|K|: bölünme yok",
+  "role": "olumsuz -> kısıt: filaman hücre"
+ },
+ {
+  "exp": "exp11",
+  "file": "results/exp11/review_exp6_exp10_exp11.md",
+  "data": "süperkapasitör 0/28, Gray-Scott 5/42",
+  "role": "olumsuz -> ilke: otokataliz (darbe iyonlaşması)"
+ },
+ {
+  "exp": "exp12",
+  "file": "results/exp12/summary_exp12.md",
+  "data": "V_M = 0,80 V kenetlenmesi; R_box >= 1e10-1e12",
+  "role": "kullanıldı: hücre gerilim kenedi"
+ },
+ {
+  "exp": "exp13",
+  "file": "results/exp13/summary_exp13.md",
+  "data": "dağıtık balast lambda = 40 um -> ~4 lambda'da bölünme",
+  "role": "kullanıldı: hücre genişliğini balast seçer"
+ },
+ {
+  "exp": "exp14",
+  "file": "results/exp14_dimension/summary_exp14.md",
+  "data": "bölünme penceresi 2 < d <~ 3,5-4; 2B parmak dizisinde bölünme yok",
+  "role": "kısıt: yayıcılar 1B şeritler"
+ },
+ {
+  "exp": "exp15",
+  "file": "results/exp15_phase_space/summary_exp15.md",
+  "data": "PIC doğrulandı; 2B/3B yapılar 20-60 w_p^-1'de dağılıyor, B (W_ce = 2 w_p) koruyor",
+  "role": "kullanıldı: bulutta kalıcı uzay yükü yapısı yok; manyetik alan düzenler"
+ },
+ {
+  "exp": "exp16",
+  "file": "results/exp16_equations/summary_exp16.md",
+  "data": "PySINDy bilinen yasaları buldu, gürültüye dayanıksız",
+  "role": "yöntem: denklem fizikten türetildi"
+ },
+ {
+  "exp": "exp17",
+  "file": "results/exp17/summary_exp17.md",
+  "data": "j_on = 2,569 uA/um; V_M 0,80179, V_down 0,78552; w_s yasası; N ~ I/(0,75 j_on w_s)",
+  "role": "kullanıldı: hücre başına akım ve hücre sayısı"
+ },
+ {
+  "exp": "exp18",
+  "file": "results/exp18/summary_exp18.md",
+  "data": "+30 mV tohum doğum yerini 10/10 seçiyor",
+  "role": "kullanıldı: hangi yayıcının ateşleneceği"
+ },
+ {
+  "exp": "exp19",
+  "file": "results/exp19/summary_exp19.md",
+  "data": "ani V_DD adımı k = 1, 2, 4 hücre",
+  "role": "kullanıldı: itki basamakları"
+ },
+ {
+  "exp": "exp20",
+  "file": "results/exp20/summary_exp20.md",
+  "data": "zorla akım düşüşüyle eşzamanlı bölünme 3 -> 7 (5,0 V)",
+  "role": "kullanıldı: hızlı itki artışı"
+ },
+ {
+  "exp": "exp21",
+  "file": "results/exp21/summary_exp21.md",
+  "data": "300 K: 21 koşuda 0 bölünme",
+  "role": "olumsuz -> kısıt: hücre elektroniği kriyojenik (<= 4 K)"
+ },
+ {
+  "exp": "exp22",
+  "file": "results/exp22/summary_exp22.md",
+  "data": "oksit tünellemesi 1 mm^2'de 1,8 V'ta fA-pA",
+  "role": "kullanıldı: kaçak kayıp ihmal edilebilir"
+ },
+ {
+  "exp": "exp23",
+  "file": "results/exp23/summary_exp23.md",
+  "data": "hücre gücü 135,9/220 uW; aktarım 0,985-1,023; yük payı %74,6/83; gövde enerjisi 3-5e-14 J; taşıyıcı 0,82 eV; yanal 0,02-0,07, dikey 0,12 V/nm",
+  "role": "kullanıldı: enerji, geri dönüşüm, alan"
+ },
+ {
+  "exp": "exp24",
+  "file": "results/exp24/ionic.json",
+  "data": "alpha = 0,507 eV/(V/nm), E_a = 1 eV, nu = 1e13/s, SET 1,466 V (4 K); 1-2 atom; yazma başına 2-4 O; pay >= 8 kT/e",
+  "role": "kullanıldı: programlanabilir yayma yasası, yük adresleme"
+ },
+ {
+  "exp": "exp25",
+  "file": "results/exp25/summary_exp25.md",
+  "data": "hücre alanı 0,4-1,8 V/um; atom başına 2,8 meV (11,5 x Landauer)",
+  "role": "kullanıldı: denetim enerjisi, alan"
+ },
+ {
+  "exp": "exp26",
+  "file": "results/exp26/summary_exp26.md",
+  "data": "doğal Si spin depolaması ölçülmüş döngüde çöküyor (%31)",
+  "role": "olumsuz -> kısıt: denetim yük durumuyla, spinle değil"
+ },
+ {
+  "exp": "exp27",
+  "file": "results/exp27/summary_exp27.md",
+  "data": "foton sınırı F/P <= 1/c = 3,34 nN/W; vakum ve metrik ayakları kapalı",
+  "role": "karşılaştırma tabanı"
+ }
+]

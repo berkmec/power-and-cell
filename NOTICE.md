@@ -35,6 +35,15 @@ data that were used.
 - The first download attempts failed (`data/nist_sky130/DOWNLOAD_BLOCKED.txt`); the files were later obtained from the NIST cache address
   and the note was updated.
 
+## Numerical values from published tables
+
+- `results/exp29/next_diamant2010_table2.json` holds the numbers of Table 2 of Diamant, Pollard, Crofton, Patterson and Soulas, *Thrust
+  Stand Characterization of the NASA Evolutionary Xenon Thruster (NEXT)*, NASA/TM-2010-216895 (AIAA-2010-6701), a technical report that
+  NASA distributes publicly through its technical reports server. Only the 40 rows of numbers were transcribed (programmatically from the
+  PDF text) for a closure test; no text, figure or PDF of the report is redistributed.
+- `results/exp28/data_registry.json` and `results/exp30/closure_all.json` list numerical values of other published measurements together
+  with their source strings. Only numbers and citations are reproduced.
+
 ## Literature
 
 - Papers are cited by bibliographic reference and link only. No paper text, figure or PDF is redistributed in this repository.

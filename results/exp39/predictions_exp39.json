@@ -1,0 +1,39 @@
+{
+ "registered": "2026-10-19 (this session, AFTER reading the three Denklemler images as one Equation-1 group and BEFORE any Exp39 numerical simulation output)",
+ "user_equation_group": {
+  "name": "Denklem 1 (tam bütün)",
+  "images": [
+   "denklem 1 sıra 1.png: sqrt(1-v^2/c^2)=0,1",
+   "denklem 1 sıra 2 üst.png: E=-mc^2 and E=hν, f(r_s)",
+   "denklem 2.png: sqrt(1-v^2/c^2)=m0*c^2/E=m0*c^2/(hν)=0,1"
+  ],
+  "interpretation": "The three images are one equation group, not two independent equations. The simulation generalizes the fixed 0,1 to epsilon_n=0,1^n=10^-n. Thus gamma_n=1/epsilon_n=10^n. Modern Turkish short-scale nonilyon=10^30, so the gamma coefficient reaches one nonillion at n=30. The literal alternative n=10^30 is recorded only in logarithmic form (log10 gamma=10^30); it is not iterated step by step."
+ },
+ "reference_ship": {
+  "wet_mass_kg": 10.0,
+  "dry_mass_kg": 8.0,
+  "in_propellant_kg": 2.0,
+  "power_W": 100.0,
+  "basis": "Exp28/Exp34 reference mission. Exp34 In knee exhaust speed 44.81 km/s (Isp 4570 s, F/P 39.9 µN/W) and In 5 kV exhaust speed about 91.7 km/s from the same 10/8 kg mass ratio. Photon exhaust u=c is a lower-bound comparison, not an Exp34 operating point."
+ },
+ "simulation_space": {
+  "ladder": "Continuous and integer n=0..30; epsilon=10^-n, gamma=10^n, beta=sqrt(1-epsilon^2), rapidity=acosh(gamma). For n>=8, 1-beta is computed as epsilon^2/(1+beta) to avoid floating-point cancellation.",
+  "lanes": [
+   "onboard ion rocket: relativistic rocket mass ratio R=exp((c/u)*rapidity) for Exp34 exhaust speeds",
+   "photon rocket lower bound: u=c, R=exp(rapidity)",
+   "ideal external-energy ladder: kinetic energy (gamma-1)*m_dry*c^2 and supply time at 100 W",
+   "frequency lane: per-In-ion nu=gamma*m_In*c^2/h and lambda=h/(gamma*m_In*c)",
+   "negative branch audit: E_-=-gamma*m0*c^2 gives m0*c^2/E_-=-10^-n, so it cannot equal +0,1^n for positive m0 and positive frequency without redefining E or nu",
+   "gravitational analogue only: epsilon_g=sqrt(1-r_s/r), hence r/r_s=1/(1-epsilon^2); f(r_s) is not defined in the images, so this is labelled an analogue, not a derived ship drive"
+  ]
+ },
+ "predictions": [
+  "D1 LADDER: n=1 gives gamma=10 and beta=0,9949874371 (1-beta=5,0126e-3). n=30 gives gamma=1,0e30 (one nonillion) and 1-beta=5,0e-61 within 1%.",
+  "D2 SIGN AUDIT: The positive branch E=+gamma*m0*c^2 is exactly consistent with m0*c^2/E=10^-n and nu>0. The written E=-mc^2 branch instead gives m0*c^2/E_-=-10^-n; the sign check must report it inconsistent as a simultaneous equality for m0>0, nu>0.",
+  "D3 REFERENCE ION SHIP: With wet/dry=10/8 and Exp34 In knee exhaust speed, the actual onboard-ion ship reaches gamma-1<1e-9 and epsilon>0,999999999, so it does not reach even the first n=1 rung.",
+  "D4 MASS RATIOS: At gamma=10, required log10(wet/dry) is >8000 for the 44,81 km/s knee and >4000 for the about 91,7 km/s 5 kV lane, whereas the photon-rocket lower bound is between 19 and 21 (not log10).",
+  "D5 ENERGY SCALE: For the 8 kg dry ship, kinetic energy at n=1 is between 6e18 and 7e18 J; ideal supply at 100 W exceeds 2e9 years. At n=30, log10 kinetic energy in joules is between 47 and 48.",
+  "D6 FREQUENCY/PLANCK: For one In ion, lambda=h/(gamma*m_In*c) crosses the Planck length between integer n=17 and n=18; therefore a single-quantum h-nu reading leaves the standard semiclassical domain before the nonillion rung.",
+  "D7 CRUISE TIME: At constant cruise beta (acceleration/deceleration excluded), Alpha Centauri proper time falls as about 4,37/gamma years: between 0,40 and 0,48 years at n=1 and between 4e-30 and 5e-30 years at n=30, while Earth-frame cruise time remains about 4,37 years."
+ ]
+}

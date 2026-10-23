@@ -1,0 +1,158 @@
+{
+ "cells": {
+  "recycling_transfer_eta": [
+   0.985,
+   1.023
+  ],
+  "architecture_loss_fraction": [
+   0.75,
+   0.83
+  ],
+  "charge_flip_energy_meV": 2.8,
+  "programmed_29Si_energy_J": [
+   6.3e-05,
+   0.0015
+  ],
+  "note": "Exp23/25/26: recycling moves energy between cells; it does not create energy"
+ },
+ "onboard": [
+  {
+   "source": "li_ion",
+   "specific_energy_J_kg": 900000.0,
+   "energy_mass_fraction": 0.5,
+   "eta": 1.0,
+   "delta_v_m_s": 0.0015010260002557177
+  },
+  {
+   "source": "li_ion",
+   "specific_energy_J_kg": 900000.0,
+   "energy_mass_fraction": 0.5,
+   "eta": 0.3,
+   "delta_v_m_s": 0.0004503078000767153
+  },
+  {
+   "source": "li_ion",
+   "specific_energy_J_kg": 900000.0,
+   "energy_mass_fraction": 0.9,
+   "eta": 1.0,
+   "delta_v_m_s": 0.0027019000542931977
+  },
+  {
+   "source": "li_ion",
+   "specific_energy_J_kg": 900000.0,
+   "energy_mass_fraction": 0.9,
+   "eta": 0.3,
+   "delta_v_m_s": 0.0008105700162879592
+  },
+  {
+   "source": "fission_U235_full_burn",
+   "specific_energy_J_kg": 82000000000000.0,
+   "energy_mass_fraction": 0.5,
+   "eta": 1.0,
+   "delta_v_m_s": 136792.47335418183
+  },
+  {
+   "source": "fission_U235_full_burn",
+   "specific_energy_J_kg": 82000000000000.0,
+   "energy_mass_fraction": 0.5,
+   "eta": 0.3,
+   "delta_v_m_s": 41037.74459796598
+  },
+  {
+   "source": "fission_U235_full_burn",
+   "specific_energy_J_kg": 82000000000000.0,
+   "energy_mass_fraction": 0.9,
+   "eta": 1.0,
+   "delta_v_m_s": 246271.37183893865
+  },
+  {
+   "source": "fission_U235_full_burn",
+   "specific_energy_J_kg": 82000000000000.0,
+   "energy_mass_fraction": 0.9,
+   "eta": 0.3,
+   "delta_v_m_s": 73881.42667482047
+  },
+  {
+   "source": "fusion_DT",
+   "specific_energy_J_kg": 340000000000000.0,
+   "energy_mass_fraction": 0.5,
+   "eta": 1.0,
+   "delta_v_m_s": 567595.2583334888
+  },
+  {
+   "source": "fusion_DT",
+   "specific_energy_J_kg": 340000000000000.0,
+   "energy_mass_fraction": 0.5,
+   "eta": 0.3,
+   "delta_v_m_s": 170278.76264724325
+  },
+  {
+   "source": "fusion_DT",
+   "specific_energy_J_kg": 340000000000000.0,
+   "energy_mass_fraction": 0.9,
+   "eta": 1.0,
+   "delta_v_m_s": 1022443.7249641167
+  },
+  {
+   "source": "fusion_DT",
+   "specific_energy_J_kg": 340000000000000.0,
+   "energy_mass_fraction": 0.9,
+   "eta": 0.3,
+   "delta_v_m_s": 306734.1997229941
+  },
+  {
+   "source": "antimatter_ideal",
+   "specific_energy_J_kg": 9e+16,
+   "energy_mass_fraction": 0.5,
+   "eta": 1.0,
+   "delta_v_m_s": 180141183.58460853
+  },
+  {
+   "source": "antimatter_ideal",
+   "specific_energy_J_kg": 9e+16,
+   "energy_mass_fraction": 0.5,
+   "eta": 0.3,
+   "delta_v_m_s": 61576224.73194527
+  },
+  {
+   "source": "antimatter_ideal",
+   "specific_energy_J_kg": 9e+16,
+   "energy_mass_fraction": 0.9,
+   "eta": 1.0,
+   "delta_v_m_s": 294001632.6701052
+  },
+  {
+   "source": "antimatter_ideal",
+   "specific_energy_J_kg": 9e+16,
+   "energy_mass_fraction": 0.9,
+   "eta": 0.3,
+   "delta_v_m_s": 180142232.63060153
+  }
+ ],
+ "thrust_per_power": {
+  "photon_collimated_N_per_W": 3.3356409519815204e-09,
+  "light_sail_R1_N_per_W": 6.671281903963041e-09,
+  "chip_1W_photon_thrust_N": 3.3356409519815204e-09,
+  "cell_array_1kW_N": 3.3356409519815205e-06
+ },
+ "waste_heat_radiator": {
+  "P_in_W": 1.0,
+  "heat_fraction": 0.8,
+  "directionality": [
+   0.0,
+   0.5,
+   1.0
+  ],
+  "thrust_N": [
+   0.0,
+   1.3342563807926083e-09,
+   2.6685127615852166e-09
+  ]
+ },
+ "beamed": {
+  "laser_power_W": 100000000000.0,
+  "sail_reflectivity": 1.0,
+  "force_N": 667.1281903963041,
+  "note": "momentum and energy arrive from outside; Delta v is not limited by onboard energy mass"
+ }
+}

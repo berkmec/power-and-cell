@@ -1,0 +1,39 @@
+{
+ "rows": [
+  {
+   "a1_nm": 10.0,
+   "a2_nm": 100.0,
+   "A1_m2": 1e-12,
+   "A2_m2": 4e-12,
+   "cycle_work_J": 6.581804243858946e-21,
+   "work_over_energy_scale": 3.7968274204737186e-06,
+   "exact_leg_work_sum_J": -1.9721522630525295e-31,
+   "exact_over_energy_scale": 1.1376700844139564e-16,
+   "pressure_at_a1_Pa": 130012.57724477533
+  },
+  {
+   "a1_nm": 1.0,
+   "a2_nm": 5.0,
+   "A1_m2": 1e-06,
+   "A2_m2": 2e-06,
+   "cycle_work_J": 4.3323636060892194e-13,
+   "work_over_energy_scale": 4.998397498804275e-07,
+   "exact_leg_work_sum_J": 0.0,
+   "exact_over_energy_scale": 0.0,
+   "pressure_at_a1_Pa": 1300125772.447753
+  },
+  {
+   "a1_nm": 20.0,
+   "a2_nm": 29.999999999999996,
+   "A1_m2": 0.0001,
+   "A2_m2": 0.00015000000000000001,
+   "cycle_work_J": 3.674856081257477e-17,
+   "work_over_energy_scale": 4.522462252972719e-09,
+   "exact_leg_work_sum_J": 0.0,
+   "exact_over_energy_scale": 0.0,
+   "pressure_at_a1_Pa": 8125.786077798458
+  }
+ ],
+ "impulse": "plate forces are action-reaction pairs inside the craft: net impulse 0 for any cycle",
+ "conclusion": "static Casimir energy is a state function: no net work, no thrust"
+}

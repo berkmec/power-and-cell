@@ -1,0 +1,43 @@
+{
+ "switching": [
+  {
+   "case": "Exp24 O/HfO2 law, 4 K",
+   "Q0_eV": 1.0,
+   "T_K": 4.0,
+   "F_threshold_V_nm": 1.9723865877712032,
+   "on_off_for_10pct_field": 9.873124952165736e+125,
+   "log10_on_off": 125.99445463338724
+  },
+  {
+   "case": "Exp24 O/HfO2 law, 430 K",
+   "Q0_eV": 1.0,
+   "T_K": 430.0,
+   "F_threshold_V_nm": 1.9723865877712032,
+   "on_off_for_10pct_field": 14.860774304290283,
+   "log10_on_off": 1.1720414384501139
+  },
+  {
+   "case": "In field evaporation (image hump Q0 = L + I - phi), 430 K",
+   "Q0_eV": 4.186,
+   "T_K": 430.0,
+   "F_threshold_V_nm": 8.256410256410255,
+   "on_off_for_10pct_field": 80568.5339858318,
+   "log10_on_off": 4.906165461352177
+  },
+  {
+   "case": "Ga field evaporation, 300 K",
+   "Q0_eV": 4.488999999999999,
+   "T_K": 300.0,
+   "F_threshold_V_nm": 8.854043392504929,
+   "on_off_for_10pct_field": 34768671.065999724,
+   "log10_on_off": 7.541188091323668
+  }
+ ],
+ "addressing": {
+  "birth_seed_mV": 30,
+  "birth_success": "10/10 (Exp18)",
+  "charge_margin": "8 kT/e (Exp24)",
+  "control_energy_meV": 2.8,
+  "landauer_4K_meV": 0.24
+ }
+}

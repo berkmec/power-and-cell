@@ -10,7 +10,8 @@ Araştırma: **counfield** — <https://counfield.com/> · English: [README.md](
 > - Her deneyin, koşudan **önce** yazılmış bir `predictions_*.json` dosyası vardır. Tutmayan tahminler saklanır ve raporlanır. Bazı raporlar bir
 >   düzeltme kutusuyla başlar; kutu özgün metinle çelişirse kutu geçerlidir.
 > - Deney başına raporlar Türkçedir (`results/expN/summary_*.md`). Bu README Türkçe özettir; İngilizce özet `README.md`'dedir.
-> - Exp27–30, 34 ve 39–41 (Bölüm 9'daki gelecek hattı) **henüz bu depoda değildir**; birkaç rapor onlara atıf yapar.
+> - Exp27–30, 34 ve 39–41 gelecek hattını oluşturur (Bölüm 12): kuram düzeyindedir ve kısmen yayımlanmış veriyle kapatılmıştır; Exp39–41 spekülatif tutarlılık
+>   çalışmalarıdır.
 
 ---
 
@@ -26,7 +27,7 @@ soruya dönüştü:
 1. Hücrenin bölündüğü boyutu ne belirliyor ve yanıt, uydurma sabitsiz bir yasa olarak yazılabilir mi?
 2. Doğum, sayı, hayatta kalma ve bölünme elektriksel sürüşle **programlanabilir** mi?
 3. Hücre, gücü taşıyan ve geri dönüştüren bir birim olarak ne değer taşıyor ve programlanabilirlik tek tek atomlara kadar ne kadar itilebilir?
-4. Denetlenebilir enerji dönüşümünün hangi engellerini programlanabilirlik kaldırabilir? (Bölüm 9, yayımlanacak.)
+4. Denetlenebilir enerji dönüşümünün hangi engellerini programlanabilirlik kaldırabilir? (Bölüm 12.)
 
 ## Öne çıkanlar
 
@@ -40,7 +41,8 @@ soruya dönüştü:
 | Tek filamanın akım sınırı | öngörülen **0,889 A**, ölçülen 0,9 A | 31 | **ölçülmüş (üçüncü taraf)** |
 | Çok atomlu desen yazma | yalnız küresel sürüş: 7 ALT deseninden 0'ı ve 7 RAND deseninden 0'ı; kapalı çevrim yaz–oku–düzelt: **21/21** | 35, 36 | model |
 | Bağımsız ölçümlerle kapanış | 28 sonuç karşılaştırıldı: **16 uyumlu, 6 karışık, 3 uyumsuz**, 3 yöntem | 29–32 | karışık |
-| Parametresiz itki yasası, yayımlanmış bir iyon itkici test kümesiyle | **40 işletme noktasının 40'ı** 2σ içinde, RMS **%1,45** | 29 (gelecek hattı) | **yayımlanmış veri** |
+| Parametresiz itki yasası, yayımlanmış bir iyon itkici test kümesiyle | **40 işletme noktasının 40'ı** 2σ içinde, RMS **%1,45** | 29, 30 | **yayımlanmış veri** |
+| Harcanan birim enerji başına momentum, atom ve foton | 60 km/s'de $10^4$ (10 km/s'de $6 \times 10^4$) | 28 | kuram |
 | Oda sıcaklığında bölünme | **21 koşuda 0 bölünme** | 21 | model, **olumsuz** |
 
 ---
@@ -146,7 +148,7 @@ bölünme boyutunu ne belirliyor?
 - **Kenetlenme ve açık bir uyarı.** Hücre gerilimi $V_M$'de kenetlenir, yani hücre enerjiyi yoğunlaştırmaz. Geri dönüşüm neredeyse kayıpsızdır,
   **ama mimari değildir**: kaynak gücünün %74,6'sı (3,3 V) ve %83'ü (5,0 V) yük direncinde harcanır ve hücrelere yalnız %24 ve %16 ulaşır. Bir hücre
   neredeyse hiç enerji de depolamaz (gövde enerjisi $10^{-14}$ J mertebesinde): bir *akış* yapısıdır, enerji deposu değil. Bu yük kaybını azaltmak
-  açık bir tasarım sorunudur (Bölüm 9).
+  açık bir tasarım sorunudur (Bölüm 12).
 
 ## 6. Hücrelerden atomlara (Exp24–26, 35–36)
 
@@ -204,56 +206,10 @@ silisyumda ve elmasta yayımlanmış deneyler (Exp26 raporunda anılır) malzeme
 - Programlanabilir hücre silikonda atom boyuna inemiyor (Exp24); atom programlamanın kayıtlı ısıl doğruluğu tutmadı.
 - Üç model sonucu ölçümlerle uyuşmuyor (Exp22, 25, 26); açık çevrim adresleme başarısız oldu ve küresel düzeltimli çevrim kayıtlı arka plan sınırını aşıyor
   (Exp35).
-- Denklem keşfi çalışmasının birkaç çözümleme adımı başarısız oldu ya da sınanamadı (Exp16).
+- Denklem keşfi çalışmasının birkaç çözümleme adımı başarısız oldu ya da sınanamadı (Exp16) ve gelecek çalışmasının dört kayıtlı alt öngörüsü tutmadı
+  (Exp34, Bölüm 12.3).
 
-## 9. Gelecek: kontrol edilebilir "yakıt hücreleri" (yayımlanacak)
-
-> **Durum.** Exp27–30, 34 ve 39–41, programlanabilir hücreleri **denetlenebilir enerji hücreleri** olarak ele alan ayrı bir hattır ("yakıt hücresi", kontrollü bir
-> miktarda güç dönüştürüp salan birimler anlamında; elektrokimyasal hücre değil). Kuram düzeyindedir; yalnız bir kısmı yayımlanmış veriyle kapatıldı. Raporlar
-> tahminleri ve verileriyle sonraki bir güncellemede yayımlanacak. Aşağıdaki sayılar bu raporlardan alıntıdır.
-
-**9.1 Fikir.** Hücreler pozitif enerji sağlar; atomlar (iyonlar) momentumu taşır. Hücre, karakteristik akımı 0,2 mA mertebesinde, kendini düzenleyen bir akım
-kanalıdır; hücre sayısı sunulan gücü basamaklarla belirler; ölen bir hücre gücünü komşularına verir.
-
-**9.2 Şimdiden kurulmuş olanlar.**
-- **Tepkime kütlesiz yollar kapalı.** Kapalı bir araç 1/c = 3,34 nN/W'lık itki/güç oranını aşamaz; vakum dalgalanması yolları en iyi ölçülmüş kaynakta en çok
-  2 × 10⁻²¹ N verir; negatif enerjili metrik yolları erişilebilir herhangi bir vakum enerjisinden 39–71 mertebe fazla enerji ister (Exp27, olumsuz sonuç).
-- **Atom yolu birim enerjiye çok daha fazla momentum taşır.** Harcanan birim enerji başına atom 2/v_e, foton 1/c momentum taşır; oran 2c/v_e: 60 km/s'de
-  $10^4$, 10 km/s'de $6 \times 10^4$ (Exp28).
-- **Parametresiz bir itki yasası, $F/P = 2\eta/v_e$ (demet için $F = \gamma J_b\sqrt{2mV/q}$), yayımlanmış veriyle sınandı** (Exp29–30). Yayımlanmış bir iyon
-  itkicinin tezgâhta ölçülen **40 işletme noktasının 40'ını** serbest parametre olmadan 2σ içinde öngörür (ortalama sapma +%1,0, RMS **%1,45**; 1000 V üstündeki 33
-  noktada %1,18), uçuşta ölçülmüş bir noktayı (92 mN, 2,3 kW) η = 0,61 ile yeniden üretir ve bir sıvı-metal alan emisyonlu itkicinin doğrudan ölçülen itkisini
-  %1,6–4,3 içinde verir.
-- **Atom düzeyindeki halkalar yayımlanmış deneylerde ölçülmüştür:** istek üzerine tek iyon (%88,5, algılama sınırlı), uçuş süresinin $\sqrt{m}$ ölçeklemesi
-  (1,97σ) ve yapay atomda $I = e f$ (0,27 ppm).
-- **Model zarfı.** Modelde her hücre 7–26 µN verir (1–5 kV), hücre sayısı itkiyi basamaklarla belirler ve bir hücre ölünce itki en çok %0,8 değişir (Exp28).
-  Önceki bütün verilerden enerji bakımından en iyi bir işletme zarfı türetildi (Exp34); tutmayan alt öngörüler dahildir (hesap hatasıyla $10^3$ kat kaçan bir
-  kayıtlı aralık raporda düzeltilmiştir).
-- **Keşif çalışmaları.** Görev ölçeğinde ölçekleme ve aşırı ölçek inişi çalışmaları (Exp39–41) spekülatiftir ve bu etiketle yayımlanacak.
-
-**9.3 Programlanabilirliğin kaldırabileceği engeller.**
-
-| Denetlenebilir enerji dönüşümünün engeli | Programlanabilir kol | Buradaki kanıt | Durum |
-|---|---|---|---|
-| Güç ince, geri döndürülebilir basamaklarla kısılamıyor | hücre sayısı basamak yüksekliğiyle, yaşayanlar tutma gerilimiyle belirlenir; zorla küçültme bütün hücreleri böler (3 → 7) | Exp19–20 | model; 300 K'de bölünme yok (Exp21) |
-| Tek bir yerel arıza bütün birimi düşürüyor | ölen hücre gücünün %98,5–102,3'ünü komşulara verir; yavaş ölüm yeni hücre doğurmaz (16'da 0); kasıtlı hasar bölünmeyle onarılır (3 → 2 → 3) | Exp18, 23 | model |
-| Akım yığılması ve denetimsiz filamanlaşma | küresel kısıt tek filaman seçer; dağıtık balast onu öngörülebilir bir genişlikte böldürür, $w = I/j_\text{on}$ | Exp12–17 | model; ESD filamanları ölçülmüş (Exp31) |
-| Etkinliğin başladığı yer rastgele | +30 mV'luk tohum doğum yerini sabitler (10/10; kural 77/80) | Exp18 | model |
-| Bir birim kapatılınca enerji kaybolur | hücreler arası geri dönüşüm neredeyse kayıpsız (η 0,985–1,023) ve hücre gerilimi $V_M$'de kenetli; **ama kaynak gücünün %75–83'ü yük direncinde kayboluyor** | Exp23 | model; **açık** |
-| Programlanabilirlik geri besleme ister | yaz–oku–düzelt çevrimi hedef desene 21/21 görevde ulaşır; yalnız küresel sürüş ulaşamaz (0/7) | Exp35–36 | model |
-| Birim yeterince küçük yapılamıyor | elektronik hücrenin tabanları var (≈ 36 nm kararlılık, ≈ 2,2 µm gövde bağlanması); gövdedeki programlanabilir akseptör atomları daha küçük birimdir | Exp24 | model; tabanlar sınırdır, aşılmadı |
-| Malzeme saflığı kontrolü sınırlıyor | bütün komşuların evrensel kontrolü saflaştırılmış malzeme ister | Exp26 | model + anılan ölçümler |
-| Oda sıcaklığında çalışma | elektronik filaman 300 K'de bölünmez; oksitteki iyonik filaman aday sınıftır | Exp21, 24 | olumsuz; yalnız benzetim |
-| Doğrulama boşluğu | 28 sonuç bağımsız ölçümlerle karşılaştırıldı; itki halkası kapalı (40/40) | Exp29–32 | kısmen kapalı |
-
-**9.4 Hâlâ açık olanlar (ve sıradakiler).**
-1. Zincirin ölçülmemiş tek halkası **hücrenin kendisi, kriyojenik sıcaklıkta**: tohumlu, balastlı bir aygıtın akım basamakları.
-2. Gerçek bir aygıtta tohumlu doğum yeri sınaması (Exp18 bir modeldir; silikon filamanı ölçümlerinde tohumlu aygıtların doğum yerini sabitlediği bildirilir).
-3. Bölüm 5'teki yük kaybını azaltmanın bir yolu, oda sıcaklığında bölünen bir aygıt sınıfı (iyonik filamanlar adaydır) ve Bölüm 6.6 için yeterince hızlı bir kapalı
-   çevrim okuma.
-4. Bu bölümdeki her sayı yeniden üretilebilsin diye Exp27–30, 34 ve 39–41'in verileriyle birlikte yayımlanması.
-
-## 10. Yöntem: önceden kayıt ve dürüstlük
+## 9. Yöntem: önceden kayıt ve dürüstlük
 
 - **Koşulardan önce tahmin.** Her deney benzetimden önce bir `predictions_*.json` yazar; dosya bir kez yazılır ve sonraki betikler onu ezmemelidir. Tutmayan
   tahminler, tutanların yanında saklanır ve raporlanır.
@@ -262,7 +218,7 @@ kanalıdır; hücre sayısı sunulan gücü basamaklarla belirler; ölen bir hü
 - **Kapanış.** Her model sonucu, varsa bağımsız bir ölçümle karşılaştırılır; yoksa "ölçüm yok" ya da "yöntem" diye işaretlenir. Karşılaştırmaya uydurma yapılmaz.
 - **Olumsuz sonuçlar** bir dipnot değil, sonuç kümesinin parçasıdır (Bölüm 8).
 
-## 11. Depo yapısı ve yeniden üretme
+## 10. Depo yapısı ve yeniden üretme
 
 | Yol | İçerik |
 |---|---|
@@ -281,7 +237,7 @@ PYTHONPATH=src pytest -q                              # 74 test
 Denklem keşfi deneyleri ayrı bir ortamda `requirements-optional.txt` ister. Bazı deneyler `ngspice` (aygıt tabloları; tablolar dahildir) ya da FEniCSx/dolfinx
 (isteğe bağlı çapraz kontroller) ister; her deneyin raporu kullandıklarını sayar. Büyük ham diziler saklanmaz; betikler yeniden koşulunca üretilir.
 
-## 12. Sınırlar
+## 11. Sınırlar
 
 - **Model, ölçüm değil.** 4 K aygıt davranışı 300 K kompakt model tablolarından ve taranmış varsayımlardan bir ekstrapolasyondur. Dahil değil: öz-ısınma, tuzak
   kinetiği, parazitik bipolar transistör ve kaynak tarafı direnci.
@@ -292,7 +248,70 @@ Denklem keşfi deneyleri ayrı bir ortamda `requirements-optional.txt` ister. Ba
 - **2B sonuçlar.** 2B koşularda gerilim adımlarının çoğu kararlı durum toleransına ulaşmadı; 2B sonucu (bölünme yok) 1B sonuçlardan zayıf kanıttır. $d \ge 4$ aktif
   damla sonuçları O(d−1) simetrik indirgemeden gelir; yalnız 3B'de ve büyüme sırasında 6B hiperküple doğrulandı.
 - **Atom düzeyi sonuçlar modeldir.** İdeal kontrol alanlarını varsayarlar ve kapanış tablosu nerede abarttıklarını gösterir (Bölüm 7).
+- **Gelecek hattı kuram düzeyindedir.** İtki yasası ve atom düzeyindeki halkaları yayımlanmış veriyle kapatıldı, ama hücre halkası ölçülmedi ve Exp39–41
+  bir denklem kümesinin tutarlılık çalışmalarıdır, fizik testi değil (Bölüm 12).
 - **Kuantum değil.** Hücre sonuçları klasik, dissipatif desen oluşumudur.
+
+## 12. Geleceğe bakış: örnek bir çalışma, kontrol edilebilir "yakıt hücreleri"
+
+> **Araştırmanın beraberinde getirdiği.** Bir hücre istediğimiz yerde doğurulabildiğinde, sayılabildiğinde, hayatta tutulabildiğinde, onarılabildiğinde ve
+> gücünü komşularına verdirilebildiğinde (Bölüm 4–5), doğal bir sonraki soru böyle bir birimin **denetlenebilir bir enerji hücresi** olarak, yani kontrollü bir
+> miktarda gücü dönüştürüp kontrollü bir kanaldan salan bir birim olarak kullanılıp kullanılamayacağıdır. ("Yakıt hücresi" burada işlevsel anlamda kullanılır,
+> elektrokimyasal hücre anlamında değil.) Exp27–30, 34 ve 39–41 bunu tek bir örnek çalışma olarak işler. Çalışma **kuram düzeyindedir**: itki yasası ve atom
+> düzeyindeki halkaları yayımlanmış veriyle kapatıldı, hücre halkasının kendisi henüz ölçülmedi ve son üç deney bir denklem kümesinin tutarlılık çalışmalarıdır.
+> Her deney, tutmayanlar dahil, önceden kaydedilmiş tahminlerini saklar.
+
+### 12.1 Fikir
+
+Hücreler pozitif enerji sağlar; atomlar (iyonlar) momentumu taşır. Hücre, karakteristik akımı 0,2 mA mertebesinde, kendini düzenleyen bir akım kanalıdır; hücre
+sayısı sunulan gücü basamaklarla belirler; ölen bir hücre gücünü komşularına verir (Bölüm 5). Bir iyon demetinin itki/güç yasası, $F/P = 2\eta/v_e$ ve
+$F = \gamma J_b\sqrt{2mV/q}$, elektriksel hücreyi mekanik bir çıktıya bağlar.
+
+### 12.2 Örnek çalışma sayılarla
+
+| Exp | Soru | Sonuç | Durum |
+|---|---|---|---|
+| 27 | Vakum ya da metrik yolları tepkime kütlesiz itki verebilir mi? | Hayır. Kapalı bir araç itki/güç ≤ 1/c = 3,34 nN/W ile sınırlıdır; dinamik vakum dalgalanması itkisi en iyi ölçülmüş kaynakta ≤ 2 × 10⁻²¹ N'dur; negatif enerjili metrik yolları erişilebilir herhangi bir vakum enerjisinden 39–71 mertebe fazla enerji ister. Doğru kapı, momentumu atomların taşıdığı enerji geri dönüşümüdür. | kuram; **olumsuz sonuç** |
+| 28 | Atom ve pozitif enerji yolu ne veriyor? | $F/P = 2\eta/v_e$. Harcanan birim enerji başına atom 2/v_e, foton 1/c momentum taşır; oran 60 km/s'de $10^4$, 10 km/s'de $6 \times 10^4$. Denklem uçuşta ölçülmüş bir noktayı (92 mN, 2,3 kW, Isp 3100 s) η = 0,61 ile yeniden üretir. Hücreler besleme varsayımına göre (1–5 kV) kabaca 7–150 µN verir; itki basamaklarla değişir; ölen bir hücre onu en çok %0,8 değiştirir. | model; bir uçuş noktası |
+| 29 | İtki halkası doğru mu? | Yayımlanmış bir iyon itkicinin tezgâhta ölçülen **40 işletme noktasının 40'ı** serbest parametre olmadan 2σ içinde öngörülür (ortalama +%1,0, RMS **%1,45**; 1000 V üstünde %1,18). Atom düzeyindeki halkalar yayımlanmış deneylerde ölçülmüştür (istek üzerine tek iyon %88,5; uçuş süresinin $\sqrt{m}$ ölçeklemesi 1,97σ; $I = e f$ 0,27 ppm). Yalnız hücre halkası ölçülmemiştir. | **yayımlanmış veri** |
+| 30 | Bütün zincir kapanıyor mu? | Exp0–27'nin 28 sonucunun hepsi bağımsız ölçümlerle karşılaştırıldı (Bölüm 7). Bir sıvı-metal alan emisyonlu itkicinin doğrudan ölçülen itkisi denklemle %1,6–4,3 içinde uyuşuyor. | **yayımlanmış veri** |
+| 34 | En iyi işletme zarfı nedir? | İtki/güç $V^* = V_M + E_\text{in}/e$'de tepe yapar. İyonik sıvı iyonları için: 1,70 V'ta 523,8 µN/W (kısıtsız, Isp 175 s) ve 8,36 V'ta 392,7 µN/W (fizibil, Isp 388 s); foton sınırının $1{,}2$–$1{,}6 \times 10^5$ katı ve uçuş itkicisinin F/P'sinin yaklaşık 10 katı, bedeli düşük Isp. 1,2–5 kV'ta metal iyonları için: F/P 39,9 → 19,6 µN/W, Isp 4570 → 9348 s, Δv 10 → 20,5 km/s, itki hücre akımı basamaklarıyla. 40/40 kapanış korunuyor. | model; 4 alt öngörü tutmadı (12.3) |
+| 39–41 | Varsayımsal bir enerji kaynağı neyi gerektirir? | Relativistik kinematik merdiveni, ölçek inişi denetimi ve sanal bir hız ayarı laboratuvarı. Kayıtlı 19 tahminin hepsi tuttu, ama bunlar bir denklem kümesinin tutarlılık denetimleridir, fizik testi değil. Örneğin 8 kg'lık bir kütlenin sürekli 1 g yanışı 23,5 GW dış güç ister, yani 100 W'lık bir geminin çok ötesindedir; ek boyut kanıtı da bulunmaz. | **spekülatif** |
+
+### 12.3 Tutmayan tahminler (bilerek saklanıyor)
+
+- **Exp34, UT3.** Kayıtlı itki yoğunluğu aralığı $10^3$ kat kaçtı (kayıttaki bir hesap kayması). Yayma sınırındaki uzay yükü sınırlı itki yoğunluğu kayıtlı
+  $2{,}5$–$3{,}5 \times 10^4$ N/m² yerine $3{,}06 \times 10^7$ N/m² çıkıyor.
+- **Exp34, UT2 (alt madde).** Kayıtlı "en az 50 uç yükseltimi gerekir" yanlıştır; yaklaşık 5,3 yeter.
+- **Exp34, UT4 (alt madde).** Diz noktası özgül itkisi 4570 s'dir; kayıtlı 2000–4500 s aralığının dışındadır.
+- **Exp34, UT5.** Hücre besleme çarpanı 0,50'de 9 ızgara noktasının 6'sı bölünür, 9'unun hepsi değil.
+- **Exp29.** Tahminler kör değildi (kaynaklar okunurken bazı noktalar kabaca hesaplanmıştı); rapor bunu söyler ve ölçütleri yalnız yayımlanmış ölçüm
+  belirsizliklerinden kurar, uydurma yapılmaz.
+
+### 12.4 Programlanabilirliğin kaldırabileceği engeller
+
+| Denetlenebilir enerji dönüşümünün engeli | Programlanabilir kol | Buradaki kanıt | Durum |
+|---|---|---|---|
+| Güç ince, geri döndürülebilir basamaklarla kısılamıyor | hücre sayısı basamak yüksekliğiyle, yaşayanlar tutma gerilimiyle belirlenir; zorla küçültme bütün hücreleri böler (3 → 7); itki hücre akımı basamaklarıyla | Exp19–20, 34 | model; 300 K'de bölünme yok (Exp21) |
+| Tek bir yerel arıza bütün birimi düşürüyor | ölen hücre gücünün %98,5–102,3'ünü komşulara verir; yavaş ölüm yeni hücre doğurmaz (16'da 0); kasıtlı hasar bölünmeyle onarılır (3 → 2 → 3); ölen hücre itkiyi ≤ %0,8 değiştirir | Exp18, 23, 28 | model |
+| Akım yığılması ve denetimsiz filamanlaşma | küresel kısıt tek filaman seçer; dağıtık balast onu öngörülebilir bir genişlikte böldürür, $w = I/j_\text{on}$ | Exp12–17 | model; ESD filamanları ölçülmüş (Exp31) |
+| Etkinliğin başladığı yer rastgele | +30 mV'luk tohum doğum yerini sabitler (10/10; kural 77/80) | Exp18 | model |
+| Bir birim kapatılınca enerji kaybolur | hücreler arası geri dönüşüm neredeyse kayıpsız (η 0,985–1,023) ve hücre gerilimi $V_M$'de kenetli; **ama kaynak gücünün %75–83'ü yük direncinde kayboluyor** | Exp23 | model; **açık** |
+| Programlanabilirlik geri besleme ister | yaz–oku–düzelt çevrimi hedef desene 21/21 görevde ulaşır; yalnız küresel sürüş ulaşamaz (0/7) | Exp35–36 | model |
+| Birim yeterince küçük yapılamıyor | elektronik hücrenin tabanları var (≈ 36 nm kararlılık, ≈ 2,2 µm gövde bağlanması); gövdedeki programlanabilir akseptör atomları daha küçük birimdir | Exp24 | model; tabanlar sınırdır, aşılmadı |
+| Malzeme saflığı kontrolü sınırlıyor | bütün komşuların evrensel kontrolü saflaştırılmış malzeme ister | Exp26 | model + anılan ölçümler |
+| Oda sıcaklığında çalışma | elektronik filaman 300 K'de bölünmez; oksitteki iyonik filaman aday sınıftır | Exp21, 24 | olumsuz; yalnız benzetim |
+| Doğrulama boşluğu | 28 sonuç bağımsız ölçümlerle karşılaştırıldı; itki halkası kapalı (40/40) | Exp29–32 | kısmen kapalı |
+
+### 12.5 Hâlâ açık olanlar (ve sıradakiler)
+
+1. Zincirin ölçülmemiş tek halkası **hücrenin kendisi, kriyojenik sıcaklıkta**: tohumlu, balastlı bir aygıtın akım basamakları. İtki denklemi zaten doğrulandığı için bu
+   basamakları ölçmek yeter (Exp29).
+2. Gerçek bir aygıtta tohumlu doğum yeri sınaması (Exp18 bir modeldir; silikon filamanı ölçümlerinde tohumlu aygıtların doğum yerini sabitlediği bildirilir).
+3. Bölüm 5'teki yük kaybını azaltmanın bir yolu, oda sıcaklığında bölünen bir aygıt sınıfı (iyonik filamanlar adaydır) ve Bölüm 6.6 için yeterince hızlı bir kapalı
+   çevrim okuma.
+4. Spekülatif kısmın (Exp39–41) matematiksel tutarlılığı fiziksel iddialardan ayıran, yeniden üretilebilir ve önceden kayıtlı bir sürümü; böylece her sayı
+   sorgulanabilir.
 
 ## 13. Seçilmiş kaynaklar
 

@@ -1,0 +1,12 @@
+{
+ "registered": "2026-10-16 14:04",
+ "task": "Vakum-Metrik Roket: rocket equation for a craft whose energy comes from the recyclable dividing cells, whose thrust comes from vacuum control (static / dynamic Casimir) and from 'metric engineering' by programmable atoms",
+ "basis": "momentum and energy conservation of the closed system (craft + emitted fields); verified literature: dynamical Casimir force on a perfect mirror f = hbar A q^(5)/(30 pi^2 c^4) (Dalvit, Maia Neto, Mazzitelli review), 1D hbar q'''/(6 pi c^2); Wilson 2011 DCE ~ few K per unit bandwidth at 11.3 GHz pump; Tajmar 2021 EMDrive null; Bobrick & Martire 2021 every warp drive obeys a rocket equation; Pfenning & Ford 1997 / Van Den Broeck 1999 negative energy ~6.2e62 kg for a 100 m Alcubierre bubble",
+ "predictions": [
+  "VR1: the energy-conserving rocket equation of a craft that radiates a directed fraction eta of the energy it spends is beta = tanh(eta ln(M0/M1)); the numerical integration of the momentum-energy balance reproduces it to < 1e-6 and conserves total energy and momentum to < 1e-9",
+  "VR2: no vacuum or metric mechanism of a closed craft gives thrust above P/c; a static Casimir cycle gives exactly zero net work and impulse (numerically < 1e-12 relative)",
+  "VR3: dynamical Casimir thrust of the best engineered source (superconducting circuit at Wilson 2011 levels) is < 1e-20 N; a mechanical mirror (1 GHz, 1 nm) gives < 1e-35 N/m^2; the dividing cells as modulated plasma mirrors (ms switching) give < 1e-60 N",
+  "VR4: the metric leg fails by > 30 orders of magnitude: Casimir negative energy obtainable in 1 m^3 at 1 nm gaps (~ -5e-9 kg) versus the >= solar-mass scale needed; gravitational-wave thrust of a 1 kg kHz quadrupole < 1e-35 N",
+  "VR5: with eta -> 1 the equation reduces to the photon rocket; energy recycling of the cells (Exp23 eta = 0.985-1.023 transfer, architecture loss 75-83 %) changes eta but not the bound F/P <= 1/c (3.34 nN/W); the only door that beats onboard-energy limits is externally beamed power (light sail, F = (1+R) P/c with no onboard energy mass)"
+ ]
+}

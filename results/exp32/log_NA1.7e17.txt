@@ -1,4 +1,4 @@
-E:\quantum_cell\experiments\exp22_quantum\q22.py:48: RuntimeWarning: overflow encountered in exp
+experiments\exp22_quantum\q22.py:48: RuntimeWarning: overflow encountered in exp
   dos_ef = sum(l_["dos"] / (1 + np.exp((l_["E"] - ef) / kT)) for l_ in levels_)
 NA 1.7e+17: ns 7.11e+10  occupied@4K 1  E1-E0 43.0 meV  EF-E0 0.3 meV  next valley 1
 NA 1.7e+17: ns 1.92e+11  occupied@4K 1  E1-E0 44.4 meV  EF-E0 1.2 meV  next valley 1
@@ -7,7 +7,7 @@ NA 1.7e+17: ns 8.93e+11  occupied@4K 1  E1-E0 50.1 meV  EF-E0 5.6 meV  next vall
 NA 1.7e+17: ns 1.53e+12  occupied@4K 1  E1-E0 54.5 meV  EF-E0 9.6 meV  next valley 1
 NA 1.7e+17: ns 2.35e+12  occupied@4K 1  E1-E0 59.4 meV  EF-E0 14.8 meV  next valley 1
 NA 1.7e+17: ns 3.33e+12  occupied@4K 1  E1-E0 64.7 meV  EF-E0 21.0 meV  next valley 1
-E:\quantum_cell\experiments\exp22_quantum\q22.py:41: RuntimeWarning: overflow encountered in exp
+experiments\exp22_quantum\q22.py:41: RuntimeWarning: overflow encountered in exp
   return sum(l_["dos"] * kT * np.log1p(np.exp((ef - l_["E"]) / kT)) for l_ in levels_)
 NA 1.7e+17: ns 4.46e+12  occupied@4K 1  E1-E0 70.2 meV  EF-E0 28.1 meV  next valley 1
 NA 1.7e+17: ns 5.72e+12  occupied@4K 1  E1-E0 75.9 meV  EF-E0 36.0 meV  next valley 1

@@ -1,0 +1,26 @@
+{
+ "child_langmuir": [
+  {
+   "case": "Exp25 cell field 0.4 V/um",
+   "E_V_m": 400000.0,
+   "thrust_density_N_m2": 1.2592622667093334
+  },
+  {
+   "case": "Exp25 cell field 1.8 V/um",
+   "E_V_m": 1800000.0,
+   "thrust_density_N_m2": 25.500060900864
+  },
+  {
+   "case": "Exp5 surface 0.38 MV/cm",
+   "E_V_m": 38000000.0,
+   "thrust_density_N_m2": 11364.841957051733
+  },
+  {
+   "case": "gridded ion thruster ~1.5 kV/mm",
+   "E_V_m": 1500000.0,
+   "thrust_density_N_m2": 17.7083756256
+  }
+ ],
+ "nstar_check_N_m2": 1.3015337568403884,
+ "plume": "Exp15: 2D/3D phase-space structures break up in 20-60 w_p^-1; a magnetic field (W_ce = 2 w_p) keeps them"
+}

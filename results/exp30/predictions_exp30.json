@@ -1,0 +1,31 @@
+{
+  "experiment": "Exp30 — Exp0–Exp27'nin her sonucunun bağımsız ölçülmüş veriyle kapanışı + indiyum alan yayımı itkisinin ölçümle sınanması",
+  "written": "2026-10-16T14:56 (çapa kaynakları okunmadan önce; tek yazımlık)",
+  "why": "Stop kancası: kapanış testi Exp0–Exp27'nin her sonucunu girdi olarak kullanmıyordu ve ölçülmüş bir 'programlanabilir atomla itki' sonucu yoktu.",
+  "rules": "Her deneyin ana sayısal sonucu, aynı fiziksel büyüklüğün bağımsız ölçümüyle karşılaştırılır. Ölçülmüş çapa yoksa 'ölçüm yok' yazılır, uydurulmaz. Sonuç ✓ / ✗ / kısmen / ölçüm yok. Ölçüt aşağıda, kaynak okunmadan önce sabitlendi.",
+  "already_known_before_registration": "Exp25 GHZ (model 0,987 vs ölçülen %92,5 / %96,2) ve Exp26 eşevrelilik (model 0,86 vs Ladd 2005'ten e^(-17,5/25) = 0,50) önceki deneylerden biliniyor; ikisi de modelin iyimser olduğunu gösteriyor. Exp5'in V_T karşılaştırması (0,513 vs PDK 0,519 V) Exp5'te yapıldı.",
+  "criteria": {
+    "Exp0-2_E_C_size": "300 K'de E_C ≥ 10 kT için modelin en büyük ada kenarı (0,4 nm ε=3,9 / 0,1 nm ε=11,7), oda sıcaklığında Coulomb blokajı ölçülmüş en büyük Si adasıyla 2 kat içinde → ✓; değilse ✗ (modelin kapı kabuklu geometrisi gerçek aygıtı temsil etmiyor demektir)",
+    "Exp2_4K_quantization": "4 K civarında ölçülmüş bir Si kuantum noktasında yük kuantumu (pompa ya da Coulomb salınımı) var → ✓",
+    "Exp3_300K_qubit": "Si yük kübiti ölçümleri yalnız kriyojenik sıcaklıkta; 300 K'de çalışan Si yük kübiti raporu yok → ✓ (olumsuz sonuçla tutarlı)",
+    "Exp4_kappa": "model κ 4,4–5,7 nm⁻¹; ölçülmüş Si/SiO₂ bariyer yüksekliği ve tünel kütlesinden κ = √(2 m* Φ)/ħ ile %20 içinde → ✓",
+    "Exp5_VT_subband": "V_g(n_s = 1e12) = 0,513 V, PDK vth0 = 0,519 V (ölçüme uydurulmuş model kartı) %2 içinde → ✓",
+    "Exp6_mismatch": "MC σ_VT (3,9–5,1 mV, 126 × 420 nm), ölçülmüş Pelgrom A_VT'den hesaplanan σ ile 1,5 kat içinde → ✓; değilse ✗",
+    "Exp8_fission": "Coulomb fisyonu: ölçülmüş yüklü damla fisyonu Rayleigh sınırında (q/q_R ≈ 1) → model üssü −1,08'in Rayleigh beklentisi −1'e %10 yakınlığı ✓",
+    "Exp10_negative_compressibility": "modelde K < 0 başlangıcı n_s ≲ 1,5–3·10¹² cm⁻²; ölçülmüş 2B elektron sisteminde negatif sıkıştırılabilirlik başlangıç yoğunluğu ile 2 kat içinde → ✓; değilse ✗",
+    "Exp11_autocatalysis": "otokatalitik tepkime–yayılma sisteminde kendini çoğaltan noktalar deneyde gözlenmiş → ✓",
+    "Exp12_cryo_kink": "4 K civarında bulk CMOS'ta darbe iyonlaşmalı kink/histerezis ölçülmüş → ✓ (V_M = 0,80 V'un kendisi ölçülmemişse ayrıca belirtilir)",
+    "Exp15_holes": "1B'de elektron deliklerinin birleşmesi laboratuvarda ölçülmüş → ✓",
+    "Exp17-21_filaments": "yarıiletkende darbe/safsızlık kırılımı akım filamanları yalnız kriyojenik sıcaklıkta ölçülmüş → Exp21 ile tutarlı ✓; Si SKY130 hücre sayıları için ölçüm yok",
+    "Exp22_leakage": "model 4,1 nm SiO₂, 1,8 V, 1 mm²: fA–pA; ölçülmüş doğrudan tünel akım yoğunluğuyla 10 kat içinde → ✓; değilse ✗",
+    "Exp24_quantized_conductance": "HfO₂ RRAM'de ölçülmüş kuantumlu iletkenlik basamakları (G₀ mertebesinde) → tek atomluk boğaz (~1,2 G₀) ile tutarlı ✓",
+    "Exp24_single_nuclear_spin": "tek ³¹P çekirdek spininin RF ile tutarlı kontrolü ölçülmüş → ✓ (modelin 1,000000 hedefi ölçümle aynı değilse fark yazılır)",
+    "Exp25_GHZ": "model GHZ 0,987 vs ölçülmüş Si GHZ (%92,5 / %96,2): fark > 2 yüzde puanı → ✗ (iyimser) — önceden biliniyor",
+    "Exp26_coherence": "model 17,5 s'de 0,86 vs ölçülmüş T2 = 25 s'den 0,50 → ✗ (iyimser) — önceden biliniyor",
+    "Exp27_radiation": "foton itkisi F/P = 1/c (yansımada 2/c) ölçülmüş ışınım basıncıyla %10 içinde → ✓; statik Casimir kuvveti ölçülmüş, dinamik Casimir fotonları ölçülmüş → ✓",
+    "In_evaporation_field": "Exp28 imaj tümseği: F_ev = Q₀²/(1,44 eV·nm), Q₀ = Λ + I − φ = 4,19 eV → 12,2 V/nm; ölçülmüş In buharlaşma alanıyla %20 içinde → ✓",
+    "In_FEEP_thrust": "ölçülmüş FEEP itkisi (doğrudan tezgâh), ölçülmüş akım ve gerilimden F = γ I √(2 m_In V/e) ile, kaynağın verdiği ölçüm belirsizliği (≤ %5) ya da kaynak kendi karşılaştırmasını veriyorsa onun içinde → ✓",
+    "method_only": "Exp7 (test planı), Exp9 (araç çapraz denetimi), Exp16 (yöntem) ölçülebilir fiziksel sonuç vermez → 'yöntem' olarak işaretlenir",
+    "model_only": "Exp13, Exp14, Exp18, Exp19, Exp20, Exp23 için ölçülmüş çapa bulunmazsa 'ölçüm yok' yazılır"
+  }
+}

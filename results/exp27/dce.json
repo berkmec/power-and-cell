@@ -1,0 +1,156 @@
+{
+ "mechanical_mirror": [
+  {
+   "f_Hz": 1000000.0,
+   "dq_m": 1e-12,
+   "peak_velocity_m_s": 6.283185307179586e-06,
+   "v_over_c": 2.0958450219516814e-14,
+   "power_W_per_m2": 1.356505514085986e-54,
+   "one_sided_thrust_N_per_m2": 4.5248153443739605e-63,
+   "photons_per_s_per_m2": 2.0472248017433728e-27
+  },
+  {
+   "f_Hz": 1000000.0,
+   "dq_m": 1e-09,
+   "peak_velocity_m_s": 0.006283185307179587,
+   "v_over_c": 2.0958450219516818e-11,
+   "power_W_per_m2": 1.3565055140859862e-48,
+   "one_sided_thrust_N_per_m2": 4.524815344373961e-57,
+   "photons_per_s_per_m2": 2.047224801743373e-21
+  },
+  {
+   "f_Hz": 1000000.0,
+   "dq_m": 1e-06,
+   "peak_velocity_m_s": 6.283185307179585,
+   "v_over_c": 2.0958450219516813e-08,
+   "power_W_per_m2": 1.3565055140859861e-42,
+   "one_sided_thrust_N_per_m2": 4.5248153443739605e-51,
+   "photons_per_s_per_m2": 2.047224801743373e-15
+  },
+  {
+   "f_Hz": 100000000.0,
+   "dq_m": 1e-12,
+   "peak_velocity_m_s": 0.0006283185307179585,
+   "v_over_c": 2.0958450219516813e-12,
+   "power_W_per_m2": 1.3565055140859855e-42,
+   "one_sided_thrust_N_per_m2": 4.524815344373959e-51,
+   "photons_per_s_per_m2": 2.0472248017433717e-17
+  },
+  {
+   "f_Hz": 100000000.0,
+   "dq_m": 1e-09,
+   "peak_velocity_m_s": 0.6283185307179586,
+   "v_over_c": 2.095845021951682e-09,
+   "power_W_per_m2": 1.3565055140859858e-36,
+   "one_sided_thrust_N_per_m2": 4.5248153443739595e-45,
+   "photons_per_s_per_m2": 2.0472248017433723e-11
+  },
+  {
+   "f_Hz": 100000000.0,
+   "dq_m": 1e-06,
+   "peak_velocity_m_s": 628.3185307179585,
+   "v_over_c": 2.0958450219516814e-06,
+   "power_W_per_m2": 1.3565055140859857e-30,
+   "one_sided_thrust_N_per_m2": 4.5248153443739594e-39,
+   "photons_per_s_per_m2": 2.0472248017433722e-05
+  },
+  {
+   "f_Hz": 1000000000.0,
+   "dq_m": 1e-12,
+   "peak_velocity_m_s": 0.006283185307179587,
+   "v_over_c": 2.0958450219516818e-11,
+   "power_W_per_m2": 1.3565055140859866e-36,
+   "one_sided_thrust_N_per_m2": 4.524815344373962e-45,
+   "photons_per_s_per_m2": 2.0472248017433738e-12
+  },
+  {
+   "f_Hz": 1000000000.0,
+   "dq_m": 1e-09,
+   "peak_velocity_m_s": 6.283185307179587,
+   "v_over_c": 2.095845021951682e-08,
+   "power_W_per_m2": 1.3565055140859869e-30,
+   "one_sided_thrust_N_per_m2": 4.524815344373963e-39,
+   "photons_per_s_per_m2": 2.047224801743374e-06
+  },
+  {
+   "f_Hz": 1000000000.0,
+   "dq_m": 1e-06,
+   "peak_velocity_m_s": 6283.185307179586,
+   "v_over_c": 2.0958450219516817e-05,
+   "power_W_per_m2": 1.3565055140859866e-24,
+   "one_sided_thrust_N_per_m2": 4.524815344373962e-33,
+   "photons_per_s_per_m2": 2.0472248017433734
+  },
+  {
+   "f_Hz": 10000000000.0,
+   "dq_m": 1e-12,
+   "peak_velocity_m_s": 0.06283185307179585,
+   "v_over_c": 2.0958450219516814e-10,
+   "power_W_per_m2": 1.356505514085986e-30,
+   "one_sided_thrust_N_per_m2": 4.52481534437396e-39,
+   "photons_per_s_per_m2": 2.0472248017433727e-07
+  },
+  {
+   "f_Hz": 10000000000.0,
+   "dq_m": 1e-09,
+   "peak_velocity_m_s": 62.83185307179586,
+   "v_over_c": 2.0958450219516817e-07,
+   "power_W_per_m2": 1.3565055140859864e-24,
+   "one_sided_thrust_N_per_m2": 4.5248153443739614e-33,
+   "photons_per_s_per_m2": 0.2047224801743373
+  },
+  {
+   "f_Hz": 10000000000.0,
+   "dq_m": 1e-06,
+   "peak_velocity_m_s": 62831.85307179586,
+   "v_over_c": 0.00020958450219516815,
+   "power_W_per_m2": 1.3565055140859863e-18,
+   "one_sided_thrust_N_per_m2": 4.524815344373961e-27,
+   "photons_per_s_per_m2": 204722.4801743373
+  }
+ ],
+ "superconducting_circuit": [
+  {
+   "noise_temperature_K": 3.0,
+   "bandwidth_Hz": 50000000.0,
+   "power_W": 2.0709735e-15,
+   "thrust_N": 6.908024017068501e-24
+  },
+  {
+   "noise_temperature_K": 3.0,
+   "bandwidth_Hz": 1000000000.0,
+   "power_W": 4.141947e-14,
+   "thrust_N": 1.3816048034137004e-22
+  },
+  {
+   "noise_temperature_K": 10.0,
+   "bandwidth_Hz": 5000000000.0,
+   "power_W": 6.903245e-13,
+   "thrust_N": 2.3026746723561672e-21
+  }
+ ],
+ "cells_as_plasma_mirror": [
+  {
+   "width_change_m": 1e-05,
+   "switching_time_s": 0.001,
+   "area_m2": 1e-09,
+   "power_W": 2.1195398657593536e-69,
+   "thrust_N": 7.070023975584315e-78
+  },
+  {
+   "width_change_m": 1e-06,
+   "switching_time_s": 1e-06,
+   "area_m2": 1.0000000000000001e-11,
+   "power_W": 2.119539865759354e-55,
+   "thrust_N": 7.070023975584315e-64
+  },
+  {
+   "width_change_m": 1e-05,
+   "switching_time_s": 1e-09,
+   "area_m2": 1e-09,
+   "power_W": 2.119539865759353e-33,
+   "thrust_N": 7.070023975584313e-42
+  }
+ ],
+ "bound": "any DCE thrust <= P_DCE / c, and P_DCE comes from the drive: the vacuum supplies neither energy nor momentum"
+}

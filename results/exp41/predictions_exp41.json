@@ -1,0 +1,16 @@
+{
+ "registered": "2026-10-19 (this session, before any Exp41 numerical output)",
+ "laboratory": {
+  "finite_ship_bench": "Exp34 EMI feasible, In knee and In 5 kV lanes; 10 kg wet, 8 kg dry, 100 W cap. State is integrated in Earth time with mass, rapidity, distance and ship proper time. Throttle profiles: FULL=1, ECO25=0.25, RAMP to 1 over 10% of estimated full-burn time, PULSE50 with 50% duty. No gamma/n target stops the run; propellant exhaustion does.",
+  "external_throttle_bench": "8 kg test article at constant dry mass, externally powered, integrated in proper time under 0.1g/1g/10g FULL plus 1g RAMP and PULSE50. This bench is explicitly not a closed onboard-fuel ship; required external energy and instantaneous power are recorded.",
+  "readouts_not_targets": "epsilon=1/gamma and log10(gamma) may be plotted as diagnostics, but no n/gamma value is a control target in either bench."
+ },
+ "predictions": [
+  "G1 FINITE INVARIANCE: For a given Exp34 lane, FULL/ECO25/RAMP/PULSE50 all reach the same final rapidity and delta-v within 0.5% after burning the same 2 kg. Full-throttle finals reproduce Exp39 within 1%: EMI about 0.85 km/s, In knee about 10.0 km/s, In 5 kV about 20.5 km/s; gamma-1 <= 2.5e-9.",
+  "G2 FINITE CLOCKS: ECO25 burn duration is 4.00x FULL within 2%; PULSE50 is 2.00x FULL within 5%; RAMP lies between FULL and 1.10x FULL. Electrical energy consumed to burn the same propellant is profile-independent within 2%.",
+  "G3 EXTERNAL 1G EVENT: On the external bench at 1g FULL, gamma=10 occurs at ship proper time 2.8-3.0 years, Earth time 9.5-10.5 years and distance 8.5-9.5 ly, with beta=0.994987 and 8 kg kinetic energy 6.47e18 J within 1%.",
+  "G4 ACCELERATION SCALING: At fixed gamma, proper time, Earth time and distance on the FULL external bench scale as 1/a (0.1g:1g:10g = 10:1:0.1) within numerical tolerance, while required kinetic energy is independent of a.",
+  "G5 FREE-RUN ASYMPTOTE: The external bench reaches gamma=1e30 only as a late readout at 1g ship proper time 65-70 years, Earth time >1e29 years and kinetic energy 7.19e47 J within 2%; beta remains <1 with 1-beta=5e-61 within 1%. No finite-throttle run reaches or exceeds c.",
+  "G6 INDIUM DIAGNOSTIC: A co-moving indium test ion crosses lambda_h=Planck length at gamma=7.17e17; on the 1g external bench this readout occurs at ship proper time 39-42 years and Earth time 6e17-8e17 years. The equations of motion remain smooth there; the crossing flags loss of the semiclassical h-nu domain, not a spatial-dimension transition."
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "island_max_nm_for_EC_10kT_at_4K": {
+  "eps3.9": 29.275,
+  "eps11.7": 9.758333333333333
+ },
+ "exp2_chain": {
+  "sizes_nm": [
+   12,
+   6,
+   3
+  ],
+  "EC_K": [
+   119.8,
+   231.5,
+   404.0
+  ],
+  "quantisation_4K": [
+   0.926,
+   0.982,
+   1.0
+  ]
+ },
+ "atom_by_atom": [
+  {
+   "species": "In",
+   "f_Hz": 100000000.0,
+   "current_A": 1.602176634e-11,
+   "thrust_N": 1.7477718285044565e-12,
+   "turnstiles_for_1mN": 572157065.1792035
+  },
+  {
+   "species": "In",
+   "f_Hz": 1000000000.0,
+   "current_A": 1.6021766339999998e-10,
+   "thrust_N": 1.7477718285044563e-11,
+   "turnstiles_for_1mN": 57215706.51792036
+  },
+  {
+   "species": "In",
+   "f_Hz": 10000000000.0,
+   "current_A": 1.6021766339999998e-09,
+   "thrust_N": 1.7477718285044564e-10,
+   "turnstiles_for_1mN": 5721570.651792035
+  },
+  {
+   "species": "Xe",
+   "f_Hz": 100000000.0,
+   "current_A": 1.602176634e-11,
+   "thrust_N": 1.8689622611026814e-12,
+   "turnstiles_for_1mN": 535056282.73628354
+  },
+  {
+   "species": "Xe",
+   "f_Hz": 1000000000.0,
+   "current_A": 1.6021766339999998e-10,
+   "thrust_N": 1.8689622611026813e-11,
+   "turnstiles_for_1mN": 53505628.273628354
+  },
+  {
+   "species": "Xe",
+   "f_Hz": 10000000000.0,
+   "current_A": 1.6021766339999998e-09,
+   "thrust_N": 1.8689622611026811e-10,
+   "turnstiles_for_1mN": 5350562.827362835
+  },
+  {
+   "species": "O",
+   "f_Hz": 100000000.0,
+   "current_A": 1.602176634e-11,
+   "thrust_N": 6.524183465221656e-13,
+   "turnstiles_for_1mN": 1532758858.377729
+  },
+  {
+   "species": "O",
+   "f_Hz": 1000000000.0,
+   "current_A": 1.6021766339999998e-10,
+   "thrust_N": 6.524183465221656e-12,
+   "turnstiles_for_1mN": 153275885.83777288
+  },
+  {
+   "species": "O",
+   "f_Hz": 10000000000.0,
+   "current_A": 1.6021766339999998e-09,
+   "thrust_N": 6.524183465221656e-11,
+   "turnstiles_for_1mN": 15327588.58377729
+  }
+ ],
+ "exp4_loading": "t = 24.8 meV, rise ~59 ps at gamma = 1 (L 1 nm, d 0.5 nm): GHz cycles possible"
+}

@@ -1,0 +1,13 @@
+{
+ "registered": "2026-10-16 14:24",
+ "task": "Atom + positive energy rocket from ALL project data (exp0-exp27): dividing cells (energy, quantised current, recycling), programmable atoms (charge 0/1, field-lowered barrier law), field manipulation (cell fields), artificial atoms (single charge), quantum tunnelling into vacuum; atoms carry the momentum, the cells' positive energy accelerates them",
+ "basis": "data read before registering: Exp23 cell power 135.9/220.0 uW at ~0.82 V, recycling 0.985-1.023, load share 74.6/83 %; Exp17 j_on = 2.569 uA/um, N ~ I/(0.75 j_on w_s); Exp19 k = 1,2,4 by V_DD step; Exp24 alpha = 0.507 eV/(V/nm), E_a = 1 eV, nu = 1e13 /s, margins >= 8 kT/e; Exp25 cell field 0.4-1.8 V/um, 2.8 meV per atom flip; Exp0/2 E_C 120-404 K for 12-3 nm islands, charge quantisation 0.93-1.00 at 4 K; Exp4 WKB kappa 4.4-5.7 /nm; Exp27 photon bound 3.34 nN/W; literature: NSTAR 92 mN at 2.3 kW, Isp 3100 s; Enpulsion FEEP <= 0.35 mN at 40 W, Isp 2000-6000 s; field evaporation 10-60 V/nm",
+ "predictions": [
+  "AR1: F/P = 2 eta / v_e reproduces NSTAR (92 mN, 2.3 kW, Isp 3100 s) with eta between 0.55 and 0.70; at v_e <= 60 km/s an atom rocket gives >= 1e4 times the photon bound in thrust per watt",
+  "AR2: a cell (I_cell = P_cell / 0.82 V = 0.17-0.27 mA) driving In+ at 1-5 kV gives 2-30 uN per cell; thrust steps with the number of cells (1, 2, 4 by V_DD steps) and a cell death changes total thrust by <= 3 % (Exp23 recycling)",
+  "AR3: the Exp24 barrier law k = nu exp(-(Q0 - alpha F)/kT) makes emission programmable: near the threshold a 10 % change of the local field switches the rate by >= 1e3 at 430 K (liquid In) and by >= 1e100 at 4 K",
+  "AR4: WKB tunnelling of an electron out of the atom into vacuum (b = 6.83 V nm^-1 eV^-3/2) needs 3-25 V/nm for 1e9 /s field ionisation (Cs, In, Xe): 1e3-1e5 times the cells' own 0.4-1.8 V/um, so emitters need field enhancement beta >= 1e3",
+  "AR5: a Coulomb-blockade turnstile (artificial atom) at 4 K needs E_C >= 10 kT -> island <= 30 nm (eps 3.9) and moves exactly one charge per cycle: atom-by-atom thrust F = m v_e f (In, 91 km/s: ~1.7e-11 N per GHz turnstile)",
+  "AR6: a 10 kg craft with 100 W and 2 kg In reaches Delta v >= 10 km/s in <= 5 years; the Li-ion photon rocket of Exp27 reaches 2.7 mm/s: ratio >= 1e6"
+ ]
+}

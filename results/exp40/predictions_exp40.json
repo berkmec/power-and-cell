@@ -1,0 +1,22 @@
+{
+ "registered": "2026-10-19 (this session, before any Exp40 numerical output; Exp39 In lambda/Planck crossing is prior registered evidence and is not reused as an Exp40 prediction target except as a cross-check)",
+ "equation_under_test": {
+  "user_name": "Denklem 2 (the h-based line of the Denklem-1 group)",
+  "form": "epsilon_n = sqrt(1-beta^2) = m0*c^2/(h*nu) = 0.1^n; gamma=10^n; h*nu=gamma*m0*c^2; lambda_h=h/(gamma*m0*c)",
+  "species": ["electron", "proton", "indium atom", "Planck-mass test particle", "8 kg ship treated counterfactually as one quantum"],
+  "range": "continuous and integer n=0..30 (gamma=1..1e30)",
+  "dimension_questions": [
+   "unit dimension: does [m0*c^2/(h*nu)] remain dimensionless for every n?",
+   "length-scale descent: where does lambda_h cross 1e-18 m, the Planck energy, lambda_h = Schwarzschild radius of its own energy, and lambda_h = Planck length?",
+   "spatial extra dimension: the h equation contains no compactification radius or coupling, so a scale crossing is tested against hypothetical radius R separately; it is not counted as proof of an extra dimension"
+  ]
+ },
+ "predictions": [
+  "V1 UNIT DIMENSION: The M,L,T exponent vectors of m0*c^2 and h*nu are both (1,2,-2); their ratio has vector (0,0,0) for all species and n, and the numerical residual m0*c^2/(h*nu)-10^-n stays below 1e-12 relative.",
+  "V2 PHOTON VS PARTICLE: lambda_h/lambda_deBroglie = beta and p_photon/p_particle = 1/beta. At n=1 the photon-equivalent momentum excess is between 0.4% and 0.6%; it tends to zero as n grows.",
+  "V3 THRESHOLD ORDER: For every pointlike species the crossings occur in the order Planck energy, lambda_h = Schwarzschild radius, lambda_h = Planck length, separated by about 0.249 dex and 0.550 dex in n.",
+  "V4 SPECIES THRESHOLDS: lambda_h = Planck length occurs at n=23.0-23.3 for electron, 19.8-20.0 for proton, and 17.8-17.9 for indium. The 1e-18 m crossing occurs at n=6.3-6.5 (electron), 3.0-3.2 (proton), and 1.0-1.2 (indium).",
+  "V5 MACROSCOPIC FAILURE: For the 8 kg ship treated as a single quantum, lambda_h at n=0 is already below the Planck length by more than seven orders of magnitude, so the single-quantum h-nu reading is outside the standard semiclassical domain before the ladder starts.",
+  "V6 EXTRA-DIMENSION VERDICT: No value of n changes the spatial dimension in the h equation itself. In a hypothetical one-compact-dimension overlay, geometric access lambda_h<=R and first-KK access E>=hbar*c/R differ by log10(2*pi)=0.798 dex under the radius convention, so any claimed entry threshold is model/convention dependent."
+ ]
+}

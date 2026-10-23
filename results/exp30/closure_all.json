@@ -1,0 +1,413 @@
+{
+ "calc": {
+  "Exp1_capacitance": {
+   "a_nm": [
+    1.273473643673011,
+    2.0
+   ],
+   "C_model_aF": {
+    "0.5": [
+     1.0109353388115283,
+     1.587681604301982
+    ],
+    "0.2": [
+     0.7153371245572723,
+     1.1234423705763774
+    ]
+   },
+   "C_meas_aF": 0.42,
+   "ratio_range": [
+    1.7031836298982674,
+    3.7801942959571
+   ],
+   "Ec_model_eV": [
+    0.10091296829658682,
+    0.1584845808124132
+   ],
+   "Ec_meas_eV": 0.377
+  },
+  "Exp0-2_room_T_size": {
+   "model_a_max_nm_300K": 0.4,
+   "measured_island_nm": 2.0,
+   "factor": 5.0,
+   "verdict": "✗",
+   "note": "ölçüm: ~2 nm adada 300 K'de dört Coulomb elması; 5 nm adada 200 K altında belirgin blokaj"
+  },
+  "Exp2_4K": {
+   "pump_T_e_K": [
+    7,
+    9
+   ],
+   "E_add_meV": 17,
+   "E_over_kT": [
+    21.919645340705706,
+    28.182401152335913
+   ],
+   "verdict": "✓"
+  },
+  "Exp4_kappa": {
+   "kappa_meas_nm": 5.704917577600521,
+   "kappa_band_nm": [
+    5.336461748791374,
+    6.0509788578474915
+   ],
+   "model_nm": [
+    4.4,
+    5.7
+   ],
+   "dev_mid": -0.11479877994591092,
+   "verdict": "✓"
+  },
+  "Exp5_VT": {
+   "model_V": 0.513,
+   "pdk_V": 0.519,
+   "dev": -0.011560693641618491,
+   "verdict": "✓"
+  },
+  "Exp6_mismatch": {
+   "sigma_meas_mV": [
+    18.04006836227333,
+    21.735022123220876
+   ],
+   "sigma_MC_mV": [
+    3.9,
+    5.1
+   ],
+   "ratio": [
+    3.5372683063281043,
+    5.57308259569766
+   ],
+   "verdict": "✗"
+  },
+  "Exp18_seed_vs_mismatch": {
+   "sigma_seg_mV": [
+    3.388460810850064,
+    4.08248290463863
+   ],
+   "seed_mV": 30,
+   "seed_in_sigma": [
+    7.348469228349534,
+    8.853577383553654
+   ],
+   "assumption": "10 µm segment, L = 0,15 µm (en kötü durum)"
+  },
+  "Exp8_fission": {
+   "model_exponent": -1.08,
+   "rayleigh": -1.0,
+   "dev": 0.08,
+   "verdict": "✓"
+  },
+  "Exp22_subband": {
+   "model_single_subband_to": 9500000000000.0,
+   "measured_second_onset": 6000000000000.0,
+   "verdict": "✗ (önceden kaydedilmemiş ek karşılaştırma)"
+  },
+  "Exp25_GHZ": {
+   "model": 0.987,
+   "measured": [
+    0.925,
+    0.962
+   ],
+   "gap_points": [
+    2.5,
+    6.2
+   ],
+   "verdict": "✗"
+  },
+  "Exp26_coherence": {
+   "model": 0.86,
+   "measured": 0.4965853037914095,
+   "verdict": "✗"
+  },
+  "Exp27_IKAROS": {
+   "F_meas_mN": 1.12,
+   "F_max_2SA_over_c_1AU_mN": 1.779604475573565,
+   "ratio": 0.6293533284349743,
+   "verdict": "✓"
+  },
+  "FEEP": {
+   "dev_pct": {
+    "V_em sabit, 2–4 mA": 1.6,
+    "3,5 mA, 3–10 kV": 2.8,
+    "V_ex sabit": 4.3
+   },
+   "criterion_pct": 5.0,
+   "verdict": "✓",
+   "needles": {
+    "37 µA, 6 kV": "28 iğneden 1'i",
+    "3,5 mA": "28/28"
+   },
+   "per_needle_uA": 125.0,
+   "cell_Ic_uA": [
+    166,
+    268
+   ]
+  },
+  "In_field": {
+   "image_hump_V_nm": 12.191736111111114,
+   "measured": "LMIS uç alanı > 10 V/nm (ölçülmüş tek In değeri bulunamadı)",
+   "verdict": "kısmen"
+  }
+ },
+ "rows": [
+  {
+   "exp": "Exp0",
+   "project": "Coulomb + hapsolma, özyinelemeli boyutlar",
+   "anchor": "~2 nm Si adada 300 K'de Coulomb + kuantum etkileri",
+   "source": "Shin 2010, arXiv 1001.3724",
+   "reading": "tam metin",
+   "verdict": "hapsolma ✓ (nitel) / Coulomb ✗",
+   "role": "turnike adası boyutu"
+  },
+  {
+   "exp": "Exp1",
+   "project": "c_Σ = 22,989 ε a (FEM)",
+   "anchor": "C_Σ = 0,42 aF, e²/C_Σ = 0,377 eV (1,58–2 nm)",
+   "source": "Shin 2010",
+   "reading": "tam metin",
+   "verdict": "✗ (model 1,7–3,8× fazla)",
+   "role": "turnike E_C yasası"
+  },
+  {
+   "exp": "Exp2",
+   "project": "4 K'de yük kuantumu; 77/300 K'de yok",
+   "anchor": "Si pompası T_e 7–9 K'de ppm; 5 nm adada < 200 K blokaj",
+   "source": "Zhao 2017; Shin 2010",
+   "reading": "tam metin",
+   "verdict": "4 K ✓ / 77 K ✗",
+   "role": "turnike sıcaklığı"
+  },
+  {
+   "exp": "Exp3",
+   "project": "300 K çift nokta ölü",
+   "anchor": "Si yük kübiti T2* 0,13–2,1 ns, seyreltme soğutucusunda",
+   "source": "Shi 2013, arXiv 1208.0519",
+   "reading": "özet",
+   "verdict": "✓",
+   "role": "kısıt: kriyojenik"
+  },
+  {
+   "exp": "Exp4",
+   "project": "WKB κ 4,4–5,7 nm⁻¹",
+   "anchor": "Si/SiO₂ bariyeri 3,1 eV, FN tünel kütlesi ≈ 0,4 → 5,70 nm⁻¹",
+   "source": "Lenzlinger–Snow 1969; arXiv 1512.00255",
+   "reading": "özet",
+   "verdict": "✓ (orta −%11)",
+   "role": "tünelleme, GHz turnike"
+  },
+  {
+   "exp": "Exp5",
+   "project": "V_g(n_s 1e12) 0,513 V",
+   "anchor": "PDK vth0 0,519 V (ölçüme uydurulmuş kart)",
+   "source": "SkyWater PDK",
+   "reading": "birincil dosya",
+   "verdict": "✓ (%1,2)",
+   "role": "SKY130 alan ölçeği"
+  },
+  {
+   "exp": "Exp6",
+   "project": "MC σ_VT 3,9–5,1 mV",
+   "anchor": "Pelgrom A_VT ≈ 4–5 mV·µm → 18–22 mV",
+   "source": "Pelgrom (Berkeley EE240B)",
+   "reading": "özet",
+   "verdict": "✗ (3,5–5,6× küçük)",
+   "role": "değişkenlik"
+  },
+  {
+   "exp": "Exp7",
+   "project": "≥ 100 aygıt test planı",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "yöntem",
+   "role": "ölçüm planı"
+  },
+  {
+   "exp": "Exp8",
+   "project": "fisyon eşiği üssü −1,08",
+   "anchor": "yüklü damlalar Rayleigh sınırında bölünüyor",
+   "source": "elektrodinamik terazi ölçümleri",
+   "reading": "özet",
+   "verdict": "✓ (%8)",
+   "role": "bölünme ilkesi"
+  },
+  {
+   "exp": "Exp9",
+   "project": "araç çapraz denetimi",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "yöntem",
+   "role": "doğrulama"
+  },
+  {
+   "exp": "Exp10",
+   "project": "2B'de K < 0 var, bölünme yok",
+   "anchor": "düşük yoğunlukta negatif sıkıştırılabilirlik ölçülmüş",
+   "source": "Eisenstein 1992, PRL 68, 674",
+   "reading": "özet",
+   "verdict": "kısmen (eşik sayısı yok)",
+   "role": "kısıt: filaman hücre"
+  },
+  {
+   "exp": "Exp11",
+   "project": "otokataliz gerekli",
+   "anchor": "kendini çoğaltan noktalar deneyde",
+   "source": "Lee 1994, Nature 369, 215",
+   "reading": "özet",
+   "verdict": "✓",
+   "role": "ilke: otokataliz"
+  },
+  {
+   "exp": "Exp12",
+   "project": "4 K yüzer gövde kilitlenmesi, kink + histerezis",
+   "anchor": "180 nm NMOS'ta kink + histerezis, 30 K'de var, 40 K'de yok",
+   "source": "Huang 2020, arXiv 2003.00207",
+   "reading": "tam metin",
+   "verdict": "✓ (V_M = 0,80 V ölçülmedi)",
+   "role": "hücre gerilim kenedi"
+  },
+  {
+   "exp": "Exp13",
+   "project": "balast λ genişliği seçer",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "ölçüm yok",
+   "role": "hücre genişliği"
+  },
+  {
+   "exp": "Exp14",
+   "project": "bölünme boyut penceresi",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "ölçüm yok",
+   "role": "kısıt: 1B şerit"
+  },
+  {
+   "exp": "Exp15",
+   "project": "1B delikler birleşir; B korur",
+   "anchor": "manyetize Q-makinesinde elektron delikleri ve birleşme",
+   "source": "Saeki 1979, PRL 42, 501",
+   "reading": "özet (atıflar)",
+   "verdict": "✓",
+   "role": "iyon bulutu"
+  },
+  {
+   "exp": "Exp16",
+   "project": "PySINDy",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "yöntem",
+   "role": "yöntem"
+  },
+  {
+   "exp": "Exp17",
+   "project": "j_on, w_s yasası, N ≈ I/(0,75 j_on w_s)",
+   "anchor": "Si'de yok; benzer: FEEP'te yayan iğne sayısı akımla artıyor",
+   "source": "Mühlich 2022",
+   "reading": "tam metin",
+   "verdict": "ölçüm yok (Si)",
+   "role": "I_c, N(t)"
+  },
+  {
+   "exp": "Exp18",
+   "project": "+30 mV tohum 10/10",
+   "anchor": "tohum, ölçek uyumsuzluğunun 7–9σ'sı",
+   "source": "Pelgrom ölçeği",
+   "reading": "özet",
+   "verdict": "tutarlı (dolaylı)",
+   "role": "doğum yeri"
+  },
+  {
+   "exp": "Exp19",
+   "project": "V_DD adımı k = 1, 2, 4",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "ölçüm yok",
+   "role": "itki basamakları"
+  },
+  {
+   "exp": "Exp20",
+   "project": "zorla düşüş 3 → 7",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "ölçüm yok",
+   "role": "hızlı artış"
+  },
+  {
+   "exp": "Exp21",
+   "project": "300 K'de bölünme yok",
+   "anchor": "kink 40 K'de kayboluyor; n-GaAs filamanları 4,2 K'de",
+   "source": "Huang 2020; Brandl 1989",
+   "reading": "tam metin",
+   "verdict": "✓",
+   "role": "kısıt: ≲ 30 K"
+  },
+  {
+   "exp": "Exp22",
+   "project": "4 K'de 9,5e12'ye kadar tek alt bant; kaçak fA–pA",
+   "anchor": "Si(100)'de ikinci alt bant ~6e12 üstünde; kaçak sayısı bulunamadı",
+   "source": "Ray–Martin (IBM)",
+   "reading": "özet",
+   "verdict": "✗ alt bant (ek) / kaçak ölçüm yok",
+   "role": "kayıp"
+  },
+  {
+   "exp": "Exp23",
+   "project": "aktarım 0,985–1,023",
+   "anchor": "—",
+   "source": "—",
+   "reading": "—",
+   "verdict": "ölçüm yok",
+   "role": "η_aktarım"
+  },
+  {
+   "exp": "Exp24",
+   "project": "tek atomluk boğaz ~1,2 G₀; tek ³¹P RF hedef 1,000000",
+   "anchor": "HfO₂'de G₀ basamakları; ³¹P kapı > %98, okuma > %99,8",
+   "source": "Long 2013, APL 102, 183505; Pla 2013, Nature 496, 334",
+   "reading": "özet",
+   "verdict": "kısmen (var ✓, sayı iyimser)",
+   "role": "programlanabilir atom"
+  },
+  {
+   "exp": "Exp25",
+   "project": "GHZ 0,987",
+   "anchor": "Si GHZ %92,5 / %96,2",
+   "source": "Mądzik 2022; Thorvaldson 2025",
+   "reading": "tam metin",
+   "verdict": "✗ (iyimser)",
+   "role": "kuantum denetim"
+  },
+  {
+   "exp": "Exp26",
+   "project": "17,5 s'de 0,86",
+   "anchor": "MREV-16 T2 = 25 s → 0,50",
+   "source": "Ladd 2005",
+   "reading": "tam metin",
+   "verdict": "✗ (iyimser; çöküş sonucu daha da güçlü)",
+   "role": "kısıt: yükle denetim"
+  },
+  {
+   "exp": "Exp27",
+   "project": "F/P ≤ 1/c (yansımada 2/c); Casimir; DCE",
+   "anchor": "IKAROS 1,12 mN ≤ 1,78 mN; Casimir %5; DCE fotonları",
+   "source": "JAXA; Lamoreaux 1997; Wilson 2011",
+   "reading": "özet / tam metin",
+   "verdict": "✓",
+   "role": "karşılaştırma tabanı"
+  }
+ ],
+ "tally": {
+  "karışık/kısmen": 5,
+  "✗": 5,
+  "✓": 9,
+  "yöntem": 3,
+  "ölçüm yok": 6
+ }
+}
