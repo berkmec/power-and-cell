@@ -1,0 +1,55 @@
+{
+ "craft_10kg_100W_2kg": [
+  {
+   "v_e_km_s": 30.0,
+   "eta": 0.26,
+   "P_W": 100.0,
+   "dv_km_s": 6.694306539426293,
+   "burn_years": 1.0968119333138344,
+   "thrust_mN": 1.7333333333333332
+  },
+  {
+   "v_e_km_s": 30.0,
+   "eta": 0.6,
+   "P_W": 100.0,
+   "dv_km_s": 6.694306539426293,
+   "burn_years": 0.4752851711026616,
+   "thrust_mN": 4.0
+  },
+  {
+   "v_e_km_s": 60.0,
+   "eta": 0.26,
+   "P_W": 100.0,
+   "dv_km_s": 13.388613078852586,
+   "burn_years": 4.387247733255338,
+   "thrust_mN": 0.8666666666666666
+  },
+  {
+   "v_e_km_s": 60.0,
+   "eta": 0.6,
+   "P_W": 100.0,
+   "dv_km_s": 13.388613078852586,
+   "burn_years": 1.9011406844106464,
+   "thrust_mN": 2.0
+  },
+  {
+   "v_e_km_s": 91.7,
+   "eta": 0.26,
+   "P_W": 100.0,
+   "dv_km_s": 20.462263655513034,
+   "burn_years": 10.247745442137077,
+   "thrust_mN": 0.5670665212649946
+  },
+  {
+   "v_e_km_s": 91.7,
+   "eta": 0.6,
+   "P_W": 100.0,
+   "dv_km_s": 20.462263655513034,
+   "burn_years": 4.440689691592733,
+   "thrust_mN": 1.3086150490730644
+  }
+ ],
+ "photon_li_ion_dv_m_s": 0.0027,
+ "ratio_atom_over_photon": 7578616.16870853,
+ "stuhlinger": "with power-source mass P/a_s, the optimum v_e ~ sqrt(2 eta a_s t) (characteristic velocity)"
+}

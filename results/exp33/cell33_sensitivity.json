@@ -1,0 +1,97 @@
+{
+ "kind": "POST-REGISTERED EXPLORATORY (not a C33 verdict)",
+ "worst_jump_diagnostics": [
+  {
+   "temp": "300K",
+   "file": "sky130_fd_pr__nfet_01v8_w7u_l8u_m1(8392_5_6_IDVD).mdm",
+   "VG": 0.0,
+   "VD_step": [
+    0.9,
+    0.95
+   ],
+   "ID_step_A": [
+    4.522e-10,
+    1.9782e-09
+   ],
+   "J_dex": 0.6409396395174557,
+   "ID_median_sweep_A": 1.8934e-09
+  },
+  {
+   "temp": "4K",
+   "file": "sky130_fd_pr__nfet_01v8_lvt_w0p42u_l0p15u_m1(8391_9_10_IDVD)_4K.mdm",
+   "VG": 0.6,
+   "VD_step": [
+    1.625,
+    1.65
+   ],
+   "ID_step_A": [
+    1.3649e-08,
+    3.3187e-08
+   ],
+   "J_dex": 0.3858671615674938,
+   "ID_median_sweep_A": 5.01e-12
+  }
+ ],
+ "baseline_vs_stored_Exp32": {
+  "V_M": [
+   0.70101199867378,
+   0.70101199867378
+  ],
+  "V_down": [
+   0.6390480435400379,
+   0.6390480435400379
+  ],
+  "V_up": [
+   2.322624822611435,
+   2.322624822611435
+  ],
+  "j_on": [
+   6.405892578524453e-05,
+   6.405892578524453e-05
+  ],
+  "dV_c": [
+   0.06196395513374209,
+   0.06196395513374209
+  ]
+ },
+ "dvt_sensitivity": {
+  "dvt_scale_1": {
+   "constants": {
+    "V_down": 0.6390480435400379,
+    "V_up": 2.322624822611435,
+    "V_M": 0.70101199867378,
+    "dV_c": 0.06196395513374209,
+    "j_on": 6.405892578524453e-05,
+    "regime": "Maxwell"
+   },
+   "ws_rD10_lam60_um": 31.647125552325093,
+   "Ic_rD10_lam60_mA": 1.5204606503045317
+  },
+  "dvt_scale_0.5": {
+   "constants": {
+    "V_down": 0.8574046764800314,
+    "V_up": 2.383833333112391,
+    "V_M": 0.9343847792354448,
+    "dV_c": 0.07698010275541345,
+    "j_on": 6.528231821116828e-06,
+    "regime": "Maxwell"
+   },
+   "ws_rD10_lam60_um": 198.90001571840747,
+   "Ic_rD10_lam60_mA": 0.9738490588751587
+  },
+  "dvt_scale_0.33": {
+   "constants": {
+    "V_down": 1.0531192157592315,
+    "V_up": 2.4190730769402817,
+    "V_M": 1.1492357568057356,
+    "dV_c": 0.09611654104650413,
+    "j_on": 8.526426953140735e-07,
+    "regime": "Maxwell"
+   },
+   "ws_rD10_lam60_um": Infinity,
+   "Ic_rD10_lam60_mA": null
+  }
+ },
+ "scale_basis": "s=0.50: median |dVT_meas|/dVT_BSIM4-clamped at VB=-1.5 over 5 std devices (C33-1); s=0.33: median |gamma| 0.105 / anchor mean slope 0.316",
+ "caveat": "reverse-bias magnitude used as forward scale proxy; forward body effect at 4 K remains unmeasured (no VB>0 in dataset)"
+}

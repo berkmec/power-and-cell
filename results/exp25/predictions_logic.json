@@ -1,0 +1,8 @@
+{
+ "registered": "2026-10-16 07:45",
+ "predictions": [
+  "LG1: >= 50 % of the 60 nm islands host at least one NAND triple whose four truth-table rows are all >= 0.9 at 4 K",
+  "LG2: every working triple has min(W_oi, W_oj) >= 4 kT; no triple with min W < 2 kT works",
+  "LG3: the field of an output atom exceeds k T at >= 90 % of the atoms within 30 nm (it reaches all its neighbours)"
+ ]
+}

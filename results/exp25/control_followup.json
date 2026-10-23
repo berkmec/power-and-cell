@@ -1,0 +1,121 @@
+{
+ "rank_B123": [
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    3072.12,
+    1746.7,
+    1266.51,
+    1201.49
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1644.09,
+    1584.62,
+    1248.93,
+    1196.84
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1566.03,
+    1189.13,
+    1179.34,
+    1102.7
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1644.09,
+    1251.13,
+    1266.51,
+    1273.54
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1644.09,
+    1194.02,
+    1206.75,
+    1198.58
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1554.88,
+    1099.09,
+    1069.04,
+    945.74
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    2966.98,
+    2903.9,
+    1181.17,
+    1153.49
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1182.59,
+    1147.69,
+    1104.35,
+    1065.41
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1760.52,
+    1735.65,
+    1153.49,
+    1109.42
+   ],
+   "inversion_pair": false
+  },
+  {
+   "rank": 1023,
+   "full": 1023,
+   "couplings_kHz": [
+    1409.87,
+    1249.37,
+    1189.08,
+    1191.26
+   ],
+   "inversion_pair": false
+  }
+ ],
+ "grape_CNOT_1500it": 0.9999996060915192,
+ "min_gap_top10_Hz": {
+  "median": 1316.6517988059204,
+  "p10": 0.0,
+  "p90": 5353.296224133978,
+  "control_time_median_ms": 0.7595022472204923
+ }
+}

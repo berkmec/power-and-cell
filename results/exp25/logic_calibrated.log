@@ -1,0 +1,9 @@
+{
+ "islands_with_NAND": 9,
+ "islands": 10,
+ "triples": 28,
+ "working": 27,
+ "with_window": 28,
+ "wide_windows": 25,
+ "wide_working": 25
+}

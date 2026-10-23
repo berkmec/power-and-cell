@@ -1,0 +1,8 @@
+{
+ "registered": "2026-10-16 08:14",
+ "predictions": [
+  "UN1: for N = 6, 8, 10 strongest neighbours (natural Si, B || [1,2,3]) the even nested commutators of the global RF with the hyperfine drift span N independent directions and reconstruct I_x of nucleus 1 with relative error < 1e-6; with A_1 = A_2 forced the rank drops to N - 1 and the error is > 0.1",
+  "UN2: at 0.1 % 29Si, in >= 80 % of configurations the time to resolve all 29Si within 6 nm is < 0.2 s (T2e / 10, T2e = 2 s measured in 28Si)",
+  "UN3: in natural Si the same time exceeds 1 s in >= 90 % of configurations"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "registered": "2026-10-17 (this session, AFTER Exp36 v1-v3 outcomes and deterministic active-constraint diagnostics, BEFORE any Exp36 v4 Monte Carlo outcome)",
+ "supersedes": "All earlier Exp36 prediction/result files remain preserved; v4 writes universal_control36_v4.json only.",
+ "diagnosis_disclosed": {
+  "scalar_pareto": "With strict feedback, mu=0.005 gives SEG-SS1 marginal 0.960/modal 13/14 but background 6.00%; mu=0.010 gives background 4.40% but marginal 0.814/modal 8/14. Background damage is concentrated in RAND tasks (12.22% at mu=0.005) and specific predicted-flip background sites rather than uniform RMS alone.",
+  "active_constraint_linear_diagnostic": "Using G-baseline relaxed occupancies and frozen local fields e_i=eps_i+(Wn0)_i, safety bounds keep each background actuator delta from crossing its frozen flip threshold by 3 meV. On initial desired corrections, ACT005_s3 has target-residual RMS 21.95 meV and frozen-field predicted flips 0.172%, versus RAW005 12.38 meV and 5.007%. This diagnostic uses the same frozen-field approximation as the constraints; transfer to interacting MC is the v4 test."
+ },
+ "v4_controller": {
+  "base": "Exp36 v2 settings: mu_BG=0.005, guard 10 meV, binary step 30 meV, desired clip +/-220 meV, 5-confirmation stop, 20-round cap, same kernel/readout/sweeps.",
+  "active_safety_solve": "Every actuator solve starts with the scalar objective, finds background sites whose delta violates frozen G-baseline safety bounds (n0=1: delta <= -e_i-3 meV; n0=0: delta >= -e_i+3 meV), adds those rows as weighted bound targets, and multiplies violated-row weights by 5 per iteration (start 1, cap 1000, at most 10 iterations). Bounds come only from the pre-control G census/relaxed state and calibrated W, never from verification samples.",
+  "ablation": "SEG-SS1-U disables both mu_BG and active safety rows, preserving the no-background-protection comparison."
+ },
+ "full_control_declaration_rule": "Unchanged: BOTH SEG-SS1 and SEG-SS5 must meet ALT+RAND marginal >=0.95, exact >=0.65, modal >=80%, overall non-target flips <=5%.",
+ "predictions": [
+  "RX1: SEG-ANA meets marginal >=0.95, exact >=0.65, modal >=80%, overall non-target flips <=5%, and at least 1.5 points below Exp35 CL20M 6.25%.",
+  "RX2: SEG-SS1 meets the same budgets with median true updates <=10 and at most 1 false stop in 21 tasks.",
+  "RX3: SEG-SS5 meets marginal >=0.90, exact >=0.55, modal >=70%, overall non-target flips <=5%, and modal within 15 points of SEG-SS1.",
+  "RX4: SEG-SS1-U background flips exceed SEG-SS1 by at least 2 points while ALT+RAND modal advantage is at most 10 points.",
+  "RX5: Fixed z=75 nm bins: first-round SEG-ANA shallow-deep marginal gap >=10 points and final SEG-SS1 gap <=5 points.",
+  "RX6: At least 90% of final SEG-SS1 segment coefficients within +/-0.50 V, fewer than 10% at clip, all effective global Vb in window."
+ ]
+}

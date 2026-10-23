@@ -1,0 +1,14 @@
+{
+  "experiment": "Exp32 — Tutmayan modellerin ölçümle düzeltilmesi (bağımsız veriyle yeniden sınama) ve SKY130'un kendi kriyojenik ölçümü (NIST mds2-2997)",
+  "written": "2026-10-16T15:26 (hesaplamadan önce; tek yazımlık)",
+  "why": "Stop kancası: SKY130'a özgü hücre sabitleri ölçülmedi; 7 sonuç karışık, 5'i tutmuyor; CL2 tutmadı.",
+  "rule": "Bir model ölçümle çeliştiyse düzeltilir; düzeltilmiş model, düzeltmede kullanılmayan bir ölçümle yeniden sınanır. Düzeltme sırasında kullanılan veriyle 'uyum' sınama sayılmaz.",
+  "disclosure": "C1'de Shin'in 2 nm adası için öz-kapasitans yasasının ~0,43 aF verdiğini kafadan gördüm (ölçülen 0,42 aF); 5 nm ada için e²/C ≈ 0,15 eV. Bu yüzden C1 kör değil; ölçüt aşağıda sabit.",
+  "criteria": {
+    "C1_capacitance": "Düzeltilmiş yasa (zayıf kapılı ada: C_Σ ≈ 2π ε0 ε_ox d, ε_ox = 3,9, d TEM'den): Shin SET_A için ölçülen C_Σ = 0,42 aF'a %15 içinde; SET_B (d ≈ 5 nm) için e²/C_Σ 300 K'de < 7 kT (ölçülen: tek tepe) ve 200 K'de ≥ 7 kT (ölçülen: belirgin blokaj). Ek bağımsız sınama: ölçülen kapı kaldıracı α_G = C_G/C_Σ ≈ 0,19, Exp1 geometrisinin 0,76'sıyla karşılaştırılır (geometri farkının ölçülmüş kanıtı).",
+    "C2_mismatch": "Düzeltme: σ_VT = A_VT/√(WL), A_VT ölçülmüş kuraldan (≈ 1 mV·µm/nm × 4,15 nm). Bağımsız sınama: SKY130 PDK eşleşmezlik katsayısı (vth0_slope = 3,356e-3, V·µm varsayımıyla 3,36 mV·µm), 1,5 kat içinde → ✓.",
+    "C3_subband": "Ray–Martin ölçümü (ikinci alt bant ~6e12 cm⁻²) düşük katkılı örneklerde. Aynı çözücü N_A = 1e16 ve 3e15 cm⁻³'te yeniden koşulur; ikinci alt bant eşiği 3,75e12–9,6e12 (ölçülen 6e12'nin 1,6 katı içinde) → ✓; değilse ✗ kalır.",
+    "C4_SKY130_cryo": "NIST mds2-2997 veri seti SKY130 nFET'lerinin düşük sıcaklık I–V'sini içeriyorsa: (a) ≤ 10 K'de yalnız artan V_ds taramasında kink/histerezis var, 300 K'de yok (Exp12) → ✓; (b) kink gerilimi 0,6–1,2 V aralığında (Exp12/17 V_M = 0,80 V civarı) → ✓; (c) veri seti uygun sıcaklık ya da ölçüm içermiyorsa 'ölçüm yok' yazılır, uydurulmaz.",
+    "C5_CL2_direction": "CL2 (filaman başına yoğunluğun N ile düşmesi) ısıl kökenli 300 K ESD aygıtında ölçüldü. Exp17 tam modelinde j_high(V_D) yönü hesaplanır ve SKY130 için kayıtlı bir öngörü olarak yazılır; ESD sonucuyla çelişirse bu 'aygıt sınıfı farkı' olarak işaretlenir, gizlenmez."
+  }
+}

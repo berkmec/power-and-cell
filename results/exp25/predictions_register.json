@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 07:46",
+ "predictions": [
+  "RG1: at B = 1 T a P donor in natural Si has on average >= 3 individually addressable 29Si nuclei (Delta_min = 100 kHz) and >= 50 % of the configurations have >= 4",
+  "RG2: GHZ of the electron + 4 addressable nuclei with one global RF coil (Rabi 10 kHz) has fidelity >= 0.95 without electron dephasing in >= 80 % of the configurations that have 4",
+  "RG3: with T2e = 0.3 ms (natural Si, Hahn) the GHZ fidelity is < 0.9; with T2e = 10 ms it is >= 0.9",
+  "RG4: every 29Si within 2 nm is coupled above 1 kHz (the hub reaches all its near neighbours)"
+ ]
+}

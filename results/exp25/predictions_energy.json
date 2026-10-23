@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 07:44",
+ "predictions": [
+  "EN1: without steering each of the two survivors receives >= 20 % of the dead cell's power",
+  "EN2: a +30 mV gate bias on one survivor makes it receive >= 80 % of the dead cell's power (both choices)",
+  "EN3: the total recycling efficiency stays within 0.95-1.05 and no cell is born or dies in the steered runs",
+  "EN4 (+15 mV): the share of the chosen survivor lies between the unsteered and the +30 mV values"
+ ]
+}

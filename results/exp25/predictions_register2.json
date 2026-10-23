@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 07:47",
+ "basis": "natural Si: 0.82 addressable nuclei per donor (RG1 failed): ~150 29Si within 2.5 nm crowd the spectrum",
+ "predictions": [
+  "RG5: at 0.1 % 29Si and Delta_min = 30 kHz (Rabi 3 kHz) the mean number of addressable nuclei is >= 3 and >= 80 % of the 29Si within 3 nm that have A >= 2 Delta_min are individually addressable",
+  "RG6: for the 0.1 % configurations with >= 4 addressable nuclei the GHZ (electron + 4 nuclei, one global RF coil) fidelity is >= 0.95 without electron dephasing in >= 80 % of them, >= 0.9 with T2e = 10 ms and < 0.9 with T2e = 0.3 ms",
+  "RG7 (exploration): addressable fraction versus abundance and Delta_min"
+ ]
+}

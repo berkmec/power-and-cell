@@ -1,0 +1,62 @@
+{
+ "lc36_a30": {
+  "n": 10,
+  "births_on_seed": 10,
+  "predicted_P": 1.0,
+  "interval": [
+   10,
+   10
+  ],
+  "S1": true,
+  "first_width_over_lambda_c": 1.2000000000000002,
+  "no_birth": 0
+ },
+ "lc3.6_a30": {
+  "n": 10,
+  "births_on_seed": 10,
+  "predicted_P": 0.862605,
+  "interval": [
+   7,
+   10
+  ],
+  "S1": true,
+  "first_width_over_lambda_c": 1.8499999999999999,
+  "no_birth": 0
+ },
+ "lc0.36_a30": {
+  "n": 10,
+  "births_on_seed": 0,
+  "predicted_P": 0.165755,
+  "interval": [
+   0,
+   4
+  ],
+  "S1": true,
+  "first_width_over_lambda_c": 0.75,
+  "no_birth": 0
+ },
+ "lc0.036_a30": {
+  "n": 10,
+  "births_on_seed": 0,
+  "predicted_P": 0.058485,
+  "interval": [
+   0,
+   2
+  ],
+  "S1": true,
+  "first_width_over_lambda_c": null,
+  "no_birth": 10
+ },
+ "lc0.36_a150": {
+  "n": 10,
+  "births_on_seed": 0,
+  "predicted_P": 0.99724,
+  "interval": [
+   10,
+   10
+  ],
+  "S1": false,
+  "first_width_over_lambda_c": 0.65,
+  "no_birth": 0
+ }
+}

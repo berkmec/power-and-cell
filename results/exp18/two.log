@@ -1,0 +1,12 @@
+two: 10 / 10 koşu
+two_s300: doğum V_DD=1.16 yer=[(144, 157), (442, 456)] (14 s)
+two_s302: doğum V_DD=1.14 yer=[(136, 160)] (14 s)
+two_s301: doğum V_DD=1.14 yer=[(143, 156), (444, 456)] (14 s)
+two_s304: doğum V_DD=1.06 yer=[(139, 158)] (13 s)
+two_s305: doğum V_DD=1.1 yer=[(142, 164)] (13 s)
+two_s303: doğum V_DD=1.06 yer=[(140, 160)] (16 s)
+two_s306: doğum V_DD=1.1 yer=[(142, 164)] (11 s)
+two_s307: doğum V_DD=1.08 yer=[(443, 464)] (13 s)
+two_s308: doğum V_DD=1.08 yer=[(136, 156)] (12 s)
+two_s309: doğum V_DD=1.08 yer=[(442, 462)] (16 s)
+TAMAM

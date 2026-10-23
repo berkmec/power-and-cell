@@ -1,0 +1,10 @@
+{
+ "written_before_v2_runs": true,
+ "basis": "v1 diagnosis: -100 mV leaves V_down' (809 mV) below the drain voltage that the damaged region reaches once the target shrinks (836 mV); -60 mV weak spot is only ~4 mV past the saddle-node, critical slowing down; -150 mV quenched at once in a single-step test",
+ "P1_recycle": "lethal damage (-300 mV, V_down' = 2.04 V): target dies within 1 step; with 30 um margins no piece escapes; its width reappears in the survivors; w_tot/(I/j_on) within 0.97-1.05 once the target is gone",
+ "P2_spontaneous": "3.3 V: survivors do not divide; 5.0 V: the neighbour next to the vacated space divides by itself (v1 equal-share calculation)",
+ "P3_weak_spot": "a -150 mV, 6 um weak spot at the neighbour's centre divides it within 1-2 steps at both drives",
+ "P4_heal": "after healing, the vacated region is re-occupied by expansion or migration of neighbouring cells, with no genuine nucleation (no new cell farther than 10 um from all previous cells)",
+ "P5_eject": "the gate pattern carries the target to the device end (as in v1, 5-9 steps) and the lethal sink dissolves it there without the cell escaping back",
+ "P6_fragment": "damaging only the central 30 um cuts the target into two pieces that survive outside the damaged band"
+}

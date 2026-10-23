@@ -1,0 +1,183 @@
+{
+ "registered": "2026-10-15 19:50",
+ "constants": {
+  "RT1": {
+   "bistable": true,
+   "V_down": 1.450000000000001,
+   "V_up": 1.490000000000001,
+   "area_lo": -7.070841314605012e-14,
+   "area_hi": 1.5311915737949534e-13,
+   "regime": "Maxwell",
+   "V_M": 1.4651565046839834,
+   "dV_c": 0.01515650468398233,
+   "j_on": 7.893094997196127e-08,
+   "j_low": 1.0522731156529701e-08,
+   "vb_low": 0.08008304063688013,
+   "vb_mid": 0.2598352453027193,
+   "vb_high": 0.3632816194465387
+  },
+  "RT2": {
+   "bistable": true,
+   "V_down": 1.4600000000000009,
+   "V_up": 1.520000000000001,
+   "area_lo": -1.0780797455689231e-13,
+   "area_hi": 2.819536795060193e-13,
+   "regime": "Maxwell",
+   "V_M": 1.4814045881295992,
+   "dV_c": 0.021404588129598334,
+   "j_on": 8.43842090119996e-08,
+   "j_low": 6.773997753892746e-09,
+   "vb_low": 0.058414634961111496,
+   "vb_mid": 0.26406860409648647,
+   "vb_high": 0.3736664474882134
+  }
+ },
+ "R_D": 300.0,
+ "R_L": 160000.0,
+ "W": 600.0,
+ "v_high": 0.22,
+ "predictions": [
+  "P1: in every run a filament forms at 300 K and at least one persists over the upper half of the sweep",
+  "P2: total filament width = (I - j_low W)/(j_on - j_low) within 15 % (median over steps with filaments)",
+  "P3: first split width within 20 % of w_split (dj law) for lambda >= 60 um (7 runs); lambda = 45 um (1.17 lambda_c, near-critical) within 35 %",
+  "P4: centre-to-edge drop at the splits / dV_c (dj in the rail) = 1.0 +- 0.15 in the mean over all splits",
+  "P5: the dj law predicts the first split better than the j_on-only law in the mean absolute error"
+ ],
+ "rows": {
+  "RT1_lam45": {
+   "job": {
+    "name": "RT1_lam45",
+    "set": "RT1",
+    "lam": 45.0,
+    "seed": 0,
+    "sigma_scale": 1.0
+   },
+   "dj": 6.840821881543157e-08,
+   "lambda_c": 38.4325993215558,
+   "w_split": 173.20899334481567,
+   "lambda_c_jon_only": 35.779167772624426,
+   "w_split_jon_only": 142.6677473702216,
+   "vdd_split": 4.3946303138897
+  },
+  "RT1_lam60": {
+   "job": {
+    "name": "RT1_lam60",
+    "set": "RT1",
+    "lam": 60.0,
+    "seed": 0,
+    "sigma_scale": 1.0
+   },
+   "dj": 6.840821881543157e-08,
+   "lambda_c": 38.4325993215558,
+   "w_split": 122.77939384959929,
+   "lambda_c_jon_only": 35.779167772624426,
+   "w_split_jon_only": 108.85577562290007,
+   "vdd_split": 3.856313308647306
+  },
+  "RT1_lam80": {
+   "job": {
+    "name": "RT1_lam80",
+    "set": "RT1",
+    "lam": 80.0,
+    "seed": 0,
+    "sigma_scale": 1.0
+   },
+   "dj": 6.840821881543157e-08,
+   "lambda_c": 38.4325993215558,
+   "w_split": 104.75366594375357,
+   "lambda_c_jon_only": 35.779167772624426,
+   "w_split_jon_only": 94.85290228222901,
+   "vdd_split": 3.677217167870875
+  },
+  "RT1_lam120": {
+   "job": {
+    "name": "RT1_lam120",
+    "set": "RT1",
+    "lam": 120.0,
+    "seed": 0,
+    "sigma_scale": 1.0
+   },
+   "dj": 6.840821881543157e-08,
+   "lambda_c": 38.4325993215558,
+   "w_split": 92.6548949096686,
+   "lambda_c_jon_only": 35.779167772624426,
+   "w_split_jon_only": 84.97186524208334,
+   "vdd_split": 3.581194566555382
+  },
+  "RT1_lam60_s1": {
+   "job": {
+    "name": "RT1_lam60_s1",
+    "set": "RT1",
+    "lam": 60.0,
+    "seed": 1,
+    "sigma_scale": 1.0
+   },
+   "dj": 6.840821881543157e-08,
+   "lambda_c": 38.4325993215558,
+   "w_split": 122.77939384959929,
+   "lambda_c_jon_only": 35.779167772624426,
+   "w_split_jon_only": 108.85577562290007,
+   "vdd_split": 3.856313308647306
+  },
+  "RT1_lam60_s2": {
+   "job": {
+    "name": "RT1_lam60_s2",
+    "set": "RT1",
+    "lam": 60.0,
+    "seed": 2,
+    "sigma_scale": 1.0
+   },
+   "dj": 6.840821881543157e-08,
+   "lambda_c": 38.4325993215558,
+   "w_split": 122.77939384959929,
+   "lambda_c_jon_only": 35.779167772624426,
+   "w_split_jon_only": 108.85577562290007,
+   "vdd_split": 3.856313308647306
+  },
+  "RT1_lowmm_lam60": {
+   "job": {
+    "name": "RT1_lowmm_lam60",
+    "set": "RT1",
+    "lam": 60.0,
+    "seed": 0,
+    "sigma_scale": 0.1
+   },
+   "dj": 6.840821881543157e-08,
+   "lambda_c": 38.4325993215558,
+   "w_split": 122.77939384959929,
+   "lambda_c_jon_only": 35.779167772624426,
+   "w_split_jon_only": 108.85577562290007,
+   "vdd_split": 3.856313308647306
+  },
+  "RT2_lam60": {
+   "job": {
+    "name": "RT2_lam60",
+    "set": "RT2",
+    "lam": 60.0,
+    "seed": 0,
+    "sigma_scale": 1.0
+   },
+   "dj": 7.761021125810685e-08,
+   "lambda_c": 42.87936797618756,
+   "w_split": 150.48723298934,
+   "lambda_c_jon_only": 41.12228288372241,
+   "w_split_jon_only": 138.7634789120409,
+   "vdd_split": 4.042261041612937
+  },
+  "RT2_lam80": {
+   "job": {
+    "name": "RT2_lam80",
+    "set": "RT2",
+    "lam": 80.0,
+    "seed": 0,
+    "sigma_scale": 1.0
+   },
+   "dj": 7.761021125810685e-08,
+   "lambda_c": 42.87936797618756,
+   "w_split": 122.85659206356209,
+   "lambda_c_jon_only": 41.12228288372241,
+   "w_split_jon_only": 115.45685967210039,
+   "vdd_split": 3.7208639101991245
+  }
+ }
+}

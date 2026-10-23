@@ -1,0 +1,19 @@
+{
+ "registered": "2026-10-17 (v3 follow-up registration, BEFORE any v3 controller outcome was computed)",
+ "reason": "Exp35 v2 physically confirmed the global-only limit (UC1 pass) but its local/closed-loop controllers missed the registered targets (UC2/UC3 fail). Task-level diagnosis showed a controller-synthesis flaw separate from the physics sampler: for several ALT/RAND tasks Gbest chose a window boundary (0.805 or 1.006 V) by threshold-count/margin tie-breaking, leaving target addresses ~0.90-0.97 V about 90-160 mV away, beyond the +/-60 mV local bump range. The stored v2 result remains the verdict for that controller. V3 asks whether co-optimising the global operating point and using an anneal/settle step closes the gap.",
+ "basis_disclosed": "v2 verdicts and diagnostics are known and used only to design the controller changes below: G MONO 7/7, ALT 0/7, RAND 0/7; L20 nonmono modal 3/14; CL20 nonmono marginal 0.756, exact 0.357, modal 5/14; failing ALT tasks saturate desired-neutral bumps at +60 mV while the fixed global Vb remains at 0.805 V. No v3 protocol outcome has been computed.",
+ "protocol_definitions": {
+  "L20M": "Global Vb starts at the median calibrated target address. Initial bump amplitude for each target is address-minus-Vb plus a +5 mV guard for bit 1 (neutral) or address-minus-Vb minus 5 mV for bit 0 (ionised), clipped to +/-60 mV; ell=20 nm Gaussian kernels as in v2.",
+  "CL20M": "L20M plus feedback: local amplitudes updated as in v2 (25 meV per unit occupancy error, clip +/-60 meV) and global Vb trimmed by +15 mV times the mean signed occupancy error per round, clipped to the 0.805-1.006 V cell window; same stop rule and fresh verification as v2.",
+  "CL20A": "CL20M plus a zero-temperature relax/settle under the current site energies before every feedback measurement and before fresh verification (model of an erase/anneal-assisted write cycle).",
+  "unchanged": "Same eligible islands, target sites, patterns (corrected v2 direction), sampler acceptance result, FINAL/FEEDBACK sweeps, metrics and non-target flip definition. G is recomputed only as the non-target baseline and internal consistency check."
+ },
+ "predictions": [
+  "UC3.1 OPERATING POINT: L20M reaches pooled ALT+RAND modal exact >=8/14 and mean per-bit accuracy >=0.85 (v2 L20 was 3/14 and 0.684 pooled nonmono by pattern tables).",
+  "UC3.2 GLOBAL-TRIM FEEDBACK: CL20M on ALT+RAND reaches mean marginal >=0.90, exact-pattern snapshot fraction >=0.55, modal exact >=65%, with median feedback updates <=3.",
+  "UC3.3 ANNEALED FULL-CONTROL THRESHOLD: CL20A on ALT+RAND reaches the original UC3 bar: mean marginal >=0.95, exact-pattern snapshot fraction >=0.65, modal exact >=80%, and modal success at least 10 percentage points above CL20M.",
+  "UC3.4 ALT ISOLATION: CL20A writes the alternating pattern in at least 5/7 islands (v2 CL20: 0/7), proving the gain is not only from easier RAND patterns.",
+  "UC3.5 NON-TARGET COST: CL20A mean non-target modal flip fraction stays <=0.05 and no more than 0.02 above CL20M; a target-pattern win bought by wholesale background rearrangement fails full control.",
+  "UC3.6 CONTROL EFFORT: At least 80% of final CL20A target bump amplitudes lie within +/-45 mV and every final global Vb remains inside the 0.805-1.006 V cell window."
+ ]
+}

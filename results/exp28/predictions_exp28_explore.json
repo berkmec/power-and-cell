@@ -1,0 +1,11 @@
+{
+ "registered": "2026-10-16 14:29",
+ "basis": "user (mid-turn): go beyond the known limits, do not narrow the scope. Exploration doors built from the project data; inputs read before registering: SKY130 tox 4.148 nm, poly gap 210 nm (Exp5/roadmap), cell voltages 0.8-5 V (Exp17/23), Exp24 barrier law alpha 0.507 eV/(V/nm), Q0 1 eV; literature: n_O(200 km) = 2.5e15 m^-3 (AE-C), total rho ~2e-10 kg/m^3; ESA RAM-EP 2018 ignition on air, drag compensation not shown; quantum Child-Langmuir (Ang 2003) concerns electrons",
+ "predictions": [
+  "EX1 nano-gap: cell voltages over SKY130-scale gaps give classical Child-Langmuir thrust density (8/9) eps0 (V/d)^2 >= 1e3 N/m^2 at d <= 100 nm, V = 5 V (>= 50x gridded ion thrusters), F/P >= 300 uN/W at Isp <= 300 s; the ion supply needs the local field above the emission threshold, reached at 5 V only for d <= 2.6 nm with an Exp24-type barrier (Q0 1 eV) and d <= 0.7 nm for In",
+  "EX2 atom-by-atom: the impulse bit of one In atom at 5 kV is <= 2e-20 N s, >= 1e12 times finer than a 10 uN s thruster bit",
+  "EX3 atom-breathing (200 km, ambient O + N2, 40 % intake): net thrust >= frontal drag needs v_e >= 25 km/s and >= 300 W per m^2 of intake; with oxygen alone (the Exp24 species) the requirement rises to v_e >= 60 km/s and >= 800 W/m^2; Delta v is then not limited by an onboard mass ratio",
+  "EX4 beamed power + atoms: with 50 % laser-to-electric conversion an atom thruster gives >= 1e3 times the light-sail thrust per beamed watt (2/c) at v_e <= 60 km/s",
+  "EX5 self-scaling: because the cells turn extra power into more cells (Exp23), total thrust rises in equal steps of one cell (I_c sqrt(2 m V / q)); thrust per watt stays constant within 2 % from 1 to 7 cells"
+ ]
+}

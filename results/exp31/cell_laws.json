@@ -1,0 +1,142 @@
+{
+ "j_mA_per_um": {
+  "I=1.4 A, N=2": [
+   42.16867469879518,
+   46.666666666666664
+  ],
+  "I=1.4 A, N=3": [
+   34.82587064676616,
+   36.74540682414699
+  ],
+  "I=2.0 A, N=2": [
+   43.47826086956522,
+   45.45454545454545
+  ],
+  "I=2.0 A, N=3": [
+   35.842293906810035,
+   39.447731755424066
+  ],
+  "I=2.0 A, N=4": [
+   32.89473684210526,
+   36.76470588235294
+  ]
+ },
+ "CL1": {
+  "ratio_minus_1": {
+   "N=2": 0.00109714171354236,
+   "N=3": 0.051958667257717694
+  },
+  "passed": true
+ },
+ "CL2": {
+  "ratio_minus_1": -0.21671826625387003,
+  "passed": false
+ },
+ "CL3": {
+  "j_ref_mA_per_um": 44.44203692239313,
+  "table": {
+   "w_s=20.0": {
+    "0.9": {
+     "N_pred": 1.350073132443838,
+     "N_meas": [
+      1,
+      2
+     ],
+     "ok": true,
+     "pred_over_mean": 0.9000487549625587
+    },
+    "1.4": {
+     "N_pred": 2.1001137615793035,
+     "N_meas": [
+      2,
+      3
+     ],
+     "ok": true,
+     "pred_over_mean": 0.8400455046317215
+    },
+    "2.0": {
+     "N_pred": 3.000162516541862,
+     "N_meas": [
+      3,
+      4
+     ],
+     "ok": true,
+     "pred_over_mean": 0.857189290440532
+    }
+   },
+   "w_s=22.5": {
+    "0.9": {
+     "N_pred": 1.2000650066167449,
+     "N_meas": [
+      1,
+      2
+     ],
+     "ok": true,
+     "pred_over_mean": 0.8000433377444965
+    },
+    "1.4": {
+     "N_pred": 1.8667677880704916,
+     "N_meas": [
+      2,
+      3
+     ],
+     "ok": true,
+     "pred_over_mean": 0.7467071152281967
+    },
+    "2.0": {
+     "N_pred": 2.6668111258149882,
+     "N_meas": [
+      3,
+      4
+     ],
+     "ok": true,
+     "pred_over_mean": 0.7619460359471395
+    }
+   }
+  },
+  "passed": true
+ },
+ "CL4": {
+  "single_filament_max_A": [
+   0.8888407384478626,
+   0.9999458307538455
+  ],
+  "bistable_window_A": [
+   0.45,
+   0.9
+  ],
+  "upper_edge_dev": -0.012399179502374902,
+  "passed": true,
+  "lower_edge_note": "0,45 A'deki alt kenar (iki filamanın en erken var olabildiği akım) Exp17'de öngörülmüyor: çok-kararlılık"
+ },
+ "CL5": {
+  "observed": "I_S = 0,8 A'de yüksek akım yoğunluklu filaman ikiye bölünüyor; iki filaman gücü eşit paylaşıyor (TIM, kıvrımlı aygıt)",
+  "passed": true
+ },
+ "CL6": {
+  "observed": "tohumsuz: I_S < 0,45 A'de rastgele başlangıç, rastgelelik akımla azalıyor; tohumlu (NPN_Dope, P-gövde ortasında yüksek katkı): başlangıç tekrarlanabilir biçimde ortaya sabit",
+  "passed": true
+ },
+ "CL7": {
+  "observed": "kısa darbede yüksek akımda daha çok filaman; sabit akımda N darbeden darbeye değişiyor (0,9 A: 1/2; 1,4 A: 2/3; 2 A: 3/4)",
+  "passed": true
+ },
+ "CL8": {
+  "observed": "I–V'de N başına ayrı dal; 2 filaman dalı 0,45 A'den itibaren, tutma gerilimi ~1 V düşük; kaynak bunu paralel balast R_A ile açıklıyor: ΔV = I R_A (1 − 1/N)",
+  "passed": true,
+  "caveat": "SKY130'un V_M = 0,80 V değeri ölçülmedi; tutma gerilimi bu aygıtta ~18–19 V"
+ },
+ "CL9": {
+  "observed": "300 K'de bipolar filamanlar çoğalıyor ve bölünüyor (darbeli, ~100 ns–1 µs; yüksek akımda ısıl bozulma)",
+  "passed": true
+ },
+ "CL10": {
+  "observed": "zorla akım düşüşüyle eşzamanlı bölünme için ölçülmüş benzer bulunamadı",
+  "passed": null
+ },
+ "CL11": {
+  "observed": "boyut penceresi için ölçülmüş benzer bulunamadı",
+  "passed": null
+ },
+ "redistribution": "yüksek akımda filamanlar arası akım yeniden dağılımı ölçülmüş (ısıl bozulma süresini kısaltıyor) — Exp23'ün nitel karşılığı"
+}

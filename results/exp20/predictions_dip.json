@@ -1,0 +1,17 @@
+{
+ "margins_mV": {
+  "3.3": [
+   7.8,
+   10.2,
+   8.2
+  ],
+  "5.0": [
+   3.2,
+   2.7,
+   2.8
+  ]
+ },
+ "D1": "V_DD dip of depth dV: a cell divides when dV exceeds its quasi-static margin dV_c - du (exact configuration, values above), if the dip lasts long enough for the centre to quench before the fronts retreat; so at 5.0 V dips of 5 mV and deeper divide all three cells, at 3.3 V dips of 20 mV and deeper",
+ "D2": "global gate dip (-20/-40/-60 mV on every segment): no division at any depth, because the margin V_M - V_down grows to 19.2/22.1/25.0 mV; the cell current density falls by 9/18/27 %, the common node rises and the cells widen; at -60 mV new cells may nucleate",
+ "D3": "very deep V_DD dips (0.5 V) kill cells instead of dividing them"
+}

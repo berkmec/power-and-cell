@@ -1,0 +1,56 @@
+  P-S psi_s 0.30: Vg -0.541 ns 6.99e+00
+  P-S psi_s 0.32: Vg -0.516 ns 1.41e+01
+  P-S psi_s 0.34: Vg -0.490 ns 2.87e+01
+  P-S psi_s 0.36: Vg -0.465 ns 5.84e+01
+  P-S psi_s 0.38: Vg -0.441 ns 1.19e+02
+  P-S psi_s 0.40: Vg -0.416 ns 2.45e+02
+  P-S psi_s 0.42: Vg -0.391 ns 5.03e+02
+  P-S psi_s 0.44: Vg -0.367 ns 1.04e+03
+  P-S psi_s 0.46: Vg -0.342 ns 2.14e+03
+  P-S psi_s 0.48: Vg -0.318 ns 4.42e+03
+  P-S psi_s 0.50: Vg -0.294 ns 9.16e+03
+  P-S psi_s 0.52: Vg -0.270 ns 1.90e+04
+  P-S psi_s 0.54: Vg -0.246 ns 3.95e+04
+  P-S psi_s 0.56: Vg -0.222 ns 8.22e+04
+  P-S psi_s 0.58: Vg -0.198 ns 1.71e+05
+  P-S psi_s 0.60: Vg -0.174 ns 3.57e+05
+  P-S psi_s 0.62: Vg -0.150 ns 7.46e+05
+  P-S psi_s 0.64: Vg -0.127 ns 1.56e+06
+  P-S psi_s 0.66: Vg -0.103 ns 3.26e+06
+  P-S psi_s 0.68: Vg -0.080 ns 6.83e+06
+  P-S psi_s 0.70: Vg -0.056 ns 1.43e+07
+  P-S psi_s 0.72: Vg -0.033 ns 3.00e+07
+  P-S psi_s 0.74: Vg -0.009 ns 6.31e+07
+  P-S psi_s 0.76: Vg 0.014 ns 1.32e+08
+  P-S psi_s 0.78: Vg 0.037 ns 2.78e+08
+  P-S psi_s 0.80: Vg 0.061 ns 5.86e+08
+  P-S psi_s 0.82: Vg 0.084 ns 1.23e+09
+  P-S psi_s 0.84: Vg 0.107 ns 2.59e+09
+  P-S psi_s 0.86: Vg 0.131 ns 5.44e+09
+  P-S psi_s 0.88: Vg 0.155 ns 1.14e+10
+  P-S psi_s 0.90: Vg 0.181 ns 2.37e+10
+  P-S psi_s 0.92: Vg 0.208 ns 4.87e+10
+  P-S psi_s 0.94: Vg 0.240 ns 9.74e+10
+  P-S psi_s 0.96: Vg 0.280 ns 1.87e+11
+  P-S psi_s 0.98: Vg 0.331 ns 3.37e+11
+  P-S psi_s 1.00: Vg 0.396 ns 5.65e+11
+  P-S psi_s 1.02: Vg 0.478 ns 8.78e+11
+  P-S psi_s 1.04: Vg 0.576 ns 1.28e+12
+  P-S psi_s 1.06: Vg 0.690 ns 1.76e+12
+  P-S psi_s 1.08: Vg 0.819 ns 2.33e+12
+  P-S psi_s 1.10: Vg 0.962 ns 2.96e+12
+  P-S psi_s 1.12: Vg 1.117 ns 3.66e+12
+  P-S psi_s 1.14: Vg 1.284 ns 4.43e+12
+  P-S psi_s 1.16: Vg 1.463 ns 5.25e+12
+  P-S psi_s 1.18: Vg 1.652 ns 6.13e+12
+  P-S psi_s 1.20: Vg 1.850 ns 7.05e+12
+  P-S psi_s 1.22: Vg 2.056 ns 8.02e+12
+  P-S psi_s 1.24: Vg 2.271 ns 9.03e+12
+  P-S psi_s 1.26: Vg 2.493 ns 1.01e+13
+  P-S psi_s 1.28: Vg 2.722 ns 1.12e+13
+  P-S psi_s 1.30: Vg 2.958 ns 1.23e+13
+C_ox = 0.8325 uF/cm2
+spice_card   {'V_inflection': 0.375, 'C/Cox at +0.3 V': 0.8284, 'C/Cox at +0.6 V': 0.9048, 'C/Cox at +0.9 V': 0.9257}
+classical    {'V_inflection': 0.1859, 'C/Cox at +0.3 V': 0.8717, 'C/Cox at +0.6 V': 0.9287, 'C/Cox at +0.9 V': 0.9499}
+quantum_PS   {'V_inflection': 0.2095, 'C/Cox at +0.3 V': 0.788, 'C/Cox at +0.6 V': 0.8508, 'C/Cox at +0.9 V': 0.8754}
+tunnelling (A/cm2): {'m0.4_V0.5': '2.03e-12', 'm0.4_V1.0': '1.48e-11', 'm0.4_V1.5': '1.25e-10', 'm0.4_V1.8': '4.86e-10', 'm0.5_V0.5': '9.57e-15', 'm0.5_V1.0': '8.96e-14', 'm0.5_V1.5': '9.82e-13', 'm0.5_V1.8': '4.55e-12', 'thermionic_A_cm2_300K': '9.03e-46', 'area_100x100um_cm2': '1.00e-04'}

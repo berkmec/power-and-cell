@@ -1,0 +1,33 @@
+inversion vs tau/T2: {0.05: 0.994, 0.1: 0.9881, 0.2: 0.9764, 0.3: 0.965, 0.4: 0.9539, 0.5: 0.943, 0.6: 0.9324, 0.7: 0.922, 0.8: 0.9118, 1.0: 0.8922, 1.5: 0.8466}
+crosstalk vs kappa: {1.0: 0.292, 1.5: 0.0563, 2.0: 0.00437, 2.5: 6.84e-05, 3.0: 2.01e-05, 4.0: 1.04e-05}
+R = 2.0 nm: N = 80, b_99 median 0.1123 nm, 1 s
+R = 2.5 nm: N = 151, b_99 median 0.0909 nm, 3 s
+R = 3.0 nm: N = 260, b_99 median 0.0691 nm, 9 s
+R = 3.5 nm: N = 420, b_99 median 0.0539 nm, 24 s
+R = 4.0 nm: N = 618, b_99 median 0.0437 nm, 54 s
+R = 4.5 nm: N = 889, b_99 median 0.0344 nm, 108 s
+R = 5.0 nm: N = 1212, b_99 median 0.0281 nm, 201 s
+R = 5.5 nm: N = 1625, b_99 median 0.0234 nm, 353 s
+R = 6.0 nm: N = 2104, b_99 median 0.0193 nm, 602 s
+x = 0.05 kappa = 2.0: inversion 0.994, crosstalk 4.4e-03, R_all 2.0 nm (N ~ 80), 6 nm coverage 0.008
+x = 0.05 kappa = 4.0: inversion 0.994, crosstalk 1.0e-05, R_all 0.0 nm (N ~ 0), 6 nm coverage 0.000
+x = 0.1  kappa = 2.0: inversion 0.988, crosstalk 4.4e-03, R_all 3.0 nm (N ~ 260), 6 nm coverage 0.058
+x = 0.1  kappa = 4.0: inversion 0.988, crosstalk 1.0e-05, R_all 2.0 nm (N ~ 80), 6 nm coverage 0.008
+x = 0.2  kappa = 2.0: inversion 0.976, crosstalk 4.4e-03, R_all 4.0 nm (N ~ 618), 6 nm coverage 0.292
+x = 0.2  kappa = 4.0: inversion 0.976, crosstalk 1.0e-05, R_all 3.0 nm (N ~ 260), 6 nm coverage 0.058
+x = 0.3  kappa = 2.0: inversion 0.965, crosstalk 4.4e-03, R_all 4.5 nm (N ~ 889), 6 nm coverage 0.526
+x = 0.3  kappa = 4.0: inversion 0.965, crosstalk 1.0e-05, R_all 3.5 nm (N ~ 420), 6 nm coverage 0.163
+x = 0.4  kappa = 2.0: inversion 0.954, crosstalk 4.4e-03, R_all 5.0 nm (N ~ 1212), 6 nm coverage 0.729
+x = 0.4  kappa = 4.0: inversion 0.954, crosstalk 1.0e-05, R_all 4.0 nm (N ~ 618), 6 nm coverage 0.292
+x = 0.5  kappa = 2.0: inversion 0.943, crosstalk 4.4e-03, R_all 5.5 nm (N ~ 1625), 6 nm coverage 0.899
+x = 0.5  kappa = 4.0: inversion 0.943, crosstalk 1.0e-05, R_all 4.0 nm (N ~ 618), 6 nm coverage 0.415
+x = 0.6  kappa = 2.0: inversion 0.932, crosstalk 4.4e-03, R_all 5.5 nm (N ~ 1625), 6 nm coverage 0.982
+x = 0.6  kappa = 4.0: inversion 0.932, crosstalk 1.0e-05, R_all 4.5 nm (N ~ 889), 6 nm coverage 0.526
+x = 0.7  kappa = 2.0: inversion 0.922, crosstalk 4.4e-03, R_all 6.0 nm (N ~ 2104), 6 nm coverage 0.999
+x = 0.7  kappa = 4.0: inversion 0.922, crosstalk 1.0e-05, R_all 4.5 nm (N ~ 889), 6 nm coverage 0.631
+x = 0.8  kappa = 2.0: inversion 0.912, crosstalk 4.4e-03, R_all 6.0 nm (N ~ 2104), 6 nm coverage 1.000
+x = 0.8  kappa = 4.0: inversion 0.912, crosstalk 1.0e-05, R_all 5.0 nm (N ~ 1212), 6 nm coverage 0.729
+x = 1.0  kappa = 2.0: inversion 0.892, crosstalk 4.4e-03, R_all 6.0 nm (N ~ 2104), 6 nm coverage 1.000
+x = 1.0  kappa = 4.0: inversion 0.892, crosstalk 1.0e-05, R_all 5.5 nm (N ~ 1625), 6 nm coverage 0.899
+x = 1.5  kappa = 2.0: inversion 0.847, crosstalk 4.4e-03, R_all 6.0 nm (N ~ 2104), 6 nm coverage 1.000
+x = 1.5  kappa = 4.0: inversion 0.847, crosstalk 1.0e-05, R_all 6.0 nm (N ~ 2104), 6 nm coverage 1.000

@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 08:02",
+ "basis": "CT1: 7/10 N = 4 clusters full rank with B || [001]; the 3 others contain exactly equal couplings",
+ "predictions": [
+  "CT5: with B along [1,2,3] the same 10 N = 4 clusters are full rank except clusters that contain a pair r, -r (inversion partners, equal in this real Kohn-Luttinger model; real donors lack inversion symmetry, Hale & Mieher)",
+  "CT6: GRAPE with 1500 iterations reaches CNOT fidelity >= 0.99 for the 1 kHz pair (same T = 4 ms); the registered CT3 verdict (400 iterations) stays as it was",
+  "CT7 (exploration): minimum coupling gap among the 10 most strongly coupled neighbours in natural Si with B along [1,2,3] and the control time 1/gap"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "equation": "beta = tanh(eta * ln(M0/M1)); nonrelativistic: dv = eta c ln(M0/M1)",
+ "rows": [
+  {
+   "eta": 1.0,
+   "M0_over_M1": 9.999999999665963,
+   "beta_numeric": 0.9801988138445163,
+   "beta_closed_form": 0.9801980198006705,
+   "rel_err": 8.100851357147351e-07,
+   "max_energy_violation": 1.1137852919063107e-05,
+   "max_momentum_violation": 9.112857260573648e-06
+  },
+  {
+   "eta": 0.5,
+   "M0_over_M1": 9.999999999665963,
+   "beta_numeric": 0.8181851652981164,
+   "beta_closed_form": 0.8181818181762969,
+   "rel_err": 4.0909266682880546e-06,
+   "max_energy_violation": 1.600931341494416e-06,
+   "max_momentum_violation": 8.31683662438909e-07
+  },
+  {
+   "eta": 0.1,
+   "M0_over_M1": 9.999999999665963,
+   "beta_numeric": 0.226275561639281,
+   "beta_closed_form": 0.22627364030311672,
+   "rel_err": 8.49120631861976e-06,
+   "max_energy_violation": 5.2270999972847676e-08,
+   "max_momentum_violation": 5.991249534681442e-09
+  }
+ ],
+ "thrust_per_power_bound_N_per_W": 3.3356409519815204e-09
+}

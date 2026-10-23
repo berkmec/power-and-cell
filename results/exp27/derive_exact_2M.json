@@ -1,0 +1,63 @@
+{
+ "criterion": "VR1 registered 2026-10-16 14:04: rel_err<1e-6, conservation<1e-9",
+ "rows": [
+  {
+   "eta": 0.5,
+   "steps": 2000000,
+   "beta_numeric": 0.8181822833586017,
+   "beta_closed_form": 0.818182032336577,
+   "rel_err": 3.068046164423245e-07,
+   "max_energy_violation": 4.688471832992036e-11,
+   "max_momentum_violation": 7.652017908199582e-12
+  },
+  {
+   "eta": 0.1,
+   "steps": 2000000,
+   "beta_numeric": 0.22627383544928506,
+   "beta_closed_form": 0.22627364524181418,
+   "rel_err": 8.406081524941093e-07,
+   "max_energy_violation": 2.4023893985258837e-11,
+   "max_momentum_violation": 7.354915287915986e-13
+  }
+ ],
+ "subcommand_rerun": {
+  "method": "vmr27 functions rerun unmodified, OUT redirected to C:; stored E:/results/exp27/*.json read for numeric comparison",
+  "vs_stored_max_rel_dev": {
+   "derive_exact": 0.0,
+   "casimir": 0.0,
+   "dce": 0.0,
+   "metric": 0.0,
+   "energy": 0.0
+  },
+  "VR2": {
+   "criterion": "<1e-12 relative cycle work",
+   "exact_leg_max_over_scale": 1.1376700844139564e-16,
+   "trapezoid_max_over_scale": 3.7968274204737186e-06,
+   "verdict": "pass"
+  },
+  "VR3": {
+   "criterion": "SC circuit <1e-20 N; mirror 1GHz/1nm <1e-35 N/m2; cells ms <1e-60 N",
+   "sc_thrust_max_N": 2.3026746723561672e-21,
+   "mirror_1GHz_1nm_N_per_m2": 4.524815344373963e-39,
+   "cells_ms_thrust_N": 7.070023975584315e-78,
+   "verdict": "pass"
+  },
+  "VR4": {
+   "criterion": "warp gap >30 orders; GW 1kg kHz <1e-35 N",
+   "warp_gap_orders": {
+    "alcubierre_100m_bubble_kg": 71.10916898266085,
+    "van_den_broeck_kg": 39.092515862802934
+   },
+   "gw_1kg_kHz_N": 9.050669347533834e-39,
+   "casimir_1m3_1nm_kg": -4.821950045302488e-09,
+   "verdict": "pass"
+  },
+  "VR5": {
+   "criterion": "F/P<=1/c=3.34 nN/W; sail 2/c door",
+   "photon_N_per_W": 3.3356409519815204e-09,
+   "one_over_c": 3.3356409519815204e-09,
+   "sail_N_per_W": 6.671281903963041e-09,
+   "verdict": "pass"
+  }
+ }
+}

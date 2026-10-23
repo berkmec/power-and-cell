@@ -1,0 +1,33 @@
+{
+ "registered": "2026-10-15 20:36",
+ "rows": {
+  "island100": {
+   "xd_097_nm": 34.33748519490303,
+   "mean_step_mV": 5.3106085125750155,
+   "atoms_switched_0_to_097": 98.88973235006182,
+   "poisson_isolated_fraction_4K": 0.5222321455564823,
+   "poisson_isolated_fraction_1K": 0.8501719842960044
+  },
+  "island200": {
+   "xd_097_nm": 34.33748519490303,
+   "mean_step_mV": 1.3276521281437539,
+   "atoms_switched_0_to_097": 395.5589294002473,
+   "poisson_isolated_fraction_4K": 0.07437969681285979,
+   "poisson_isolated_fraction_1K": 0.5224288576636541
+  },
+  "device300": {
+   "xd_097_nm": 34.33748519490303,
+   "mean_step_mV": 0.5900676125083352,
+   "atoms_switched_0_to_097": 890.0075911505564,
+   "poisson_isolated_fraction_4K": 0.002889165421526857,
+   "poisson_isolated_fraction_1K": 0.23203906462441345
+  }
+ },
+ "predictions": [
+  "A1: atoms change state in depth order: Spearman rank correlation between switching voltage (up sweep) and depth >= 0.8 in every box",
+  "A2: mean spacing of single-atom switching voltages for V_b in 0.90-1.00 V = e x_d/(eps A) within 30 % (islands)",
+  "A3: number of atoms switched between V_b = 0 and 0.97 V = N_A A (x_d(0) - x_d(0.97)) within 15 %",
+  "A4: fraction of isolated single-atom events (gap to both neighbours >= 5 kT/e) >= the Poisson estimate exp(-2 delta / step) at 4 K and at 1 K (Coulomb repulsion makes the staircase more regular)",
+  "A5 (exploration): atoms with different up and down switching voltages (hysteresis = non-volatile 0/1)"
+ ]
+}

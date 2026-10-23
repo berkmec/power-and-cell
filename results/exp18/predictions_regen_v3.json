@@ -1,0 +1,9 @@
+{
+ "written_before_v3_runs": true,
+ "basis": "v2 and a 20 ms diagnostic: an abrupt lethal kill releases the target's current at once, the common node jumps and new cells nucleate at the nearest free healthy places (no escape is possible through a -300 mV band); a gradual kill (-10 mV/s) produced no nucleation and the survivors widened (3.3 V: middle cell 58 -> 108 um)",
+ "P1_slow_recycle": "slow death: no genuine nucleation (no new cell > 10 um from all earlier cells) during damage; the target's width is taken up by widening of existing cells; 3.3 V: N 3 -> 2 and stays; 5.0 V: the widened neighbour divides by itself (N back to 3)",
+ "P2_replace": "3.3 V: the -150 mV weak spot divides the widened neighbour (N back to 3); after healing a cell enters the vacated region",
+ "P3_eject": "the target is carried to the end and dies in the slowly ramped sink without any genuine nucleation",
+ "P4_fragment": "a slowly ramped central band cuts the target into two surviving pieces, without genuine nucleation",
+ "P5_conservation": "w_tot/(I/j_on) within 0.97-1.05 throughout"
+}

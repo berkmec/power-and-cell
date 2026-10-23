@@ -1,0 +1,19 @@
+NA 3.0e+15: ns 8.49e+10  occupied@4K 1  E1-E0 12.6 meV  EF-E0 0.5 meV  next valley 1
+NA 3.0e+15: ns 1.93e+11  occupied@4K 1  E1-E0 15.1 meV  EF-E0 1.2 meV  next valley 1
+NA 3.0e+15: ns 3.81e+11  occupied@4K 1  E1-E0 18.8 meV  EF-E0 2.4 meV  next valley 1
+NA 3.0e+15: ns 6.68e+11  occupied@4K 1  E1-E0 23.4 meV  EF-E0 4.2 meV  next valley 1
+NA 3.0e+15: ns 1.07e+12  occupied@4K 1  E1-E0 28.8 meV  EF-E0 6.7 meV  next valley 1
+NA 3.0e+15: ns 1.60e+12  occupied@4K 1  E1-E0 34.7 meV  EF-E0 10.1 meV  next valley 1
+NA 3.0e+15: ns 2.27e+12  occupied@4K 1  E1-E0 40.8 meV  EF-E0 14.3 meV  next valley 1
+NA 3.0e+15: ns 3.09e+12  occupied@4K 1  E1-E0 47.1 meV  EF-E0 19.5 meV  next valley 1
+NA 3.0e+15: ns 4.05e+12  occupied@4K 1  E1-E0 53.4 meV  EF-E0 25.5 meV  next valley 1
+experiments\exp22_quantum\q22.py:41: RuntimeWarning: overflow encountered in exp
+  return sum(l_["dos"] * kT * np.log1p(np.exp((ef - l_["E"]) / kT)) for l_ in levels_)
+NA 3.0e+15: ns 5.15e+12  occupied@4K 1  E1-E0 59.8 meV  EF-E0 32.4 meV  next valley 1
+NA 3.0e+15: ns 6.37e+12  occupied@4K 1  E1-E0 66.1 meV  EF-E0 40.1 meV  next valley 1
+NA 3.0e+15: ns 7.71e+12  occupied@4K 1  E1-E0 72.4 meV  EF-E0 48.5 meV  next valley 1
+NA 3.0e+15: ns 9.15e+12  occupied@4K 1  E1-E0 78.8 meV  EF-E0 57.6 meV  next valley 1
+NA 3.0e+15: ns 1.07e+13  occupied@4K 1  E1-E0 85.1 meV  EF-E0 67.3 meV  next valley 1
+NA 3.0e+15: ns 1.23e+13  occupied@4K 1  E1-E0 91.5 meV  EF-E0 77.5 meV  next valley 1
+NA 3.0e+15: ns 1.40e+13  occupied@4K 1  E1-E0 98.0 meV  EF-E0 88.2 meV  next valley 1
+onset bracket [14008123595515.55, None]

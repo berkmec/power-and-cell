@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 07:56",
+ "predictions": [
+  "CT1: for 10 random natural-Si clusters (N = 3 and N = 4 strongest neighbours, contact + secular dipolar couplings, B along [001]) the Lie algebra of drift + global controls is full su(d) in every cluster",
+  "CT2: an exactly degenerate pair (isotropic only, equal couplings) gives a rank-deficient algebra; adding the secular dipolar part of two symmetry-equivalent sites with different orientation restores the full rank",
+  "CT3: GRAPE reaches fidelity >= 0.99 for CNOT(electron -> nucleus 1) with A1 - A2 = 1 kHz within T = 4 ms (electron Rabi <= 1 MHz, global nuclear Rabi <= 10 kHz)",
+  "CT4: GRAPE prepares the GHZ state of the electron and all 3 nuclei of a crowded cluster (two of them 1 kHz apart) with fidelity >= 0.99 within T = 4 ms"
+ ]
+}

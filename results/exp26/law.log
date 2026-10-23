@@ -1,0 +1,49 @@
+cfg 1: N = 2135, W=1 Hz single 1375, no-decoupling {'n_addressable': 70, 'median_halfwidth_Hz': 88.31213560549313}
+cfg 2: N = 2080, W=1 Hz single 1385, no-decoupling {'n_addressable': 68, 'median_halfwidth_Hz': 91.70085061870174}
+cfg 3: N = 2104, W=1 Hz single 1392, no-decoupling {'n_addressable': 61, 'median_halfwidth_Hz': 93.17060641326982}
+cfg 4: N = 2146, W=1 Hz single 1426, no-decoupling {'n_addressable': 66, 'median_halfwidth_Hz': 93.82350650356199}
+cfg 5: N = 2062, W=1 Hz single 1353, no-decoupling {'n_addressable': 71, 'median_halfwidth_Hz': 88.7509271069899}
+cfg 6: N = 2118, W=1 Hz single 1388, no-decoupling {'n_addressable': 73, 'median_halfwidth_Hz': 90.11069127494241}
+cfg 7: N = 2045, W=1 Hz single 1367, no-decoupling {'n_addressable': 59, 'median_halfwidth_Hz': 88.28185673228866}
+cfg 8: N = 2148, W=1 Hz single 1422, no-decoupling {'n_addressable': 82, 'median_halfwidth_Hz': 93.21797983672568}
+cfg 9: N = 2087, W=1 Hz single 1360, no-decoupling {'n_addressable': 66, 'median_halfwidth_Hz': 88.67810231751413}
+cfg 10: N = 2052, W=1 Hz single 1319, no-decoupling {'n_addressable': 76, 'median_halfwidth_Hz': 86.6926767863317}
+cfg 11: N = 2094, W=1 Hz single 1420, no-decoupling {'n_addressable': 75, 'median_halfwidth_Hz': 90.42636954339304}
+cfg 12: N = 2036, W=1 Hz single 1325, no-decoupling {'n_addressable': 61, 'median_halfwidth_Hz': 89.18189244531848}
+cfg 13: N = 2080, W=1 Hz single 1328, no-decoupling {'n_addressable': 68, 'median_halfwidth_Hz': 91.7902825277005}
+cfg 14: N = 2244, W=1 Hz single 1446, no-decoupling {'n_addressable': 65, 'median_halfwidth_Hz': 95.65381216508061}
+cfg 15: N = 2126, W=1 Hz single 1446, no-decoupling {'n_addressable': 73, 'median_halfwidth_Hz': 92.02928953708596}
+cfg 16: N = 2195, W=1 Hz single 1461, no-decoupling {'n_addressable': 58, 'median_halfwidth_Hz': 91.89998814222669}
+cfg 17: N = 2112, W=1 Hz single 1394, no-decoupling {'n_addressable': 73, 'median_halfwidth_Hz': 88.42832758821066}
+cfg 18: N = 2074, W=1 Hz single 1380, no-decoupling {'n_addressable': 85, 'median_halfwidth_Hz': 89.79466201726606}
+cfg 19: N = 2054, W=1 Hz single 1333, no-decoupling {'n_addressable': 71, 'median_halfwidth_Hz': 89.73003911716665}
+cfg 20: N = 2183, W=1 Hz single 1474, no-decoupling {'n_addressable': 63, 'median_halfwidth_Hz': 96.8304564484869}
+{
+ "device_single": 246.07800154074064,
+ "device_fraction": 0.11669377666425164,
+ "NR1_W=0.3": {
+  "count": 1760.8516187155435,
+  "law": 394.21413861103196,
+  "ratio": 4.466738876793463
+ },
+ "NR1_W=1": {
+  "count": 1389.7,
+  "law": 215.9199762047305,
+  "ratio": 6.436180775984885
+ },
+ "NR1_W=3": {
+  "count": 958.7793695774925,
+  "law": 124.66145638521871,
+  "ratio": 7.691065044312897
+ },
+ "NR1_W=10": {
+  "count": 530.75,
+  "law": 68.27989171363072,
+  "ratio": 7.77315233928595
+ },
+ "NR1_W=30": {
+  "count": 290.4826732376239,
+  "law": 39.4214138611032,
+  "ratio": 7.368651826164989
+ }
+}

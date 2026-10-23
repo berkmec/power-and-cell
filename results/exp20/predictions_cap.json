@@ -1,0 +1,4 @@
+{
+ "B1": "steps (V_s 1.1 and 1.4 V): R_L C <= 5 us (on-chip node, 1 pF -> 5 ns) gives exactly the k of C_c = 0 in every field; R_L C >= 0.5 s makes k fall towards 1 (the node rises like a slow sweep)",
+ "B2": "abrupt kill at 3.3 V: births unchanged for R_L C <= 5 us, none for R_L C >= 0.5 s"
+}

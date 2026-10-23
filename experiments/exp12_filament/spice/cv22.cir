@@ -1,0 +1,379 @@
+* exp22 gate C-V, official SKY130 nfet_01v8 tt card
+.option scale=1e-6
+.temp 27
+.include /mnt/e/quantum_cell/data/sky130_models/nfet_mismatch.spice
+.include /mnt/e/quantum_cell/experiments/exp12_filament/spice/nfet_01v8_tt_fii.spice
+.param fii = 1.0
+.param fjun = 1.0
+Vg0_25 g0_25 0 dc -1.0 ac 1
+X0_25 0 g0_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg1_25 g1_25 0 dc -0.95 ac 1
+X1_25 0 g1_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg2_25 g2_25 0 dc -0.9 ac 1
+X2_25 0 g2_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg3_25 g3_25 0 dc -0.85 ac 1
+X3_25 0 g3_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg4_25 g4_25 0 dc -0.8 ac 1
+X4_25 0 g4_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg5_25 g5_25 0 dc -0.75 ac 1
+X5_25 0 g5_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg6_25 g6_25 0 dc -0.7 ac 1
+X6_25 0 g6_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg7_25 g7_25 0 dc -0.65 ac 1
+X7_25 0 g7_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg8_25 g8_25 0 dc -0.6 ac 1
+X8_25 0 g8_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg9_25 g9_25 0 dc -0.55 ac 1
+X9_25 0 g9_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg10_25 g10_25 0 dc -0.5 ac 1
+X10_25 0 g10_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg11_25 g11_25 0 dc -0.45 ac 1
+X11_25 0 g11_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg12_25 g12_25 0 dc -0.4 ac 1
+X12_25 0 g12_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg13_25 g13_25 0 dc -0.35 ac 1
+X13_25 0 g13_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg14_25 g14_25 0 dc -0.3 ac 1
+X14_25 0 g14_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg15_25 g15_25 0 dc -0.25 ac 1
+X15_25 0 g15_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg16_25 g16_25 0 dc -0.2 ac 1
+X16_25 0 g16_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg17_25 g17_25 0 dc -0.15 ac 1
+X17_25 0 g17_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg18_25 g18_25 0 dc -0.1 ac 1
+X18_25 0 g18_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg19_25 g19_25 0 dc -0.05 ac 1
+X19_25 0 g19_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg20_25 g20_25 0 dc 0.0 ac 1
+X20_25 0 g20_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg21_25 g21_25 0 dc 0.05 ac 1
+X21_25 0 g21_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg22_25 g22_25 0 dc 0.1 ac 1
+X22_25 0 g22_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg23_25 g23_25 0 dc 0.15 ac 1
+X23_25 0 g23_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg24_25 g24_25 0 dc 0.2 ac 1
+X24_25 0 g24_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg25_25 g25_25 0 dc 0.25 ac 1
+X25_25 0 g25_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg26_25 g26_25 0 dc 0.3 ac 1
+X26_25 0 g26_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg27_25 g27_25 0 dc 0.35 ac 1
+X27_25 0 g27_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg28_25 g28_25 0 dc 0.4 ac 1
+X28_25 0 g28_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg29_25 g29_25 0 dc 0.45 ac 1
+X29_25 0 g29_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg30_25 g30_25 0 dc 0.5 ac 1
+X30_25 0 g30_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg31_25 g31_25 0 dc 0.55 ac 1
+X31_25 0 g31_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg32_25 g32_25 0 dc 0.6 ac 1
+X32_25 0 g32_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg33_25 g33_25 0 dc 0.65 ac 1
+X33_25 0 g33_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg34_25 g34_25 0 dc 0.7 ac 1
+X34_25 0 g34_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg35_25 g35_25 0 dc 0.75 ac 1
+X35_25 0 g35_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg36_25 g36_25 0 dc 0.8 ac 1
+X36_25 0 g36_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg37_25 g37_25 0 dc 0.85 ac 1
+X37_25 0 g37_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg38_25 g38_25 0 dc 0.9 ac 1
+X38_25 0 g38_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg39_25 g39_25 0 dc 0.95 ac 1
+X39_25 0 g39_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg40_25 g40_25 0 dc 1.0 ac 1
+X40_25 0 g40_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg41_25 g41_25 0 dc 1.05 ac 1
+X41_25 0 g41_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg42_25 g42_25 0 dc 1.1 ac 1
+X42_25 0 g42_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg43_25 g43_25 0 dc 1.15 ac 1
+X43_25 0 g43_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg44_25 g44_25 0 dc 1.2 ac 1
+X44_25 0 g44_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg45_25 g45_25 0 dc 1.25 ac 1
+X45_25 0 g45_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg46_25 g46_25 0 dc 1.3 ac 1
+X46_25 0 g46_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg47_25 g47_25 0 dc 1.35 ac 1
+X47_25 0 g47_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg48_25 g48_25 0 dc 1.4 ac 1
+X48_25 0 g48_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg49_25 g49_25 0 dc 1.45 ac 1
+X49_25 0 g49_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg50_25 g50_25 0 dc 1.5 ac 1
+X50_25 0 g50_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg51_25 g51_25 0 dc 1.55 ac 1
+X51_25 0 g51_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg52_25 g52_25 0 dc 1.6 ac 1
+X52_25 0 g52_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg53_25 g53_25 0 dc 1.65 ac 1
+X53_25 0 g53_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg54_25 g54_25 0 dc 1.7 ac 1
+X54_25 0 g54_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg55_25 g55_25 0 dc 1.75 ac 1
+X55_25 0 g55_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg56_25 g56_25 0 dc 1.8 ac 1
+X56_25 0 g56_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg57_25 g57_25 0 dc 1.85 ac 1
+X57_25 0 g57_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg58_25 g58_25 0 dc 1.9 ac 1
+X58_25 0 g58_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg59_25 g59_25 0 dc 1.95 ac 1
+X59_25 0 g59_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg60_25 g60_25 0 dc 2.0 ac 1
+X60_25 0 g60_25 0 0 sky130_fd_pr__nfet_01v8 l=25 w=10
+Vg0_50 g0_50 0 dc -1.0 ac 1
+X0_50 0 g0_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg1_50 g1_50 0 dc -0.95 ac 1
+X1_50 0 g1_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg2_50 g2_50 0 dc -0.9 ac 1
+X2_50 0 g2_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg3_50 g3_50 0 dc -0.85 ac 1
+X3_50 0 g3_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg4_50 g4_50 0 dc -0.8 ac 1
+X4_50 0 g4_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg5_50 g5_50 0 dc -0.75 ac 1
+X5_50 0 g5_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg6_50 g6_50 0 dc -0.7 ac 1
+X6_50 0 g6_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg7_50 g7_50 0 dc -0.65 ac 1
+X7_50 0 g7_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg8_50 g8_50 0 dc -0.6 ac 1
+X8_50 0 g8_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg9_50 g9_50 0 dc -0.55 ac 1
+X9_50 0 g9_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg10_50 g10_50 0 dc -0.5 ac 1
+X10_50 0 g10_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg11_50 g11_50 0 dc -0.45 ac 1
+X11_50 0 g11_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg12_50 g12_50 0 dc -0.4 ac 1
+X12_50 0 g12_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg13_50 g13_50 0 dc -0.35 ac 1
+X13_50 0 g13_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg14_50 g14_50 0 dc -0.3 ac 1
+X14_50 0 g14_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg15_50 g15_50 0 dc -0.25 ac 1
+X15_50 0 g15_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg16_50 g16_50 0 dc -0.2 ac 1
+X16_50 0 g16_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg17_50 g17_50 0 dc -0.15 ac 1
+X17_50 0 g17_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg18_50 g18_50 0 dc -0.1 ac 1
+X18_50 0 g18_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg19_50 g19_50 0 dc -0.05 ac 1
+X19_50 0 g19_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg20_50 g20_50 0 dc 0.0 ac 1
+X20_50 0 g20_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg21_50 g21_50 0 dc 0.05 ac 1
+X21_50 0 g21_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg22_50 g22_50 0 dc 0.1 ac 1
+X22_50 0 g22_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg23_50 g23_50 0 dc 0.15 ac 1
+X23_50 0 g23_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg24_50 g24_50 0 dc 0.2 ac 1
+X24_50 0 g24_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg25_50 g25_50 0 dc 0.25 ac 1
+X25_50 0 g25_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg26_50 g26_50 0 dc 0.3 ac 1
+X26_50 0 g26_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg27_50 g27_50 0 dc 0.35 ac 1
+X27_50 0 g27_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg28_50 g28_50 0 dc 0.4 ac 1
+X28_50 0 g28_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg29_50 g29_50 0 dc 0.45 ac 1
+X29_50 0 g29_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg30_50 g30_50 0 dc 0.5 ac 1
+X30_50 0 g30_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg31_50 g31_50 0 dc 0.55 ac 1
+X31_50 0 g31_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg32_50 g32_50 0 dc 0.6 ac 1
+X32_50 0 g32_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg33_50 g33_50 0 dc 0.65 ac 1
+X33_50 0 g33_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg34_50 g34_50 0 dc 0.7 ac 1
+X34_50 0 g34_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg35_50 g35_50 0 dc 0.75 ac 1
+X35_50 0 g35_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg36_50 g36_50 0 dc 0.8 ac 1
+X36_50 0 g36_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg37_50 g37_50 0 dc 0.85 ac 1
+X37_50 0 g37_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg38_50 g38_50 0 dc 0.9 ac 1
+X38_50 0 g38_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg39_50 g39_50 0 dc 0.95 ac 1
+X39_50 0 g39_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg40_50 g40_50 0 dc 1.0 ac 1
+X40_50 0 g40_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg41_50 g41_50 0 dc 1.05 ac 1
+X41_50 0 g41_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg42_50 g42_50 0 dc 1.1 ac 1
+X42_50 0 g42_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg43_50 g43_50 0 dc 1.15 ac 1
+X43_50 0 g43_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg44_50 g44_50 0 dc 1.2 ac 1
+X44_50 0 g44_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg45_50 g45_50 0 dc 1.25 ac 1
+X45_50 0 g45_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg46_50 g46_50 0 dc 1.3 ac 1
+X46_50 0 g46_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg47_50 g47_50 0 dc 1.35 ac 1
+X47_50 0 g47_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg48_50 g48_50 0 dc 1.4 ac 1
+X48_50 0 g48_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg49_50 g49_50 0 dc 1.45 ac 1
+X49_50 0 g49_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg50_50 g50_50 0 dc 1.5 ac 1
+X50_50 0 g50_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg51_50 g51_50 0 dc 1.55 ac 1
+X51_50 0 g51_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg52_50 g52_50 0 dc 1.6 ac 1
+X52_50 0 g52_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg53_50 g53_50 0 dc 1.65 ac 1
+X53_50 0 g53_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg54_50 g54_50 0 dc 1.7 ac 1
+X54_50 0 g54_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg55_50 g55_50 0 dc 1.75 ac 1
+X55_50 0 g55_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg56_50 g56_50 0 dc 1.8 ac 1
+X56_50 0 g56_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg57_50 g57_50 0 dc 1.85 ac 1
+X57_50 0 g57_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg58_50 g58_50 0 dc 1.9 ac 1
+X58_50 0 g58_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg59_50 g59_50 0 dc 1.95 ac 1
+X59_50 0 g59_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+Vg60_50 g60_50 0 dc 2.0 ac 1
+X60_50 0 g60_50 0 0 sky130_fd_pr__nfet_01v8 l=50 w=10
+.ac lin 1 100000 100000
+.control
+run
+let c0_25 = imag(i(vg0_25))
+let c1_25 = imag(i(vg1_25))
+let c2_25 = imag(i(vg2_25))
+let c3_25 = imag(i(vg3_25))
+let c4_25 = imag(i(vg4_25))
+let c5_25 = imag(i(vg5_25))
+let c6_25 = imag(i(vg6_25))
+let c7_25 = imag(i(vg7_25))
+let c8_25 = imag(i(vg8_25))
+let c9_25 = imag(i(vg9_25))
+let c10_25 = imag(i(vg10_25))
+let c11_25 = imag(i(vg11_25))
+let c12_25 = imag(i(vg12_25))
+let c13_25 = imag(i(vg13_25))
+let c14_25 = imag(i(vg14_25))
+let c15_25 = imag(i(vg15_25))
+let c16_25 = imag(i(vg16_25))
+let c17_25 = imag(i(vg17_25))
+let c18_25 = imag(i(vg18_25))
+let c19_25 = imag(i(vg19_25))
+let c20_25 = imag(i(vg20_25))
+let c21_25 = imag(i(vg21_25))
+let c22_25 = imag(i(vg22_25))
+let c23_25 = imag(i(vg23_25))
+let c24_25 = imag(i(vg24_25))
+let c25_25 = imag(i(vg25_25))
+let c26_25 = imag(i(vg26_25))
+let c27_25 = imag(i(vg27_25))
+let c28_25 = imag(i(vg28_25))
+let c29_25 = imag(i(vg29_25))
+let c30_25 = imag(i(vg30_25))
+let c31_25 = imag(i(vg31_25))
+let c32_25 = imag(i(vg32_25))
+let c33_25 = imag(i(vg33_25))
+let c34_25 = imag(i(vg34_25))
+let c35_25 = imag(i(vg35_25))
+let c36_25 = imag(i(vg36_25))
+let c37_25 = imag(i(vg37_25))
+let c38_25 = imag(i(vg38_25))
+let c39_25 = imag(i(vg39_25))
+let c40_25 = imag(i(vg40_25))
+let c41_25 = imag(i(vg41_25))
+let c42_25 = imag(i(vg42_25))
+let c43_25 = imag(i(vg43_25))
+let c44_25 = imag(i(vg44_25))
+let c45_25 = imag(i(vg45_25))
+let c46_25 = imag(i(vg46_25))
+let c47_25 = imag(i(vg47_25))
+let c48_25 = imag(i(vg48_25))
+let c49_25 = imag(i(vg49_25))
+let c50_25 = imag(i(vg50_25))
+let c51_25 = imag(i(vg51_25))
+let c52_25 = imag(i(vg52_25))
+let c53_25 = imag(i(vg53_25))
+let c54_25 = imag(i(vg54_25))
+let c55_25 = imag(i(vg55_25))
+let c56_25 = imag(i(vg56_25))
+let c57_25 = imag(i(vg57_25))
+let c58_25 = imag(i(vg58_25))
+let c59_25 = imag(i(vg59_25))
+let c60_25 = imag(i(vg60_25))
+let c0_50 = imag(i(vg0_50))
+let c1_50 = imag(i(vg1_50))
+let c2_50 = imag(i(vg2_50))
+let c3_50 = imag(i(vg3_50))
+let c4_50 = imag(i(vg4_50))
+let c5_50 = imag(i(vg5_50))
+let c6_50 = imag(i(vg6_50))
+let c7_50 = imag(i(vg7_50))
+let c8_50 = imag(i(vg8_50))
+let c9_50 = imag(i(vg9_50))
+let c10_50 = imag(i(vg10_50))
+let c11_50 = imag(i(vg11_50))
+let c12_50 = imag(i(vg12_50))
+let c13_50 = imag(i(vg13_50))
+let c14_50 = imag(i(vg14_50))
+let c15_50 = imag(i(vg15_50))
+let c16_50 = imag(i(vg16_50))
+let c17_50 = imag(i(vg17_50))
+let c18_50 = imag(i(vg18_50))
+let c19_50 = imag(i(vg19_50))
+let c20_50 = imag(i(vg20_50))
+let c21_50 = imag(i(vg21_50))
+let c22_50 = imag(i(vg22_50))
+let c23_50 = imag(i(vg23_50))
+let c24_50 = imag(i(vg24_50))
+let c25_50 = imag(i(vg25_50))
+let c26_50 = imag(i(vg26_50))
+let c27_50 = imag(i(vg27_50))
+let c28_50 = imag(i(vg28_50))
+let c29_50 = imag(i(vg29_50))
+let c30_50 = imag(i(vg30_50))
+let c31_50 = imag(i(vg31_50))
+let c32_50 = imag(i(vg32_50))
+let c33_50 = imag(i(vg33_50))
+let c34_50 = imag(i(vg34_50))
+let c35_50 = imag(i(vg35_50))
+let c36_50 = imag(i(vg36_50))
+let c37_50 = imag(i(vg37_50))
+let c38_50 = imag(i(vg38_50))
+let c39_50 = imag(i(vg39_50))
+let c40_50 = imag(i(vg40_50))
+let c41_50 = imag(i(vg41_50))
+let c42_50 = imag(i(vg42_50))
+let c43_50 = imag(i(vg43_50))
+let c44_50 = imag(i(vg44_50))
+let c45_50 = imag(i(vg45_50))
+let c46_50 = imag(i(vg46_50))
+let c47_50 = imag(i(vg47_50))
+let c48_50 = imag(i(vg48_50))
+let c49_50 = imag(i(vg49_50))
+let c50_50 = imag(i(vg50_50))
+let c51_50 = imag(i(vg51_50))
+let c52_50 = imag(i(vg52_50))
+let c53_50 = imag(i(vg53_50))
+let c54_50 = imag(i(vg54_50))
+let c55_50 = imag(i(vg55_50))
+let c56_50 = imag(i(vg56_50))
+let c57_50 = imag(i(vg57_50))
+let c58_50 = imag(i(vg58_50))
+let c59_50 = imag(i(vg59_50))
+let c60_50 = imag(i(vg60_50))
+wrdata /mnt/e/quantum_cell/experiments/exp12_filament/spice/cv22.dat c0_25 c1_25 c2_25 c3_25 c4_25 c5_25 c6_25 c7_25 c8_25 c9_25 c10_25 c11_25 c12_25 c13_25 c14_25 c15_25 c16_25 c17_25 c18_25 c19_25 c20_25 c21_25 c22_25 c23_25 c24_25 c25_25 c26_25 c27_25 c28_25 c29_25 c30_25 c31_25 c32_25 c33_25 c34_25 c35_25 c36_25 c37_25 c38_25 c39_25 c40_25 c41_25 c42_25 c43_25 c44_25 c45_25 c46_25 c47_25 c48_25 c49_25 c50_25 c51_25 c52_25 c53_25 c54_25 c55_25 c56_25 c57_25 c58_25 c59_25 c60_25 c0_50 c1_50 c2_50 c3_50 c4_50 c5_50 c6_50 c7_50 c8_50 c9_50 c10_50 c11_50 c12_50 c13_50 c14_50 c15_50 c16_50 c17_50 c18_50 c19_50 c20_50 c21_50 c22_50 c23_50 c24_50 c25_50 c26_50 c27_50 c28_50 c29_50 c30_50 c31_50 c32_50 c33_50 c34_50 c35_50 c36_50 c37_50 c38_50 c39_50 c40_50 c41_50 c42_50 c43_50 c44_50 c45_50 c46_50 c47_50 c48_50 c49_50 c50_50 c51_50 c52_50 c53_50 c54_50 c55_50 c56_50 c57_50 c58_50 c59_50 c60_50
+.endc
+.end

@@ -1,0 +1,737 @@
+{
+ "nanogap": [
+  {
+   "gap_nm": 4.148,
+   "V": 0.8,
+   "field_V_nm": 0.19286403085824497,
+   "CL_thrust_density_N_m2": 292751.2013804875,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 1.1595397739480273,
+     "Isp_s": 118.24015070875653,
+     "eta": 0.09745810316752374,
+     "F_over_P_uN_W": 168.09790462934475
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 1.0777548332019844,
+     "Isp_s": 109.90040770313863,
+     "eta": 0.13100937262886686,
+     "F_over_P_uN_W": 243.11535164197053
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 1.1784111312398797,
+     "Isp_s": 120.16449360789666,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 469.67064357214
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 3.106305887533674,
+     "Isp_s": 316.75504759868807,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 178.17469832033984
+    }
+   }
+  },
+  {
+   "gap_nm": 4.148,
+   "V": 3.3,
+   "field_V_nm": 0.7955641272902604,
+   "CL_thrust_density_N_m2": 4981344.6609898545,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.3550364138141684,
+     "Isp_s": 240.14688133197052,
+     "eta": 0.30037045689683944,
+     "F_over_P_uN_W": 255.08773888584219
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.188930413928736,
+     "Isp_s": 223.20878321636198,
+     "eta": 0.3714454731802611,
+     "F_over_P_uN_W": 339.3853644836369
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.393364321660822,
+     "Isp_s": 244.05524023604616,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 486.4688699145584
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 6.30893708171759,
+     "Isp_s": 643.3325428885084,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 184.5472893090237
+    }
+   }
+  },
+  {
+   "gap_nm": 4.148,
+   "V": 5.0,
+   "field_V_nm": 1.205400192864031,
+   "CL_thrust_density_N_m2": 11435593.803925289,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.898849434870068,
+     "Isp_s": 295.6003767718914,
+     "eta": 0.38833979559519116,
+     "F_over_P_uN_W": 267.92684775130255
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.694387083004961,
+     "Isp_s": 274.75101925784656,
+     "eta": 0.4641189629725891,
+     "F_over_P_uN_W": 344.50800770242154
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.946027828099699,
+     "Isp_s": 300.41123401974164,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 449.1407349166756
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 7.765764718834186,
+     "Isp_s": 791.8876189967202,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 170.3864528098033
+    }
+   }
+  },
+  {
+   "gap_nm": 10.0,
+   "V": 0.8,
+   "field_V_nm": 0.08,
+   "CL_thrust_density_N_m2": 50370.490668373335,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 1.1595397739480273,
+     "Isp_s": 118.24015070875653,
+     "eta": 0.09745810316752374,
+     "F_over_P_uN_W": 168.09790462934475
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 1.0777548332019844,
+     "Isp_s": 109.90040770313863,
+     "eta": 0.13100937262886686,
+     "F_over_P_uN_W": 243.11535164197053
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 1.1784111312398797,
+     "Isp_s": 120.16449360789666,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 469.67064357214
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 3.106305887533674,
+     "Isp_s": 316.75504759868807,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 178.17469832033984
+    }
+   }
+  },
+  {
+   "gap_nm": 10.0,
+   "V": 3.3,
+   "field_V_nm": 0.32999999999999996,
+   "CL_thrust_density_N_m2": 857085.38027904,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.3550364138141684,
+     "Isp_s": 240.14688133197052,
+     "eta": 0.30037045689683944,
+     "F_over_P_uN_W": 255.08773888584219
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.188930413928736,
+     "Isp_s": 223.20878321636198,
+     "eta": 0.3714454731802611,
+     "F_over_P_uN_W": 339.3853644836369
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.393364321660822,
+     "Isp_s": 244.05524023604616,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 486.4688699145584
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 6.30893708171759,
+     "Isp_s": 643.3325428885084,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 184.5472893090237
+    }
+   }
+  },
+  {
+   "gap_nm": 10.0,
+   "V": 5.0,
+   "field_V_nm": 0.5,
+   "CL_thrust_density_N_m2": 1967597.2917333334,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.898849434870068,
+     "Isp_s": 295.6003767718914,
+     "eta": 0.38833979559519116,
+     "F_over_P_uN_W": 267.92684775130255
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.694387083004961,
+     "Isp_s": 274.75101925784656,
+     "eta": 0.4641189629725891,
+     "F_over_P_uN_W": 344.50800770242154
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.946027828099699,
+     "Isp_s": 300.41123401974164,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 449.1407349166756
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 7.765764718834186,
+     "Isp_s": 791.8876189967202,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 170.3864528098033
+    }
+   }
+  },
+  {
+   "gap_nm": 100.0,
+   "V": 0.8,
+   "field_V_nm": 0.008,
+   "CL_thrust_density_N_m2": 503.7049066837333,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 1.1595397739480273,
+     "Isp_s": 118.24015070875653,
+     "eta": 0.09745810316752374,
+     "F_over_P_uN_W": 168.09790462934475
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 1.0777548332019844,
+     "Isp_s": 109.90040770313863,
+     "eta": 0.13100937262886686,
+     "F_over_P_uN_W": 243.11535164197053
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 1.1784111312398797,
+     "Isp_s": 120.16449360789666,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 469.67064357214
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 3.106305887533674,
+     "Isp_s": 316.75504759868807,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 178.17469832033984
+    }
+   }
+  },
+  {
+   "gap_nm": 100.0,
+   "V": 3.3,
+   "field_V_nm": 0.033,
+   "CL_thrust_density_N_m2": 8570.853802790398,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.3550364138141684,
+     "Isp_s": 240.14688133197052,
+     "eta": 0.30037045689683944,
+     "F_over_P_uN_W": 255.08773888584219
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.188930413928736,
+     "Isp_s": 223.20878321636198,
+     "eta": 0.3714454731802611,
+     "F_over_P_uN_W": 339.3853644836369
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.393364321660822,
+     "Isp_s": 244.05524023604616,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 486.4688699145584
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 6.30893708171759,
+     "Isp_s": 643.3325428885084,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 184.5472893090237
+    }
+   }
+  },
+  {
+   "gap_nm": 100.0,
+   "V": 5.0,
+   "field_V_nm": 0.05,
+   "CL_thrust_density_N_m2": 19675.97291733333,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.898849434870068,
+     "Isp_s": 295.6003767718914,
+     "eta": 0.38833979559519116,
+     "F_over_P_uN_W": 267.92684775130255
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.694387083004961,
+     "Isp_s": 274.75101925784656,
+     "eta": 0.4641189629725891,
+     "F_over_P_uN_W": 344.50800770242154
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.946027828099699,
+     "Isp_s": 300.41123401974164,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 449.1407349166756
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 7.765764718834186,
+     "Isp_s": 791.8876189967202,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 170.3864528098033
+    }
+   }
+  },
+  {
+   "gap_nm": 210.0,
+   "V": 0.8,
+   "field_V_nm": 0.0038095238095238095,
+   "CL_thrust_density_N_m2": 114.21879970152683,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 1.1595397739480273,
+     "Isp_s": 118.24015070875653,
+     "eta": 0.09745810316752374,
+     "F_over_P_uN_W": 168.09790462934475
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 1.0777548332019844,
+     "Isp_s": 109.90040770313863,
+     "eta": 0.13100937262886686,
+     "F_over_P_uN_W": 243.11535164197053
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 1.1784111312398797,
+     "Isp_s": 120.16449360789666,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 469.67064357214
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 3.106305887533674,
+     "Isp_s": 316.75504759868807,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 178.17469832033984
+    }
+   }
+  },
+  {
+   "gap_nm": 210.0,
+   "V": 3.3,
+   "field_V_nm": 0.015714285714285712,
+   "CL_thrust_density_N_m2": 1943.5042636712922,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.3550364138141684,
+     "Isp_s": 240.14688133197052,
+     "eta": 0.30037045689683944,
+     "F_over_P_uN_W": 255.08773888584219
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.188930413928736,
+     "Isp_s": 223.20878321636198,
+     "eta": 0.3714454731802611,
+     "F_over_P_uN_W": 339.3853644836369
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.393364321660822,
+     "Isp_s": 244.05524023604616,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 486.4688699145584
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 6.30893708171759,
+     "Isp_s": 643.3325428885084,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 184.5472893090237
+    }
+   }
+  },
+  {
+   "gap_nm": 210.0,
+   "V": 5.0,
+   "field_V_nm": 0.023809523809523808,
+   "CL_thrust_density_N_m2": 4461.671863340893,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.898849434870068,
+     "Isp_s": 295.6003767718914,
+     "eta": 0.38833979559519116,
+     "F_over_P_uN_W": 267.92684775130255
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.694387083004961,
+     "Isp_s": 274.75101925784656,
+     "eta": 0.4641189629725891,
+     "F_over_P_uN_W": 344.50800770242154
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.946027828099699,
+     "Isp_s": 300.41123401974164,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 449.1407349166756
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 7.765764718834186,
+     "Isp_s": 791.8876189967202,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 170.3864528098033
+    }
+   }
+  },
+  {
+   "gap_nm": 1000.0,
+   "V": 0.8,
+   "field_V_nm": 0.0008,
+   "CL_thrust_density_N_m2": 5.037049066837332,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 1.1595397739480273,
+     "Isp_s": 118.24015070875653,
+     "eta": 0.09745810316752374,
+     "F_over_P_uN_W": 168.09790462934475
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 1.0777548332019844,
+     "Isp_s": 109.90040770313863,
+     "eta": 0.13100937262886686,
+     "F_over_P_uN_W": 243.11535164197053
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 1.1784111312398797,
+     "Isp_s": 120.16449360789666,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 469.67064357214
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 3.106305887533674,
+     "Isp_s": 316.75504759868807,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 178.17469832033984
+    }
+   }
+  },
+  {
+   "gap_nm": 1000.0,
+   "V": 3.3,
+   "field_V_nm": 0.0033,
+   "CL_thrust_density_N_m2": 85.70853802790396,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.3550364138141684,
+     "Isp_s": 240.14688133197052,
+     "eta": 0.30037045689683944,
+     "F_over_P_uN_W": 255.08773888584219
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.188930413928736,
+     "Isp_s": 223.20878321636198,
+     "eta": 0.3714454731802611,
+     "F_over_P_uN_W": 339.3853644836369
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.393364321660822,
+     "Isp_s": 244.05524023604616,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 486.4688699145584
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 6.30893708171759,
+     "Isp_s": 643.3325428885084,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 184.5472893090237
+    }
+   }
+  },
+  {
+   "gap_nm": 1000.0,
+   "V": 5.0,
+   "field_V_nm": 0.005,
+   "CL_thrust_density_N_m2": 196.75972917333328,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.898849434870068,
+     "Isp_s": 295.6003767718914,
+     "eta": 0.38833979559519116,
+     "F_over_P_uN_W": 267.92684775130255
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.694387083004961,
+     "Isp_s": 274.75101925784656,
+     "eta": 0.4641189629725891,
+     "F_over_P_uN_W": 344.50800770242154
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.946027828099699,
+     "Isp_s": 300.41123401974164,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 449.1407349166756
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 7.765764718834186,
+     "Isp_s": 791.8876189967202,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 170.3864528098033
+    }
+   }
+  },
+  {
+   "gap_nm": 10000.0,
+   "V": 0.8,
+   "field_V_nm": 8e-05,
+   "CL_thrust_density_N_m2": 0.05037049066837333,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 1.1595397739480273,
+     "Isp_s": 118.24015070875653,
+     "eta": 0.09745810316752374,
+     "F_over_P_uN_W": 168.09790462934475
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 1.0777548332019844,
+     "Isp_s": 109.90040770313863,
+     "eta": 0.13100937262886686,
+     "F_over_P_uN_W": 243.11535164197053
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 1.1784111312398797,
+     "Isp_s": 120.16449360789666,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 469.67064357214
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 3.106305887533674,
+     "Isp_s": 316.75504759868807,
+     "eta": 0.2767325572010039,
+     "F_over_P_uN_W": 178.17469832033984
+    }
+   }
+  },
+  {
+   "gap_nm": 10000.0,
+   "V": 3.3,
+   "field_V_nm": 0.00033,
+   "CL_thrust_density_N_m2": 0.8570853802790397,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.3550364138141684,
+     "Isp_s": 240.14688133197052,
+     "eta": 0.30037045689683944,
+     "F_over_P_uN_W": 255.08773888584219
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.188930413928736,
+     "Isp_s": 223.20878321636198,
+     "eta": 0.3714454731802611,
+     "F_over_P_uN_W": 339.3853644836369
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.393364321660822,
+     "Isp_s": 244.05524023604616,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 486.4688699145584
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 6.30893708171759,
+     "Isp_s": 643.3325428885084,
+     "eta": 0.5821486184260819,
+     "F_over_P_uN_W": 184.5472893090237
+    }
+   }
+  },
+  {
+   "gap_nm": 10000.0,
+   "V": 5.0,
+   "field_V_nm": 0.0005,
+   "CL_thrust_density_N_m2": 1.9675972917333329,
+   "emission_ok_exp24_barrier": false,
+   "emission_ok_In_evap": false,
+   "species": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "v_e_km_s": 2.898849434870068,
+     "Isp_s": 295.6003767718914,
+     "eta": 0.38833979559519116,
+     "F_over_P_uN_W": 267.92684775130255
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "v_e_km_s": 2.694387083004961,
+     "Isp_s": 274.75101925784656,
+     "eta": 0.4641189629725891,
+     "F_over_P_uN_W": 344.50800770242154
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "v_e_km_s": 2.946027828099699,
+     "Isp_s": 300.41123401974164,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 449.1407349166756
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "v_e_km_s": 7.765764718834186,
+     "Isp_s": 791.8876189967202,
+     "eta": 0.6615905518988383,
+     "F_over_P_uN_W": 170.3864528098033
+    }
+   }
+  }
+ ],
+ "impulse": {
+  "In_5kV_impulse_bit_Ns": 1.7477718285044565e-20,
+  "ratio_to_10uNs": 572157065179203.5,
+  "O_5V_bit_Ns": 2.0631924380621757e-22
+ },
+ "breath": {
+  "v_orbit_m_s": 7788.487984973157,
+  "n_O_m3": 2500000000000000.0,
+  "rho_O_kg_m3": 6.6417411452325e-11,
+  "drag_compensation": [
+   {
+    "rho_total": 1.5e-10,
+    "collected": "bütün türler",
+    "mass_fraction": 1.0,
+    "intake": 0.4,
+    "eta": 0.6,
+    "v_e_km_s": 29.20682994364934,
+    "power_W_per_m2": 332.1941671487244,
+    "ionisation_W_per_m2": 26.301619704135035
+   },
+   {
+    "rho_total": 1.5e-10,
+    "collected": "yalnız O",
+    "mass_fraction": 0.4427827430155,
+    "intake": 0.4,
+    "eta": 0.6,
+    "v_e_km_s": 56.1606124557916,
+    "power_W_per_m2": 543.84797477528,
+    "ionisation_W_per_m2": 17.46994684919923
+   },
+   {
+    "rho_total": 2e-10,
+    "collected": "bütün türler",
+    "mass_fraction": 1.0,
+    "intake": 0.4,
+    "eta": 0.6,
+    "v_e_km_s": 29.20682994364934,
+    "power_W_per_m2": 442.92555619829926,
+    "ionisation_W_per_m2": 35.06882627218005
+   },
+   {
+    "rho_total": 2e-10,
+    "collected": "yalnız O",
+    "mass_fraction": 0.332087057261625,
+    "intake": 0.4,
+    "eta": 0.6,
+    "v_e_km_s": 72.28465394606441,
+    "power_W_per_m2": 900.9611356867873,
+    "ionisation_W_per_m2": 17.46994684919923
+   },
+   {
+    "rho_total": 3e-10,
+    "collected": "bütün türler",
+    "mass_fraction": 1.0,
+    "intake": 0.4,
+    "eta": 0.6,
+    "v_e_km_s": 29.20682994364934,
+    "power_W_per_m2": 664.3883342974488,
+    "ionisation_W_per_m2": 52.60323940827007
+   },
+   {
+    "rho_total": 3e-10,
+    "collected": "yalnız O",
+    "mass_fraction": 0.22139137150775,
+    "intake": 0.4,
+    "eta": 0.6,
+    "v_e_km_s": 104.53273692661004,
+    "power_W_per_m2": 1884.1630726287608,
+    "ionisation_W_per_m2": 17.46994684919923
+   }
+  ],
+  "law": "v_e = v (1 + C_D / (2 eps_in f_m)); independent of density when all species are collected"
+ },
+ "beamed": [
+  {
+   "v_e_km_s": 30.0,
+   "N_per_beamed_W": 1.9999999999999998e-05,
+   "ratio_to_sail": 2997.92458
+  },
+  {
+   "v_e_km_s": 60.0,
+   "N_per_beamed_W": 9.999999999999999e-06,
+   "ratio_to_sail": 1498.96229
+  }
+ ],
+ "scaling": {
+  "steps": [
+   {
+    "cells": 1,
+    "thrust_uN": 26.340600952245058,
+    "power_W": 1.343230870487805,
+    "F_over_P_uN_W": 19.60988355090384
+   },
+   {
+    "cells": 2,
+    "thrust_uN": 52.681201904490116,
+    "power_W": 2.68646174097561,
+    "F_over_P_uN_W": 19.60988355090384
+   },
+   {
+    "cells": 3,
+    "thrust_uN": 79.02180285673516,
+    "power_W": 4.029692611463416,
+    "F_over_P_uN_W": 19.609883550903838
+   },
+   {
+    "cells": 4,
+    "thrust_uN": 105.36240380898023,
+    "power_W": 5.37292348195122,
+    "F_over_P_uN_W": 19.60988355090384
+   },
+   {
+    "cells": 7,
+    "thrust_uN": 184.3842066657154,
+    "power_W": 9.402616093414636,
+    "F_over_P_uN_W": 19.609883550903838
+   }
+  ],
+  "F_over_P_spread": 2.220446049250313e-16,
+  "note": "F/P per cell = (m/q) v_e / V_total is independent of the cell current"
+ }
+}

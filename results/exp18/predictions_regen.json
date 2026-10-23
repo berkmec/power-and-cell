@@ -1,0 +1,102 @@
+{
+ "3.3": {
+  "cells_before": [
+   [
+    85.5,
+    156.0
+   ],
+   [
+    265.5,
+    323.0
+   ],
+   [
+    468.0,
+    536.0
+   ]
+  ],
+  "target": [
+   468.0,
+   536.0
+  ],
+  "neighbour": [
+   265.5,
+   323.0
+  ],
+  "I_uA": 492.47537871246635,
+  "wtot_over_I_jon": 1.022308571425234,
+  "P1_wtot_conserved": "w_tot/(I/j_on) stays within 0.97-1.05 during damage and recovery",
+  "survivors_equal_share": [
+   [
+    68.5,
+    173.0
+   ],
+   [
+    248.5,
+    340.0
+   ]
+  ],
+  "survivors_ratio_exact_config": [
+   0.8116768160617844,
+   0.7123731548510736
+  ],
+  "P2_spontaneous_split_predicted": [
+   false,
+   false
+  ],
+  "P3_no_births": "no new nucleation during any hold phase; every new cell comes from a division",
+  "weak_spot_dV_down_mV": 11.871462809295297,
+  "neighbour_ratio_with_weak_spot": 1.1054042300350582,
+  "P4_weak_spot_split_predicted": true,
+  "P5_eject": "exploratory, no quantitative prediction"
+ },
+ "5": {
+  "cells_before": [
+   [
+    48.5,
+    156.5
+   ],
+   [
+    238.5,
+    349.0
+   ],
+   [
+    449.0,
+    559.0
+   ]
+  ],
+  "target": [
+   449.0,
+   559.0
+  ],
+  "neighbour": [
+   238.5,
+   349.0
+  ],
+  "I_uA": 829.4946501096824,
+  "wtot_over_I_jon": 1.0172606331858554,
+  "P1_wtot_conserved": "w_tot/(I/j_on) stays within 0.97-1.05 during damage and recovery",
+  "survivors_equal_share": [
+   [
+    21.0,
+    184.0
+   ],
+   [
+    211.0,
+    376.5
+   ]
+  ],
+  "survivors_ratio_exact_config": [
+   0.7211305327254007,
+   1.1007497940006246
+  ],
+  "P2_spontaneous_split_predicted": [
+   false,
+   true
+  ],
+  "P3_no_births": "no new nucleation during any hold phase; every new cell comes from a division",
+  "weak_spot_dV_down_mV": 11.871462809295297,
+  "neighbour_ratio_with_weak_spot": 1.5607944250883754,
+  "P4_weak_spot_split_predicted": true,
+  "P5_eject": "exploratory, no quantitative prediction"
+ }
+}

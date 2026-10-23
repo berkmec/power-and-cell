@@ -1,0 +1,2939 @@
+{
+ "step1": {
+  "birth_site_prediction": {
+   "hits": 77,
+   "n": 80
+  },
+  "place": {
+   "0.000": {
+    "n": 10,
+    "in_seed": 0,
+    "only_seed": 0,
+    "ci95": [
+     -2.7755575615628914e-17,
+     0.2775401687666166
+    ],
+    "predicted_MC": 0.0265,
+    "predicted_per_run": 0
+   },
+   "0.005": {
+    "n": 10,
+    "in_seed": 1,
+    "only_seed": 0,
+    "ci95": [
+     0.01787574951572113,
+     0.4041563854975721
+    ],
+    "predicted_MC": 0.06175,
+    "predicted_per_run": 0
+   },
+   "0.010": {
+    "n": 10,
+    "in_seed": 2,
+    "only_seed": 1,
+    "ci95": [
+     0.056680947980693314,
+     0.5098431532792765
+    ],
+    "predicted_MC": 0.181,
+    "predicted_per_run": 1
+   },
+   "0.015": {
+    "n": 10,
+    "in_seed": 5,
+    "only_seed": 3,
+    "ci95": [
+     0.23658959361548731,
+     0.7634104063845126
+    ],
+    "predicted_MC": 0.37175,
+    "predicted_per_run": 3
+   },
+   "0.020": {
+    "n": 10,
+    "in_seed": 8,
+    "only_seed": 6,
+    "ci95": [
+     0.49015684672072335,
+     0.9433190520193067
+    ],
+    "predicted_MC": 0.63775,
+    "predicted_per_run": 5
+   },
+   "0.030": {
+    "n": 10,
+    "in_seed": 10,
+    "only_seed": 10,
+    "ci95": [
+     0.7224598312333834,
+     1.0
+    ],
+    "predicted_MC": 0.95325,
+    "predicted_per_run": 9
+   }
+  },
+  "wta": {
+   "wta_s200": {
+    "inputs_mV": [
+     17.3,
+     2.7,
+     20.5,
+     5.5,
+     9.7,
+     10.8
+    ],
+    "strongest": 2,
+    "won": [
+     0
+    ],
+    "n_births": 1,
+    "predicted": 0,
+    "strongest_won": false,
+    "prediction_hit": true
+   },
+   "wta_s201": {
+    "inputs_mV": [
+     13.3,
+     5.9,
+     7.5,
+     12.3,
+     15.7,
+     17.6
+    ],
+    "strongest": 5,
+    "won": [
+     5
+    ],
+    "n_births": 1,
+    "predicted": 5,
+    "strongest_won": true,
+    "prediction_hit": true
+   },
+   "wta_s202": {
+    "inputs_mV": [
+     1.4,
+     10.3,
+     1.8,
+     6.4,
+     26.0,
+     10.1
+    ],
+    "strongest": 4,
+    "won": [
+     4
+    ],
+    "n_births": 1,
+    "predicted": 4,
+    "strongest_won": true,
+    "prediction_hit": true
+   },
+   "wta_s203": {
+    "inputs_mV": [
+     1.8,
+     18.0,
+     15.3,
+     29.1,
+     16.1,
+     9.9
+    ],
+    "strongest": 3,
+    "won": [
+     3
+    ],
+    "n_births": 1,
+    "predicted": 3,
+    "strongest_won": true,
+    "prediction_hit": true
+   },
+   "wta_s204": {
+    "inputs_mV": [
+     20.5,
+     4.7,
+     25.4,
+     13.0,
+     27.6,
+     8.0
+    ],
+    "strongest": 4,
+    "won": [
+     4
+    ],
+    "n_births": 1,
+    "predicted": 4,
+    "strongest_won": true,
+    "prediction_hit": true
+   },
+   "wta_s205": {
+    "inputs_mV": [
+     24.1,
+     4.0,
+     23.0,
+     4.2,
+     24.5,
+     9.1
+    ],
+    "strongest": 4,
+    "won": [
+     4
+    ],
+    "n_births": 1,
+    "predicted": 4,
+    "strongest_won": true,
+    "prediction_hit": true
+   },
+   "wta_s206": {
+    "inputs_mV": [
+     5.3,
+     26.5,
+     19.0,
+     29.7,
+     1.0,
+     23.2
+    ],
+    "strongest": 3,
+    "won": [
+     1
+    ],
+    "n_births": 1,
+    "predicted": 1,
+    "strongest_won": false,
+    "prediction_hit": true
+   },
+   "wta_s207": {
+    "inputs_mV": [
+     5.3,
+     13.4,
+     23.7,
+     1.9,
+     0.9,
+     19.4
+    ],
+    "strongest": 2,
+    "won": [
+     2
+    ],
+    "n_births": 1,
+    "predicted": null,
+    "strongest_won": true,
+    "prediction_hit": false
+   },
+   "wta_s208": {
+    "inputs_mV": [
+     14.4,
+     22.4,
+     28.9,
+     28.7,
+     29.3,
+     14.1
+    ],
+    "strongest": 4,
+    "won": [
+     4
+    ],
+    "n_births": 1,
+    "predicted": 4,
+    "strongest_won": true,
+    "prediction_hit": true
+   },
+   "wta_s209": {
+    "inputs_mV": [
+     9.4,
+     6.8,
+     28.5,
+     6.9,
+     4.7,
+     14.0
+    ],
+    "strongest": 2,
+    "won": [
+     2
+    ],
+    "n_births": 1,
+    "predicted": 2,
+    "strongest_won": true,
+    "prediction_hit": true
+   }
+  },
+  "two": {
+   "two_s300": {
+    "seed0": true,
+    "seed1": true,
+    "n_births": 2,
+    "predicted_first": 1
+   },
+   "two_s301": {
+    "seed0": true,
+    "seed1": true,
+    "n_births": 2,
+    "predicted_first": 0
+   },
+   "two_s302": {
+    "seed0": true,
+    "seed1": false,
+    "n_births": 1,
+    "predicted_first": 0
+   },
+   "two_s303": {
+    "seed0": true,
+    "seed1": false,
+    "n_births": 1,
+    "predicted_first": 0
+   },
+   "two_s304": {
+    "seed0": true,
+    "seed1": false,
+    "n_births": 1,
+    "predicted_first": 0
+   },
+   "two_s305": {
+    "seed0": true,
+    "seed1": false,
+    "n_births": 1,
+    "predicted_first": 0
+   },
+   "two_s306": {
+    "seed0": true,
+    "seed1": false,
+    "n_births": 1,
+    "predicted_first": 0
+   },
+   "two_s307": {
+    "seed0": false,
+    "seed1": true,
+    "n_births": 1,
+    "predicted_first": 1
+   },
+   "two_s308": {
+    "seed0": true,
+    "seed1": false,
+    "n_births": 1,
+    "predicted_first": 0
+   },
+   "two_s309": {
+    "seed0": false,
+    "seed1": true,
+    "n_births": 1,
+    "predicted_first": 1
+   }
+  }
+ },
+ "regen": {
+  "regen_control_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0222761046221611,
+    1.022308571425234
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     85.5,
+     156.0
+    ],
+    [
+     265.5,
+     323.0
+    ],
+    [
+     468.0,
+     536.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_control_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0172606331858554,
+    1.0181174863221183
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     48.5,
+     156.5
+    ],
+    [
+     238.0,
+     349.0
+    ],
+    [
+     449.0,
+     559.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_eject_replace_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 1,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0066790347990437,
+    1.032461563348618
+   ],
+   "target_death_step": 6,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 6,
+     "phase": "sink",
+     "interval": [
+      554.5,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     80.0,
+     149.5
+    ],
+    [
+     277.0,
+     344.0
+    ],
+    [
+     485.5,
+     545.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 5,
+    "eject_reached_end": true,
+    "target_at_end": [
+     554.5,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_replace_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 1,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0077335291178766,
+    1.0203651166057413
+   ],
+   "target_death_step": 10,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "eject",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 530.0,
+     "kids_w": [
+      59.5,
+      36.5
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 3,
+     "phase": "eject",
+     "parent": [
+      235.0,
+      351.5
+     ],
+     "cut": 296.75,
+     "kids_w": [
+      53.5,
+      71.5
+     ],
+     "ratio": 0.9023497100564492,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 10,
+     "phase": "sink",
+     "interval": [
+      558.0,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     35.0,
+     122.0
+    ],
+    [
+     201.0,
+     287.0
+    ],
+    [
+     354.5,
+     435.5
+    ],
+    [
+     495.0,
+     569.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 9,
+    "eject_reached_end": true,
+    "target_at_end": [
+     558.0,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 1,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0066790347990437,
+    1.0274100194394582
+   ],
+   "target_death_step": 6,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 6,
+     "phase": "sink",
+     "interval": [
+      554.5,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     80.0,
+     149.5
+    ],
+    [
+     277.0,
+     344.0
+    ],
+    [
+     485.5,
+     545.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 5,
+    "eject_reached_end": true,
+    "target_at_end": [
+     554.5,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 1,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0077335291178766,
+    1.0172606331858554
+   ],
+   "target_death_step": 10,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "eject",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 530.0,
+     "kids_w": [
+      59.5,
+      36.5
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 3,
+     "phase": "eject",
+     "parent": [
+      235.0,
+      351.5
+     ],
+     "cut": 296.75,
+     "kids_w": [
+      53.5,
+      71.5
+     ],
+     "ratio": 0.9023497100564492,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 10,
+     "phase": "sink",
+     "interval": [
+      558.0,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     35.0,
+     122.0
+    ],
+    [
+     201.0,
+     287.0
+    ],
+    [
+     354.5,
+     435.0
+    ],
+    [
+     494.5,
+     569.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 9,
+    "eject_reached_end": true,
+    "target_at_end": [
+     558.0,
+     600.0
+    ]
+   }
+  },
+  "regen_recycle_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.022308571425234,
+    1.0747873942728003
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 16,
+     "phase": "heal",
+     "parent": [
+      64.0,
+      156.0
+     ],
+     "cut": 115.5,
+     "kids_w": [
+      41.5,
+      30.0
+     ],
+     "ratio": 0.7158421734379109,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     49.5,
+     92.0
+    ],
+    [
+     137.0,
+     171.0
+    ],
+    [
+     266.5,
+     322.5
+    ],
+    [
+     471.0,
+     535.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 2,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0172606331858554,
+    1.0227379916540655
+   ],
+   "target_death_step": 1,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "parent": [
+      238.5,
+      349.0
+     ],
+     "cut": 294.25,
+     "kids_w": [
+      63.0,
+      58.0
+     ],
+     "ratio": 0.8310254877777787,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      449.0,
+      559.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     39.0,
+     131.0
+    ],
+    [
+     205.5,
+     270.5
+    ],
+    [
+     307.5,
+     362.5
+    ],
+    [
+     414.0,
+     483.5
+    ],
+    [
+     552.5,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_replace_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0218043432046175,
+    1.0747873942728003
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     77.5,
+     141.0
+    ],
+    [
+     267.0,
+     334.5
+    ],
+    [
+     471.0,
+     536.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_replace_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 2,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0170185600224053,
+    1.0258759822215882
+   ],
+   "target_death_step": 1,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "parent": [
+      238.5,
+      349.0
+     ],
+     "cut": 294.25,
+     "kids_w": [
+      63.0,
+      58.0
+     ],
+     "ratio": 0.8310254877777787,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      449.0,
+      559.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     39.0,
+     131.0
+    ],
+    [
+     205.5,
+     270.5
+    ],
+    [
+     307.5,
+     362.5
+    ],
+    [
+     414.0,
+     483.5
+    ],
+    [
+     552.5,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.022308571425234,
+    1.0747873942728003
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     64.0,
+     156.0
+    ],
+    [
+     257.5,
+     351.0
+    ],
+    [
+     493.5,
+     511.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 2,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0172606331858554,
+    1.0227379916540655
+   ],
+   "target_death_step": 1,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "parent": [
+      238.5,
+      349.0
+     ],
+     "cut": 294.25,
+     "kids_w": [
+      63.0,
+      58.0
+     ],
+     "ratio": 0.8310254877777787,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      449.0,
+      559.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     34.5,
+     149.5
+    ],
+    [
+     206.0,
+     272.5
+    ],
+    [
+     307.0,
+     362.5
+    ],
+    [
+     389.0,
+     445.0
+    ],
+    [
+     563.0,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  }
+ },
+ "regen_v2": {
+  "regen_control_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0222761046221611,
+    1.022308571425234
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     85.5,
+     156.0
+    ],
+    [
+     265.5,
+     323.0
+    ],
+    [
+     468.0,
+     536.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_control_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0172606331858554,
+    1.0181174863221183
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     48.5,
+     156.5
+    ],
+    [
+     238.0,
+     349.0
+    ],
+    [
+     449.0,
+     559.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_eject_replace_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 1,
+   "genuine_nucleations": [
+    {
+     "step": 6,
+     "phase": "sink",
+     "interval": [
+      416.0,
+      483.5
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.0066790347990437,
+    1.027132492008241
+   ],
+   "target_death_step": 6,
+   "splits": [
+    {
+     "step": 16,
+     "phase": "replace",
+     "parent": [
+      266.0,
+      322.5
+     ],
+     "cut": 293.25,
+     "kids_w": [
+      36.0,
+      23.0
+     ],
+     "ratio": 0.35665597931001547,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.1048165483600676
+    }
+   ],
+   "deaths": [
+    {
+     "step": 6,
+     "phase": "sink",
+     "interval": [
+      554.5,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     49.5,
+     103.5
+    ],
+    [
+     205.5,
+     245.0
+    ],
+    [
+     297.5,
+     330.5
+    ],
+    [
+     428.0,
+     497.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 5,
+    "eject_reached_end": true,
+    "target_at_end": [
+     554.5,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_replace_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0077335291178766,
+    1.02243941565653
+   ],
+   "target_death_step": 10,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "eject",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 530.0,
+     "kids_w": [
+      59.5,
+      36.5
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 3,
+     "phase": "eject",
+     "parent": [
+      235.0,
+      351.5
+     ],
+     "cut": 296.75,
+     "kids_w": [
+      53.5,
+      71.5
+     ],
+     "ratio": 0.9023497100564492,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 10,
+     "phase": "sink",
+     "parent": [
+      359.0,
+      466.0
+     ],
+     "cut": 416.75,
+     "kids_w": [
+      47.0,
+      93.5
+     ],
+     "ratio": 0.780762787600902,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 20,
+     "phase": "replace",
+     "parent": [
+      188.0,
+      288.0
+     ],
+     "cut": 244.75,
+     "kids_w": [
+      60.0,
+      37.0
+     ],
+     "ratio": 0.6631167736419522,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.411277342692004
+    }
+   ],
+   "deaths": [
+    {
+     "step": 10,
+     "phase": "sink",
+     "interval": [
+      558.0,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     32.0,
+     107.0
+    ],
+    [
+     170.0,
+     232.0
+    ],
+    [
+     257.5,
+     294.5
+    ],
+    [
+     352.0,
+     419.0
+    ],
+    [
+     476.5,
+     564.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 9,
+    "eject_reached_end": true,
+    "target_at_end": [
+     558.0,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 1,
+   "genuine_nucleations": [
+    {
+     "step": 6,
+     "phase": "sink",
+     "interval": [
+      416.0,
+      483.5
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.0066790347990437,
+    1.022308571425234
+   ],
+   "target_death_step": 6,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 6,
+     "phase": "sink",
+     "interval": [
+      554.5,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     80.0,
+     149.0
+    ],
+    [
+     266.0,
+     322.5
+    ],
+    [
+     427.5,
+     497.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 5,
+    "eject_reached_end": true,
+    "target_at_end": [
+     554.5,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0077335291178766,
+    1.0190880381143634
+   ],
+   "target_death_step": 10,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "eject",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 530.0,
+     "kids_w": [
+      59.5,
+      36.5
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 3,
+     "phase": "eject",
+     "parent": [
+      235.0,
+      351.5
+     ],
+     "cut": 296.75,
+     "kids_w": [
+      53.5,
+      71.5
+     ],
+     "ratio": 0.9023497100564492,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 10,
+     "phase": "sink",
+     "parent": [
+      359.0,
+      466.0
+     ],
+     "cut": 416.75,
+     "kids_w": [
+      47.0,
+      93.5
+     ],
+     "ratio": 0.780762787600902,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 10,
+     "phase": "sink",
+     "interval": [
+      558.0,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     33.0,
+     112.5
+    ],
+    [
+     188.5,
+     286.5
+    ],
+    [
+     353.5,
+     418.0
+    ],
+    [
+     477.5,
+     563.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 9,
+    "eject_reached_end": true,
+    "target_at_end": [
+     558.0,
+     600.0
+    ]
+   }
+  },
+  "regen_fragment_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0214104881678285,
+    1.0240268404519328
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "parent": [
+      468.0,
+      536.0
+     ],
+     "cut": 505.0,
+     "kids_w": [
+      42.0,
+      33.5
+     ],
+     "ratio": 0.49425897417047526,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     79.0,
+     138.5
+    ],
+    [
+     260.5,
+     321.5
+    ],
+    [
+     436.5,
+     478.5
+    ],
+    [
+     531.0,
+     565.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_fragment_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0135398706691274,
+    1.0183493324553534
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 504.25,
+     "kids_w": [
+      66.5,
+      49.0
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     44.0,
+     155.5
+    ],
+    [
+     237.5,
+     334.5
+    ],
+    [
+     409.0,
+     480.0
+    ],
+    [
+     528.0,
+     577.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_fragment_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0214104881678285,
+    1.0240268404519328
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "parent": [
+      468.0,
+      536.0
+     ],
+     "cut": 505.0,
+     "kids_w": [
+      42.0,
+      33.5
+     ],
+     "ratio": 0.49425897417047526,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     79.0,
+     138.5
+    ],
+    [
+     260.5,
+     321.5
+    ],
+    [
+     436.5,
+     478.5
+    ],
+    [
+     531.0,
+     565.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_fragment_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0135398706691274,
+    1.0183493324553534
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 504.25,
+     "kids_w": [
+      66.5,
+      49.0
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     44.0,
+     155.5
+    ],
+    [
+     237.5,
+     334.5
+    ],
+    [
+     409.0,
+     480.0
+    ],
+    [
+     528.0,
+     577.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 2,
+   "genuine_nucleations": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      392.5,
+      438.0
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      566.0,
+      600.0
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.0195658360726378,
+    1.0247728262548084
+   ],
+   "target_death_step": 1,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      468.0,
+      536.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     79.5,
+     143.0
+    ],
+    [
+     265.5,
+     317.0
+    ],
+    [
+     402.0,
+     453.0
+    ],
+    [
+     570.0,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  },
+  "regen_recycle_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 3,
+   "genuine_nucleations": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      0.0,
+      15.5
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      365.5,
+      420.0
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      588.0,
+      600.0
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.013845519838184,
+    1.0227433893944278
+   ],
+   "target_death_step": 1,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      449.0,
+      559.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     0.0,
+     29.0
+    ],
+    [
+     80.0,
+     150.5
+    ],
+    [
+     211.0,
+     287.5
+    ],
+    [
+     358.5,
+     458.0
+    ],
+    [
+     548.0,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_replace_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 2,
+   "genuine_nucleations": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      392.5,
+      438.0
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      566.0,
+      600.0
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.0188503807318108,
+    1.026906397802979
+   ],
+   "target_death_step": 1,
+   "splits": [
+    {
+     "step": 16,
+     "phase": "replace",
+     "parent": [
+      265.5,
+      316.0
+     ],
+     "cut": 290.5,
+     "kids_w": [
+      33.5,
+      22.5
+     ],
+     "ratio": 0.2920230289214573,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.0401835979715095
+    }
+   ],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      468.0,
+      536.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     50.0,
+     102.5
+    ],
+    [
+     205.5,
+     245.0
+    ],
+    [
+     297.0,
+     323.5
+    ],
+    [
+     402.0,
+     449.5
+    ],
+    [
+     570.5,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  },
+  "regen_recycle_replace_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 6,
+   "births_after_grow": 3,
+   "genuine_nucleations": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      0.0,
+      15.5
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      365.5,
+      420.0
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      588.0,
+      600.0
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.0154226756201143,
+    1.0227433893944278
+   ],
+   "target_death_step": 1,
+   "splits": [
+    {
+     "step": 16,
+     "phase": "replace",
+     "parent": [
+      205.5,
+      322.5
+     ],
+     "cut": 256.0,
+     "kids_w": [
+      56.5,
+      54.5
+     ],
+     "ratio": 0.632499067714315,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.380659636764367
+    }
+   ],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      449.0,
+      559.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     0.0,
+     27.0
+    ],
+    [
+     70.5,
+     128.5
+    ],
+    [
+     181.5,
+     243.5
+    ],
+    [
+     277.0,
+     323.0
+    ],
+    [
+     382.5,
+     466.5
+    ],
+    [
+     549.0,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 2,
+   "genuine_nucleations": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      392.5,
+      438.0
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      566.0,
+      600.0
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.0195658360726378,
+    1.0245354100667714
+   ],
+   "target_death_step": 1,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      468.0,
+      536.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     79.0,
+     143.0
+    ],
+    [
+     265.5,
+     316.0
+    ],
+    [
+     390.0,
+     438.0
+    ],
+    [
+     566.0,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  },
+  "regen_recycle_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 3,
+   "genuine_nucleations": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      0.0,
+      15.5
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      365.5,
+      420.0
+     ]
+    },
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      588.0,
+      600.0
+     ]
+    }
+   ],
+   "wtot_ratio_range": [
+    1.017114573226861,
+    1.0227433893944278
+   ],
+   "target_death_step": 1,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 1,
+     "phase": "damage",
+     "interval": [
+      449.0,
+      559.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     0.0,
+     21.0
+    ],
+    [
+     50.0,
+     158.5
+    ],
+    [
+     205.5,
+     322.5
+    ],
+    [
+     350.5,
+     420.0
+    ],
+    [
+     588.0,
+     600.0
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  }
+ },
+ "regen_v3": {
+  "regen_control_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0222761046221611,
+    1.022308571425234
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     85.5,
+     156.0
+    ],
+    [
+     265.5,
+     323.0
+    ],
+    [
+     468.0,
+     536.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_control_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0172606331858554,
+    1.0181174863221183
+   ],
+   "target_death_step": null,
+   "splits": [],
+   "deaths": [],
+   "final_cells": [
+    [
+     48.5,
+     156.5
+    ],
+    [
+     238.0,
+     349.0
+    ],
+    [
+     449.0,
+     559.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_eject_replace_v3.3": {
+   "n_start": 3,
+   "n_min": 2,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0066790347990437,
+    1.0667700003420066
+   ],
+   "target_death_step": 17,
+   "splits": [
+    {
+     "step": 36,
+     "phase": "replace",
+     "parent": [
+      280.5,
+      387.5
+     ],
+     "cut": 348.0,
+     "kids_w": [
+      50.5,
+      65.5
+     ],
+     "ratio": 0.939378972348928,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.68753954139898
+    }
+   ],
+   "deaths": [
+    {
+     "step": 17,
+     "phase": "sink",
+     "interval": [
+      596.0,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     80.0,
+     149.0
+    ],
+    [
+     266.0,
+     322.5
+    ],
+    [
+     427.5,
+     497.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 5,
+    "eject_reached_end": true,
+    "target_at_end": [
+     554.5,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_replace_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0077335291178766,
+    1.0346176864795822
+   ],
+   "target_death_step": 18,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "eject",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 530.0,
+     "kids_w": [
+      59.5,
+      36.5
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 3,
+     "phase": "eject",
+     "parent": [
+      235.0,
+      351.5
+     ],
+     "cut": 296.75,
+     "kids_w": [
+      53.5,
+      71.5
+     ],
+     "ratio": 0.9023497100564492,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 17,
+     "phase": "sink",
+     "parent": [
+      374.5,
+      507.5
+     ],
+     "cut": 446.5,
+     "kids_w": [
+      73.0,
+      66.0
+     ],
+     "ratio": 1.059608712702566,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 40,
+     "phase": "replace",
+     "parent": [
+      200.0,
+      288.0
+     ],
+     "cut": 245.0,
+     "kids_w": [
+      58.0,
+      36.5
+     ],
+     "ratio": 0.5576232114450207,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.305783780495073
+    }
+   ],
+   "deaths": [
+    {
+     "step": 18,
+     "phase": "sink",
+     "interval": [
+      595.5,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     32.0,
+     106.5
+    ],
+    [
+     170.5,
+     232.0
+    ],
+    [
+     257.5,
+     294.0
+    ],
+    [
+     354.0,
+     432.5
+    ],
+    [
+     487.0,
+     565.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 9,
+    "eject_reached_end": true,
+    "target_at_end": [
+     558.0,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_v3.3": {
+   "n_start": 3,
+   "n_min": 2,
+   "n_end": 2,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0066790347990437,
+    1.0667700003420066
+   ],
+   "target_death_step": 17,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 17,
+     "phase": "sink",
+     "interval": [
+      596.0,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     69.0,
+     157.0
+    ],
+    [
+     280.5,
+     387.5
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {
+    "eject_steps": 5,
+    "eject_reached_end": true,
+    "target_at_end": [
+     554.5,
+     600.0
+    ]
+   }
+  },
+  "regen_eject_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0077335291178766,
+    1.0346176864795822
+   ],
+   "target_death_step": 18,
+   "splits": [
+    {
+     "step": 1,
+     "phase": "eject",
+     "parent": [
+      449.0,
+      559.0
+     ],
+     "cut": 530.0,
+     "kids_w": [
+      59.5,
+      36.5
+     ],
+     "ratio": 0.8259085286911036,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 3,
+     "phase": "eject",
+     "parent": [
+      235.0,
+      351.5
+     ],
+     "cut": 296.75,
+     "kids_w": [
+      53.5,
+      71.5
+     ],
+     "ratio": 0.9023497100564492,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 17,
+     "phase": "sink",
+     "parent": [
+      374.5,
+      507.5
+     ],
+     "cut": 446.5,
+     "kids_w": [
+      73.0,
+      66.0
+     ],
+     "ratio": 1.059608712702566,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 18,
+     "phase": "sink",
+     "interval": [
+      595.5,
+      600.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     34.5,
+     123.5
+    ],
+    [
+     200.5,
+     287.5
+    ],
+    [
+     353.5,
+     424.5
+    ],
+    [
+     486.5,
+     568.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {
+    "eject_steps": 9,
+    "eject_reached_end": true,
+    "target_at_end": [
+     558.0,
+     600.0
+    ]
+   }
+  },
+  "regen_fragment_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0190819856341482,
+    1.0578058655183566
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 6,
+     "phase": "damage",
+     "parent": [
+      467.0,
+      541.5
+     ],
+     "cut": 505.25,
+     "kids_w": [
+      43.0,
+      34.0
+     ],
+     "ratio": 0.5582993911539433,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     79.5,
+     141.5
+    ],
+    [
+     266.0,
+     322.5
+    ],
+    [
+     436.5,
+     479.5
+    ],
+    [
+     531.0,
+     565.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_fragment_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0143467356676297,
+    1.0273196590343538
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 3,
+     "phase": "damage",
+     "parent": [
+      449.0,
+      561.5
+     ],
+     "cut": 504.5,
+     "kids_w": [
+      65.0,
+      49.0
+     ],
+     "ratio": 0.8377402297190767,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     44.0,
+     155.5
+    ],
+    [
+     237.5,
+     334.5
+    ],
+    [
+     409.0,
+     480.0
+    ],
+    [
+     528.0,
+     577.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_fragment_v3.3": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0190819891780631,
+    1.0578058655183566
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 6,
+     "phase": "damage",
+     "parent": [
+      467.0,
+      541.5
+     ],
+     "cut": 505.25,
+     "kids_w": [
+      43.0,
+      34.0
+     ],
+     "ratio": 0.5582993911539433,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     79.5,
+     141.5
+    ],
+    [
+     266.0,
+     322.5
+    ],
+    [
+     436.5,
+     479.5
+    ],
+    [
+     531.0,
+     565.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_fragment_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0143467356676297,
+    1.0273196590343538
+   ],
+   "target_death_step": null,
+   "splits": [
+    {
+     "step": 3,
+     "phase": "damage",
+     "parent": [
+      449.0,
+      561.5
+     ],
+     "cut": 504.5,
+     "kids_w": [
+      65.0,
+      49.0
+     ],
+     "ratio": 0.8377402297190767,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [],
+   "final_cells": [
+    [
+     44.0,
+     155.5
+    ],
+    [
+     237.5,
+     334.5
+    ],
+    [
+     409.0,
+     480.0
+    ],
+    [
+     528.0,
+     577.0
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 2,
+   "n_end": 2,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0179568695060672,
+    1.0893469366700654
+   ],
+   "target_death_step": 11,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 11,
+     "phase": "damage",
+     "interval": [
+      528.0,
+      535.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     69.0,
+     157.0
+    ],
+    [
+     280.5,
+     387.5
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  },
+  "regen_recycle_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 4,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0149182312328573,
+    1.0980224288676166
+   ],
+   "target_death_step": 15,
+   "splits": [
+    {
+     "step": 5,
+     "phase": "damage",
+     "parent": [
+      227.0,
+      351.5
+     ],
+     "cut": 292.75,
+     "kids_w": [
+      60.5,
+      89.0
+     ],
+     "ratio": 0.928877730747861,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 32,
+     "phase": "heal",
+     "parent": [
+      354.5,
+      500.5
+     ],
+     "cut": 427.75,
+     "kids_w": [
+      49.5,
+      98.0
+     ],
+     "ratio": 1.2053877197691931,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 15,
+     "phase": "damage",
+     "interval": [
+      538.0,
+      544.5
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     33.0,
+     112.5
+    ],
+    [
+     188.5,
+     286.5
+    ],
+    [
+     353.5,
+     418.0
+    ],
+    [
+     477.5,
+     563.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_replace_heal_v3.3": {
+   "n_start": 3,
+   "n_min": 2,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0179568695060672,
+    1.0893469366700654
+   ],
+   "target_death_step": 11,
+   "splits": [
+    {
+     "step": 31,
+     "phase": "replace",
+     "parent": [
+      280.5,
+      387.5
+     ],
+     "cut": 346.5,
+     "kids_w": [
+      52.0,
+      62.5
+     ],
+     "ratio": 0.939378972348928,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.68753954139898
+    }
+   ],
+   "deaths": [
+    {
+     "step": 11,
+     "phase": "damage",
+     "interval": [
+      528.0,
+      535.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     80.0,
+     149.0
+    ],
+    [
+     266.0,
+     322.5
+    ],
+    [
+     427.5,
+     497.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_replace_heal_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 5,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0155869561372655,
+    1.0980224288676166
+   ],
+   "target_death_step": 15,
+   "splits": [
+    {
+     "step": 5,
+     "phase": "damage",
+     "parent": [
+      227.0,
+      351.5
+     ],
+     "cut": 292.75,
+     "kids_w": [
+      60.5,
+      89.0
+     ],
+     "ratio": 0.928877730747861,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    },
+    {
+     "step": 31,
+     "phase": "replace",
+     "parent": [
+      188.0,
+      287.0
+     ],
+     "cut": 240.5,
+     "kids_w": [
+      58.0,
+      39.0
+     ],
+     "ratio": 0.4612601933125095,
+     "at_weak_spot": true,
+     "ratio_with_weak": 3.2094207623625617
+    },
+    {
+     "step": 40,
+     "phase": "heal",
+     "parent": [
+      346.0,
+      500.0
+     ],
+     "cut": 414.75,
+     "kids_w": [
+      51.5,
+      105.5
+     ],
+     "ratio": 1.2566999193711013,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 15,
+     "phase": "damage",
+     "interval": [
+      538.0,
+      544.5
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     32.0,
+     105.0
+    ],
+    [
+     163.5,
+     225.5
+    ],
+    [
+     257.5,
+     293.5
+    ],
+    [
+     331.5,
+     388.5
+    ],
+    [
+     460.0,
+     561.5
+    ]
+   ],
+   "target_region_reoccupied": true,
+   "eject": {}
+  },
+  "regen_recycle_v3.3": {
+   "n_start": 3,
+   "n_min": 2,
+   "n_end": 2,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0179499559640812,
+    1.0893469366700654
+   ],
+   "target_death_step": 11,
+   "splits": [],
+   "deaths": [
+    {
+     "step": 11,
+     "phase": "damage",
+     "interval": [
+      528.0,
+      535.0
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     69.0,
+     157.0
+    ],
+    [
+     280.5,
+     387.5
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  },
+  "regen_recycle_v5": {
+   "n_start": 3,
+   "n_min": 3,
+   "n_end": 3,
+   "births_after_grow": 0,
+   "genuine_nucleations": [],
+   "wtot_ratio_range": [
+    1.0155869561372655,
+    1.0980224288676166
+   ],
+   "target_death_step": 15,
+   "splits": [
+    {
+     "step": 5,
+     "phase": "damage",
+     "parent": [
+      227.0,
+      351.5
+     ],
+     "cut": 292.75,
+     "kids_w": [
+      60.5,
+      89.0
+     ],
+     "ratio": 0.928877730747861,
+     "at_weak_spot": false,
+     "ratio_with_weak": null
+    }
+   ],
+   "deaths": [
+    {
+     "step": 15,
+     "phase": "damage",
+     "interval": [
+      538.0,
+      544.5
+     ]
+    }
+   ],
+   "final_cells": [
+    [
+     22.5,
+     147.5
+    ],
+    [
+     188.0,
+     287.0
+    ],
+    [
+     317.0,
+     420.0
+    ]
+   ],
+   "target_region_reoccupied": false,
+   "eject": {}
+  }
+ }
+}

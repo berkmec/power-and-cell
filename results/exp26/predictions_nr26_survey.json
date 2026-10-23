@@ -1,0 +1,9 @@
+{
+ "registered": "2026-10-16 10:01",
+ "basis": "vmrev.json + vmrev_tc_scan.json: at t_c = 1.568 ms a nearest-neighbour (NN) pair and nuclei coupled to it leak 0.48-0.99 within 17.5 s; leak falls ~t_c^2 for a pair neighbour, slower for pair members, not at all for a target with two NN partners. Survey: config 0, 60 targets (20 NN-pair members, 20 coupled >= 5 Hz to a pair member, 20 others), clusters = target + 6 strongest dipolar partners, offsets 20 Hz/nm along the target's best direction, storage only",
+ "predictions": [
+  "NV4: at the measured cycle t_c = 1.568 ms more than half of the NN-pair members and more than a quarter of the pair-coupled nuclei leak > 0.1 within 17.5 s, while the 'others' leak < 0.01 in >= 90 %",
+  "NV5: at t_c = 0.098 ms (pulse width scaled, B1 ~ 63 mT) fewer than 10 % of the non-member nuclei leak > 0.01 within 17.5 s, but some NN-pair members still leak > 0.1",
+  "NV6: the register fraction that keeps its bits over one 17.5 s write at the measured cycle is < 85 %, so the measured-point claim 'all ~2100 within 6 nm' (summary \u00a76) does not hold"
+ ]
+}

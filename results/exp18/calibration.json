@@ -1,0 +1,89 @@
+{
+ "table": {
+  "0.0": {
+   "top1_hit": 19,
+   "all_births_explained": 17,
+   "n_runs": 20
+  },
+  "0.25": {
+   "top1_hit": 18,
+   "all_births_explained": 17,
+   "n_runs": 20
+  },
+  "0.5": {
+   "top1_hit": 9,
+   "all_births_explained": 7,
+   "n_runs": 20
+  },
+  "0.75": {
+   "top1_hit": 3,
+   "all_births_explained": 2,
+   "n_runs": 20
+  },
+  "1.0": {
+   "top1_hit": 3,
+   "all_births_explained": 2,
+   "n_runs": 20
+  },
+  "1.5": {
+   "top1_hit": 3,
+   "all_births_explained": 2,
+   "n_runs": 20
+  },
+  "2.0": {
+   "top1_hit": 3,
+   "all_births_explained": 2,
+   "n_runs": 20
+  },
+  "3.0": {
+   "top1_hit": 5,
+   "all_births_explained": 3,
+   "n_runs": 20
+  }
+ },
+ "ell_best": 0.0,
+ "births_per_run": [
+  2,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  3,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "birth_vdd": [
+  1.34,
+  1.24,
+  1.22,
+  1.18,
+  1.32,
+  1.32,
+  1.28,
+  1.24,
+  1.3,
+  1.2,
+  1.32,
+  1.26,
+  1.24,
+  1.22,
+  1.3,
+  1.26,
+  1.24,
+  1.3,
+  1.22,
+  1.24
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "W_RT1_inside_lam30_mm0.1": {
+  "kind": "inside",
+  "w_pred": 147.16635932252572,
+  "n_splits": 0,
+  "births_before_first_split": 12,
+  "total_births": 12,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 12,
+   "widest": 53.0,
+   "frac_high": 0.69
+  },
+  "sequence": "bbbbbbbbbbbb"
+ },
+ "W_RT1_inside_lam50_mm0.1": {
+  "kind": "inside",
+  "w_pred": 245.27726553754286,
+  "n_splits": 0,
+  "births_before_first_split": 7,
+  "total_births": 7,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 7,
+   "widest": 72.0,
+   "frac_high": 0.6966666666666667
+  },
+  "sequence": "bbbbbbb"
+ },
+ "W_RT1_above_lam30_mm0.1": {
+  "kind": "above",
+  "w_pred": 70.55415503814284,
+  "n_splits": 0,
+  "births_before_first_split": 14,
+  "total_births": 14,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 14,
+   "widest": 44.5,
+   "frac_high": 0.6908333333333333
+  },
+  "sequence": "bbbbbbbbbbbbbb"
+ },
+ "W_RT1_inside_lam30_mm0.3": {
+  "kind": "inside",
+  "w_pred": 147.16635932252572,
+  "n_splits": 0,
+  "births_before_first_split": 55,
+  "total_births": 55,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 41,
+   "widest": 23.5,
+   "frac_high": 0.64
+  },
+  "sequence": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+ },
+ "W_RT1_below_lam30_mm0.1": {
+  "kind": "below",
+  "w_pred": Infinity,
+  "n_splits": 0,
+  "births_before_first_split": 7,
+  "total_births": 7,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 7,
+   "widest": 74.5,
+   "frac_high": 0.6975
+  },
+  "sequence": "bbbbbbb"
+ },
+ "W_RT2_inside_lam30_mm0.1": {
+  "kind": "inside",
+  "w_pred": 121.0750947108565,
+  "n_splits": 0,
+  "births_before_first_split": 11,
+  "total_births": 11,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 11,
+   "widest": 52.5,
+   "frac_high": 0.625
+  },
+  "sequence": "bbbbbbbbbbb"
+ },
+ "W_RT2_inside_lam50_mm0.1": {
+  "kind": "inside",
+  "w_pred": 201.79182451809416,
+  "n_splits": 0,
+  "births_before_first_split": 7,
+  "total_births": 7,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 7,
+   "widest": 66.0,
+   "frac_high": 0.6216666666666667
+  },
+  "sequence": "bbbbbbb"
+ },
+ "W_RT2_above_lam30_mm0.1": {
+  "kind": "above",
+  "w_pred": 60.25409579205126,
+  "n_splits": 0,
+  "births_before_first_split": 15,
+  "total_births": 15,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 15,
+   "widest": 38.0,
+   "frac_high": 0.62
+  },
+  "sequence": "bbbbbbbbbbbbbbb"
+ }
+}

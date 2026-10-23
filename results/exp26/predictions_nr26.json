@@ -1,0 +1,13 @@
+{
+ "registered": "2026-10-16 08:47",
+ "basis": "Exp25: hyperfine key fails in natural Si; analytic laws L1 (N = 0.63 sqrt(K/W)) and L2 (exp(-d* S_k), S_k ~ 350-530 nm^-1 in a 6 nm sphere) derived before any run of this script",
+ "predictions": [
+  "NR1: hyperfine key alone (D0, B || [1,2,3], electron state known): the number of individually addressable 29Si within 6 nm follows 0.63 sqrt(K/W) (K = 1.19e5 Hz) within +-40 % for W = 0.3, 1, 3, 10, 30 Hz (mean of 20 configs)",
+  "NR2: with the measured device electron T1 (6 s at 1.5 T; pulse <= T1/20) and MREV-16 the hyperfine key reaches < 5 % of the 29Si within 6 nm",
+  "NR3: D+ mode, steerable gradient: in >= 90 % of 20 natural configurations >= 99 % of the 29Si within 6 nm have a direction that isolates them by d* >= 0.010 nm; one fixed direction isolates < 5 % at d* = 0.010 nm",
+  "NR4: at the measured MREV point (t_c = 1.568 ms, T2 <= 25 s) no gradient strength gives coverage >= 1 %",
+  "NR5: full coverage (>= 99 % of the nuclei in >= 90 % of the configurations) needs t_c <= 0.4 ms if T2 follows the measured t_c^-2 law with no other cap, t_c <= 0.1 ms if T2 is capped at the measured 25 s, t_c <= 0.03 ms with an 8 s cap (1/f noise, Ladd's polycrystal)",
+  "NR6: bus: the 29Si dipolar graph with |J| >= 5/T2 (T2 = 25 s: 0.2 Hz) is connected in 20/20 configurations; 4-nucleus J clusters with distinct offsets have full Lie rank 255 with selective X/Y (10/10) and with only global X/Y (>= 8/10)",
+  "NR7: energy: at the largest feasible t_c (t_c^-2 law) the MREV drive at 100 nm needs >= 0.1 mW on average (Ladd's point: ~15 uW) and writing every nucleus costs >= 1 uJ per atom"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "B_RT2_Rsq3e+03_lam30": {
+  "kind": "inside",
+  "w_pred": 121.0750947108565,
+  "n_splits": 0,
+  "births_before_first_split": 1,
+  "total_births": 1,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 1,
+   "widest": 600.0,
+   "frac_high": 1.0
+  },
+  "sequence": "b",
+  "max_n_fil": 1,
+  "max_jump_frac_high": 1.0
+ },
+ "B_RT2_Rsq3e+03_lam50": {
+  "kind": "inside",
+  "w_pred": 201.79182451809416,
+  "n_splits": 0,
+  "births_before_first_split": 1,
+  "total_births": 1,
+  "first_split": null,
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 1,
+   "widest": 600.0,
+   "frac_high": 1.0
+  },
+  "sequence": "b",
+  "max_n_fil": 1,
+  "max_jump_frac_high": 1.0
+ },
+ "B_RT2_Rsq1e+08_lam30": {
+  "kind": "inside",
+  "w_pred": 121.0750947108565,
+  "n_splits": 1,
+  "births_before_first_split": 1,
+  "total_births": 1,
+  "first_split": {
+   "vdd": 7.16,
+   "parent_w": 534.0,
+   "kids_w": [
+    428.0,
+    99.5
+   ],
+   "err": 3.4104859159950554
+  },
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 1,
+   "widest": 600.0,
+   "frac_high": 1.0
+  },
+  "sequence": "bs",
+  "max_n_fil": 2,
+  "max_jump_frac_high": 0.09166666666666666
+ },
+ "B_RT2_Rsq1e+08_lam50": {
+  "kind": "inside",
+  "w_pred": 201.79182451809416,
+  "n_splits": 2,
+  "births_before_first_split": 1,
+  "total_births": 1,
+  "first_split": {
+   "vdd": 5.76,
+   "parent_w": 389.5,
+   "kids_w": [
+    261.5,
+    93.0
+   ],
+   "err": 0.9302070385169372
+  },
+  "end": {
+   "vdd": 7.5,
+   "n_fil": 2,
+   "widest": 432.0,
+   "frac_high": 0.8916666666666667
+  },
+  "sequence": "bss",
+  "max_n_fil": 2,
+  "max_jump_frac_high": 0.08666666666666667
+ }
+}

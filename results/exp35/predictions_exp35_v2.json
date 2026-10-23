@@ -1,0 +1,18 @@
+{
+ "registered": "2026-10-17 (correction registration, BEFORE any corrected Exp35 pattern run)",
+ "correction_reason": "Exp35 v1 pattern verdicts are invalid and are archived as universal_control35_v1_invalid.json. Two design errors were found by diagnostic A/B against Exp24: (1) MONO was defined as zeros-then-ones in ascending calibrated-address order, but stored Exp24 occupation crosses from ionised (bit 0) below the address to neutral (bit 1) above it, so a threshold-compatible pattern in ascending address order is ones-then-zeros; (2) the v1 sparse random-pair hop proposal mixed too poorly in the Coulomb glass: from the same relaxed state at address-2.5 mV for site 45 (60 nm seed 0), Exp24's original Metropolis gave P_ion=1.0000 while the v1 sampler stayed at 0.0000. UC5 bootstrap did not use the defective sampler and its computation is retained for recheck; UC1-UC4 and UC6 from v1 must not be cited as physical verdicts.",
+ "corrections": {
+  "patterns": "MONO = ones then zeros in ascending calibrated-address order. ALT unchanged (0101). RAND = same RNG rule except non-monotone now means at least one rise 0->1 with increasing address.",
+  "sampler": "Use Exp24's proposal distribution faithfully: each proposal is a single flip with probability 1/2, otherwise a hop between a uniformly chosen occupied and a uniformly chosen empty site (maintained lists, same distribution). FINAL_SWEEPS=1200, FEEDBACK_SWEEPS=600.",
+  "sampler_acceptance_gate": "Before the full run, the corrected sampler must reproduce Exp24 Metropolis on seed-0 sites 45/46/73 at address +/-2.5 mV with absolute P_ion difference <=0.25 on at least 5 of 6 checks and no check on the wrong side of 0.5 by more than 0.25. If it fails, stop and do not issue verdicts.",
+  "unchanged": "Island/sample selection, G/L/CL protocol definitions except the corrected pattern direction and sampler/sweeps, amplitudes, gain/clip, metrics and all UC numeric thresholds from predictions_exp35.json remain unchanged. The original predictions file is not edited."
+ },
+ "predictions": [
+  "UC1 (unchanged thresholds, corrected MONO direction): G modal exact >=80% MONO, <=15% ALT, <=30% RAND, MONO-pooled-nonmono gap >=50 points, overall G per-bit >=0.65.",
+  "UC2 (unchanged): L20 pooled ALT+RAND modal exact exceeds G by >=30 points and L40 by >=10 points; L10 lies between G and L20 or above L40.",
+  "UC3 (unchanged): CL20 fresh verification on ALT+RAND reaches marginal >=0.95, exact snapshot >=0.65, modal exact >=80%, median updates <=3, and exact snapshot at least 0.15 above L20.",
+  "UC4 (unchanged): G exact fraction is >=0.10 below its marginal product on ALT+RAND; CL20 absolute exact-vs-product gap <=0.10.",
+  "UC5 (unchanged bootstrap ranges from predictions_exp35.json).",
+  "UC6 (unchanged distance classes and thresholds; not testable if either class has <3 tasks)."
+ ]
+}

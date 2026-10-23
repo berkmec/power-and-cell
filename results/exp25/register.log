@@ -1,0 +1,16 @@
+{
+ "mean_addressable": 0.82,
+ "frac_ge4": 0.0,
+ "ghz_configs": 0,
+ "ghz_no_deph_ge_0p95": null,
+ "ghz_mean": null,
+ "near_all_coupled": 0.04,
+ "calibration_C_Hz": 754811.7510839669,
+ "A_first_100_shell_MHz": 2.981,
+ "stark_note": "E3 in energy.json: the cell field shifts the donor hyperfine by MHz (A-gate addressing)"
+}
+1 [2981.0] None
+1 [947.5] None
+0 [] None
+0 [] None
+0 [] None

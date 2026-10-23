@@ -1,0 +1,230 @@
+{
+ "criterion": "AR2 registered 2026-10-16 14:24: 2-30 uN/cell at Ic=0.17-0.27mA (superseded inputs)",
+ "replication_old": {
+  "Ic_mA": [
+   0.16573170731707318,
+   0.2682926829268293
+  ],
+  "F5kV_uN": [
+   16.271307588227742,
+   26.340600952245058
+  ]
+ },
+ "measured_exp32": {
+  "VM_V": 0.70101199867378,
+  "jon_A_per_um": 6.405892578524453e-05,
+  "Ic_mA_min": 0.9860237515013004,
+  "Ic_mA_max": 2.6012810359206964,
+  "F_stored_uN": [
+   96.80643488971005,
+   255.39013928445146
+  ],
+  "F_recomputed_uN": [
+   96.80643498881702,
+   255.39013954591073
+  ],
+  "max_rel_dev": 1.023764281780463e-09
+ },
+ "verdict": "AR2 numeric range falsified by measured inputs (97-255 uN); F=gamma*N*Ic*sqrt(2mV/q) form retained (Exp32)",
+ "AR3_AR6_EX1_EX5_recheck": {
+  "method": "aer28/explore28 functions rerun unmodified, OUT redirected to C:; stored E:/results/exp28/*.json read for numeric comparison; registered criteria from predictions_exp28.json (14:24) + predictions_exp28_explore.json (14:29), files unmodified",
+  "vs_stored_max_rel_dev": {
+   "emission": 0.0,
+   "tunnel": 0.0,
+   "turnstile": 0.0,
+   "mission": 0.0,
+   "rocket": 0.0,
+   "cells": 0.0,
+   "explore": 0.0
+  },
+  "AR3": {
+   "criterion": "10pct field: >=1e3 @430K, >=1e100 @4K",
+   "log10_on_off_4K_Q1": 125.99445463338724,
+   "on_off_430K_Q1": 14.860774304290283,
+   "on_off_430K_In_Q4p19": 80568.5339858318,
+   "verdict": "partial (4K pass; 430K fails with Q0=1eV, passes with In barrier) - same as summary_exp28 L195"
+  },
+  "AR4": {
+   "criterion": "3-25 V/nm for 1e9/s (Cs,In,Xe); beta>=1e3 vs cell fields",
+   "F_range_V_nm": [
+    3.2565478236530687,
+    20.888224692063034
+   ],
+   "beta_vs_cell_fields_range": [
+    27.13789853044224,
+    62118.41025042992
+   ],
+   "verdict": "pass"
+  },
+  "AR5": {
+   "criterion": "EC>=10kT@4K -> island<=30nm (eps3.9); In 91km/s ~1.7e-11 N/GHz",
+   "island_max_nm_eps3p9": 29.275,
+   "In_thrust_N_per_GHz": 1.7477718285044563e-11,
+   "verdict": "pass"
+  },
+  "AR6": {
+   "criterion": "10kg/100W/2kg In: dv>=10 km/s in <=5 y; >=1e6 x photon Li-ion 2.7 mm/s",
+   "qualifying_rows": [
+    {
+     "v_e_km_s": 60.0,
+     "eta": 0.26,
+     "P_W": 100.0,
+     "dv_km_s": 13.388613078852586,
+     "burn_years": 4.387247733255338,
+     "thrust_mN": 0.8666666666666666
+    },
+    {
+     "v_e_km_s": 60.0,
+     "eta": 0.6,
+     "P_W": 100.0,
+     "dv_km_s": 13.388613078852586,
+     "burn_years": 1.9011406844106464,
+     "thrust_mN": 2.0
+    },
+    {
+     "v_e_km_s": 91.7,
+     "eta": 0.6,
+     "P_W": 100.0,
+     "dv_km_s": 20.462263655513034,
+     "burn_years": 4.440689691592733,
+     "thrust_mN": 1.3086150490730644
+    }
+   ],
+   "ratio_atom_over_photon": 7578616.16870853,
+   "verdict": "pass"
+  },
+  "EX1": {
+   "criterion": "CL density >=1e3 N/m2 @d<=100nm,V=5; F/P>=300 uN/W @Isp<=300s; emission d<=2.6nm Exp24 / <=0.7nm In @5V",
+   "CL_N_per_m2_d100_V5": 19675.97291733333,
+   "species_5V": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": {
+     "Isp_s": 295.6003767718914,
+     "F_over_P_uN_W": 267.92684775130255
+    },
+    "Cs+ (nötr, 3,89 eV)": {
+     "Isp_s": 274.75101925784656,
+     "F_over_P_uN_W": 344.50800770242154
+    },
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": {
+     "Isp_s": 300.41123401974164,
+     "F_over_P_uN_W": 449.1407349166756
+    },
+    "O- (iyonik katı, Exp24 bariyeri 1 eV)": {
+     "Isp_s": 791.8876189967202,
+     "F_over_P_uN_W": 170.3864528098033
+    }
+   },
+   "F_over_P_at_Isp_le_301": {
+    "In+ (nötr yakıt, iyonlaşma 5,79 eV)": 267.92684775130255,
+    "Cs+ (nötr, 3,89 eV)": 344.50800770242154,
+    "EMI+ (iyonik sıvı, önceden yüklü, Q0 1 eV)": 449.1407349166756
+   },
+   "d_max_nm_Exp24": 2.5349999999999997,
+   "d_max_nm_In": 0.6053268765133172,
+   "verdict": "partial (density pass; F/P pass for Cs/ionic-liquid, fails neutral In; thresholds pass) - same as summary L199"
+  },
+  "EX2": {
+   "criterion": "In 5kV impulse bit <=2e-20 Ns and >=1e12 finer than 10 uNs",
+   "In_5kV_impulse_bit_Ns": 1.7477718285044565e-20,
+   "ratio_to_10uNs": 572157065179203.5,
+   "O_5V_bit_Ns": 2.0631924380621757e-22,
+   "verdict": "pass"
+  },
+  "EX3": {
+   "criterion": "all species: ve>=25 km/s, >=300 W/m2; O only: ve>=60 km/s, >=800 W/m2 (200km,40pct intake)",
+   "all_species": [
+    {
+     "rho": 1.5e-10,
+     "ve_km_s": 29.20682994364934,
+     "W_m2": 332.1941671487244
+    },
+    {
+     "rho": 2e-10,
+     "ve_km_s": 29.20682994364934,
+     "W_m2": 442.92555619829926
+    },
+    {
+     "rho": 3e-10,
+     "ve_km_s": 29.20682994364934,
+     "W_m2": 664.3883342974488
+    }
+   ],
+   "oxygen_only": [
+    {
+     "rho": 1.5e-10,
+     "ve_km_s": 56.1606124557916,
+     "W_m2": 543.84797477528
+    },
+    {
+     "rho": 2e-10,
+     "ve_km_s": 72.28465394606441,
+     "W_m2": 900.9611356867873
+    },
+    {
+     "rho": 3e-10,
+     "ve_km_s": 104.53273692661004,
+     "W_m2": 1884.1630726287608
+    }
+   ],
+   "oxygen_only_at_2e_10": {
+    "ve_km_s": 72.28465394606441,
+    "W_m2": 900.9611356867873
+   },
+   "verdict": "partial (all-species pass; O-only passes at 2e-10, fails at 1.5e-10) - same as summary L201"
+  },
+  "EX4": {
+   "criterion": "beamed atom/sail ratio >=1e3 @ve<=60km/s (50pct conv.)",
+   "rows": [
+    {
+     "v_e_km_s": 30.0,
+     "N_per_beamed_W": 1.9999999999999998e-05,
+     "ratio_to_sail": 2997.92458
+    },
+    {
+     "v_e_km_s": 60.0,
+     "N_per_beamed_W": 9.999999999999999e-06,
+     "ratio_to_sail": 1498.96229
+    }
+   ],
+   "verdict": "pass"
+  },
+  "EX5": {
+   "criterion": "equal one-cell steps; F/P constant within 2% for 1..7 cells",
+   "F_over_P_spread": 2.220446049250313e-16,
+   "steps": [
+    {
+     "cells": 1,
+     "thrust_uN": 26.340600952245058,
+     "power_W": 1.343230870487805,
+     "F_over_P_uN_W": 19.60988355090384
+    },
+    {
+     "cells": 2,
+     "thrust_uN": 52.681201904490116,
+     "power_W": 2.68646174097561,
+     "F_over_P_uN_W": 19.60988355090384
+    },
+    {
+     "cells": 3,
+     "thrust_uN": 79.02180285673516,
+     "power_W": 4.029692611463416,
+     "F_over_P_uN_W": 19.609883550903838
+    },
+    {
+     "cells": 4,
+     "thrust_uN": 105.36240380898023,
+     "power_W": 5.37292348195122,
+     "F_over_P_uN_W": 19.60988355090384
+    },
+    {
+     "cells": 7,
+     "thrust_uN": 184.3842066657154,
+     "power_W": 9.402616093414636,
+     "F_over_P_uN_W": 19.609883550903838
+    }
+   ],
+   "verdict": "pass"
+  },
+  "summary_table_L193_203_match": "AR3 partial, AR4/AR5/AR6 pass, EX1 partial, EX2 pass, EX3 partial, EX4/EX5 pass (recomputed this run)"
+ }
+}

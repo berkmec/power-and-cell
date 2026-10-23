@@ -1,0 +1,26 @@
+{
+ "registered": "2026-10-17 (this session, BEFORE any Exp36 controller outcome was computed)",
+ "task": "Exp36 closes the three named gaps left by Exp35: non-target modal flips 6.25-6.29% versus the 5% isolation budget, analog mean-occupancy readout instead of noisy single-shot readout, and target-centred ideal local bumps instead of a physical surface-field kernel. Exp35 v2/v3 outputs, code, figure and H52/2z records are preserved unchanged.",
+ "physical_kernel": {
+  "basis": "One uniform body-voltage column plus a 4x4 array of surface segment modes centred at x,y in {7.5,22.5,37.5,52.5} nm on the z=0 conducting-plane side of the 60 nm island. A segment column at atom position (x,y,z) is exp[-((x-x0)^2+(y-y0)^2)/(2*15^2)] * exp(-z/50), distances in nm. This is an electrostatic surrogate kernel, not a layout claim.",
+  "solve": "At every round solve min_a ||B_T a-d||^2 + mu_BG ||B_BG a||^2 + 1e-3 ||a||^2. Main protocols use mu_BG=0.02; the ablation uses mu_BG=0. Segment coefficients clip to +/-0.80 V; the uniform coefficient is clipped so the effective body voltage stays in 0.805-1.006 V.",
+  "initial_desired_correction": "From the Exp35 G operating point: for target bit 1, d=max(0,address-Vb_G+5 mV); for bit 0, d=min(0,address-Vb_G-5 mV). Feedback changes a wrong target's desired correction by 20 mV in the required direction, clipped to +/-180 mV."
+ },
+ "readout_protocols": {
+  "SEG-ANA": "Physical kernel with Exp35-style analog mean-occupancy feedback (proportional desired-correction update 25 meV per unit occupancy error), at most 8 updates; isolates kernel/background effects from readout noise.",
+  "SEG-SS1": "One terminal physical snapshot per 600-sweep round, each target bit independently flipped by the sensor with p=0.01. Binary-error updates only; stop after 2 consecutive observed-exact rounds or 12 rounds.",
+  "SEG-SS5": "Three terminal snapshots per round, each bit flipped with p=0.05 and majority-estimated. Binary-error updates only; stop after 2 consecutive estimated-exact rounds or 12 rounds.",
+  "SEG-SS1-U": "SEG-SS1 ablation with mu_BG=0 (no background penalty).",
+  "verification": "Controller decisions use only the named readout. Reported marginals/exact fractions/background flips come from a separate fresh-RNG 1200-sweep verification segment with the controller frozen."
+ },
+ "basis_disclosed": "Exp35 outcomes and task-level failure patterns, the Exp24 island geometry (x,y in 0..60 nm, z in 2..150 nm), calibrated addresses and the corrected Exp24-faithful sampler are known. No Exp36 actuator solve, pattern outcome, readout trajectory, or depth statistic has been computed.",
+ "full_control_declaration_rule": "Report full control for the selected target subset only if BOTH noisy-readout protocols (SEG-SS1 at p=0.01 and SEG-SS5 majority at p=0.05) simultaneously meet ALT+RAND marginal >=0.95, exact snapshot >=0.65, modal >=80%, and overall non-target modal flips <=5%. Analog-only success does not close the readout gap.",
+ "predictions": [
+  "RS1 PHYSICAL-KERNEL ANALOG: SEG-ANA reaches ALT+RAND marginal >=0.95, exact snapshot >=0.65 and modal >=80%, with overall non-target modal flips <=5% and at least 1.5 percentage points below Exp35 CL20M's 6.25%.",
+  "RS2 SINGLE-SHOT 1%: SEG-SS1 also reaches ALT+RAND marginal >=0.95, exact snapshot >=0.65 and modal >=80%, overall non-target flips <=5%, median feedback updates <=6, and at most 1 of 21 tasks is a false stop (controller stops as observed-exact but fresh verification modal pattern is wrong).",
+  "RS3 NOISY MAJORITY READ: SEG-SS5 reaches ALT+RAND marginal >=0.90, exact snapshot >=0.55, modal >=70% and overall non-target flips <=5%; its modal success is no more than 15 percentage points below SEG-SS1.",
+  "RS4 BACKGROUND PENALTY ABLATION: SEG-SS1-U has overall non-target modal flips at least 2 percentage points above SEG-SS1, while gaining no more than 10 percentage points of ALT+RAND modal success over SEG-SS1.",
+  "RS5 DEPTH COST: If at least 8 target-task bits fall in each class, first-round marginal success for deep targets (z>=75 nm) is at least 10 percentage points below shallow targets (z<75 nm) under SEG-ANA, but after SEG-SS1 feedback the fresh marginal gap is <=5 percentage points. If either class has fewer than 8, verdict is 'not testable' without re-binning.",
+  "RS6 ACTUATOR BUDGET: At least 90% of final SEG-SS1 segment coefficients lie within +/-0.50 V, fewer than 10% sit at the +/-0.80 V clip, and every effective global body voltage remains within 0.805-1.006 V."
+ ]
+}

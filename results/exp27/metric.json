@@ -1,0 +1,52 @@
+{
+ "gravitational_waves": [
+  {
+   "mass_kg": 1.0,
+   "size_m": 1.0,
+   "rotation_Hz": 1000.0,
+   "P_GW_W": 2.7133224102424243e-30,
+   "thrust_bound_N": 9.050669347533834e-39
+  },
+  {
+   "mass_kg": 1000.0,
+   "size_m": 10.0,
+   "rotation_Hz": 100.0,
+   "P_GW_W": 2.713322410242426e-26,
+   "thrust_bound_N": 9.05066934753384e-35
+  },
+  {
+   "mass_kg": 9e-24,
+   "size_m": 1e-05,
+   "rotation_Hz": 1000.0,
+   "P_GW_W": 2.1977911522963645e-96,
+   "thrust_bound_N": 7.331042171502409e-105
+  }
+ ],
+ "casimir_negative_energy": [
+  {
+   "gap_nm": 1.0,
+   "energy_density_J_m3": -433375257.48258436,
+   "mass_density_kg_m3": -4.821950045302488e-09
+  },
+  {
+   "gap_nm": 10.0,
+   "energy_density_J_m3": -43337.52574825844,
+   "mass_density_kg_m3": -4.821950045302489e-13
+  },
+  {
+   "gap_nm": 100.0,
+   "energy_density_J_m3": -4.333752574825845,
+   "mass_density_kg_m3": -4.8219500453024903e-17
+  }
+ ],
+ "warp_gap_orders": {
+  "alcubierre_100m_bubble_kg": 71.10916898266085,
+  "van_den_broeck_kg": 39.092515862802934
+ },
+ "warp_requirements_kg": {
+  "alcubierre_100m_bubble_kg": 6.2e+62,
+  "van_den_broeck_kg": 5.96676e+30
+ },
+ "casimir_1m3_1nm_kg": -4.821950045302488e-09,
+ "momentum": "Bobrick & Martire 2021: every warp drive is a shell moving inertially and needs propulsion; it obeys a rocket equation. Asymptotic (ADM) momentum of a closed system changes only by emitted momentum"
+}

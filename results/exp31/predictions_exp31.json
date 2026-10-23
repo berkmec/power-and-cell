@@ -1,0 +1,26 @@
+{
+  "experiment": "Exp31 — Silisyum hücre yasalarının (Exp12, 13, 17, 18, 19, 20, 21, 23) ölçülmüş silisyum akım filamanlarıyla sınanması",
+  "written": "2026-10-16T15:14 (hesaplamadan önce; tek yazımlık)",
+  "why": "Stop kancası: Exp30'dan sonra ölçülmemiş tek katman silisyum hücre yasalarıydı (Exp13, 14, 17, 19, 20, 23).",
+  "data": "Mamanee, W. (2012), Investigation of current filament behavior in smart power ESD devices, TU Wien tezi (danışman D. Pogany); 300 K, silisyum NPN ESD aygıtları, TLP darbeleri (~100 ns–1 µs), ns/µm çözünürlüklü geçici girişim haritalama (TIM). Tam metin okundu.",
+  "disclosure": "Kör değil: tez okunurken bazı oranlar kafadan kabaca hesaplandı (N=2'de j sabitliği; N=2→4'te j'nin ~%20 düşmesi; N öngörüsünün ölçülen aralıklara düşmesi). Sınanan yasalar Exp17'de (2026-10) çok önce sabitlendi ve bu veriye göre ayarlanmadı. Karşılaştırma yöntemi aşağıda sabitlendi; sonuçların hepsi, olumsuzlar dahil, yazılacak.",
+  "physics_caveat": "Ölçülen filamanlar 300 K'de bipolar geri dönüş (snapback) ve ısıl kökenli; projenin hücreleri 4 K'de darbe iyonlaşması + donmuş gövde. Aynı sınıf (S biçimli negatif direnç + küresel bağlaşım + balast), farklı sabitler. Sınanan şey yasaların yapısı; SKY130 sabitleri (j_on = 2,569 µA/µm, V_M = 0,80 V) değil.",
+  "method": {
+    "j": "filaman başına çizgisel akım yoğunluğu j(N, I) = I/(N·W_CF), W_CF Tablo 8'den (aralık uçlarıyla)",
+    "w_s": "tek filamanın bölünmeden önceki en büyük genişliği = kaynağın verdiği en büyük W_CF ≈ L ≈ 20 µm (duyarlılık: 22,5 µm)",
+    "j_ref": "N = 2 için ölçülen j'lerin ortası"
+  },
+  "predictions": [
+    {"id": "CL1", "law": "Exp17: sabit N'de her filaman aynı j_on taşır, genişlik akımla büyür (w = I/(N j_on))", "criterion": "N = 2 ve N = 3 için |j(2 A)/j(1,4 A) − 1| ≤ %10"},
+    {"id": "CL2", "law": "Exp17: j_on filaman sayısından bağımsız", "criterion": "|j(N=4, 2 A)/j(N=2, 2 A) − 1| ≤ %10 (kafadan hesap ✗ gösteriyordu; yine de yazılacak)"},
+    {"id": "CL3", "law": "Exp17: N ≈ I/(0,75 j_on w_s)", "criterion": "I = 0,9 / 1,4 / 2 A'de öngörülen N, ölçülen aralığın [N_min − 0,5, N_max + 0,5] içinde"},
+    {"id": "CL4", "law": "Exp17: tek filaman w_s'ye kadar büyür, sonra bölünür (tek filamanın en büyük akımı j_on·w_s)", "criterion": "j_ref·w_s, ölçülen 1/2 iki-kararlılık penceresinin (0,45–0,9 A) üst kenarına %20 yakın; alt kenar ayrıca yazılır"},
+    {"id": "CL5", "law": "Exp13/17: filaman ikiye bölünür; Exp23: güç paylaşılır", "criterion": "TIM'de bölünme ve eşit güç paylaşımı gözlenmiş → ✓"},
+    {"id": "CL6", "law": "Exp18: tohum doğum yerini seçer; tohumsuzda rastgele", "criterion": "tohumsuz aygıtta rastgele başlangıç, yerel katkı tohumlu aygıtta sabit başlangıç ölçülmüş → ✓"},
+    {"id": "CL7", "law": "Exp19: ani/kısa yüksek sürüş daha çok hücre doğurur; sayı geçmişe bağlı", "criterion": "kısa darbede yüksek akımda daha çok filaman ve sabit akımda darbeden darbeye N değişimi ölçülmüş → ✓"},
+    {"id": "CL8", "law": "Exp12: filaman rejiminde gerilim kenetlenir; balastta N artınca uç gerilimi düşer", "criterion": "N dalına göre ayrı tutma gerilimleri ve N artınca düşüş (ΔV ≈ 1 V) ölçülmüş → ✓ (yapı)"},
+    {"id": "CL9", "law": "Exp21: 300 K'de yüzer gövde filamanı yok; kalan yol parazitik bipolar", "criterion": "300 K'de bipolar filamanlar çoğalıyor ve bölünüyorsa Exp21'in denenmemiş yolu ölçülmüş demektir → ✓ (darbeli)"},
+    {"id": "CL10", "law": "Exp20: zorla akım düşüşü eşzamanlı bölünme", "criterion": "ölçülmüş benzer bulunmazsa 'ölçüm yok'"},
+    {"id": "CL11", "law": "Exp14: boyut penceresi", "criterion": "ölçülmüş benzer bulunmazsa 'ölçüm yok'"}
+  ]
+}

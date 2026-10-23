@@ -1,0 +1,27 @@
+N=3 cluster 0: rank 255/255 couplings [1180.93, 1099.73, 1064.47]
+N=3 cluster 1: rank 255/255 couplings [1454.64, 1206.63, 1196.15]
+N=3 cluster 2: rank 255/255 couplings [1745.32, 1603.2, 1454.64]
+N=3 cluster 3: rank 255/255 couplings [2882.87, 1180.93, 1099.73]
+N=3 cluster 4: rank 255/255 couplings [1206.63, 1144.07, 1064.47]
+N=3 cluster 5: rank 255/255 couplings [2882.87, 1206.63, 1189.78]
+N=3 cluster 6: rank 255/255 couplings [1253.4, 1196.15, 1168.42]
+N=3 cluster 7: rank 255/255 couplings [1603.2, 1253.4, 1196.15]
+N=3 cluster 8: rank 255/255 couplings [1603.2, 1196.15, 1180.93]
+N=3 cluster 9: rank 255/255 couplings [2882.87, 1551.16, 1180.93]
+N=4 cluster 0: rank 1023/1023 couplings [3177.25, 1745.32, 1253.4, 1196.15]
+N=4 cluster 1: rank 1023/1023 couplings [1603.2, 1551.16, 1253.4, 1180.93]
+N=4 cluster 2: rank 638/1023 couplings [1603.2, 1180.93, 1180.93, 1099.73]
+N=4 cluster 3: rank 318/1023 couplings [1603.2, 1253.4, 1253.4, 1253.4]
+N=4 cluster 4: rank 1023/1023 couplings [1603.2, 1206.63, 1206.63, 1189.78]
+N=4 cluster 5: rank 1023/1023 couplings [1551.16, 1099.73, 1064.47, 935.22]
+N=4 cluster 6: rank 638/1023 couplings [2882.87, 2882.87, 1180.93, 1168.42]
+N=4 cluster 7: rank 1023/1023 couplings [1177.05, 1168.42, 1105.1, 1064.47]
+N=4 cluster 8: rank 638/1023 couplings [1745.32, 1745.32, 1168.42, 1105.1]
+N=4 cluster 9: rank 1023/1023 couplings [1454.64, 1253.4, 1196.15, 1189.78]
+degenerate isotropic pair: 38 / 63 | equivalent [100] sites with dipolar: 63 / 63 [np.float64(3177.3), np.float64(2882.9)]
+GRAPE CNOT(e -> n1), A = 300/301 kHz, T = 4 ms, seed 0: F = 0.9509 (400 it)
+GRAPE CNOT(e -> n1), A = 300/301 kHz, T = 4 ms, seed 1: F = 0.9527 (400 it)
+GRAPE CNOT(e -> n1), A = 300/301 kHz, T = 4 ms, seed 2: F = 0.9891 (400 it)
+GRAPE GHZ(e + 3 nuclei), A = 300/301/180 kHz, T = 4 ms, seed 0: F = 1.0000 (38 it)
+GRAPE GHZ(e + 3 nuclei), A = 300/301/180 kHz, T = 4 ms, seed 1: F = 1.0000 (48 it)
+GRAPE GHZ(e + 3 nuclei), A = 300/301/180 kHz, T = 4 ms, seed 2: F = 1.0000 (50 it)

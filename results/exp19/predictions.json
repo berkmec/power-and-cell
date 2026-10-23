@@ -1,0 +1,11 @@
+{
+ "written_before_runs": true,
+ "A1": "births (new cells farther than 10 um from all earlier cells) do not increase with the ramp time T_r",
+ "A2": "T_r = 0 reproduces exp18 v2 (3.3 V: 2 births, 5.0 V: 3 births); T_r = 30 s reproduces exp18 v3 (0 births)",
+ "A3": "the shortest T_r with zero births lies between 0.1 s and 10 s at both drives",
+ "B1": "hypothesis, uncertain: stronger lateral body coupling (smaller R_sq) lets existing fronts absorb the released current faster, so an abrupt kill gives no more births at 1e10 / 1e11 than at 1e12",
+ "C1": "slow sweep: exactly one of the four +50 mV seeds hosts the first birth in >= 7 of 10 fields (winner takes all)",
+ "C2": "abrupt steps: the number of seeds that become cells does not decrease with V_s; at V_s = 1.05 and 1.1 V all four seeds become cells in >= 7 of 10 fields with no cell outside the seeds",
+ "C3": "at V_s = 1.4 V cells also appear outside the seeds (background cells with V_up < 1.4 V)",
+ "design": "V_up(local overdrive) from law.constants: +30 mV 1.18 V, +50 mV 1.02 V, +70 mV 0.89 V; seed regions reach about +50 + 20 mV, background maxima about +20...+40 mV (exp18 births without seeds at V_DD 1.18-1.34 V)"
+}

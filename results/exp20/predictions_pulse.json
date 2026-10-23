@@ -1,0 +1,4 @@
+{
+ "C1": "after a pulse of height V_p and duration tau (then 1.2 V), the number of seed cells grows with tau and saturates at the exp19 step value (V_p 1.1 V: 2, 1.4 V: 4)",
+ "C2": "the shortest tau that reaches the step value is shorter for V_p = 1.4 V than for 1.1 V"
+}

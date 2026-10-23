@@ -1,0 +1,138 @@
+{
+ "29Si=4.685%, Dmin=100kHz": {
+  "mean_addressable": 0.66,
+  "frac_ge4": 0.0,
+  "frac_strong_within_3nm_addressable": 0.011527131454820323,
+  "ghz_n": 0,
+  "ghz_mean": null,
+  "ghz_no_deph_ge_0p95": null
+ },
+ "29Si=4.685%, Dmin=30kHz": {
+  "mean_addressable": 2.34,
+  "frac_ge4": 0.18,
+  "frac_strong_within_3nm_addressable": 0.017581905006817073,
+  "ghz_n": 9,
+  "ghz_mean": {
+   "no_dephasing": 0.9985258584814782,
+   "T2e=0.3ms": 0.5533675146254743,
+   "T2e=10ms": 0.9663269193660966,
+   "T_us": 666.6666666666666
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ },
+ "29Si=4.685%, Dmin=10kHz": {
+  "mean_addressable": 5.12,
+  "frac_ge4": 0.84,
+  "frac_strong_within_3nm_addressable": 0.027297917449829397,
+  "ghz_n": 42,
+  "ghz_mean": {
+   "no_dephasing": 0.9985705470552336,
+   "T2e=0.3ms": 0.4999213561558744,
+   "T2e=10ms": 0.9080656040930309,
+   "T_us": 2000.0
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ },
+ "29Si=1%, Dmin=100kHz": {
+  "mean_addressable": 0.54,
+  "frac_ge4": 0.0,
+  "frac_strong_within_3nm_addressable": 0.05221984388160859,
+  "ghz_n": 0,
+  "ghz_mean": null,
+  "ghz_no_deph_ge_0p95": null
+ },
+ "29Si=1%, Dmin=30kHz": {
+  "mean_addressable": 2.02,
+  "frac_ge4": 0.18,
+  "frac_strong_within_3nm_addressable": 0.07204875265134573,
+  "ghz_n": 9,
+  "ghz_mean": {
+   "no_dephasing": 0.9966951255352566,
+   "T2e=0.3ms": 0.5523541190288827,
+   "T2e=10ms": 0.9645553055982994,
+   "T_us": 666.6666666666666
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ },
+ "29Si=1%, Dmin=10kHz": {
+  "mean_addressable": 4.48,
+  "frac_ge4": 0.64,
+  "frac_strong_within_3nm_addressable": 0.11151734774237144,
+  "ghz_n": 32,
+  "ghz_mean": {
+   "no_dephasing": 0.9982435255662049,
+   "T2e=0.3ms": 0.4997579923460673,
+   "T2e=10ms": 0.9077682865104632,
+   "T_us": 2000.0
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ },
+ "29Si=0.1%, Dmin=100kHz": {
+  "mean_addressable": 0.3,
+  "frac_ge4": 0.0,
+  "frac_strong_within_3nm_addressable": 0.3958333333333333,
+  "ghz_n": 0,
+  "ghz_mean": null,
+  "ghz_no_deph_ge_0p95": null
+ },
+ "29Si=0.1%, Dmin=30kHz": {
+  "mean_addressable": 1.06,
+  "frac_ge4": 0.02,
+  "frac_strong_within_3nm_addressable": 0.3999568668046929,
+  "ghz_n": 1,
+  "ghz_mean": {
+   "no_dephasing": 0.9887734659232366,
+   "T2e=0.3ms": 0.5479746226286801,
+   "T2e=10ms": 0.9568898557129264,
+   "T_us": 666.6666666666666
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ },
+ "29Si=0.1%, Dmin=10kHz": {
+  "mean_addressable": 2.36,
+  "frac_ge4": 0.14,
+  "frac_strong_within_3nm_addressable": 0.48307142857142865,
+  "ghz_n": 7,
+  "ghz_mean": {
+   "no_dephasing": 0.9955548587947378,
+   "T2e=0.3ms": 0.4984184823419218,
+   "T2e=10ms": 0.9053244920029083,
+   "T_us": 2000.0
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ },
+ "29Si=0.05%, Dmin=100kHz": {
+  "mean_addressable": 0.24,
+  "frac_ge4": 0.0,
+  "frac_strong_within_3nm_addressable": 0.6078431372549019,
+  "ghz_n": 0,
+  "ghz_mean": null,
+  "ghz_no_deph_ge_0p95": null
+ },
+ "29Si=0.05%, Dmin=30kHz": {
+  "mean_addressable": 0.96,
+  "frac_ge4": 0.02,
+  "frac_strong_within_3nm_addressable": 0.5683928571428571,
+  "ghz_n": 1,
+  "ghz_mean": {
+   "no_dephasing": 0.9966434779830742,
+   "T2e=0.3ms": 0.5523248809622382,
+   "T2e=10ms": 0.9645052789562276,
+   "T_us": 666.6666666666666
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ },
+ "29Si=0.05%, Dmin=10kHz": {
+  "mean_addressable": 1.58,
+  "frac_ge4": 0.02,
+  "frac_strong_within_3nm_addressable": 0.6418518518518519,
+  "ghz_n": 1,
+  "ghz_mean": {
+   "no_dephasing": 0.9989428902101711,
+   "T2e=0.3ms": 0.5001071212451624,
+   "T2e=10ms": 0.9084040832860936,
+   "T_us": 2000.0
+  },
+  "ghz_no_deph_ge_0p95": 1.0
+ }
+}

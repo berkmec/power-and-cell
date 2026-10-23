@@ -1,0 +1,13 @@
+B||[123] cluster 0: rank 1023/1023 inversion pair False couplings [3072.12, 1746.7, 1266.51, 1201.49]
+B||[123] cluster 1: rank 1023/1023 inversion pair False couplings [1644.09, 1584.62, 1248.93, 1196.84]
+B||[123] cluster 2: rank 1023/1023 inversion pair False couplings [1566.03, 1189.13, 1179.34, 1102.7]
+B||[123] cluster 3: rank 1023/1023 inversion pair False couplings [1644.09, 1251.13, 1266.51, 1273.54]
+B||[123] cluster 4: rank 1023/1023 inversion pair False couplings [1644.09, 1194.02, 1206.75, 1198.58]
+B||[123] cluster 5: rank 1023/1023 inversion pair False couplings [1554.88, 1099.09, 1069.04, 945.74]
+B||[123] cluster 6: rank 1023/1023 inversion pair False couplings [2966.98, 2903.9, 1181.17, 1153.49]
+B||[123] cluster 7: rank 1023/1023 inversion pair False couplings [1182.59, 1147.69, 1104.35, 1065.41]
+B||[123] cluster 8: rank 1023/1023 inversion pair False couplings [1760.52, 1735.65, 1153.49, 1109.42]
+B||[123] cluster 9: rank 1023/1023 inversion pair False couplings [1409.87, 1249.37, 1189.08, 1191.26]
+GRAPE CNOT 1 kHz pair, 1500 it, seed 2: F = 1.0000 (1326 it)
+GRAPE CNOT 1 kHz pair, 1500 it, seed 3: F = 0.9989 (1500 it)
+min coupling gap among the 10 strongest (Hz): {'median': 1316.6517988059204, 'p10': 0.0, 'p90': 5353.296224133978, 'control_time_median_ms': 0.7595022472204923}

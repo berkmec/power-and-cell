@@ -1,0 +1,8 @@
+{
+ "registered": "2026-10-16 07:49",
+ "basis": "LG1 failed (3/10 islands): in 23 of 25 failing triples only the (1,1)->0 row failed, because the window assumed neutral inputs at the reference threshold; here the output threshold is calibrated for each input combination",
+ "predictions": [
+  "LG4: with input-resolved threshold calibration >= 50 % of the 60 nm islands host >= 1 NAND triple whose four rows are all >= 0.9 at 4 K",
+  "LG5: among triples whose calibrated NAND window is >= 2 x 8 kT/e (5.5 mV) wide, >= 70 % pass all four rows"
+ ]
+}

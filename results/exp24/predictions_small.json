@@ -1,0 +1,8 @@
+{
+ "registered": "2026-10-15 21:20",
+ "predictions": [
+  "SB1: with equilibrium-calibrated addresses and gaps >= 2 x 8 kT/e, the mean target-state probability at 4 K is >= 0.9 and >= 80 % of the (atom, state) pairs are >= 0.9 (40 and 60 nm islands together)",
+  "SB2: qualified atoms per island inside the cell's own window (0.805-1.006 V) >= 2 for 40 nm islands (mean)",
+  "SB3: qualified atoms per island grow when the body shrinks from 60 to 40 nm relative to the number of atoms (fraction of atoms qualified larger at 40 nm)"
+ ]
+}
